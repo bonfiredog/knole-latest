@@ -1,0 +1,626 @@
+{\rtf1\ansi\deff0\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Chapbook;}{\f4\froman\fprq2\fcharset0 Essays1743;}{\f5\fnil\fprq2\fcharset0 Chapbook;}{\f6\fnil\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f7\fnil\fprq2\fcharset0 Essays1743;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red148\green7\blue10;}
+{\stylesheet{\s0\snext0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057 Normal;}
+{\*\cs15\snext15\b Strong Emphasis;}
+{\s16\sbasedon0\snext17\ql\nowidctlpar\hyphpar0\sb240\sa120\keepn\ltrpar\cf1\kerning1\dbch\af6\langfe2057\dbch\af6\afs24\loch\f0\fs28\lang2057 Heading;}
+{\s17\sbasedon0\snext17\sl288\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af6\langfe2057\dbch\af6\afs24\loch\f0\fs24\lang2057 Text Body;}
+{\s18\sbasedon17\snext18\sl288\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af6\langfe2057\dbch\af6\afs24\loch\f0\fs24\lang2057 List;}
+{\s19\sbasedon0\snext19\ql\nowidctlpar\hyphpar0\sb120\sa120\ltrpar\cf1\i\kerning1\dbch\af6\langfe2057\dbch\af6\afs24\loch\f0\fs24\lang2057 Caption;}
+{\s20\sbasedon0\snext20\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe2057\dbch\af6\afs24\loch\f0\fs24\lang2057 Index;}
+{\s21\sbasedon0\snext21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\loch\f0\fs24\lang2057 Frame Contents;}
+}{\*\generator LibreOffice/6.2.5.2$Windows_x86 LibreOffice_project/1ec314fa52f458adc18c4f025c545a4e8b22c159}{\info{\author Robert Sherman}{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2019\mo11\dy19\hr10\min45}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab1008
+\hyphauto0\viewscale120
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn11906\pghsxn16838\marglsxn283\margrsxn283\margtsxn113\margbsxn283\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh16838\paperw11906\margl283\margr283\margt113\margb283\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn283\margrsxn283\margtsxn113\margbsxn283\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep\chftnsep}{\shp{\*\shpinst\shpwr2\shpwrk0\shptop6781\shpbottom9471\shpleft7434\shpright10253\shpz11\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\pgndec\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #5}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{
+}{\expnd-2\expndtw-10\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+a}{\expnd-2\expndtw-10\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+nd thus is it Rendered that the Wall when Built was Lawful \u8211\'96 and it is to be Built again, to the Length of two thousand Yards - from Cutthorpe Common unto Linacre Ponds at the sole expense of the Accused.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qc\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0\expnd-2\expndtw-10\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qr\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+As witnessed and transcribed }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qr\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+by the Magistrate Wandley}
+\par \shpwr2\shpwrk3\shpbypara\shpbyignore\shptop235\shpbxcolumn\shpbxignore\shpleft72\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qr\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+August 19t}{
+{\*\flymaincnt5\flyanchor4}{\shp{\*\shpinst\shpwr2\shpwrk3\shpbypara\shpbyignore\shptop235\shpbottom384\shpbxcolumn\shpbxignore\shpleft72\shpright3648{\sp{\sn shapeType}{\sv 75}}{\sp{\sn wzDescription}{\sv }}{\sp{\sn wzName}{\sv }}{\sp{\sn pib}{\sv {\pict\picscalex36\picscaley36\piccropl0\piccropr0\piccropt0\piccropb0\picw814\pich34\picwgoal9769\pichgoal408\pngblip
+89504e470d0a1a0a0000000d494844520000032e000000220806000000b9998d4d00000006624b474400ff00ff00ffa0bda79300000009704859730000127400
+00127401de661f780000000774494d4507e1081f080c272e6ac55000000b094944415478daed9d7b8c24451dc73fd53d7b7b1ca7c8e3902078f20ade29887011
+453c5f090f1f11890a1a0c1a4d8c4294980046a331c490a8514cfcc3884a882241f111352a181438154590a70a22f2f0e01021c7ebd8bbd9ddeef28ffef56d6d
+6d774fcfeeccee2cf7fd249deeaeeea9eefe554f557debf7ab198710428c164700638007fe0e4cca244208218410428851e38fc023c036e00099430821841042
+08316a38994008218410420821841042082184104208218410420821841042082184104208218410420821841042082184104208218410420821841042082184
+104208218410420821e6329f3f7b5b0b782003725b1e9529c52ec8bec0ffa2b4d5f6fd7856e6114208218418bc70795d24466e045e01e4ce917b4f66c7268107
+2af2d91fe80642a65c7cc5b6b7a5e419602c3a375e3220b18e22c0dd40273856aeb39afdcc9ef58dd17d5f0eac00de55639fafd8753e5171ec3c5b87d798aed8
+f6c0f78153021bc7f77a2df0eae878deb09d376c57d93eb6ff42b91738b4c739bf035602c78dd83b7f92adc3b2f2c0ef810d511978e06ff6ac3e2a8b2ef01870
+00b0ddd2bbc084e5bf67905ef7ee0b218410428896746cbd294adf00dcdc473e5bfabcae0f3a739df0409aa6645956f7b987acd3f8e2793eefd54187750a3835
+1030d35167760a383be8e44e0682640af8421fd79d027ed0707c6345190c13df202ceb8463b8bdd6c44b9d589c36210670bd3d7f56b34c37ec7be0e396cf0581
+509c6ef9f9f8580a5c596393e3801b2ad2d703ff68b0e54335e94fd4a48fd97df5e231600df09f0a919e581994dc6ccf5627da9becddcb6efd6e7be05bc07b6b
+caabcdd24bb46f8e6cb56760efdd872cda85104208b144b8a0639e2ef6c57b8894e7bef19dc37b3f677bd459e472bb88c293f1a92adbf569b76b803733bf10c9
+418ac636c2f105c0e3c03e35f9dc1b0882978dd82bf201e0d221e6ff12663cbc93265ad65084e74d0c4bb43b47e67da597b7522cdaf9fd88c84189c7aafd1cf8
+590fdbbcd2d6b7dafaf00a3b640d831a3bed699e7a791b17cea1f65d1742081174e016ad4149d3197d3488ceef72163f499290e779ed738c929859b9729c1d3b
+ba0bb677f8cc83b05d9ff99d00fc6670c213bcba624b26f66bd846e1915ab51c9e676c6c0c80a9a9a9c5b8dc3b4cf05579b82699f1b21f4d11e678d780bf1b6d
+457b5338ecce759ab83ccb7d93b7ae8db7b14ef079e01c663cebf3158cf3f236a64992e53e9ff49e7b81c39ddb29d433204f5c926779bed33e6992e459511156
+da364d9ccff2d695d516601cd83b4aff3770886ddfc66c2f6ff9de5c67dfbf5e821de034e0dbd60f19a468cf81cb28222a7ccbb2e8003b4cb4af636e68709bf0
+ecb6e1f1a23fd6020f46696b28a212443b4ea488387a4e0997eb29c29562ee048ea09853f2d296793e0d3c3f4a9ba2089119b8805940e7fe54e027c0e9560177
+6c7d891d3fdbf6cb635fb2f4cf5bda672ded3ce06b76ced9c0c5c167ce1ca228db4231b7a8e4098a909967ace170b64ea27dd7ceaeb33b1e919d0fb667fcd700
+caeb7d14a17a4d9c0f7cb1cff2ff5e507ee5b22ff054457a6ab6694a4b2ad649cd7ed971eedaf69835608e45f4f684a22eb121f0e5cef8f838dd6eb7f1146642
+3bd3517f9eb21e5ccac197e5e4ed8d1baf21dff597817397c2c6699290fb7c671deca25a2371095930609326b3f7e7e6e7c8bdf79117ac4e34ee691f7b34eab4
+af35f1324de18d8bb91138364e5cb1628cc9c94a617e1970c690caee74e08a3eceffa73dd391c01d43b89f818af61a819e33fff0e0417b7c5b8bf6c0339dd70c
+a83c687d8ed0cbbe193888b973abeb8463138f53ccc75d6dfbff05f603eeb7f664adf561636e038ea208314f68373031bd8032f0c08515f7f1c1b22b5d63f32e
+70157072c5c055d37bb450d13e3dac8ab99c5ff2faa870ff6aedc23196bece46df92ba0e9d73eceb3d1ed8c3463dc34eda2aa270b48a867a373bbeadafda60a6
+3138c29ea703dc5473fa49c17dff027837f0a3b88eb767bab826fdc260ff339656366e097056f49934124629f0b6e09cebea3ad25996d575a0138a793e8f04fb
+6b02f1d2a6cd8fc58dabe87cef2c6fef7db85f8e7e1cdea3e33f67f1dec7695736d8a963f97e354e77aed84e9ceb64337976827bf9d012f7ab9ea5986f8155b4
+2b02db57d97f02785e85fddb8c2a1d69cf7d6b9076bc0becea1c297e8e7dab6c5e5506bdb6cf09aefb1de7e8783febdab3f65b2c49dd76b7db8d85622c1a27cc
+aee59cb4be45fbaa95e34cece8cedbd3e05cb517b04a3cb6112cc3169d49922c8670f28316ed7e80cf5fe3b53d7750f7daaf70894548fcd1cce78de7cfcdcf97
+754f3f62fe85156987349c7f6c751b5d2b62ce18e2fb76459fe79f6c0371770ce97ec27a5ff4cf7d15fdc5ed7d561775c2a66ca7b75a9bb18ff5adf60b06deef
+b1f20b3bf22f076e6126c47631c882b6addcbeb8e5677fbdc88357e366bbba8c9fb4faa8ad687765fd537e99de40f12b5098c0180b3adeb753b874b736a82d28
+2611e7d4c7e487a30e7103b62250b4ab6b3acf1de64e843ed4ee3561f604ea575574a413e0b723f225bc2ab0fd09aa938489fb899ace4342b5c7278ddefd6382
+b43f2fe2bd7f3df89e7d64c4eddc24dab701ac5eb572af6d133b9a3c6b694dfd923a479ab824cdf27c8e204b9359e93fb6fb797f8330bc08383f4d924ef0b99e
+42d23952ef2b056a0abcd5ae7b6d90f65ae02ff6b92a0159e76d4c83fafee99a4190b29eeb3042e132a14779508df608cc59ac1b2c59749b066c70cedde4bd77
+145f02b22c5f2e75f25d36683b520c3adc5ef4e44166ff18ce12d75d2e1a18f00bce6fc883577ef7ddc6fdb3dbbbb170dc6d1e79dd03ac2b1b94d00d365551e1
+3d66178c0545d9404d53785ae633fae0a876c355714074fdfbf49d12420c88d2e3f5d4225ceb3d76ada691e14f52781b8731687262907603f3ffd9f2add636ec
+dde3bcbca6ede8e9eded21a0da847ccef12a06226da1dec632449834492e2905662052eb04641b6f639b10d5d0ee2e4d9209f3beacb276b52f6f63052f0aaefb
+4090beded2efa498db724bcde7ff001c5f7660803799680ef9b0e5f5cd28fdfc96657016c55c993a0f72af72086d7e940d04ada708c5de62cf1d4739a435ef6c
+dd7bbd500ea2085d9ad5790d3aadc7da3dddd02ba38d1b377e6ed3a64d178cda68d210647eb6c0777f244992d9afd342e70ccf67def2b0e796f7c83f712652ba
+9170790d45b89810420821eaf986ad3fba04d77e321005bdc284fb0e11a688f72f3938387e8fa595734236d48882d514de9f0ef073e057c05b823ccf04be6bdb
+1fb3bcc310e1b6f61f94ed6fa7f80fbbbb81bd6c10e3303bb61938701e7936f5c95745e2692b45d8772c8c365384c9d4cdbb2c85e3f115e2779668f3deffd239
+f7ce0189f636e1c63d9740e8b799575a271ae3b0e015511974a2f77d7b9fe5785885d0bd2dd685d1b35d0dbc3dd88f3ded9d1ad15e47af7977975b7ea7013f8d
+ae7162c5f93705cf735443be0f53ed692f9960f6bcdeb01c06291cd701773b8a50ab4dccfcef86b72fed7ab547420821841800a7507835bbd6f971f4fe6196e7
+0a75731be3cef35e265ec4e0edef2b44631975f4a409ffb44124dd5f91efd19190893d5e27337b6e499da73d14ed4df37d3f6d82beea9c84e2af08007e68d70a
+b926ba574711265c7227d51e6e47f11704215b993d676b8f40bcb47df71dcd5ef62ae13ae707a16eb4655aefb81042082184d805d8432658defc492610420821
+8410422c079c4c2084104208218410420821841042082184104208218410420821841042082184104208218410420821841042082184104208218410420821c4
+ae847ea25c08218410420831b21c083c2c3308218410420821469914d85f6610420821c4aeceff01e5cb124783fad5450000000049454e44ae426082}}}}}
+}{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+.}
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shptop11614\shpbottom14304\shpleft7386\shpright10205\shpz16\ltrpar{\sp{\sn dxWrapDistLeft}{\sv 114935}}{\sp{\sn dxWrapDistRight}{\sv 114935}}{\sp{\sn dyWrapDistTop}{\sv 0}}{\sp{\sn dyWrapDistBottom}{\sv 0}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn dxWrapDistLeft}{\sv 114935}}{\sp{\sn dxWrapDistRight}{\sv 114935}}{\sp{\sn dyWrapDistTop}{\sv 0}}{\sp{\sn dyWrapDistBottom}{\sv 0}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\rtlch \ltrch\loch
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #6}
+\par \pard}}}
+{\shp{\*\shpinst\shpwr2\shpwrk0\shptop1953\shpbottom4643\shpleft7496\shpright10315\shpz17\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #4}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qc\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{
+}{\expnd-2\expndtw-10\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+[ 46 ]}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0\expnd-2\expndtw-10\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shpbypara\shpbyignore\shptop1171\shpbottom3637\shpbxcolumn\shpbxignore\shpleft2414\shpright4908\shpz0\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\expnd-2\expndtw-10\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\expnd-2\expndtw-10\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\expnd-2\expndtw-10\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\expnd-2\expndtw-10\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #1}
+\par \pard}}}
+{\shp{\*\shpinst\shpwr2\shpwrk0\shpbypara\shpbyignore\shptop2\shpbottom534\shpbxcolumn\shpbxignore\shpleft70\shpright741\shpz6\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 71755}}{\sp{\sn dyWrapDistBottom}{\sv 0}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057{\expnd-2\expndtw-10\i\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs64\loch\f3\hich\af3
+H}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{
+}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+e}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+re indicted before this Assizes sat upon the nineteenth day of August in this Year seventeen hundred and sixty come one Husband and his wife - namely }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Matthew Marchand}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ and }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Sarah Marchand}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ of the village of Nighthead in the District of Nighcester Town without Sheffield - Accused the Pair of }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Theft by Butchery}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ of one Bullock (valued \u163\'a315) the property of }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Simon Awlbatch}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ - a cowman (and the Prosecutor) of that same place.}
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shpbypara\shpbyignore\shptop1844\shpbottom4534\shpbxcolumn\shpbxignore\shpleft2448\shpright5267\shpz2\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #2}
+\par \pard}}}
+{\shp{\*\shpinst\shpwr2\shpwrk0\shpbypara\shpbyignore\shptop5763\shpbottom8453\shpbxcolumn\shpbxignore\shpleft2447\shpright5266\shpz4\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #3}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{
+}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\ulnone\ulc0\b\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ \u9810\'3f}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{{\*\bkmkstart __DdeLink__1354_2522913099}\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Justices and Men of the Jury here Circuited have heard that of which they are Attainted - that}{{\*\bkmkend __DdeLink__1354_2522913099}\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ they did do this thing the Both by some Ferocious and Obscure Method on or within the hour of mid-night upon Jul 26. of this Year while Abroad on the Chase of the Nighthead Heath - this place lying some quarter-league from their Home and where the Prosecutor is oft Grasing his Cattle as the Law permit him. The Prosecutor has spake that upon the morn of Jul 27t. he did miss his Property - for the Bull (which was called fondly in the Districkt }{\expnd-2\expndtw-10\ul\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Litle John}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+, for his Size) was not found in St. Severus Wood with the other Animals where they did all commonly Shelter when there were Gales - and thus is agreed by all Witnesses Local that the night before there had been much Weather. The Prosecutor does testify that he was so Keen for it was the Market-day and the herd was to be drove to Nighcester by ten - and did he testify that he had some }{\expnd-2\expndtw-10\ul\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Queer Notions}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so he spake it) for he had seen }{\expnd-2\expndtw-10\ul\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+some great Bird flying over in the Night}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ and then }{\expnd-2\expndtw-10\ul\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+some strangely Lights upon the High Ground}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (by his own Words here Recorded). Then did he gather to him }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+some Men}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (who have deposed here to the Jury) and they did all come north and east some way from the village and did find there in the brake }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+a fresh thwaite of grass flattered}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+  (so spake the Prosecutor) which all there agreed in their Experiences was the work of the Bull only some Hour before -  and all did accord with the Prosecutor that no Bull should lie alike to that at Night }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+unless it were Spent}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so spake one }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Mr. Horsham}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ of that same place). They did then come a little further north to the very Highest Portions of the Heath to the two great Stones which stand there and are of full Local Knowledge - and there did they find the Remainder of the Animal dead by some Terrific and Cruel Process.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ \u9810\'3f }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+All Present have testified that the Bull was Skinned asunder ver}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+y compleatly and all Blood spirited off - and no Bone nor Horn left within the Flesh nor Organ - and the Flesh and tripe having been Addled unto a thick Rennett pulp-set - and that Rennett most Purposefully sheaped unto the form of a Cylinder fat and very Smoothed and }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+rocking still there to and from upon the Ground gentle like to a cradle}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (as spake Mr. Horsham once more). It was then that the Prosecutor did hue to}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+the Constable}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (here Represented) who did come from his Garrison at Nighcester Town to the Heath and viewed the Beast in such State - and it is Agreed by those Present that such was its Rendering that all Value had been robbed of it - for not even the Flesh could be sold in such Form Inconvenient -  much less its Derivatives and Sperm which had been taken also.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\ulnone\ulc0\b\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+   \u9810\'3f }{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Prosecutor has confessed that he did suspect the Accused Both in the very first Instance as Answering to this Crime - for he spake that he knew no Distemper that could cause an Animal to re-configure So - and it has been heard also of }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Master George Ableton}{\expnd-2\expndtw-10\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ of the Loxley Hunt that there be no Beasts dwelling still upon that Heath that could cause such  Desecration to a healthy Bullock -  and indeed that (as it were heard direct of the Prosecutor) that it could be }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+only the Overheading Mercies of the Lord, or the Cruel Arm of the Defil}{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+that would have Capacity for such Acts.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+   \u9810\'3f }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+As to the motive it is placed into Admission that the Accused were Folk who did wish Ill publickly of the Prosecutor - }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+we have heard testimony of a }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Thomas Pickton}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\kerning0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ here Represented (a Clerk of the Magistrate\u8217\'92s Court at Sheffield Town) who spake that the Prosecutor did stand upon May 12t. of this same Year within that Sessions Accused him-Self of the wilful Murder of one Robin Marchand, the son of those here Accused today, upon that same Heath on the Night of May 1t. - and it were within those same Sessions that Mr. Awlbatch did confess to have Struck the Boy until dead that Night, and that it had Brought him little Pleasure \u8211\'96 and that it were the just Verdict of that Jury that the boy did mean to Poach of Mr. Awlbatchs Herd and that the Killing was defensative in Nature \u8211\'96 and that Mr. Awlbatch did}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ stand gladly one month in gaol for the Breaking of the Peace. The clerk here Represented did spake that he did witness the great and unreasoned Fury of Sarah Marchand that day \u8211\'96 and that she did defy the Truthful rendering of the Court and did cause much Discord and Commotion - as indeed she has this Day in Kind. Despite such Warnings as to her Disgrace and the standing of the Facts in every Element so are her Words today against Mr. Awlbatch stood in Testament against her, and have been entered into the Record - that did Mrs. Marchand spake with great Harshness that her son were }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+no Poacher yet did only come to the Moor for elf-caps which be the Common Right}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+  - and that he did carry }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+a Light to see by and be known by as no Poacher eer }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+did - and that Mr. Awlbatch be a }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Liar}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ and Mr. Pickton a }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Liar}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ all-so. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+   }{\expnd-2\expndtw-10\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+\u9810\'3f }{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Prosecutor has Tendered that in Vengeful Frame upon the day in Question the Accused did seek Recourse for their Son - and that to this End they did purchase the aid of one }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Anne Latch}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (here Represented), wife to }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+John Latch}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ and daughter of }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Caleb and Mary Mason}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (now the both deceased) - who has some minor Reputation in that District as an inchantress and Empirick and who Vends as such. It is spake by the Prosecutor and many others here Today that Mrs Latch does keep some }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Hound}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ or other about her house that many Folk from that place and from a greater Distance do visit to seek some vain Satisfaction to their Troubles. Thus it is the Claim President of the Prosecutor that it was this Beast which was sent Abroad by the Command of Mrs. Latch and in Paid Compack with the Accused to satisfy its Appetites and deliver them their Satisfaction.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+   \u9810\'3f }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The charges thus noted the Justices and Jury have heard the Deposition of the Evidence against the Accused - and an Examination as to their Lives and Conversation. We have heard no Testimony that may suggest that either the Two be of much previous Character - aside from Events of this May mentioned never have either been before the Law. We have heard all-so most Extensive of }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Mr. Elijah Knole}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+, well-known to the District as he who does keep that Mill beside the village of Nighthead and in which both the Accused have had their most recent Employ. It has been asked of them where they did take their Employment before these past six Years with Mr. Knole - and it was answered that Sarah Marchand did keep House and raise the Son aforementioned - and was Matthew Marchand a beater and Woods-man for the }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Lord Aubern}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (being the Marquis of Nottingham) who did own the Heath surrounding the village until that Time, before he did foresake this work.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ \u9810\'3f}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Mr. Knole did testify that he did never have any trouble Direct of either }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+by Vow of his Faith}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so spake); and that they both were unremarkable, most Consistent and much full of Industry despite their Years. Mr. Knole spake that they worked their Stations with much Resignation and Diligency - and attended each of his Sermons daily with never Shirk nor Weariness. Mr. Knole does yet Profess that he did some-time hear Report that Sarah Marchand did speak Foully of Mr. Awlbatch to the Common Ear upon the working-floor.}
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shptop1101\shpbottom3567\shpleft2601\shpright5095\shpz1\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #7}
+\par \pard}}}
+{\shp{\*\shpinst\shpwr2\shpwrk0\shptop5820\shpbottom8286\shpleft2468\shpright4962\shpz3\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #8}
+\par \pard}}}
+{\shp{\*\shpinst\shpwr2\shpwrk0\shptop11674\shpbottom14140\shpleft2547\shpright5041\shpz5\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #9}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{
+}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ \u9810\'3f}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Court has heard all-so of the }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Rector Whitbread}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+, who has known all Parties concerned well since he took up the rectorage of Nighthead - and does he Testify that in the Months before the Accident that the Prosecutor had come to him in his Chambers and spoken of Fears for his Life; and when the Rector had asked Mr. Awlbatch of their nature, had he spake}{\loch\f4\hich\af4
+{\*\atnid }{\*\atnauthor Unknown Author}\chatn{\*\annotation{\*\atndate 1199282836}\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch\fs19{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+Found the bull at the top, by the two stones.}}}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ that he had been most affrighted upon the Moor at several Ocasions by some unknown Party following him at some Distanse when none did have business There. The Evidence President of the Rector is that upon the Night in question (when out upon his ministrations) did he view the Accused out and close to the Heaths edge. He does spake that they kept upon no Path yet were amongst the wettened brake and without any Lamp. It has been put to him as to how he did Re-call the Pair in the Darkness \u8211\'96 and the Rector has spake that upon the Taller of the Figures was spyed an }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Adam of Apple alike a beetles Horn}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ for which Matthew Marchand is known well - and is viewsome in the Stand to-day for those Justices who are Strangers to him. The Rector all-so spake that he saw upon that Figures belt a thing shining which did catch the Moon well; and when he was asked whether he could posit a Blade he spake that he did neer veew its Point - yet that it were well-known to him and many others that it was only Matthew Marchand who did yet keep a knife very clean and Sharp upon his Person - and that it were a skinners knife though he has not been at that Trade these past six Yeers. }{\loch\f4\hich\af4
+{\*\atnid }{\*\atnauthor Unknown Author}\chatn{\*\annotation{\*\atndate 1199282821}\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch\fs19{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+The Ramilles wreck - she is involved in that - the Nighcester Regiment on board the ship. The Loss Of The Ramilles mentioned.}\par\li720\ri0\lin720\rin0\fi-360{\cf0\kerning0\langfe1023\alang1023\dbch\af9\dbch\af9\loch\f9\fs24\lang1023
+}\par\li720\ri0\lin720\rin0\fi-360{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+In charms page: Wr. Wainscote has no reputation}}}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Rector did final spake that he did know the Pair by their Voices for did they Sing in Church when did they Attend - though did the Rector spake that they sang no Christian Hymn that Night but instead some }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Dark Words}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so he spake) of which even he did not know the Origin.}
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shptop2324\shpbottom5113\shpleft6812\shpright9631\shpz13\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #10}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{
+}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  \u9810\'3f }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Accused are afforded the right of Reply to such Details - and thus has Sarah Marchand spake that indeed both were upon the Heath that night \u8211\'96 and that they did both have much Dudgeon for the Prosecutor. Mrs. Marchand did spake again that Mr. Awlbatch were a }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Liar}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ and a }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Jack Adams since he was a boy}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+, and a }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+bellshine}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ else - and when asked if she wished such Words entered into the Record, she spoke }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Yea}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+. When Mrs. Marchand was asked of their Purpose when the Rector did view them Abroad did she spake that }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+it were not Wrongly nor Proof of Mischief to come Abroad upon Common Land of an Eve}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ - and did she spake that there were many others Abroad that Night at their own businesses, as }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+always there be when the Moon is out}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+. It is noted by the Clerk that Matthew Marchands knife has been given to the Court willingly, and no Blood be found upon it - and when it were asked if he did carry it that Night did Mrs. Marchand re-call that he did \u8211\'96 for they}{\loch\f4\hich\af4
+{\*\atnid }{\*\atnauthor Unknown Author}\chatn{\*\annotation{\*\atndate 1199282835}\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch\fs19{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+She talks about cows going to the woods.}}}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ had gone about to }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+cut crockuses and have their seed, that they may be gotten to spring into their Yard}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ \u8211\'96 and that Mr. Marchand was the only Man who did know where they might be got upon the Heath. Was it asked why they did neither carry a Light to announce them-selves \u8211\'96 and did Sarah Marchand answer again that it does }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+spoil the Eye \u8216\'91gainst the Stars}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ \u8211\'96 and further that }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+no Lamp had aided her Son one piece and nor should it we}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+. The Justices here Present }{\loch\f4\hich\af4
+{\*\atnid }{\*\atnauthor Unknown Author}\chatn{\*\annotation{\*\atndate 1199282848}\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch\fs19{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+The name Long Yocto in the charmspage}}}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+did re-}{\loch\f4\hich\af4
+{\*\atnid }{\*\atnauthor Unknown Author}\chatn{\*\annotation{\*\atndate 1199282838}\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch\fs19{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+Someone in charms page mentioning motto of god INDUSTRY, METHOD, HERE IS THE METHOD OF THE LORD, LOVE GOD/SPEND LITTLE/PRAY ALL, PRODUCT, NATURE. THE WIDE WORLD IS THE INDUSTRY OF GOD. SLEEP NOT, FOR GOD. OBSERVE THE SABBATH, NO DRINK. AN OUNCE OF X IS WORTH A POUND OF Y. WEAVE, FOUNDRY, SOCIETY, APRON. THE WORLD IS GOD\u8217\'92S FACTORY}\par\li720\ri0\lin720\rin0\fi-360{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+THE LAND & SEA ARE THE INDUSTRY}\par\li720\ri0\lin720\rin0\fi-360{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+LIKE THE OPEN AIR}\par\li720\ri0\lin720\rin0\fi-360{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+I LOOK UPON THE WHOLE WORLD AS MY INDUSTRY}}}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+quest that Sarah Marchand should silence her-self \u8211\'96 and did they turn to her husband who had been with-out Word as yet \u8211\'96 to query of him these queer speakings which the Rector professed to hear In-canted. Mr. Marchand did then spake thus that it }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+had been only the old gobbeldy-cant what old lovers do make, and Petting Words which no other may ken; and that to a Man of God who has neer known Love on Earth it should be alike to the summons of the Defil}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+. When order re-stored the Accused were asked Direct if it was by their hands that the Bullock was destroyed; and they did both answer }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+nay}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ and that }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+they did neer een see it}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so they spake).}
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shptop10892\shpbottom12526\shpleft6783\shpright8831\shpz7\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #17}
+\par \pard}}}
+{\shp{\*\shpinst\shpwr2\shpwrk0\shptop6565\shpbottom9031\shpleft7452\shpright9946\shpz8\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #11}
+\par \pard}}}
+{\shp{\*\shpinst\shpwr2\shpwrk0\shptop10750\shpbottom13713\shpleft6784\shpright9913\shpz12\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #12}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{
+}{\expnd-2\expndtw-10\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  \u9810\'3f }{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Prosecutor has also made Complaint against Mrs. Latch as an Accessary to the Act \u8211\'96 and states that she did provide to the Accused some Receipt containing some }{\expnd-2\expndtw-10\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+shapes of Words}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so spake the Prosecutor) which when spoke should have this Beast she keeps to go out upon the Wilds and do whatever is Desired of it. It is well-known in that District that Mrs. Latch has been kept as a daughter by the Accused since the Isue with her Mother well-known to this Court in the Record; and subsequent the Passing of her Father of }{\loch\f4\hich\af4
+{\*\atnid }{\*\atnauthor Unknown Author}\chatn{\*\annotation{\*\atndate 1199282859}\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19{\cf0\kerning0\langfe1023\alang1023\dbch\af10\dbch\af11\loch\f9\fs24\lang1023
+}\par\li720\ri0\lin720\rin0\fi-360{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+She works nothing like a witch - well-lit}}}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Sepcis in the Yeers following (the Court notes that Sarah Marchand did spit upon the Bench at this Mention) \u8211\'96 and that untill two Years before this date to-day had she and her Husband Worked alongside the Accused at Mr. Knole\u8217\'92s Mill previous Mentioned in the Record. Mrs. Latch has kept very Silent in the Court to-day and her husband is Recorded as refusing to Represent her here - yet has the Court Heard from many of her Neighbours and a Dr. William Wainscote (a gentleman and benefactor) of her goodly Character despite the Troubles of her Youth and the Charges lain against her Father then. Of her current Practise has the Court had testimony of }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Mr. Elijah Knole}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ afre}{\loch\f4\hich\af4
+{\*\atnid }{\*\atnauthor Unknown Author}\chatn{\*\annotation{\*\atndate 1199282848}\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch\fs19{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+She charges some to just come and get warm (Charmspage)}}}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+sh who did spake that she were a goodly Worker until this Beast came - when did she quit her Station at the Mill with little Heed nor Graciousness in order to treat with this Animal in place of any Honest Industry \u8211\'96 and to erect Figures before it and spake to it in Phrases and make abortives of its Product (so he spake). }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Mr. Knole}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ did testify that he had witnessed many poor}{\loch\f4\hich\af4
+{\*\atnid }{\*\atnauthor Unknown Author}\chatn{\*\annotation{\*\atndate 1199282845}\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch\fs19{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+In charmspage - beast cannot tell one person from another.}}}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ Souls of that District to miss the Luncheon that he does Provide at the Mill and rush to spend their Wage as soon as they may get it to}{\loch\f4\hich\af4
+{\*\atnid }{\*\atnauthor Unknown Author}\chatn{\*\annotation{\*\atndate 1199282843}\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch\fs19{\cf0\charscalex100\b0\ulnone\ulc0\strike0\i0\outl0\shad0\kerning1\expnd0\expndtw0\langfe2052\alang1081\dbch\af8\dbch\af9\afs24\ab0\ai0\accnone\scaps0\caps0\loch\f0\lang2057\fs20
+Charms page - \u8220\'93you went out cloaked\u8221\'94 - because it was rainign - they cannot understand why the poor would be out - not only for the rich to enjoy, they basically say.}}}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ fetch of her Animal some Cury for their ills, }{\expnd-2\expndtw-10\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+een upon the Sabbath}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so he spake). He has told of much }{\expnd-2\expndtw-10\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ungodly bickring and Remonstranse}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ amongst his Workers where none was had before; and spake that even his own daughter, a }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Miss Charlotte Knole}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+, had taken to Visiting with this Woman to ask of her premonitions of her own Future; neglecting then of her studies and her Prayers. The Court has it noted in the Record of several other Cases of complain in which Mrs. Latch is Recalled.}{\expnd-2\expndtw-10\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+\u9810\'3f }{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Court has received only Few who shale admit Direct to having business with Mrs. Latch and the Treatments of her Hound. A }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Mr. Johnson}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+  (of that same Place and all-so in Mr. Knoles employ) has testified afore this Court that he is a sober Man of good Scruples and little Enthusiasm - and that Mrs. Latch had neer said to him that her Beast was some spirit or any unnatural thing. He spake that he never seen }{\expnd-2\expndtw-10\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+any Defil that looked alike}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so spake) and that those of Local Habitance }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+were none Fools to heed those Stories that do call this Beast Old Scratch or some Hairy Star fallt to Earth}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (in his Words). It was asked of Mr. Johnson what Business he had of Mrs. Latch - and did he speak that he had only come to let the Hound lick his Hand and to spake to it, }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+for he had sore Missed his wife\u8217\'92s voice since her Passing, and came Loned in the Evenings}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so spake), and that he gave his Coyn of Free Mind for the Pleasure. It was asked of him whether he had come to believe that the Beast gave succour as such, by unearthly Means \u8211\'96 and did Mr. Johnson spake that it were no more }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+unearthly than to have succour of the meat and milk of a Cow gladly Given}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+. The Witness did say nothing further \u8211\'96 and was he asked final if he had ever viewed this Beast}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ given to viciousness or the rumours of its License Abroad \u8211\'96and he spake that he had not even seen it take of any Meat -  only some little Water with a Tonick within it -  and had only ever seen it kennelled in Mr. Latchs house. Indeed (so he spake) he did think that it had come even Sickly in recent times, when he had been with it, for it did move very Slow and seeming Wearied.}
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shpbypara\shpbyignore\shptop221\shpbottom2687\shpbxcolumn\shpbxignore\shpleft1856\shpright4350\shpz20\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #14}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{
+}{\expnd-2\expndtw-10\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  \u9810\'3f }{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+It was then asked to Mrs. Latch if she did ever send her Beast to worry Mr. Awlbatchs bull \u8211\'96 and this were the only thing she spake in the Trial entire, being as }{\expnd-2\expndtw-10\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+quiet as a finch}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ elsewise (so said the Justice); did Mrs. Latch spake she  that }{\expnd-2\expndtw-10\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+she had never sent it to do such a thing}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{\expnd-2\expndtw-10\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+   \u9810\'3f }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Were it final asked of the Accused if Mrs. Latch had ever sold any Promise or Papers to them \u8211\'96 and did they spake that the Truth was only that they had had of Mrs. Latch a blessing for their Son, and of which they had insisted to Fee a Guinea.}
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shpbypara\shpbyignore\shptop1644\shpbottom4023\shpbxcolumn\shpbxignore\shpleft2171\shpright4748\shpz14\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #15}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{
+}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  \u9810\'3f }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Jury has heard all-so from Parties several of the Prosecutor and his own Character - both the Rector Whitbread and Mr. Elijah Knole had been Keen to stand for Mr. Awlbatch of whom they did claim Friendship and Stewardship. Both spake with Eloquense and Lyrics as to the Dignity of the Man. Of Mr Knole was it heard that the Prosecutor is as }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Honest as Endymion}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so spake) and a }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Paragon Authentick}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ to all Present in the Art of living Plainly and by the truest Industry that God might in-tend. The Rector did spake that the Prosecutor has }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+alike to all herdsmen a Soul Incorruptible and keeps both of Gods churches; being one of the few Men of this County still Fear-full of the Lord}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (in his very Words). Both did make Testimony as to his Charity and Purity \u8211\'96 and how it was sore-tested by the Travails and Avarice of Current Times. Mr. Knole did spake of the many new walls and gates about the Heath that do impede the Prosecutor\u8217\'92s Ansient businesses and Rights -  and the Rector did spake of meetings he had taken with the Prosecutor in which the man spoke his fear of theft and poaching each day Afresh, for }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+there be few who remain that do respect those}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Trades closest to God}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so spake). Mr. Knole was afforded the final Matters \u8211\'96 and did he take this time to remind the Court of the struggles and sorrows of Odysseus at his Flock \u8211\'96 and that though Mr. Awlbatch is all-so most diligent and Stoick, that to lose one good sperming Bull is }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+as alike to losing an Eye}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ to a herdsman - and did the Witness fear that such a Loss may mark }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+the Fall of this last true Pastor of this Land}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+.  }
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shptop1479\shpbottom4169\shpleft1988\shpright4807\shpz19\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 1}}{\sp{\sn posrelh}{\sv 1}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\rtlch \ltrch\loch
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #13}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{
+}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  \u9810\'3f  }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Justices and Jury have thus heard these Indictments against the Accused, and the Depositions about this Matter and all the Views Various - and it is the Justice Preston who does rise to Present the Verdict. The Justice spake sternly of the number of Incidents to which he has been called to Preside in this Districkt in the Year past \u8211\'96 as he spake, }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+mayhap it is vengeance and thiefing the only crops that will take in these Hills}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+. Then the Justice  spake well to state, that alyke to the Night in Question that there be many shadows and darknesses about the business and the Central Act of this Case unseen - and yet by the Presentation of Reasonable Fact in the Truest Process of the Kings Court \u8211\'96 and by Deduction Inescapable - the missing Taper may be Applyed.}
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shpbypara\shpbyignore\shptop1655\shpbottom4333\shpbxcolumn\shpbxignore\shpleft2519\shpright5102\shpz18\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #16}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{
+}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  \u9810\'3f }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+It is known that the Bullock did die by a Frightful and most Precise manner; of no Accident Of the Accessary of Mrs. Latch and her Hound has there been much Doubt, and had she been not Abroad that night yet was seen keeping to her Husbands house; indeed did Mr. Johnson spake that she is rare seen Beyond it. The Justice spake that he should not }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+credit a syphilitic Dog (nor anie Great Bird) with Victory over an ungelded Bullock}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ - and were it plainly viewed that only much and Skilled application by a Blade might manufacture such Wounds. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+   \u9810\'3f}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+A Disruption of some Minutes proceeded thence which the Prosecutor did make many Dangerous and Superstitious Ejaculations upon such Matters, so Vexed was he by his Loss \u8211\'96 and which Pertained not to any of the charges at Hand - and did the Justice dismiss them and arraign the Prosecutor to Quiet lest they be entered in Record against him. }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+   }
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shpbypara\shpbyignore\shptop793\shpbottom3068\shpbxcolumn\shpbxignore\shpleft2728\shpright5022\shpz15\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 72390}}{\sp{\sn dyWrapDistBottom}{\sv 72390}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn fillColor}{\sv 16777215}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc\cf17\dbch\af5\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+
+\par \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\qc{\cf17\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs30\loch\f3\hich\af3
+CHARM #14}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{
+}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+   \u9810\'3f}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+  }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Justice then spake that it was also known that the Accused had openly caused the small Matters of Mr. Awlbatch\u8217\'92s transgression (long since settled) to Grow within their Minds before that day - and had made Publick Designs upon him and open wished him Ruin \u8211\'96  While }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+words may have no Agency upon their own}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (so the Justice spake) the out-bursts and scolding Insolense of Mrs. Marchand this day has been no Friend to her - and it is had by the faithful View of a Man of God that she and her husband were upon the Heath disguised by an absence of Light that Night - and is it all-so known that Matthew Marchand did always carry with him a Knife of which he has much Historic and sole skill and Practise. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+   \u9810\'3f }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+It is rendered that the Accused did do this Thing - and that under Statutes current shall be taken to the gaol}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+at Nighcester Town, and from that gaol upon the 30t. of this month to a place of Execution \u8211\'96 where shall they be hung the both by the necks until they are dead. Of Mrs. Latch it is required that she does repay to the Accused afore this date the fee of one Guinea, which did they pay for the Blessing upon their Son \u8211\'96 for so spake the Justice that }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+it may be plainly viewed that she had made false Advertizement of her Hounds Abilities}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+. Mrs. Latch shall then be }{\expnd-2\expndtw-10\i0\ul\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+left to the mercy of the County}{\expnd-2\expndtw-10\i0\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\expnd-2\expndtw-10\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qr\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+As witnessed and transcribed }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qr\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+by the Magistrate Wandley}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qr\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+August 19t.}
+\par \shpwr2\shpwrk3\shpbypara\shpbyignore\shptop19\shpbxcolumn\shpbxignore\shpleft23\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qc\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{
+{\*\flymaincnt5\flyanchor4}{\shp{\*\shpinst\shpwr2\shpwrk3\shpbypara\shpbyignore\shptop19\shpbottom168\shpbxcolumn\shpbxignore\shpleft23\shpright3599{\sp{\sn shapeType}{\sv 75}}{\sp{\sn wzDescription}{\sv }}{\sp{\sn wzName}{\sv }}{\sp{\sn pib}{\sv {\pict\picscalex36\picscaley36\piccropl0\piccropr0\piccropt0\piccropb0\picw814\pich34\picwgoal9769\pichgoal408\pngblip
+89504e470d0a1a0a0000000d494844520000032e000000220806000000b9998d4d00000006624b474400ff00ff00ffa0bda79300000009704859730000127400
+00127401de661f780000000774494d4507e1081f080c272e6ac55000000b094944415478daed9d7b8c24451dc73fd53d7b7b1ca7c8e3902078f20ade29887011
+453c5f090f1f11890a1a0c1a4d8c4294980046a331c490a8514cfcc3884a882241f111352a181438154590a70a22f2f0e01021c7ebd8bbd9ddeef28ffef56d6d
+6d774fcfeeccee2cf7fd249deeaeeea9eefe554f557debf7ab198710428c164700638007fe0e4cca244208218410428851e38fc023c036e00099430821841042
+08316a38994008218410420821841042082184104208218410420821841042082184104208218410420821841042082184104208218410420821841042082184
+104208218410420821e6329f3f7b5b0b782003725b1e9529c52ec8bec0ffa2b4d5f6fd7856e6114208218418bc70795d24466e045e01e4ce917b4f66c7268107
+2af2d91fe80642a65c7cc5b6b7a5e419602c3a375e3220b18e22c0dd40273856aeb39afdcc9ef58dd17d5f0eac00de55639fafd8753e5171ec3c5b87d798aed8
+f6c0f78153021bc7f77a2df0eae878deb09d376c57d93eb6ff42b91738b4c739bf035602c78dd83b7f92adc3b2f2c0ef810d511978e06ff6ac3e2a8b2ef01870
+00b0ddd2bbc084e5bf67905ef7ee0b218410428896746cbd294adf00dcdc473e5bfabcae0f3a739df0409aa6645956f7b987acd3f8e2793eefd54187750a3835
+1030d35167760a383be8e44e0682640af8421fd79d027ed0707c6345190c13df202ceb8463b8bdd6c44b9d589c36210670bd3d7f56b34c37ec7be0e396cf0581
+509c6ef9f9f8580a5c596393e3801b2ad2d703ff68b0e54335e94fd4a48fd97df5e231600df09f0a919e581994dc6ccf5627da9becddcb6efd6e7be05bc07b6b
+caabcdd24bb46f8e6cb56760efdd872cda85104208b144b8a0639e2ef6c57b8894e7bef19dc37b3f677bd459e472bb88c293f1a92adbf569b76b803733bf10c9
+418ac636c2f105c0e3c03e35f9dc1b0882978dd82bf201e0d221e6ff12663cbc93265ad65084e74d0c4bb43b47e67da597b7522cdaf9fd88c84189c7aafd1cf8
+590fdbbcd2d6b7dafaf00a3b640d831a3bed699e7a791b17cea1f65d1742081174e016ad4149d3197d3488ceef72163f499290e779ed738c929859b9729c1d3b
+ba0bb677f8cc83b05d9ff99d00fc6670c213bcba624b26f66bd846e1915ab51c9e676c6c0c80a9a9a9c5b8dc3b4cf05579b82699f1b21f4d11e678d780bf1b6d
+457b5338ecce759ab83ccb7d93b7ae8db7b14ef079e01c663cebf3158cf3f236a64992e53e9ff49e7b81c39ddb29d433204f5c926779bed33e6992e459511156
+da364d9ccff2d695d516601cd83b4aff3770886ddfc66c2f6ff9de5c67dfbf5e821de034e0dbd60f19a468cf81cb28222a7ccbb2e8003b4cb4af636e68709bf0
+ecb6e1f1a23fd6020f46696b28a212443b4ea488387a4e0997eb29c29562ee048ea09853f2d296793e0d3c3f4a9ba2089119b8805940e7fe54e027c0e9560177
+6c7d891d3fdbf6cb635fb2f4cf5bda672ded3ce06b76ced9c0c5c167ce1ca228db4231b7a8e4098a909967ace170b64ea27dd7ceaeb33b1e919d0fb667fcd700
+caeb7d14a17a4d9c0f7cb1cff2ff5e507ee5b22ff054457a6ab6694a4b2ad649cd7ed971eedaf69835608e45f4f684a22eb121f0e5cef8f838dd6eb7f1146642
+3bd3517f9eb21e5ccac197e5e4ed8d1baf21dff597817397c2c6699290fb7c671deca25a2371095930609326b3f7e7e6e7c8bdf79117ac4e34ee691f7b34eab4
+af35f1324de18d8bb91138364e5cb1628cc9c94a617e1970c690caee74e08a3eceffa73dd391c01d43b89f818af61a819e33fff0e0417b7c5b8bf6c0339dd70c
+a83c687d8ed0cbbe193888b973abeb8463138f53ccc75d6dfbff05f603eeb7f664adf561636e038ea208314f68373031bd8032f0c08515f7f1c1b22b5d63f32e
+70157072c5c055d37bb450d13e3dac8ab99c5ff2faa870ff6aedc23196bece46df92ba0e9d73eceb3d1ed8c3463dc34eda2aa270b48a867a373bbeadafda60a6
+3138c29ea703dc5473fa49c17dff027837f0a3b88eb767bab826fdc260ff339656366e097056f49934124629f0b6e09cebea3ad25996d575a0138a793e8f04fb
+6b02f1d2a6cd8fc58dabe87cef2c6fef7db85f8e7e1cdea3e33f67f1dec7695736d8a963f97e354e77aed84e9ceb64337976827bf9d012f7ab9ea5986f8155b4
+2b02db57d97f02785e85fddb8c2a1d69cf7d6b9076bc0becea1c297e8e7dab6c5e5506bdb6cf09aefb1de7e8783febdab3f65b2c49dd76b7db8d85622c1a27cc
+aee59cb4be45fbaa95e34cece8cedbd3e05cb517b04a3cb6112cc3169d49922c8670f28316ed7e80cf5fe3b53d7750f7daaf70894548fcd1cce78de7cfcdcf97
+754f3f62fe85156987349c7f6c751b5d2b62ce18e2fb76459fe79f6c0371770ce97ec27a5ff4cf7d15fdc5ed7d561775c2a66ca7b75a9bb18ff5adf60b06deef
+b1f20b3bf22f076e6126c47631c882b6addcbeb8e5677fbdc88357e366bbba8c9fb4faa8ad687765fd537e99de40f12b5098c0180b3adeb753b874b736a82d28
+2611e7d4c7e487a30e7103b62250b4ab6b3acf1de64e843ed4ee3561f604ea575574a413e0b723f225bc2ab0fd09aa938489fb899ace4342b5c7278ddefd6382
+b43f2fe2bd7f3df89e7d64c4eddc24dab701ac5eb572af6d133b9a3c6b694dfd923a479ab824cdf27c8e204b9359e93fb6fb797f8330bc08383f4d924ef0b99e
+42d23952ef2b056a0abcd5ae7b6d90f65ae02ff6b92a0159e76d4c83fafee99a4190b29eeb3042e132a14779508df608cc59ac1b2c59749b066c70cedde4bd77
+145f02b22c5f2e75f25d36683b520c3adc5ef4e44166ff18ce12d75d2e1a18f00bce6fc883577ef7ddc6fdb3dbbbb170dc6d1e79dd03ac2b1b94d00d365551e1
+3d66178c0545d9404d53785ae633fae0a876c355714074fdfbf49d12420c88d2e3f5d4225ceb3d76ada691e14f52781b8731687262907603f3ffd9f2add636ec
+dde3bcbca6ede8e9eded21a0da847ccef12a06226da1dec632449834492e2905662052eb04641b6f639b10d5d0ee2e4d9209f3beacb276b52f6f63052f0aaefb
+4090beded2efa498db724bcde7ff001c5f7660803799680ef9b0e5f5cd28fdfc96657016c55c993a0f72af72086d7e940d04ada708c5de62cf1d4739a435ef6c
+dd7bbd500ea2085d9ad5790d3aadc7da3dddd02ba38d1b377e6ed3a64d178cda68d210647eb6c0777f244992d9afd342e70ccf67def2b0e796f7c83f712652ba
+9170790d45b89810420821eaf986ad3fba04d77e321005bdc284fb0e11a688f72f3938387e8fa595734236d48882d514de9f0ef073e057c05b823ccf04be6bdb
+1fb3bcc310e1b6f61f94ed6fa7f80fbbbb81bd6c10e3303bb61938701e7936f5c95745e2692b45d8772c8c365384c9d4cdbb2c85e3f115e2779668f3deffd239
+f7ce0189f636e1c63d9740e8b799575a271ae3b0e015511974a2f77d7b9fe5785885d0bd2dd685d1b35d0dbc3dd88f3ded9d1ad15e47af7977975b7ea7013f8d
+ae7162c5f93705cf735443be0f53ed692f9960f6bcdeb01c06291cd701773b8a50ab4dccfcef86b72fed7ab547420821841800a7507835bbd6f971f4fe6196e7
+0a75731be3cef35e265ec4e0edef2b44631975f4a409ffb44124dd5f91efd19190893d5e27337b6e499da73d14ed4df37d3f6d82beea9c84e2af08007e68d70a
+b926ba574711265c7227d51e6e47f11704215b993d676b8f40bcb47df71dcd5ef62ae13ae707a16eb4655aefb81042082184d805d8432658defc492610420821
+8410422c079c4c2084104208218410420821841042082184104208218410420821841042082184104208218410420821841042082184104208218410420821c4
+ae847ea25c08218410420831b21c083c2c3308218410420821469914d85f6610420821c4aeceff01e5cb124783fad5450000000049454e44ae426082}}}}}
+}{\expnd-2\expndtw-10\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+ }{\expnd-2\expndtw-10\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+[ 47]}
+\par {\shp{\*\shpinst\shpwr2\shpwrk0\shpbypara\shpbyignore\shptop228\shpbottom910\shpbxcolumn\shpbxignore\shpleft-3\shpright691\shpz10\ltrpar{\sp{\sn dxWrapDistLeft}{\sv 114935}}{\sp{\sn dxWrapDistRight}{\sv 114935}}{\sp{\sn dyWrapDistTop}{\sv 0}}{\sp{\sn dyWrapDistBottom}{\sv 0}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn dxWrapDistLeft}{\sv 114935}}{\sp{\sn dxWrapDistRight}{\sv 114935}}{\sp{\sn dyWrapDistTop}{\sv 0}}{\sp{\sn dyWrapDistBottom}{\sv 0}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 72390}}{\sp{\sn dxWrapDistRight}{\sv 72390}}{\sp{\sn dyWrapDistTop}{\sv 71755}}{\sp{\sn dyWrapDistBottom}{\sv 0}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057{\i\dbch\af5\langfe2052\dbch\af5\rtlch \ltrch\loch\fs64\loch\f3\hich\af3
+H}
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0\expnd-2\expndtw-10\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+
+\par {\shp{\*\shpinst\shpwr1\shpbypara\shpbyignore\shptop0\shpbottom276\shpbxcolumn\shpbxignore\shpleft0\shpright53\shpz9\ltrpar{\sp{\sn shapeType}{\sv 202}}{\sp{\sn dxWrapDistLeft}{\sv 0}}{\sp{\sn dxWrapDistRight}{\sv 0}}{\sp{\sn dyWrapDistTop}{\sv 0}}{\sp{\sn dyWrapDistBottom}{\sv 0}}{\sp{\sn posrelv}{\sv 2}}{\sp{\sn posrelh}{\sv 2}}{\sp{\sn fillColor}{\sv 4278190079}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\sp{\sn lineColor}{\sv 0}}{\sp{\sn lineWidth}{\sv 9525}}{\shptxt\s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl240\slmult1\qr\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0\rtlch \ltrch\loch
+
+\par \pard}}}
+\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\qj\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{
+}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+e}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+re indicted before this Assizes sat upon the nineteenth day of August in this year seventeen hundred and sixty comes one Father - namely }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+James Mockett}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ of the village of Dunsley in the District of Lincoln Town - accused of the }{\expnd-2\expndtw-10\ul\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Rape by Negligence}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ of his daughter }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+Sally Mockett}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ of that same place. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af6\langfe1081\dbch\af6\afs24\alang1081\loch\f0\fs24\lang2057\sl-227\slmult0\tx720\li0\ri0\lin0\rin0\fi0\sb0\sa0{\expnd-2\expndtw-10\ulnone\ulc0\b\dbch\af7\langfe2057\dbch\af7\rtlch \ltrch\fs19\loch\f4\hich\af4
+   \u9810\'3f }{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+The Justices and men of the Jury here Circuited have heard of }{\expnd-2\expndtw-10\i\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+William Tenter}{\expnd-2\expndtw-10\ulnone\ulc0\b0\dbch\af7\dbch\af7\rtlch \ltrch\loch\fs19\loch\f4\hich\af4
+ (a physician of that District) - who did spake that the Prosecutor is grave with Child which has quickened this month gone, though she is but a Maid not fifteen years of Age - and that all who have Witnessed her spake that she has never been wanton and has kept herself to the House chaste and has never had any Man upon her. The Prosecutor did spake that one Month before she did view her Father plainly coming from his Work mining of ironstone in Nettleton - which does lie beyond the hillock standing behind the House in which they both Dwell. The Prosecutor testified that the Accused was most drunken with Ale and standing atop the hillock\u8217\'92s Peak and making his raw Water upon the Slope and singing much. All-so did she re-call that it did rain much in the days that Followed and much Liquid did come down off the hillock by way of Nature. The Prosecutor then did spake that her Chamber did lie upon the Backmost walls of the house which do abut the foot of that Hillock - and that for some Month had there been a great Hole in the plaster which did admit the Damp. She did profess that she had asked her Father to repair the hole many Times for she oft woke surrounded by soiled Watre - yet had he not. It was viewed that upon that Week and some days aftre her Fathre had made his Watre thus the Weather had been very hot and Muggish in that Place and had the Prosecutor been drove to sleep upon the floor that Night to cool her Flesh and}
+\par }

@@ -1,0 +1,106 @@
+{\rtf1\ansi\deff4\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\froman\fprq0\fcharset128 Times New Roman;}{\f5\froman\fprq0\fcharset128 Symbol;}{\f6\froman\fprq0\fcharset128 OpenSymbol{\*\falt Arial Unicode MS};}{\f7\froman\fprq0\fcharset128 Georgia;}{\f8\fnil\fprq2\fcharset0 Georgia;}{\f9\fnil\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f10\fnil\fprq2\fcharset0 OpenSymbol{\*\falt Arial Unicode MS};}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet{\s0\snext0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057 Normal;}
+{\*\cs15\snext15\cf1\outl0\strike0\expnd0\expndtw0\shad0\kerning1\dbch\af10\accnone\highlight7\loch\f5\fs24 WW8Num1z0;}
+{\*\cs16\snext16\dbch\af10\loch\f6 WW8Num1z1;}
+{\*\cs17\snext17\b0\dbch\af10\loch\f7 ListLabel 1;}
+{\*\cs18\snext18\dbch\af10 ListLabel 2;}
+{\*\cs19\snext19\dbch\af10 ListLabel 3;}
+{\*\cs20\snext20\dbch\af10 ListLabel 4;}
+{\*\cs21\snext21\dbch\af10 ListLabel 5;}
+{\*\cs22\snext22\dbch\af10 ListLabel 6;}
+{\*\cs23\snext23\dbch\af10 ListLabel 7;}
+{\*\cs24\snext24\dbch\af10 ListLabel 8;}
+{\*\cs25\snext25\dbch\af10 ListLabel 9;}
+{\s26\sbasedon0\snext27\ql\nowidctlpar\hyphpar0\sb240\sa120\keepn\ltrpar\cf1\kerning1\dbch\af9\langfe2057\dbch\af9\afs24\loch\f4\fs28\lang2057 Heading;}
+{\s27\sbasedon0\snext27\sl288\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af9\langfe2057\dbch\af9\afs24\loch\f4\fs24\lang2057 Text Body;}
+{\s28\sbasedon27\snext28\sl288\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af9\langfe2057\dbch\af9\afs24\loch\f4\fs24\lang2057 List;}
+{\s29\sbasedon0\snext29\ql\nowidctlpar\hyphpar0\sb120\sa120\ltrpar\cf1\i\kerning1\dbch\af9\langfe2057\dbch\af9\afs24\loch\f4\fs24\lang2057 Caption;}
+{\s30\sbasedon0\snext30\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe2057\dbch\af9\afs24\loch\f4\fs24\lang2057 Index;}
+}{\*\listtable{\list\listtemplateid1
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u61623 ?;}{\levelnumbers;}\f1\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f11\fi-360\li1080}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f11\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u61623 ?;}{\levelnumbers;}\f1\fi-360\li1800}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f11\fi-360\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f11\fi-360\li2520}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u61623 ?;}{\levelnumbers;}\f1\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f11\fi-360\li3240}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f11\fi-360\li3600}\listid1}
+{\list\listtemplateid2
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}\listid2}
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}{\*\generator LibreOffice/5.3.1.2$Windows_X86_64 LibreOffice_project/e80a0e0fd1875e1696614d24c32df0f95f03deb2}{\info{\author Robert Sherman}{\creatim\yr0\mo0\dy0\hr0\min0}{\author Robert Sherman}{\revtim\yr2017\mo6\dy16\hr9\min42}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab709
+\hyphauto0\viewscale130
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh16838\paperw11906\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx1440{\rtlch \ltrch\loch
+To bynd someone in love to the spyrit.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx1440{\rtlch \ltrch\loch
+She doesn\uc2 \u8217\'81\'66t care about love \uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx1440{\rtlch \ltrch\loch
+who loves who in the village?}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx1440{\rtlch \ltrch\loch
+Tells him who will come to him with what? Never a one-off, love, always a sustaining of belief. Needs subscription.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx1440{\rtlch \ltrch\loch
+Sarah and Josepth coming \u8211\'3f never really buy anything, only come to warm her up.They always said they would lie together. Didn\uc2 \u8217\'81\'66t like her father. Jospeth was somebody who would always have rather been outside.\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx1440{\rtlch \ltrch\loch
+Charlotte often wanted these?}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\tx5040\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\f7\hich\af7
+ }{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+and the heat went home to Nighthead, adn she went to the dining room with her parents, and listened to them talk about us for any evening.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\li720\ri0\lin720\rin0\fi-360\i0\ulnone\ulc0\b0\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+Devil John \u8211\'3f A slave from West Indies, in \uc2 \u8220\'81\'67employ\u8221\'81\'68 of Knoles\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+John as their familiar spirit \u8211\'3f how do they summon him? Where does he go? Have much freedom.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+Sarah told me something- was a servant at their house.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+Charlotte does not want to marry \u8211\'3f only plays at it with this.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+Jewellers}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+more men than women }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+rich wives}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+love page - people don't go outside much, don't want to get caught in weather. Done remotely.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+Charlotte is just older than Anne \u8211\'3f but treats her like a crone}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+creature loves charlottes voice and touch \u8211\'3f a bit like mine, she says.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+The looks that devil john give her \u8211\'3f not to call him devil john, call him mr. portsmouth, after where we freed him.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+Everyone thinks they fuck.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+They make him sad.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\f7\hich\af7
+\uc2 \u8220\'81\'67\uc1 }{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+i ask her if he can be communed with, and she says yes\uc2 \u8221\'81\'68\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+anne a bit jealous and possessive.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+Treats the spirit more like an animal, does not respect the rituals.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af9\afs24\alang1081\loch\f4\fs24\lang2057\tx4320\li720\ri0\lin720\rin0\fi-360{\i0\ulnone\ulc0\b0\dbch\af8\dbch\af8\rtlch \ltrch\loch\loch\f7\hich\af7
+Wear frock coat. (DJ)}
+\par }

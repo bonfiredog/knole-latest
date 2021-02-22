@@ -1,0 +1,122 @@
+{\rtf1\ansi\deff4\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\froman\fprq0\fcharset128 Times New Roman;}{\f5\froman\fprq0\fcharset128 Symbol;}{\f6\froman\fprq0\fcharset128 OpenSymbol{\*\falt Arial Unicode MS};}{\f7\fnil\fprq2\fcharset0 Times New Roman;}{\f8\fnil\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f9\fnil\fprq2\fcharset0 OpenSymbol{\*\falt Arial Unicode MS};}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet{\s0\snext0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057 Normal;}
+{\*\cs15\snext15\strike0\dbch\af9\loch\f5\fs24 WW8Num5z0;}
+{\*\cs16\snext16\dbch\af9\loch\f6 WW8Num5z1;}
+{\s17\sbasedon0\snext18\ql\nowidctlpar\hyphpar0\sb240\sa120\keepn\ltrpar\cf1\kerning1\dbch\af8\langfe2057\dbch\af8\afs24\loch\f4\fs28\lang2057 Heading;}
+{\s18\sbasedon0\snext18\sl288\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af8\langfe2057\dbch\af8\afs24\loch\f4\fs24\lang2057 Text Body;}
+{\s19\sbasedon18\snext19\sl288\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af8\langfe2057\dbch\af8\afs24\loch\f4\fs24\lang2057 List;}
+{\s20\sbasedon0\snext20\ql\nowidctlpar\hyphpar0\sb120\sa120\ltrpar\cf1\i\kerning1\dbch\af8\langfe2057\dbch\af8\afs24\loch\f4\fs24\lang2057 Caption;}
+{\s21\sbasedon0\snext21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe2057\dbch\af8\afs24\loch\f4\fs24\lang2057 Index;}
+}{\*\listtable{\list\listtemplateid1
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u61623 ?;}{\levelnumbers;}\f10\fi-360\li720}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f10\fi-360\li1080}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f10\fi-360\li1440}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u61623 ?;}{\levelnumbers;}\f10\fi-360\li1800}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f10\fi-360\li2160}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f10\fi-360\li2520}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u61623 ?;}{\levelnumbers;}\f10\fi-360\li2880}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f10\fi-360\li3240}
+{\listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f10\fi-360\li3600}\listid1}
+{\list\listtemplateid2
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}\listid2}
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}{\*\generator LibreOffice/5.3.1.2$Windows_X86_64 LibreOffice_project/e80a0e0fd1875e1696614d24c32df0f95f03deb2}{\info{\author Robert Sherman}{\creatim\yr0\mo0\dy0\hr0\min0}{\author Robert Sherman}{\revtim\yr2017\mo6\dy16\hr9\min42}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab709
+\hyphauto0\viewscale100
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh16838\paperw11906\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+Provides a reason to keep the spirit. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+Familiars tend to appear when their owners are in dire need}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+The trouble is not that bad, not that dramatic (sleeping with husband!) - one night, and enjoyed it.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+Managed to avoid John\uc2 \u8217\'81\'66s innocent advances her entire relationship \uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+She is not sexless nor pathological. Not really about sex for her, about psychological need.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+A type of sickness? Read up on pregnancy symptoms, speak to Grace}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+An old ritual to determine if preggers \u8211\'3f never sure if she reallt was or not. This was her first real ritual with the creature.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+But comes back throughout the yeer.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+Her father made children from stone, so she knew nothing about flesh}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+what kind of hot food did they bring me?}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+Get it out into the light \u8211\'3f a pain in throat \u8211\'3f swallowed a baby \u8211\'3f hurt it on the throat \u8211\'3f she tried this on herself and it worked, if only temporarily.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+Waited for it to help her at the start \u8211\'3f it did not.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\rtlch \ltrch\loch
+Summoning people for mundane things}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+no rector would do this.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+An everyday remedy for a woman\uc2 \u8217\'81\'66s truss\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+My dreams show me your ignorance of such mattres, and so perhaps this Service shall neer be had again by the women who come to Nighthead to meet with my Spirit. Many shall still come, for what ails them is insistent ,like a kit pawing a door for days, and its claws growing anon (Babies fingernails), despite the fact I am no longer there. Some will not have heard the tell of it (you will drive away the richer woman, who will have seen you at parties) and used that Damned Ballad as an advert. And yet I tell it to you heer, that you may continue my Work: if you will do it, and if they will have it done by you. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+This remedy has not its regulars; it is not an ague that comes weekly, though it may return time and again over a yeer, when you have done nothing to provoke it; you have not been dancing, nor let your husband in after dark ( and have always let him out to water), have bought or made your charms. Have nicked your heel upon a Wednesday and all other things that a Sybscryber or a Father has no busines knowing; and yet it comes. For many women it comes but once a year, or I may see them onlie once in their lifetimes. It has no theatre, for everything takes place inside. For myself, it came five time or more this very yeer. It is a difficult thing to Relay to a Man. Imagine you that there always be a space, within you; that you are not as full or complete as you have always felt. We both know the business of the Indoors of things; how tight things are in there, how no winds blows wide and tongueless but whistles through the spaces; and yet to a Woman in Truss it feels as if all comes apart, and then together again, and that she is Mindful of every Piece touching, as a man never is; for he can never feel his gut upon his bladder like a person on his shoulders. For some, they will Describe it to you like their lap is being hung for stealing;\uc2 \u8217\'81\'66 others that there is a small whip being cracked inside them, and they can hear the echo of it. Some will not speak to you of it at all, but you shall know them in truss for they have no other reason to be there; no boil, nor scald nor death nor dying cattle nor measles nor Future to speak of. A woman in the Truss shall appear not in need of a soilwarp, and that is why she will need one. (but won\u8217\'81\'66t their stomachs be showing?\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+\line You must never ask her who has done this to her; for to mention their name is a curse most Deadly, brought down by Moses. By some it shall be the couzening from their husbands, despite their best Wards; some will have let him willingly into their Beds, owing some covenant almost voluntary. Diverse others shall diverse causes; some shall have gone out in skirts upon a muggy night; others will have drunk the juive of pears on a harvest moon, or rode a horse on a wednesday with a pommelled saddle (The wide range of women this affects, demonstrated here in their reasons) \u8211\'3f yet all may be ended, or abated, with the very same remedy. You shall have need to make appointment, if you have sympathy and many come to You; for the Spirit hatest his practice as it hurts him just a little; and he is such a fidget and a child that even the slightest wound shall drive him from you. I have told him manie times of the Import of this, and he has had the most Pleasurable embraces and milke come from as far afield as Dore in reward; yet no thing with the Spyrit is exact, and if you have need to call him back from his appall, you shall find the spell elsewhere in this chap.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+The woman in truss must never touch the spyrit; indeed, they must not een be in the same room. Sit within the circle and lay your hand within the bowl, as a vulnerability. Have no feer, for the creature has no stomach nor throat not lips nor teeth for such a meal; but he shall love the trust it places withim him, and alert him to what is to come. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+\line Say you then the Afflickted names, the number of months that this has afflicted them, and speak you this request to the spirit. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+May I cut oyu that this Woman here}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+Named shall be cut, and the Pressure relieved.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+The Spyrit shall assent or no, and you shall not cut Him if he does not Assent; for he knows all Secrits and shall judge hthese women fit or not for the opeatation.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+Do you the ritual of the knife, and make a cut, no longer than your finger, in the creature\uc2 \u8217\'81\'66s flesh. The line in whych this is to be done lies low on the neck, above the Dewlap and the curve of the shoulder.; and you shall cut it there, comforting all the while \uc1 \u8211\'3f when this is done take some of the blood up and go you to the field of makrs, and make the mark above; this seals the debt.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+Use pennyroyal in abortiion.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+The women shall pay the debt. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+The tolling \u8211\'3f related to pregnancy}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+trouble repeats in new year}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+A big toll is a flare-up.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+Is it abortion, or female disease of some sort? Herbs have not helped them. They cannot afford to go to the doctor.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057\tx2160{\rtlch \ltrch\loch
+This ritual, when done, reveals that she was pregnant.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af8\langfe1081\dbch\af8\afs24\alang1081\loch\f4\fs24\lang2057{\listtext\pard\plain  \u61623\'3f\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\tx2880\li720\ri0\lin720\rin0\fi-360{\dbch\af7\rtlch \ltrch
+\uc2 \u8220\'81\'67\uc1 }{\dbch\af7\rtlch \ltrch\loch
+But we cannot understand another\uc2 \u8217\'81\'66s body\u8221\'81\'68\uc1 }
+\par }

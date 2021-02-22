@@ -1,0 +1,14 @@
+- instructions in red.
+- Spyrit underlined and italicised.
+- Using a mixture of Chapbook, Chapbook Italic, 18thCentury and StrangeNewes
+- Double spacings and odd kernings occassionally.
+- 2 columns on each page, with a line running down the middle (hand-drawn), wide margins.
+- Drawn characters and non-standard texts are 'scanned' from 'hand-drawn' greyscale images. Drawn crudely in sharp charcoal rather than pencils or pens.
+- Titles of recipes underlined, a single line between them, larger font.
+- Box-outs for ingredients, warnings, notes to the user - in a red box, with red text.
+- Warning Glyph used for warnings.
+- Sometimes, number of people it can heal, how long it takes.
+- recipes are numbered, rather than pages - but large gaps between them.
+- Recipes are very, very short.
+- No exposition apart from in phrases used, interaction with creature.
+- sigil diagrams are very precise

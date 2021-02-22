@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="GREENTEETH" Modified="2020-09-30 10:19:59 +0100" ModID="60BCE9DB-08A8-4C56-A173-DAB95B345911">
+    <Binder>
+        <BinderItem ID="0" UUID="4F222F1B-063C-47B3-AE23-6C0865E70B8D" Created="2019-07-25 23:47:26 +0100" Modified="2019-07-25 23:47:26 +0100" Type="DraftFolder">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="11" UUID="6DE82E36-38C6-4CB2-A780-9540F652598D" Created="2019-10-15 23:00:39 +0100" Modified="2019-10-15 23:00:41 +0100" Type="Folder">
+                    <Title>Recipe List</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="60" UUID="9996B1CF-2D0F-4F38-98AF-C7DEC3A129AC" Created="2020-03-16 10:57:00 +0100" Modified="2020-03-16 10:57:02 +0100" Type="Folder">
+                    <Title>Done</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="16" UUID="42430272-4AFF-4E01-B9F3-FD139E1330B7" Created="2019-10-15 23:02:30 +0100" Modified="2020-09-25 09:53:08 +0100" Type="Text">
+                            <Title>For Poorly Thoughts</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1995,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="65" UUID="8D1A637F-E237-4D99-A0BF-C023F67CD8D7" Created="2020-08-05 14:44:58 +0100" Modified="2020-09-21 11:38:12 +0100" Type="Text">
+                            <Title>Sitting With Creature</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1412,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="51" UUID="94956AFD-EA69-46CE-B401-ECB2A334869A" Created="2019-10-15 23:46:08 +0100" Modified="2020-09-21 11:17:38 +0100" Type="Text">
+                            <Title>Open Wounds</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>452,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="42" UUID="D4A2A303-1A60-43ED-B090-6F585C1BFEC3" Created="2019-10-15 23:28:34 +0100" Modified="2020-09-21 11:09:55 +0100" Type="Text">
+                            <Title>The Coughingcup</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1205,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="62" UUID="8C802A06-638E-453C-A876-1A3A5CFD454F" Created="2020-04-29 14:50:12 +0100" Modified="2020-09-21 11:40:23 +0100" Type="Text">
+                            <Title>Starting A Ritual</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>406,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="31" UUID="0124D066-6BAE-4D19-800A-751676C51B75" Created="2019-10-15 23:22:39 +0100" Modified="2020-09-22 10:21:36 +0100" Type="Text">
+                            <Title>Gout</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>788,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="30" UUID="8E63D648-E264-4610-868B-4489A8D8A467" Created="2019-10-15 23:20:05 +0100" Modified="2020-09-22 10:40:02 +0100" Type="Text">
+                            <Title>Spinner's Ear</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1206,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="25" UUID="2E2C042C-5DB9-4C23-8F30-59C7ADF87245" Created="2019-10-15 23:12:37 +0100" Modified="2020-09-22 11:01:57 +0100" Type="Text">
+                            <Title>Creature's Dinner</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1183,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="34" UUID="5E1B2511-D228-4380-8F36-14B5AB935E9B" Created="2019-10-15 23:24:08 +0100" Modified="2020-09-22 11:20:09 +0100" Type="Text">
+                            <Title>Find Someone Or Something</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1554,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="12" UUID="B71CCD54-2C4A-491E-B7CF-CB5930B2D357" Created="2019-10-15 23:00:46 +0100" Modified="2020-09-24 15:45:16 +0100" Type="Text">
+                            <Title>Approaching The Spyrit</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1833,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="67" UUID="51B73C63-2408-459A-A693-9687DF2C97A4" Created="2020-08-05 14:46:11 +0100" Modified="2020-09-24 15:59:34 +0100" Type="Text">
+                            <Title>To Stop Time</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1014,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="37" UUID="3E6F8CDF-B179-4ED4-8F24-36B382F0BCFF" Created="2019-10-15 23:25:31 +0100" Modified="2020-09-25 10:04:28 +0100" Type="Text">
+                            <Title>Curing Aches</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1006,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="64" UUID="686ED0B0-C420-4FD5-BF68-01F0B71572E0" Created="2020-08-05 14:44:31 +0100" Modified="2020-09-25 10:20:29 +0100" Type="Text">
+                            <Title>To Live Forever</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1164,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="50" UUID="07B39F8A-5099-4DBF-8114-44DF8D556CEE" Created="2019-10-15 23:45:31 +0100" Modified="2020-09-25 10:39:44 +0100" Type="Text">
+                            <Title>Scutchers Eye</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1048,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="47" UUID="55A165EC-D46E-4CC4-AE82-69821553F52B" Created="2019-10-15 23:43:41 +0100" Modified="2020-09-25 10:52:02 +0100" Type="Text">
+                            <Title>Warts</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>747,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="19" UUID="09DB963E-BA54-435A-A802-A6F5E3909EBD" Created="2019-10-15 23:07:40 +0100" Modified="2020-09-25 11:00:26 +0100" Type="Text">
+                            <Title>Cure Hiccups</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>808,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="28" UUID="673E9AE2-1F75-4297-8953-FCCC34B6D199" Created="2019-10-15 23:16:19 +0100" Modified="2020-09-25 11:08:44 +0100" Type="Text">
+                            <Title>The Answer To Any Question</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1192,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="13" UUID="2E5651FF-F3C6-49EA-8911-842594FD32A5" Created="2019-10-15 23:01:27 +0100" Modified="2020-09-28 09:38:24 +0100" Type="Text">
+                            <Title>Making The Compack Of Work</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>2085,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="41" UUID="C6CECCA2-C77F-441B-830B-DCC4D68409F1" Created="2019-10-15 23:27:08 +0100" Modified="2020-09-28 10:04:49 +0100" Type="Text">
+                            <Title>Binding Him In Place/Discipline</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1665,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="38" UUID="9CE8CB7E-E11A-4152-8F02-D4E628502A35" Created="2019-10-15 23:25:52 +0100" Modified="2020-09-28 10:13:25 +0100" Type="Text">
+                            <Title>Changing Weather</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1194,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="33" UUID="8CD312DF-3F6C-41C3-8C48-8DC3C608AA6A" Created="2019-10-15 23:24:02 +0100" Modified="2020-09-28 10:26:10 +0100" Type="Text">
+                            <Title>Marrying Potion</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1769,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="52" UUID="BFE8A954-495C-4DAC-BCBE-D4A66E73B57E" Created="2019-10-15 23:49:13 +0100" Modified="2020-09-29 13:56:20 +0100" Type="Text">
+                            <Title>Cancer</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1388,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="46" UUID="0547D01F-338E-4ADE-87D2-5A1F19A2A113" Created="2019-10-15 23:43:30 +0100" Modified="2020-09-29 14:06:25 +0100" Type="Text">
+                            <Title>Weaver's Neck</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1125,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="22" UUID="4A111280-D9B9-48D0-9B04-F0F4DBEED362" Created="2019-10-15 23:09:51 +0100" Modified="2020-09-29 14:10:12 +0100" Type="Text">
+                            <Title>Dull &amp; Stoking A Lust</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>822,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="18" UUID="219E2FEF-F446-4AFB-9470-1FB15DEAF0A4" Created="2019-10-15 23:06:40 +0100" Modified="2020-09-29 14:30:27 +0100" Type="Text">
+                            <Title>Aborting A Pregnancy</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>384,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="35" UUID="C2AE116F-6645-4844-885B-BF48EA515D28" Created="2019-10-15 23:24:36 +0100" Modified="2020-09-29 14:55:00 +0100" Type="Text">
+                            <Title>Mouse</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>3338,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="27" UUID="8286BCDD-EA1F-4A4B-AA7E-7226A83E5140" Created="2019-10-15 23:15:27 +0100" Modified="2020-09-29 15:04:07 +0100" Type="Text">
+                            <Title>Speaking To The Dead Or Living</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>2160,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="14" UUID="55049458-DA5C-4199-A508-782A0C9FC3EF" Created="2019-10-15 23:01:48 +0100" Modified="2020-09-30 09:50:31 +0100" Type="Text">
+                            <Title>Killing A Man</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>595,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="15" UUID="C2C3868F-9274-4663-8FA6-244EECF31955" Created="2019-10-15 23:01:55 +0100" Modified="2020-09-30 09:51:11 +0100" Type="Text">
+                            <Title>Killing A Cow</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>220,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="24" UUID="85DA69B0-1C28-4F69-A6A3-265A81A52304" Created="2019-10-15 23:10:15 +0100" Modified="2020-09-30 09:57:49 +0100" Type="Text">
+                            <Title>Detecting Pregnancy</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>631,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="45" UUID="F7F7A774-6461-4E0C-B388-082405C31FAC" Created="2019-10-15 23:41:40 +0100" Modified="2020-09-30 10:10:40 +0100" Type="Text">
+                            <Title>Luck</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>328,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="36" UUID="9AC73256-B978-4288-B811-D85D75B40E56" Created="2019-10-15 23:25:16 +0100" Modified="2020-09-30 10:17:03 +0100" Type="Text">
+                            <Title>Permission To Escape</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>2303,2111</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="26" UUID="4EA60E5F-7E7F-4BA8-A029-88EC02AD4D78" Created="2019-10-15 23:14:15 +0100" Modified="2020-09-30 10:19:51 +0100" Type="Text">
+                            <Title>Fettlings &amp; The End Of The Day</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>721,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="4BC19EA2-C7C1-42F3-A47C-BBCC60EA64C4" Created="2019-07-25 23:47:26 +0100" Modified="2019-07-25 23:47:26 +0100" Type="ResearchFolder">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem ID="2" UUID="8FC04BF9-FCF5-4832-892F-1139F1E17BFC" Created="2019-07-25 23:47:26 +0100" Modified="2019-07-25 23:47:26 +0100" Type="TrashFolder">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="9" UUID="0F2F55CD-8AC4-4401-B80D-4164190455F0" Created="2019-10-05 02:14:55 +0100" Modified="2019-10-23 21:50:30 +0100" Type="Text">
+                    <Title>Recipes | Things To Question</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="10" UUID="2CA9B14F-73C7-4945-BB1A-55464CD3B6A9" Created="2019-10-05 02:15:18 +0100" Modified="2019-11-19 10:44:50 +0100" Type="Text">
+                    <Title>Recipes | Notes For Elsewhere</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="59" UUID="C7E48EAD-8312-4891-B507-CA709808C9C5" Created="2020-03-10 16:22:07 +0100" Modified="2020-03-10 16:22:07 +0100" Type="Text">
+                    <Title></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="5" UUID="75AA6E6E-C6CE-4974-9F32-ABCCD9BA6A41" Created="2019-07-25 23:48:49 +0100" Modified="2020-03-10 16:27:15 +0100" Type="Text">
+                    <Title>Recipes | Technical</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="55" UUID="CFD8DD99-E8F8-4BFE-A89B-D49CDAFD28FA" Created="2019-10-21 22:24:14 +0100" Modified="2020-04-20 10:48:38 +0100" Type="Text">
+                    <Title>Props</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="32" UUID="F40EB4C4-2F24-4027-8BB1-4F771E70F320" Created="2019-10-15 23:22:53 +0100" Modified="2020-04-29 09:39:05 +0100" Type="Text">
+                    <Title>Speaking To The Living</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="58" UUID="DB63B3D9-36FE-4EFF-B6CB-AD7DC91EC94A" Created="2019-11-19 10:31:55 +0100" Modified="2019-11-19 10:32:00 +0100" Type="Text">
+                    <Title>Hurting Hands</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>65,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="23" UUID="9B6FEF5D-8A26-4027-9F45-3861AA2AB5DB" Created="2019-10-15 23:09:58 +0100" Modified="2020-05-01 09:44:22 +0100" Type="Text">
+                    <Title>Stoke A Lust</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="44" UUID="DFA863F3-AF29-49FD-B26C-C7723227C5D0" Created="2019-10-15 23:36:16 +0100" Modified="2020-08-03 10:00:00 +0100" Type="Text">
+                    <Title>Good Luck In A Venture At Sea</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="43" UUID="570D7444-EA21-4133-B9B3-F6523363C4B3" Created="2019-10-15 23:31:34 +0100" Modified="2020-08-03 10:00:09 +0100" Type="Text">
+                    <Title>Protect Against Fire</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="63" UUID="595B15CA-872F-49C6-AE40-DB3322D2F456" Created="2020-04-29 14:50:18 +0100" Modified="2020-04-29 14:50:21 +0100" Type="Text">
+                    <Title>Making Light</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="49" UUID="6E9F7632-9CBC-437D-A9FE-BC330AD29838" Created="2019-10-15 23:44:34 +0100" Modified="2020-08-03 14:55:59 +0100" Type="Text">
+                    <Title>[r] Dropsy</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="39" UUID="3CDE3083-08B9-4EC5-A3FD-463EF4CBB174" Created="2019-10-15 23:26:08 +0100" Modified="2020-08-03 14:58:42 +0100" Type="Text">
+                    <Title>[r] To Grow Back Fingers</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="20" UUID="5B67C67F-B84C-464B-A619-1EEC766A8665" Created="2019-10-15 23:08:23 +0100" Modified="2020-08-03 15:16:58 +0100" Type="Text">
+                    <Title>[x] Styes</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="29" UUID="ED23D12F-C313-4C15-92C8-A66E3BCAF7A0" Created="2019-10-15 23:17:59 +0100" Modified="2020-08-03 14:54:38 +0100" Type="Text">
+                    <Title>Making A Knife</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="48" UUID="F5A7EFCA-DE88-420C-852D-135C41D24267" Created="2019-10-15 23:44:10 +0100" Modified="2020-08-03 14:59:00 +0100" Type="Text">
+                    <Title>[r] Venereal Disease</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection Caret="115">59,56</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="21" UUID="27E6208D-7D70-4986-8F50-DF3A4E06735E" Created="2019-10-15 23:09:30 +0100" Modified="2020-08-04 12:10:57 +0100" Type="Text">
+                    <Title>[o] Blemishes</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="56" UUID="63E09611-AA78-4792-865B-BFC124C3B867" Created="2019-11-14 10:32:44 +0100" Modified="2020-08-05 14:44:07 +0100" Type="Text">
+                    <Title>Crocus</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="54" UUID="7FD45000-ED8F-4DE3-B020-3B48444464F5" Created="2019-10-21 22:19:26 +0100" Modified="2020-08-03 09:44:45 +0100" Type="Text">
+                    <Title>RECIPE PROCESS</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="69" UUID="85FCB73D-ADC9-41ED-A063-D65C163D0E42" Created="2020-09-15 11:12:33 +0100" Modified="2020-09-15 11:12:36 +0100" Type="Text">
+                    <Title>A</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="4" UUID="D12F8F01-E3CA-47EE-A31C-F7BC9E896B3A" Created="2019-07-25 23:48:22 +0100" Modified="2020-09-15 11:44:42 +0100" Type="Text">
+                    <Title>Recipes | Ingredient List</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="68" UUID="27F08199-A509-44ED-A0AD-C13A7B26B4BC" Created="2020-09-15 11:02:54 +0100" Modified="2020-09-15 11:02:56 +0100" Type="Folder">
+                    <Title>Doing</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="17" UUID="44432B0C-9AE5-4A0F-93CA-191C9B64CAA3" Created="2019-10-15 23:06:30 +0100" Modified="2020-09-15 14:45:28 +0100" Type="Text">
+                    <Title>[o] Preventing A Pregnancy</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection Caret="258">76,182</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="6" UUID="6A0DE501-49DA-43D3-86C6-9E04AF26DF8E" Created="2019-07-25 23:49:00 +0100" Modified="2020-09-16 09:47:45 +0100" Type="Text">
+                    <Title>Recipes | Vocabulary And Formatting</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>41,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="7" UUID="B5DBACB9-1F6F-4AFF-8350-628AFF41B137" Created="2019-07-25 23:49:18 +0100" Modified="2019-07-25 23:49:20 +0100" Type="Folder">
+                    <Title>Notes</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="53" UUID="53182754-C248-4CCA-8065-EE51AAD3EA69" Created="2019-10-18 00:52:49 +0100" Modified="2020-03-16 10:58:49 +0100" Type="Text">
+                    <Title>Charms On charmspage</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="66" UUID="B030E6A1-C810-48BD-97E5-28A33CE3D05B" Created="2020-08-05 14:45:53 +0100" Modified="2020-09-28 10:28:47 +0100" Type="Text">
+                    <Title>[x] A Waking Tincture</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="61" UUID="32B3C9BE-9911-464C-A51D-976F23DD7802" Created="2020-04-27 15:28:40 +0100" Modified="2020-04-27 15:28:51 +0100" Type="Folder">
+                    <Title>Every Day/Basic</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.752941 0.752941 1.000000">Concept</Label>
+            <Label ID="1" Color="1.000000 0.752941 0.752941">Chapter</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">N/A</Status>
+            <Status ID="1">To Do</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets>
+        <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2020-09-30 09:32:44 +0100"/>
+    </ProjectTargets>
+    <Collections>
+        <Collection Type="Binder" ID="883B6F8E-D119-4605-B433-118154C5657C" Color="0.901961 0.917647 0.933333">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="40D02C3C-1713-4B13-BB9D-FE6CAB812F08" Color="0.901961 0.901961 0.980392">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">ocd</SearchSettings>
+        </Collection>
+    </Collections>
+    <PrintSettings PaperType="A4" LeftMargin="12.4725" RightMargin="12.3591" TopMargin="12.2457" BottomMargin="12.3591" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
+</ScrivenerProject>
