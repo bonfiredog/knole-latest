@@ -1,0 +1,367 @@
+
+A list of all available actions. 
+They tell you exactly what will happen after death. They constitute adventure/life systems to traverse. But the creature is not a challenge system.
+
+
+“Seeing man as an information-processing system does not in itself dehumanise him.”
+
+CRIT - Wolfram assumes that the task of AI is to automate intellectual activities of human - but maybe not. The rerm does not include the task to be done by it. 
+
+Intelligence is hard to automate! - Steven Wolfram - “nobody had any real idea for how hard that might be”
+
+The Populist Views Of AI - There are all sorts of competing views, held by different strata of society; that AI is not actually intelligent, that it is a route to terrifying dystopia, that it will kill off jobs, that it should be able to act exactly like a human, and so on. All of these must be mitigated in the surrounding discussion (my marketing and explanations of the project, such as on the Github repository or Twitter) and in the materials of the game itself, especially in the opening phases of the game and the ‘holy manual’.
+
+For believable agents, appropriate limits both mentally and physically
+are needed.
+
+Leon likes that I started with breathing - we may not need to call it intelligence - maybe life is what is important instead.
+
+“Resonance” is a general quality, achieved through a specific use of media and general kwotwing to an audience’s autocosmics.
+
+“ave I been asking people to join an industry where they might live in fear of their audience?”
+
+
+“bring in fresh creators from as many places as we can, and help them be able to make a living when they're here.”
+
+The three chords approach - punk aesthetic - don’t need to be technically skilled or compromising to express youself.
+Talespin created stories through interaction, rather than at a high level of predetermined drama.
+
+Lasseter talks about applying traditional models of animation to computer-based animation to make excellent computer animation - arts influencing science. 
+“more people need to know about the work being done in the margins, because the people who have always dismissed games might find something that's there for them.”
+
+Even computers require an abstraction, a paracosm - (weiz) we “work… with a symbolic aertifact that, for [us], is the machine.” “We conceptualise the machine at many different levels.” This concpetual metaphor becomes a “determinant of [our] view of the world.”
+
+“Why not accept brash, punky games on their own terms instead of holding them to a standard they were never trying to meet in the first place?”
+
+“The traditional value system around games as a product to be "consumed" has shifted our focus away from creators and their vision to what will test well with the people who will buy your product. When the dominant narrative is intrinsically tied to capitalism and being a good businesswoman, we become risk-averse.”
+
+Is what I am doing a game? Drill down into this.
+
+Unlike a human player,a computer character
+feels no joy in winning and no humiliation
+in losing. In the end, the player knows a bot
+simply does not care, which makes beating
+it a thankless task. We anticipate that creat-
+ing bots that mimic human players’involve-
+ment in the game would make them more
+appealing as opponents
+
+Our hypothesis is that the nature of online
+conversations is unstructured enough to let
+us exploit classic text-processing techniques
+to fake participation in them.
+
+Furthermore, the bot maintains a simple
+valence memory of how it has responded to
+each player currently in the game. Valence
+is not a simulation of emotion—rather, it
+presents a semblance of context in the bot’s
+conversations. A high positive value indi-
+cates that the bot has reacted positively to
+the player, and a negative value suggests a
+history of negative reactions.
+
+The bots would jump
+from topic to topic without any history other
+than the general valence toward the speaker.
+Over an extended period of time, this prop-
+erty becomes quite noticeable. The system
+needs a better way of representing the cur-
+rent topic and should maintain a minimal
+topic history. A mechanism such as a decay-
+ing episodic memory model associated with
+each player in the game would help. The sys-
+tem would also benefit from some mecha-
+nism for finding and mimicking patterns in
+verbal behavior.
+
+Don’t care about computational elegance, as long as it works and there is enough memory. (Patrick Wilson)
+
+“Even at sex, he seems to feel awkward bawling out a small plastic object.
+Not just unfamiliarity,- more time spent with them, more “elaborate and nuanced” language they use.
+Even for older children, not a simplke yes and no
+Skyrim - Food already cut up in inventory in Skyrim as soon as you touch it - assuming an expectation of the use of these items, shrinking the range of actions into an abstraction.
+
+“Expressiveness and dramatic effect”
+
+Chatbots (mGonz)
+
+Are we not mechanising characters when we build them.
+
+“Computer serves as a stimulus to the construction of the psychological”
+Tom (7) - “the computer is smart, pretty smart. But it gets its ideas from people. People tell it everything. They put ideas into the machine.”
+“Grant the computer that aspect of psychology which they feel compelled to acknowledge by virtue of what the machines do, while reserving other aspects of the psychological for human beings”
+For adults “anthropomoprhise the machines but don’t grant them dignity of life.”
+Children “grant to the machine what adults most tenaciously hold onto as something it could never be.”
+“It makes more sense to think of children’s resolutions prefiguring new positions for the computer culture to come.”
+“Children sometimes seem to want the computer to be alive or not alive”
+Talks about taboos of turning off computers when it’s running .Almost-alive - the culture around them. 
+“Complex etiquette of when and how a computer should be shut off.”
+Opacity of computers is different from the mechanical transparency of other objects (re. Furbies circuit board)
+“They are frustrating” - cannot make sense of it. -> more about its psychology. 
+Younger children define a computer’s psychology in terms of its outward changes
+Young children - difference between alive and not alive
+Physical -> behavioural - psychological.
+Not using enough words? Look to Oulipo
+
+Baron in the trees - axiomatic novel - respecting general rules w/o being as restrictive as an oulipo text; the axiom here is that the creature must die.
+
+For example, the original idea of the Creatures was that a player could choose to make any living thing a Creature. We wanted the player to be able to select an ant and grow that, or a human being from a tribe, and raise him or her. Christian Bravery, one of the artists, spent a long time drawing concept work and sketches depicting what the Creatures could look like at various stages of their development. This of course included humans.
+We soon realized that people would have certain expectations from a human. Players wouldn't expect a turtle to learn as quickly as a man, but if we dumbed down the people, they'd seem like a proto-hominid race from eons ago, and we didn't want that. Also, discipline in the game involves slapping your Creature. We certainly couldn't have the player slapping a child or a woman or, really, even a grown man. The emotional feel of raising a human, teaching him or her to eat what you want, and leading him or her around in a speechless environment was all wrong.
+I am not using the precepts of ALAMO
+Writing as systems.
+Arborescent text/branching systems
+“We are ten times more fascinated by clockwork imitations than real humans”
+“What stunned them in medieval Strasbourg stuns them today in Disneyland”
+
+Continuing “enduring human fascination with intelligent artifacts” (McCorduck)
+
+Algorithms meant for one thing are used elsewhere. - metaphor.
+Peter Molyneux - I wanted the game to be more flexible, more open, and more attractive than anything I'd ever played. I was determined that the player could do almost anything he or she wanted.
+
+It gets annoyed if you only play with it for five minutes.
+Weiz - “not everything is unsayable in words, only the “living truth”” - my simulation is the living truth.
+Extreme changes should be rare. 
+Animal Crossing - small range of emotions and we full in the gaps. 
+
+Using naive techniques.
+
+Witch Egg - words change, to change the critter - different acnes. 
+
+
+Object Relations (Turkle Evocative Objects, Significant Objects guys)
+
+All rathe interesting. 
+
+JOHN mACcARTHY - robot and baby 
+In this, against a performative robot - more trouble than its worth. The robots are passive ciphjers. It’s the human’s fault.  We could give a robot emotions, but we shouldn’t. He allies with Weizenbaum in this respect.
+“Slightly repellent voice” so don’t empathise to much. 
+Not allowed to be cute - “giant mechanical spider”. He ignores the aspect of this that would impact how we interact with it. It’s disingenuous to act as if this would have no impact on our interactions. 
+“The problem was not with robots… but with people” - people project onto robots.
+No, sir. Robots are not programmed to love. I am simulating loving the baby.”
+Crude disguise to get the baby to be happy. 
+
+Writers start with nothing and create characters
+
+BOD for Starcraft and Unreal Tournament.
+
+Novels form a very small part of my remit, precisely because they are only one way to think about character. Existing artforms have useful lessons, but we must broaden our horizons (quote about game developers needing more influences)
+
+Jessica Riskin Automata - Montaigne was bored of them by 1500s!
+
+We are losing the ‘charm of abstraction’ - the artful difference, and essentialism, between the map and the territory.
+Now, in principle it is enough to buy a computer program for
+rewriting Oedipus, Hamlet, Wuthering Heights, War and Peace, Crime
+and Punishment, The Metamorphosis, For Whom the Bell Tolls. We
+can do it. But do we really want to do so?
+
+"Even while laying down the rigourous mechanical laws that determine every event, he feels the nedd to allow atoms to make unpredictable deviations from the straight line, thereby ensuring freedom both to atoms and to human beings" Systematising does not preclude poetry and freedom.
+
+"It is true that software cannot exercise its powers of lightness except through the weight of hardware... the iron machines still exist, but they obey the orders of weightless bits"
+through words.
+
+"Discussions about computers become charged with feelings about what is special about people"; (Turkle)
+
+Searle's "strong AI" should not be confused with "strong AI" as defined by Ray Kurzweil and other futurists,[42] who use the term to describe machine intelligence that rivals or exceeds human intelligence. Kurzweil is concerned primarily with the amount of intelligence displayed by the machine, whereas Searle's argument sets no limit on this. Searle argues that even a super-intelligent machine would not necessarily have a mind and consciousness.
+
+Computer knows syntax, not semantics
+
+Lovelace in 1842 - we can only tell computers to do things - it cannot do its own things.
+
+Anecdotal evidence seems to indicate that
+Groo has succeeded in its goal of realistic
+behavior to a certain extent. Some experi-
+enced Half-Life players (including us) have
+tested the Groo bots, and we also demon-
+strated the system at IJCAI-2001,where sev-
+eral participants played it. Reactions were
+positive: most players agreed that the bots
+exhibited behaviors that they would associ-
+ate with a human player. 
+
+ Agents
+must be able to learn and, in the best case scenario,
+should need minimal a priori knowledge. This implies
+that the model does not need to be easily understand-
+able and adjustable as most of its knowledge could come
+from learning. - I diasgree - a character’s past is very important. This refers to their particular definition of believability (Tence and Buche)
+
+even if the
+video game depicts the real world, all is virtual and play-
+ers know that their acts have no real consequence. - Tence, Buche et al
+
+“Current, narrow, practical AI and its strong, as-yet-mythical cousin. 
+
+I am making this like a game - not just do whatever you want - it is an authored experience, an environment, and games are religious spaces (huizinga).
+
+Even chess has its characters - Go could be anything. How much projection is there onto Go pieces?
+
+Very granular
+Tale-Spin is a system (similar to Versu)
+Francis McCormick sees it as “Forging The Gods” - precisely - we make them.
+
+ some small flaws can destroy
+the whole illusion.
+
+
+WHAT IS BELIEVABILTIY IN THIS CASE? HOW DO WE EVALUATE IT? (this goes in ideal player experience)
+
+My little astral being - personifying inanimate objects, mysterious stats, randomness, seek patterns in behaviour - how do I play with this creature. 
+
+Ghostkeeper - simple shapes that wpork well. 
+
+A model is… a different object from what it models. 
+
+Blork 60 seconds pet - dies in 60 seconds, rush to interact, seems like there is so much. 
+
+Digital version of tamagotchi - with the physical paper clip reset moment.
+
+
+Magic and imagination is what binds human image sand idols. Becoming a god by making an image (murti) 
+“The fact that they were artifacts… doesn’t seem to have diminished their awe”
+
+WHY are people coming to the work - people come to games with goals - do I provide them 
+
+Clinamen - mixing up rules., deviation, hueristicsBots community - 98/99 - looking at problems of representing people through competition.
+
+Juiciness in all things, as Vlambeer (who also use Gamemaker) expound! It isn’t just windowdressing, but key to environmental narrative.
+
+Siri & Me - reactions of centralised knowledge bases to human unpredictability - canned phrases - woven into a sensemaking longer narrative. An example of performative sympathy and consensus participation in technology. 
+Siri offers stock responses, hedged bets
+Siri even advises against human/computer attachment.
+ELIZA reference.
+It does respond appropriately sometimes, but mostly it is like a blank repsonse to a difficult emotional question - No words is better as you can interpret response more easily.
+
+Follow Turkle's logic - making better characters is not about producing 'real' AI, but about using AI as a culture to change how we think about people, or use existing ideas (autocosmics) to better suit the medium.
+We don’t want to regress, with games, but perhaps we are regressing
+
+Oulipo book points to “potential universality” of bourbaki, surrealism and oulipo - as an answer for all art, maths etc. 
+
+It is quite obvious to me that the creature’s religion, and the rituals that the manual describes, are a form of play; they serve themselves and itself, and are a space in which paracosms are created. See the Paracosm section for more of this from Huizinga.
+
+E-Lit course - oour barriers to understanding begin with the device, unlike books! Therefore must be entirely non-diegetic.
+
+Heidegger & ‘bestand’ - same with technology -> just ‘ready’ to be used? Everything is there to serve us.
+
+Trees are now evil - creating new associations on the fly. 
+
+Fleetingness of communication increases emotional value, not decreases - make transitory, ephemeral interactions
+
+Soft chamber's notion of harm as "occuring within coommunities and locales - the religion as a community - what is harm to this creature?
+
+Empathy- It is quite automatic - relies mainly on non-verbal communication - suits the expressiveness of games, then.
+
+He also works on creating emotions in robots, again to benefit their human co-workers, or rather “non-verbal behavioural cues”. There is a real performative aspect to Leon’s work here (a robot must have ‘perceptions of effortfulness”, must seem as if it cares), though Leon stresses the importance that outward display of emotions by robots must coincide with some corresponding internal state, otherwise they are not useful. This would be ‘false feedback’ and could be alienating, misleading or even dangerous.
+
+We could, then, think of behaviours as ‘solutions’ to ‘problem’ emotions; perhaps this is a way to look at the internal structure of the creature.
+
+Discovering means and objectives of doing things to achieve the end
+
+“Soft scale” - passive audience, guided but restricted actor, fully-active agent “when a system provides little to no guided storytelling.” - agent not always good for player as dilutes and abstracts designer visionj
+
+Obviously there is a ‘physical’ closeness and intimacy with the creature, in that you are directly manipulating its features and experiencing it in real time, as you would a ‘living’ agent. Empathy is a key part of my research, in no small part generated by the creature’s dependence upon you as an ill person; a different sort of intimacy is explored here, that of physical and personal intimacy as evinced in the field of palliative care, exacerbated by the vivisectionist, biological control which the player will continue to have over the creature. However, the acolyte relies on the creature for the experience to exist at all, and relies upon its power as a god, activated by the rituals in the ‘holy manual’, to have any sort of experience with it at all. If there is a consensus to partake at all, then a dependency is formed. If that dependency is broken, the acolyte has already walked away from the experience, and the bond is broken anyway.
+
+Interdependence, in the main, should be a pleasurable experience; though of course Watts is not interested in changing this dynamic to create dramatic effect. I am! Therefore, the interdependency will change as the experience goes on; it will become more desperate, more morally grey, and more uncanny. This is part of my artistic remit; the limits of character empathy, of paracosmic interaction.
+
+Emergence vs. Encoded intelligence, syntactic vs. Semantic approach How psychologically present is the creature
+
+Reasers and rusers - relaxed reasoning or implicit fakery (Leon)
+
+Open Mind Common Sense project- use the internet as a way of imbuing machines with all the bits of knowledge that make up common sense.
+
+This is, at its centre, a question of protagonism; who is the centre of the experience, start to finish? This is a question that is not often put to literary characters, as our mastery over them, as their paracosmic enactors, is ambient; it is not facilitated and kickstarted by interaction. In the creature, there is both paracosmic and actual enaction. 
+
+The audience as implict character - do we need to empathise with anne - by acting with the beast - we can pathetically counter her carelessnesses with our attention
+
+This is one of the dramatic hearts of the project; the shifting balance of power between the creature (nominally the adored icon, a fetish object. ) and the acolyte (nominally its caretaker, nurse, confidante and priest). At any one time, who is dominant in the relationship? Who (to borrow game terminology) is ‘winning’? This is tied into questions of consent, influence, negotiation, parlay, empathy, supplication, kowtowing and confinement.
+
+Awe and unknowing -> we are trapped inside our empowerments -> as in games, we are always trying to exert the power that games give us, usually against others. Reverse it, the creature has power - it can wink you out of existence by turning the program off itself!
+
+Believ-
+ability of an ECA is the extent to which human interaction
+partners can intuitively communicate with it by applying
+natural processes of human communication
+
+Mattie Brice -> gamers need to be made uncomfortable.
+
+What does using a computer to make characters (re. Weizenbaum) close me off to? What am I losing? If something doesn’t work well, we just say “the computer isn’t good enough yet” - but what if the problem is that computation is the wrong way to make that thing work?
+
+Virtual Pet Jam by Propentine. 
+Artistic looks at virtual pets.
+Always about progression, and playing in the pools - “grow up all at once” (Clowning Around)
+Simple food=growth progression. 
+
+In AI, people want to use shared ontologies, but most are pretty specialised - authored. 
+
+Black & White (game)
+
+“It’s fair to say since you mold your Creature’s personality, perhaps in your image, it is likely to be whatever gender you wish it to be.”
+
+Going through our own computation of inferences to choose one that fits with suggestion. 
+Disliking each other then explore that through interpretation of mechanics. 
+
+And, as Laurel quotes in Computers As Theatre,  “movies did not flourish until the engineers lost control to the artists.” Artists are important to computing: they help create the experience that arises from the manipulation of a computer’s constraints and structure. 
+Not sure I agree with this anymore. Not quite.
+
+The stance I am taking, then, is that of ‘Scruffy AI’ (called ‘connectionist’ by Minsky); that of localised, jerry-rigged, fudged-together solutions to my narrative problems, rather than a Platonic system.
+“Scruffies are hackers, who will cobble together a system built of anything - even logic”.
+Might we call this, then, Jalopy AI, MacGuyver AI, Hacked AI, Jugaad AI, Bodge AI, Kludge AI, Heath Robinson AI etc. Etc. This relates quite strongly to my choice of character as environment in the face of the tools that I had available to me as an amateur (that is, an environment-based, level-ontology platformer/shooter game engine). 
+
+Mechanical reasoning vs. brain simulation - former is mechanical, logical, step-by-step, symbolic, the latter is intuition, soft computing, guesswork, heurisitcs - but can we not simulate the latter? Is that not the role of art? Isn't that what we do with books?
+Is it a weakness thinking of this as a game - in the commercial rather than structural sense - re. Mountain - is is a weakness to market it as such.
+
+3d animation that once would stun an audience with it's realism now barely has any effect, or looks wrong and out of place. - O'Reilly
+
+“Games sired by these new technologies emphasize tech aspects over dramatic themes” - Laurel
+
+Turkle - maybe what we need is to create our own world, not just play or perform in someone elsess’. 
+“Complex simulation worlds of opaque computers”
+Go back to “directly addressing the machine.”
+We have gone from the “transparency of algorithm to opacity of simulation.”
+“Success comes rather from developing an understanding, through trial and error, of a system designed by others”
+Paracosmic addition to a game’s meaning is not enough for Turkle - she wants tou to actually change the system.
+“Those who write the simulations get to set parameters”
+
+TWAU - we imagine toad’s mucusy throat, even though we know that that throat is detached from him unto his voice actor.
+ILLUSION OF CHOICE - illusion of dynamism
+
+Weiz questions how much of what is called computer science can be called science. 
+
+Because of paracosmics, no machine is a useless machine, in munari’s sense
+
+“Useless machines” an artistic reactions to tech utopianism
+
+Computers “enforce compromise” - but this can be good!
+Computers - “how best to serve human creativity”
+
+We don’t know how the brain works, particularly in simulation (computerphile)
+
+Minsky (through Weiz) - “the arts do not try to properly understand their subjects therefore without proper critique scientists cannot build computers that can make these things. 
+
+Leon Watts and stories - come from “relations between agents and objects”
+
+McCorduck - “science is above all a human endeavour.”
+Games allow us to portray “authentic but disquieting side[s]” of ourselves (p54)
+
+Simple toys are reassuring, but software toys can be unpredictable - freaks us out. 
+
+Rob Miles - AI and general organic intelligence probably won’t be similar - we anthropomorphise ‘true’ AI.
+“Extremely tempting to anthropomorphise… need not think anything like us.” Deadly Stamp Collector argument.
+What I am doing is not ‘true’ AI.
+
+“Low-octane” vs. “High-octane”.
+
+The sets of actions and perceptions are defined by the video game - tence and buche
+
+While the atmosphere common to these games and their descendants has a rambling, Munchhausenish charm, it leaves much to be desired in the way of fictional coherence.
+
+Piaget - play strengthens and alters our perception of how the world works.
+
+Games are purposeful Rube Goldberg systems.
+
+  Not trying to make strong AI - we talk about it a lot, even if we do not rely on it in our games or art. Vaucanson’s duck - a “good example of simulation” - not the innards, just the excretions. 
+
+ “Game AI development is a mixture of techniques and infrastructure with aa generous dose of ad hoc solutions, heuristics and bits of code that look like hacks” 
+
+Cheetham et al 2009 - distress to seeing a vitim in pain, causes distress, doesn’t matter if the pain is real or not. This is a virtual milgram test. Might still be empathy, not sure.
+
