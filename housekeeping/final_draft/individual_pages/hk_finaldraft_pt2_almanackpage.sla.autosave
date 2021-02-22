@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCRIBUSUTF8NEW Version="1.4.8">
+    <DOCUMENT ANZPAGES="1" PAGEWIDTH="841.89" PAGEHEIGHT="595.28" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" PRESET="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" ORIENTATION="1" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="0" DFONT="Arial Regular" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="sRGB IEC61966-2.1" DPPr="Fogra27L CMYK Coated Press" DPIn="sRGB IEC61966-2.1" DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="sRGB IEC61966-2.1" DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="0" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="0" SnapToGuides="0" SnapToGrid="0" MINGRID="20" MAJGRID="100" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="0" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.5" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20" ScratchLeft="100" ScratchRight="100" ScratchTop="20" GapHorizontal="0" GapVertical="40" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="10" dispY="10" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="1" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+        <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF/X-1a" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PostScript" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <COLOR NAME="Black" CMYK="#000000ff" Spot="0" Register="0"/>
+        <COLOR NAME="Blue" RGB="#0000ff" Spot="0" Register="0"/>
+        <COLOR NAME="Cool Black" CMYK="#990000ff" Spot="0" Register="0"/>
+        <COLOR NAME="Cyan" CMYK="#ff000000" Spot="0" Register="0"/>
+        <COLOR NAME="Green" RGB="#00ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Magenta" CMYK="#00ff0000" Spot="0" Register="0"/>
+        <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
+        <COLOR NAME="Registration" CMYK="#ffffffff" Spot="0" Register="1"/>
+        <COLOR NAME="Rich Black" CMYK="#996666ff" Spot="0" Register="0"/>
+        <COLOR NAME="Warm Black" CMYK="#00994cff" Spot="0" Register="0"/>
+        <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
+        <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
+        <HYPHEN/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Arial Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="0" doGCR="1" doClip="1" setDevParam="1" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" includePDFMarks="1" PSLevel="-4105958" PDLanguage="-4105958" markOffset="-2.06280943644255e+307" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <DocFonts Name="Arial Regular"/>
+            <DocFonts Name="IM FELL DW Pica PRO Italic"/>
+            <Subset Name="Arial Regular"/>
+            <Subset Name="IM FELL DW Pica PRO Italic"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <LPI Color="" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
+            <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
+            <LPI Color="Yellow" Frequency="133" Angle="90" SpotFunction="3"/>
+        </PDF>
+        <DocItemAttributes/>
+        <TablesOfContents/>
+        <PageSets>
+            <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
+            <Set Name="Double Sided" FirstPage="1" Rows="1" Columns="2">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle Left"/>
+                <PageNames Name="Middle Right"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+        </PageSets>
+        <Sections>
+            <Section Number="0" Name="0" From="0" To="0" Type="Type_1_2_3" Start="1" Reversed="0" Active="1"/>
+        </Sections>
+        <MASTERPAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="841.89" PAGEHEIGHT="595.28" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="Normal" MNAM="" Size="A4" Orientation="1" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="1750" PAGEHEIGHT="900" BORDERLEFT="10" BORDERRIGHT="10" BORDERTOP="10" BORDERBOTTOM="10" NUM="0" NAM="" MNAM="Normal" Size="Custom" Orientation="1" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="1618.75" YPOS="38.375" WIDTH="199.0625" HEIGHT="68.125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 199.062 0 199.062 0 199.062 0 199.062 0 199.062 68.125 199.062 68.125 199.062 68.125 199.062 68.125 0 68.125 0 68.125 0 68.125 0 68.125 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 199.062 0 199.062 0 199.062 0 199.062 0 199.062 68.125 199.062 68.125 199.062 68.125 199.062 68.125 0 68.125 0 68.125 0 68.125 0 68.125 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="27" CH="VII"/>
+            <para ALIGN="1"/>
+            <para/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="(- &amp; Shale you Lastly leve out fore the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="BEEST"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" its Suppre if it be Earnt -)"/>
+            <trail ALIGN="1" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="122.25" YPOS="41.625" WIDTH="207" HEIGHT="66.375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 207 0 207 0 207 0 207 0 207 66.375 207 66.375 207 66.375 207 66.375 0 66.375 0 66.375 0 66.375 0 66.375 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 207 0 207 0 207 0 207 0 207 66.375 207 66.375 207 66.375 207 66.375 0 66.375 0 66.375 0 66.375 0 66.375 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="27" CH="I"/>
+            <para ALIGN="1"/>
+            <para ALIGN="1"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="The "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="BE ESTS"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" Weeke hath Seven dayes &amp; shale "/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="it be-gin each Day at the Sixth Bell -"/>
+            <trail ALIGN="1" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="109.25" YPOS="31" WIDTH="1718.40625" HEIGHT="6.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="2.11106418918919" LOCALSCY="0.191176470588235" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line1.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 1718.41 0 1718.41 0 1718.41 0 1718.41 0 1718.41 6.5 1718.41 6.5 1718.41 6.5 1718.41 6.5 0 6.5 0 6.5 0 6.5 0 6.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 1718.41 0 1718.41 0 1718.41 0 1718.41 0 1718.41 6.5 1718.41 6.5 1718.41 6.5 1718.41 6.5 0 6.5 0 6.5 0 6.5 0 6.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="109.25" YPOS="105" WIDTH="1721.6875" HEIGHT="6.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="2.11509520884521" LOCALSCY="0.191176470588235" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line1.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 1721.69 0 1721.69 0 1721.69 0 1721.69 0 1721.69 6.5 1721.69 6.5 1721.69 6.5 1721.69 6.5 0 6.5 0 6.5 0 6.5 0 6.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 1721.69 0 1721.69 0 1721.69 0 1721.69 0 1721.69 6.5 1721.69 6.5 1721.69 6.5 1721.69 6.5 0 6.5 0 6.5 0 6.5 0 6.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="109" YPOS="110.5" WIDTH="1722.40625" HEIGHT="7.37500000000003" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="2.0652353117506" LOCALSCY="0.273148148148149" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 1722.41 0 1722.41 0 1722.41 0 1722.41 0 1722.41 7.375 1722.41 7.375 1722.41 7.375 1722.41 7.375 0 7.375 0 7.375 0 7.375 0 7.375 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 1722.41 0 1722.41 0 1722.41 0 1722.41 0 1722.41 7.375 1722.41 7.375 1722.41 7.375 1722.41 7.375 0 7.375 0 7.375 0 7.375 0 7.375 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="110.5" YPOS="29.5" WIDTH="8" HEIGHT="575" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.235294117647059" LOCALSCY="0.706388206388206" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line1_v.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 8 0 8 0 8 0 8 0 8 575 8 575 8 575 8 575 0 575 0 575 0 575 0 575 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 8 0 8 0 8 0 8 0 8 575 8 575 8 575 8 575 0 575 0 575 0 575 0 575 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="334.5" YPOS="31" WIDTH="9.50000000000006" HEIGHT="874.9375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.351851851851854" LOCALSCY="1.04908573141487" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line2_v.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 9.5 0 9.5 0 9.5 0 9.5 0 9.5 874.938 9.5 874.938 9.5 874.938 9.5 874.938 0 874.938 0 874.938 0 874.938 0 874.938 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 9.5 0 9.5 0 9.5 0 9.5 0 9.5 874.938 9.5 874.938 9.5 874.938 9.5 874.938 0 874.938 0 874.938 0 874.938 0 874.938 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="484.75" YPOS="33.2500000000001" WIDTH="10.75" HEIGHT="868.9375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.398148148148148" LOCALSCY="1.05581713244228" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line3_v.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 10.75 0 10.75 0 10.75 0 10.75 0 10.75 868.937 10.75 868.937 10.75 868.937 10.75 868.937 0 868.937 0 868.937 0 868.937 0 868.937 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 10.75 0 10.75 0 10.75 0 10.75 0 10.75 868.937 10.75 868.937 10.75 868.937 10.75 868.937 0 868.937 0 868.937 0 868.937 0 868.937 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="1820.5" YPOS="29" WIDTH="9.5" HEIGHT="872.875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.351851851851852" LOCALSCY="1.04661270983213" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line2_v.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 9.5 0 9.5 0 9.5 0 9.5 0 9.5 872.875 9.5 872.875 9.5 872.875 9.5 872.875 0 872.875 0 872.875 0 872.875 0 872.875 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 9.5 0 9.5 0 9.5 0 9.5 0 9.5 872.875 9.5 872.875 9.5 872.875 9.5 872.875 0 872.875 0 872.875 0 872.875 0 872.875 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="792.75" YPOS="34.25" WIDTH="10.75" HEIGHT="877.78125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.398148148148148" LOCALSCY="1.06656287970838" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line3_v.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 10.75 0 10.75 0 10.75 0 10.75 0 10.75 877.781 10.75 877.781 10.75 877.781 10.75 877.781 0 877.781 0 877.781 0 877.781 0 877.781 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 10.75 0 10.75 0 10.75 0 10.75 0 10.75 877.781 10.75 877.781 10.75 877.781 10.75 877.781 0 877.781 0 877.781 0 877.781 0 877.781 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="1025.5" YPOS="32.5" WIDTH="8" HEIGHT="880.625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.235294117647059" LOCALSCY="1.08184889434889" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line1_v.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 8 0 8 0 8 0 8 0 8 880.625 8 880.625 8 880.625 8 880.625 0 880.625 0 880.625 0 880.625 0 880.625 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 8 0 8 0 8 0 8 0 8 880.625 8 880.625 8 880.625 8 880.625 0 880.625 0 880.625 0 880.625 0 880.625 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="1611.5" YPOS="33" WIDTH="9.5" HEIGHT="878.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.351851851851852" LOCALSCY="1.05305755395683" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line2_v.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 9.5 0 9.5 0 9.5 0 9.5 0 9.5 878.25 9.5 878.25 9.5 878.25 9.5 878.25 0 878.25 0 878.25 0 878.25 0 878.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 9.5 0 9.5 0 9.5 0 9.5 0 9.5 878.25 9.5 878.25 9.5 878.25 9.5 878.25 0 878.25 0 878.25 0 878.25 0 878.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="1342.75" YPOS="34.25" WIDTH="7.74999999999977" HEIGHT="877.9375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.287037037037029" LOCALSCY="1.06675273390036" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="0" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../assets/line3_v.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 7.75 0 7.75 0 7.75 0 7.75 0 7.75 877.938 7.75 877.938 7.75 877.938 7.75 877.938 0 877.938 0 877.938 0 877.938 0 877.938 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 7.75 0 7.75 0 7.75 0 7.75 0 7.75 877.938 7.75 877.938 7.75 877.938 7.75 877.938 0 877.938 0 877.938 0 877.938 0 877.938 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="349.125" YPOS="43.5" WIDTH="132.375" HEIGHT="63.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 132.375 0 132.375 0 132.375 0 132.375 0 132.375 63.75 132.375 63.75 132.375 63.75 132.375 63.75 0 63.75 0 63.75 0 63.75 0 63.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 132.375 0 132.375 0 132.375 0 132.375 0 132.375 63.75 132.375 63.75 132.375 63.75 132.375 63.75 0 63.75 0 63.75 0 63.75 0 63.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="27" CH="II"/>
+            <para ALIGN="1"/>
+            <para/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="&amp; Shale you be-gin its Day with a Vurse to be Sang a-loud -"/>
+            <trail ALIGN="1" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="496.125" YPOS="43.125" WIDTH="292.875" HEIGHT="68.625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 292.875 0 292.875 0 292.875 0 292.875 0 292.875 68.625 292.875 68.625 292.875 68.625 292.875 68.625 0 68.625 0 68.625 0 68.625 0 68.625 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 292.875 0 292.875 0 292.875 0 292.875 0 292.875 68.625 292.875 68.625 292.875 68.625 292.875 68.625 0 68.625 0 68.625 0 68.625 0 68.625 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="27" CH="III"/>
+            <para ALIGN="1"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="- &amp; Shale these Subscrybers Promise To  "/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="Call at these Bells Various -"/>
+            <trail ALIGN="1" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="805" YPOS="37.25" WIDTH="213.375" HEIGHT="71.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 213.375 0 213.375 0 213.375 0 213.375 0 213.375 71.5 213.375 71.5 213.375 71.5 213.375 71.5 0 71.5 0 71.5 0 71.5 0 71.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 213.375 0 213.375 0 213.375 0 213.375 0 213.375 71.5 213.375 71.5 213.375 71.5 213.375 71.5 0 71.5 0 71.5 0 71.5 0 71.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="27" CH="IV"/>
+            <para ALIGN="1"/>
+            <para/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="&amp; Later shale the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="B EEST"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" Repair be-Low unto its Realm fore to Eat its Dinnre if it be Earnt-"/>
+            <trail ALIGN="1" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="1035.125" YPOS="35.125" WIDTH="304.375" HEIGHT="67.875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 304.375 0 304.375 0 304.375 0 304.375 0 304.375 67.875 304.375 67.875 304.375 67.875 304.375 67.875 0 67.875 0 67.875 0 67.875 0 67.875 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 304.375 0 304.375 0 304.375 0 304.375 0 304.375 67.875 304.375 67.875 304.375 67.875 304.375 67.875 0 67.875 0 67.875 0 67.875 0 67.875 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="27" CH="V"/>
+            <para ALIGN="1"/>
+            <para/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="- &amp; Shale each Day be Simon Awlbatch "/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="Viewed at these Weekly Busynesses upon the Moor, Neer altering -"/>
+            <trail ALIGN="1" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="1350.5" YPOS="38.5" WIDTH="258.625" HEIGHT="64.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 258.625 0 258.625 0 258.625 0 258.625 0 258.625 64.5 258.625 64.5 258.625 64.5 258.625 64.5 0 64.5 0 64.5 0 64.5 0 64.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 258.625 0 258.625 0 258.625 0 258.625 0 258.625 64.5 258.625 64.5 258.625 64.5 258.625 64.5 0 64.5 0 64.5 0 64.5 0 64.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="27" CH="VI"/>
+            <para ALIGN="1"/>
+            <para/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="- &amp; shale each Day end upon the Nintenth Bell with these litle Dutys &amp; Fettlings &amp; Mentings applyed unto the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="BEEST"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" -"/>
+            <trail ALIGN="1" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="120.75" YPOS="123.75" WIDTH="210.75" HEIGHT="812.1875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 210.75 0 210.75 0 210.75 0 210.75 0 210.75 812.188 210.75 812.188 210.75 812.188 210.75 812.188 0 812.188 0 812.188 0 812.188 0 812.188 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 210.75 0 210.75 0 210.75 0 210.75 0 210.75 812.188 210.75 812.188 210.75 812.188 210.75 812.188 0 812.188 0 812.188 0 812.188 0 812.188 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="The First Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" which be callt in these Parts "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="Cart-Day "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="fore it be when the new Coton is come inn to the Mill on carts &amp; the Porters be brakeing it fore each Floor; &amp; the Mill Pond is dregged &amp; the Races Ment; &amp; Msr. Knole does give his Sermon upon the Witnesing of the Spyrit Holy; &amp; shale you have the Spinners come to you most Oft fore it be their Day of Rest"/>
+            <ITEXT CH=" -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="The Secund Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" which be heer callt "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="Scutch-Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" fore it be when the Coton be cleensed &amp; Scutched un-to Lint &amp; Spun; &amp; the Weafing Stations are mede Right if anie be Broak; &amp; Msr. Knole does spake upon the Topick of Loving Neighbours Well; &amp; shale you have the Dyers come most Oft -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="The Third Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" which be callt "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="Weaf-Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" fore it be when the Coton thus Scutched &amp; Spun is Weafed to Cloth; &amp; are the Carding Stations Ment if broak; &amp; Msr. Knole does give his Sermon upon Jesus The Cowherd; &amp; shale you have no Weafers come"/>
+            <ITEXT CH=" - "/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="The Forth Da"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="y which be callt "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="Shift-Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" fore it be when all them things that as teke no Dye (lace, shrouds, shifts, mobs, unnerskirts, the unnercaps of ofisers, pettingcoats, bandoleers &amp;c.) be sewn up; &amp; do the Men clense behind the waterwheel to have it run free; &amp; does Msr. Knole meke his Sermon upon the Industry of Noah &amp; the Thrift of his Sons; &amp; shale you have the Weafers come that day &amp; all the Carders &amp; Scutchres &amp; Spinnres again -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="The Fifth Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH=" "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="which be callt "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="Scool-Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" heer for do the Children ceaze their Labours at the Leventh Bell &amp; take some Lesions; &amp; are the faggs, redcoats, gartres, kerchiefs, chintz &amp;c. dyed that day; &amp; does Msr. Knole meke no Sermon yet has them Fast &amp; sing to God in the Yard; &amp; do the Soldiers Packets come fore them who have Sons Away; &amp; thus shale you have much busyness in the Eve -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="The Sixth Day "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="which be still callt onlie the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="Sabbath"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="; &amp; shale there be no millwork that day; &amp; shale you thus be much Occupyed -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="The Seventh Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" which be callt in these Parts "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" KERN="-4" CH="Fancy-Day"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" fore it be when those things dyed &amp; not Dyed are cutt fine and their Vanities and Tassellings Attached and are all things wrapt to be Sent to the Citie; and shale Msr. Knole spake upon the Topick of the Glories of the Land and Sea &amp; God upon Earth and the Grave; and shale the wege Packets be Given aftre; and shale you thus be much Occupyed upon the Eve - "/>
+            <trail ALIGN="3" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="350" YPOS="125" WIDTH="133" HEIGHT="731.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 133 0 133 0 133 0 133 0 133 731.5 133 731.5 133 731.5 133 731.5 0 731.5 0 731.5 0 731.5 0 731.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 133 0 133 0 133 0 133 0 133 731.5 133 731.5 133 731.5 133 731.5 0 731.5 0 731.5 0 731.5 0 731.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="22" KERN="-4" CH="Psalm 16:4"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="22" KERN="-4" CH="Psalm 76:4"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="22" KERN="-4" CH="Psalm 5:7"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="22" KERN="-4" CH="Psalm 32:6"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="22" KERN="-4" CH="Psalm 3:6"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="22" KERN="-4" CH="Psalm 96:5"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="22" KERN="-4" CH="Psalm 23:1"/>
+            <para ALIGN="1" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="501.75" YPOS="127.5" WIDTH="288.25" HEIGHT="823.4375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 288.25 0 288.25 0 288.25 0 288.25 0 288.25 823.438 288.25 823.438 288.25 823.438 288.25 823.438 0 823.438 0 823.438 0 823.438 0 823.438 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 288.25 0 288.25 0 288.25 0 288.25 0 288.25 823.438 288.25 823.438 288.25 823.438 288.25 823.438 0 823.438 0 823.438 0 823.438 0 823.438 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="At the Sixth Bell come Old Milton fore to Court with Cleopetra of Aegipt &amp; bring to her Honey of his Bees [ Receipt 73 ] – then at the Seventh Bell come Thomas Innerish fore his Eye [ shalt you see the Neede, Receipt 341 ] – &amp; at the eleventh, twelth &amp; threnth Bells come Sarah Bentler, Jane Sealey &amp; Lady Hallam fore to shirk their Gravity [ Receipt 131 ] – &amp; at the fiftenth Bell come Magistrate Wandley fore his Jugements [ Receipt 65 ] – &amp; then final at the sevententh Bell come John &amp; Mary Foxer fore to spake to their Son in Quebeck &amp; see him yet Lifing [ Receipt "/>
+            <ITEXT CH="73 ] -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="At the Seventh Bell come Ancient Tomothy fore his Profesies [ Receipt 65 ] – &amp; at the Tenth Bell come Msr. Wainscote for his Leggs [ Receipt 102 ] – &amp; at the threnth Bell come Baroness Wrexbottom &amp; her Man fore to staive off her Hous-band [ Receipt 294 ] – &amp; at the fortenth Bell come Cath Hopgood fore to have a Philtre [ Receipt 96 ] – &amp; at the ninetenth Bell come Mr. Garston fore to scrye after his Negroes [ Receipt 10 "/>
+            <ITEXT CH="] - "/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="At the Sixth Bell come Msr. Peckford fore to spake to his Son in Quebeck &amp; ask after his best Sabre [ Receipt 73 ] – &amp; at the Ninth Bell come Widower Johnson fore to ask where she did leve the Shears [ Receipt 73] – &amp; at the Tenth Bell come Elspeth fore to sitt with it [ Receipt 11 ]  &amp; at the Leventh Bel come Ms. Astell (if she be writting) fore her Mouse [Receipt 42 ] – &amp; at the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="fiftenth"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH=" Bell come Mol Hodstaf, Jane Bannery &amp; Anne Jones fore to shirk their Gravity [ Receipt 131"/>
+            <ITEXT CH=" ] - "/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="At the Eighth Bell comes Widower Johnson fore to shew her his Packet [ Receipt 73 ] –"/>
+            <ITEXT CH=" "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="&amp; at the Tenth Bell come Ratter Mitcham fore to keap his Oldest Stoat Lifing [ Receipt 206 ] – &amp; at the Leventh Bell come George Marston fore to spake wyth his Son in Botany Bay, &amp; askt of hys Luncheon [ Receipt 73 ] - &amp; at the Twelth Bell come Msr. Wainscote for his Leggs again [ Receipt 102 ] – &amp; at the fiftenth Bell most oft come Ms. Parsons fore a Marrying Draft [ Receipt 176 ] – &amp; at the verie last Bell come Mrs. Polshaw fore to shirk her Gravity [ Receip"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="t 131 ] -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="At the Leventh &amp; Twelvth Bell come Mrs. Uxhart &amp; Mrs. Underham fore to shirk their Gravity [ Receipt 131 ] – &amp; at the sixtenth Bell come Matthew Eliott fore hys Pil [ Receipt 214 ] – &amp; at the sevententh Bell come Nan Horsham fore to have her Hous-band taste of Aple [ Receipt 90 ] – &amp; at the eightenth Bell come Baron Wrexbottom &amp; his Man fore to get his Wyfe fekkened [ Receipt 294 ] – &amp; at the last Bell come Tom Jensen fore his poor Thorts [ Receipt "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="97 ]- "/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="At the Sixth Bell come Charlotte Knole fore to ask if she should Yett Escape her Fathre &amp; go to Sea [ always neer Yett, Receipt 202 ] – &amp; at the Eigth Bell come little Mary Evans (wyth her mothre) fore her Back, Hands &amp;c. [ Receipt 122  ] – &amp; at the Ninth Bell come Lucy Parsons, Mistress Struck &amp; Lady Devonshire fore to shirk their Gravity         "/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="[ Receipt 131 ] – &amp; at the Sevententh Bell comes the Reverend Melchet fore his Zodiacks [ Receipt 240 ] – &amp; at the verie last Bell come Msr. Wainscote fore his Leggs onse More [ Receipt "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="102 ] -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="At the Seventh Bell come Master Wright (if he be Pain-ting) fore to have the Mysts come down a lyttle for his Picktures [ Receipt 103 ] – &amp; at the Ninth Bell come Olf Cromer for his Rheum [ Receipt 46 ] &amp; at the Twelvth &amp; Thirtenth Bells come Maria Methuen &amp; Holly Bartridge fore to shirk their Gravity [ Receipt 131 ] – &amp; at the sixtenth Bell comes the Groom Trent fore to gett the Mysts up a litle that he might have a Sun-sett with the Mistress Akehurst [ Receipt 103 ] – &amp; at the verie last Bell come the Widower Johnson fore to telt her good-Night "/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="[ Receipt 73 ] - "/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="806" YPOS="128.875" WIDTH="213.625" HEIGHT="814.375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 213.625 0 213.625 0 213.625 0 213.625 0 213.625 814.375 213.625 814.375 213.625 814.375 213.625 814.375 0 814.375 0 814.375 0 814.375 0 814.375 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 213.625 0 213.625 0 213.625 0 213.625 0 213.625 814.375 213.625 814.375 213.625 814.375 213.625 814.375 0 814.375 0 814.375 0 814.375 0 814.375 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Fore the Period atween the Twelvth Bell &amp;"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="the Thirtenth Bell"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" CH=" - "/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Early atween the Eighth &amp; Ninth Bells"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" CH=" -"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Fore the Period atween the Twelvth Bell &amp;"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="the Thirtenth Bell"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" CH=" - "/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Lately atween the Sixtenth &amp; Sevententh Bells"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" CH=" - "/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="There shale be no "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" CH="Dinnre This Day -"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Not un-till the Eightenth Bell &amp; only"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="shortly"/>
+            <ITEXT CH=" - "/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <para ALIGN="1" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="For only half the Span atween the Tenth  &amp;"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" CH=" Leventh Bells -"/>
+            <para ALIGN="1" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="1038.75" YPOS="128.75" WIDTH="303" HEIGHT="828.375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 303 0 303 0 303 0 303 0 303 828.375 303 828.375 303 828.375 303 828.375 0 828.375 0 828.375 0 828.375 0 828.375 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 303 0 303 0 303 0 303 0 303 828.375 303 828.375 303 828.375 303 828.375 0 828.375 0 828.375 0 828.375 0 828.375 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="At verie first Light afore the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Forth Bell"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" does he go un-to St. Severus Wood in the West - &amp; then atween the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Tenth &amp; Fortenth Bells"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" does he go to fish the Twin Meres upon the Sloaps there to the North &amp; East - &amp; does he then go to the two great Stane upon the Highest Ground Northards &amp; is un-seen for "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="two Bells or more"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" - &amp; does he then come to his Byre fore "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="a Bell &amp; a litle"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" - &amp; then goes Forth again at Dusk with a Lamp back &amp; forth about the Heaths at his Afairs ( yett only if a Moon be shining else he sleaps in his bed all the Night)-"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="Upon the Morn some tyme atween the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Eighth &amp; Ninth Bells"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" does he go East to the Orizon fore to drove his Herd down to the Western Fields that they might be Veted – &amp; then near enough the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Fiftenth Bell"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" does he drove them back East to the Hights again fore the Night – &amp; then come Dusk comes he to sleap in his Byre all the Night with no Variety"/>
+            <ITEXT CH=" - "/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="Upon this day does he meke but Litle Labour yett can alwaies be viewed fishing again the two mere-Ponds afore the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Twelvth Bell"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" sounds – &amp; then does he go to the Woods upon the Southern sloaps at some Mischeev fore "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="two Bells &amp; a litle"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" - &amp; then does he go about"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="back &amp; forth all afternoon aftre Poachres (&amp; can be seen with a Lamp if it be a Dull Day) – &amp; close alwaies to the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Sixtenth Bell"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" does he go to Lie the rest of the Day with-in his Byre like a Body -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="Does he sleap verie Late upon this day &amp; does not ryse until the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Leventh Bell "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="which oft wekes him -&amp; all the day un-till it comes Dusk does he drove his poor herd to the East &amp; then the West ovre again to no Purpose Viewed – &amp; does he then go up about the two great Stones again fore some Busyness &amp; sleap the Night then in the door of the Old Mound upon the Northern Scree -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="Shale he be out afore the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Fifth Bell"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" to come down again to his Byre to sleap from the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Sixth Bell"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" through much of the Day – &amp; does he then go again to St. Severus Wood at the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Threnth Bell"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" – &amp; at the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FEATURES="inherit underline" CH="Fiftenth"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" return to his Byre – &amp; then does he go Forth again at Dusk with his cloke &amp; a lamp to seek of Poachres upon the Northern Sloap all the Night -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="Shale he be Viewed the first at the Eigth Bell with his Herd at the old graveplace to the East of St. Severus Wood fore to meke his Watre – &amp; does he then drove the Herd south to Market at Nighcester – &amp; shale not return to View un-till verie Late again, upon the Eightenth Bell at the Least – when shale he Sleap the Night in his Byre &amp; not ryse from there all the Night -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="Upon thys day he mekes but litle Labour &amp; is strangely Going – fore some days shale he be seen knocking at Walls on the East Moor if there be no Soul about – &amp; times goes he Fishing again – &amp; oft does he go up &amp; down the Sloaps over again &amp; looking fore some "/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH="thing that he does neer Find; &amp; if it be a Moon shining when it come Dusk does he go up with no Lamp at all &amp; is seen at the two great Stane for many a bell-less Houre -"/>
+            <trail ALIGN="3" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="1351" YPOS="126.875" WIDTH="257" HEIGHT="832.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257 0 257 0 257 0 257 0 257 832.5 257 832.5 257 832.5 257 832.5 0 832.5 0 832.5 0 832.5 0 832.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257 0 257 0 257 0 257 0 257 832.5 257 832.5 257 832.5 257 832.5 0 832.5 0 832.5 0 832.5 0 832.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="Shale you scour the Philaments that they shale be tidy &amp; Polyte to soot Visitations - &amp; shale you meke a Dosage to each Orbit of the Abrading Ajent, &amp; clense about the Intake for stray soilage with the correckt Soaping -"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" &amp; final agitate all Working Features that they run free &amp; with-out fricting -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="Shale you scutch all the Philaments very Ordered – &amp; shale you clense down the Exhaust of anie Soilage with the Soaping again-"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <tab/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="Shale you scour anie Philaments that do Obsckure with the Working Features – &amp; shale you ment any Portions that be Broak with a litle of the correckt De-tergant -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="12" KERN="-4" CH="Shale you onlie clense the Temple this Eve with a litle of the Soaping "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="12" CH="-"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" &amp; meke a Dosage of the Abrading Ajent to each of the Champhers -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="Shale you manufecture the Soaping again &amp; clense any othre Parte that have come greazed – &amp; shale you come verie Close &amp; dig away with your Fingre any Wens or litle whitlowes that have Arysen about the Orbits -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="Upon this day shale you meke a Servising Full of the Grail -"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" KERN="-4" CH="Shale you end your Week most Thorough – &amp; shale you clense away greaze from anie Surfase with the correckt Soaping &amp; especial the Grail - &amp; shale you ment any Portion broak with the correckt De-tergant -"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" CH=" &amp; final agitate all Working Features that they run free &amp; with-out fricting- "/>
+            <trail ALIGN="3" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="1622.5" YPOS="125.46875" WIDTH="193.90625" HEIGHT="829.53125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 193.906 0 193.906 0 193.906 0 193.906 0 193.906 829.531 193.906 829.531 193.906 829.531 193.906 829.531 0 829.531 0 829.531 0 829.531 0 829.531 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 193.906 0 193.906 0 193.906 0 193.906 0 193.906 829.531 193.906 829.531 193.906 829.531 193.906 829.531 0 829.531 0 829.531 0 829.531 0 829.531 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Three dropp"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit" KERN="-4" CH="ings "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Cofee of Saphron"/>
+            <ITEXT FONTSIZE="14" CH=" -"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="A litle of the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Hair upon your Head"/>
+            <ITEXT FONTSIZE="14" CH=" -"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="One Paring of "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="the Nayl upon your"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Third Fingre"/>
+            <ITEXT FONTSIZE="14" CH=" - "/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Five droppings "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Johns Tamarisk"/>
+            <ITEXT CH=" - "/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="One fingring of "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Salt"/>
+            <ITEXT CH=" - "/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="One fingring of "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Sugarre"/>
+            <ITEXT CH=" - "/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="One dropping "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Cofee of Saphro"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="n"/>
+            <ITEXT CH=" - "/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="One dropping "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Johns Tamarisk"/>
+            <ITEXT CH="- "/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="One dropping "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Decocktion of Guinea"/>
+            <ITEXT CH=" -"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Three droppings "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Decocktion of Guinea"/>
+            <ITEXT CH=" -"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Two fingrings of "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Sugarre"/>
+            <ITEXT CH=" - "/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="A litle of the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Hair upon your Left Brow"/>
+            <ITEXT CH="- "/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="There shale be no Suppre thys Day -"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Four droppings "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Cofee of Saphron"/>
+            <ITEXT CH=" -"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Three fingrings of "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Salt"/>
+            <ITEXT CH=" - "/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="One dropping "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Johns Tamarisk"/>
+            <ITEXT CH=" -"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="Two droppings "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Decocktion of Guinea"/>
+            <ITEXT CH=" -"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="One fingring of "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Sugarre"/>
+            <ITEXT CH=" -"/>
+            <para ALIGN="0" LINESP="12"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH="A litle of the "/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" FEATURES="inherit underline" KERN="-4" CH="Hair above your Cunny"/>
+            <ITEXT FONT="IM FELL DW Pica PRO Italic" FONTSIZE="14" KERN="-4" CH=" -"/>
+            <trail ALIGN="0" LINESP="12"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+    </DOCUMENT>
+</SCRIBUSUTF8NEW>
