@@ -1,0 +1,7 @@
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\dlls\MoonPhaseCalc\MoonPhaseCalc\bin\Release\MoonPhaseCalc.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\dlls\MoonPhaseCalc\MoonPhaseCalc\bin\Release\MoonPhaseCalc.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\dlls\MoonPhaseCalc\MoonPhaseCalc\obj\Release\MoonPhaseCalc.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\dlls\MoonPhaseCalc\MoonPhaseCalc\obj\Release\MoonPhaseCalc.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\dlls\MoonPhaseCalc\MoonPhaseCalc\bin\Release\Newtonsoft.Json.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\dlls\MoonPhaseCalc\MoonPhaseCalc\bin\Release\Newtonsoft.Json.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\dlls\MoonPhaseCalc\MoonPhaseCalc\obj\Release\MoonPhaseCalc.csprojResolveAssemblyReference.cache

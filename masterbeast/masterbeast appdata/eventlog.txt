@@ -1,0 +1,346 @@
+
+12:9:38: Seen motion in second camera.
+12:9:38: Emotion changed: fear up 20@1
+12:9:38: Emotion changed: shame up 20@1
+12:9:38: Made a vocal sound.
+12:9:38: Opening mouth.
+12:9:38: Moved back or forward.
+12:9:38: Emotion changed: surprise up 40@1
+12:9:38: Gave a little jump.
+12:9:38: Started sniffing.
+12:9:38: Started squinting.
+12:9:38: Started sniff.
+12:9:38: Breathing stopped.
+12:9:38: Breathing stopped.
+12:9:38: Breathing stopped.
+12:9:38: Breathing stopped.
+12:9:38: Breathing stopped.
+12:9:38: Breathing stopped.
+12:9:38: Breathing stopped.
+12:9:38: Breathing stopped.
+12:9:38: Breathing stopped.
+12:9:39: Breathing stopped.
+12:9:39: Breathing stopped.
+12:9:39: Breathing stopped.
+12:9:39: Started a blink.
+12:9:39: Closing eyes.
+12:9:39: Vocalised.
+12:9:39: Opening eyes.
+12:9:39: Started a blink.
+12:9:39: Closing eyes.
+12:9:40: Opening eyes.
+12:9:43: Started a blink.
+12:9:43: Closing eyes.
+12:9:43: Opening eyes.
+12:9:44: Seen motion in second camera.
+12:9:44: Emotion changed: fear up 20@1
+12:9:44: Emotion changed: shame up 20@1
+12:9:44: Emotion changed: surprise up 40@1
+12:9:44: Gave a little jump.
+12:9:44: Started sniffing.
+12:9:44: Started squinting.
+12:9:44: Started sniff.
+12:9:44: Breathing stopped.
+12:9:44: Breathing stopped.
+12:9:44: Breathing stopped.
+12:9:44: Breathing stopped.
+12:9:44: Breathing stopped.
+12:9:44: Breathing stopped.
+12:9:44: Breathing stopped.
+12:9:44: Breathing stopped.
+12:9:44: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing stopped.
+12:9:45: Breathing started.
+12:9:45: Started a blink.
+12:9:45: Closing eyes.
+12:9:45: Opening eyes.
+12:9:47: Started a blink.
+12:9:47: Closing eyes.
+12:9:47: Opening eyes.
+12:9:49: Started a blink.
+12:9:49: Closing eyes.
+12:9:50: Opening eyes.
+12:9:52: Emotion changed: surprise up 20@2
+12:9:52: Caul vibrating.
+12:9:52: Started a blink.
+12:9:52: Caul vibrating.
+12:9:52: Closing eyes.
+12:9:53: Opening eyes.
+12:9:53: Started a blink.
+12:9:53: Closing eyes.
+12:9:54: Started a blink.
+12:9:54: Closing eyes.
+12:9:54: Opening eyes.
+12:9:54: Seen motion in second camera.
+12:9:54: Emotion changed: fear up 20@1
+12:9:54: Emotion changed: shame up 20@1
+12:9:54: Emotion changed: surprise up 40@1
+12:9:54: Gave a little jump.
+12:9:54: Started sniffing.
+12:9:54: Started squinting.
+12:9:54: Started sniff.
+12:9:54: Breathing stopped.
+12:9:54: Breathing stopped.
+12:9:54: Seen motion in main camera.
+12:9:54: Emotion changed: fear up 10@0.80
+12:9:54: Emotion changed: shame up 5@0.80
+12:9:54: Emotion changed: surprise up 30@1
+12:9:54: Started squinting.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:55: Breathing stopped.
+12:9:56: Breathing started.
+12:9:56: Started a blink.
+12:9:56: Closing eyes.
+12:9:56: Opening eyes.
+12:9:57: Started a blink.
+12:9:57: Closing eyes.
+12:9:57: Opening eyes.
+12:9:58: Started sniffing.
+12:9:58: Started sniff.
+12:9:58: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing stopped.
+12:9:59: Breathing started.
+12:9:59: Seen motion in main camera.
+12:9:59: Seen motion in second camera.
+12:10:1: Heard: 
+12:10:1: New Recognition Result - 's'
+12:10:1: Caul vibrating.
+12:10:8: Seen motion in second camera.
+12:10:8: Started squinting.
+12:10:9: Started a blink.
+12:10:10: Closing eyes.
+12:10:10: Started a blink.
+12:10:10: Closing eyes.
+12:10:10: Opening eyes.
+12:10:12: Closed Debug.
+12:10:12: Seen motion in second camera.
+12:10:12: Emotion changed: fear up 20@1
+12:10:12: Emotion changed: shame up 20@1
+12:10:12: Made a vocal sound.
+12:10:12: Opening mouth.
+12:10:12: Moved back or forward.
+12:10:12: Emotion changed: surprise up 40@1
+12:10:12: Gave a little jump.
+12:10:12: Started sniffing.
+12:10:12: Started sniff.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:12: Breathing stopped.
+12:10:13: Vocalised.
+12:10:13: Seen motion in main camera.
+12:10:13: Emotion changed: fear up 10@0.80
+12:10:13: Emotion changed: shame up 5@0.80
+12:10:13: Emotion changed: surprise up 30@1
+12:10:13: Started squinting.
+12:10:14: Started a blink.
+12:10:14: Closing eyes.
+12:10:14: Opening eyes.
+12:10:16: Started a blink.
+12:10:16: Closing eyes.
+12:10:16: Opening eyes.
+12:10:16: Seen motion in main camera.
+12:10:21: Seen motion in second camera.
+12:10:21: Started squinting.
+12:10:21: Seen motion in main camera.
+12:10:21: Started squinting.
+12:10:22: Started a blink.
+12:10:22: Closing eyes.
+12:10:22: Opening eyes.
+12:10:24: Moved back or forward.
+12:10:24: Started shivering.
+12:10:25: Started a blink.
+12:10:25: Closing eyes.
+12:10:25: Moved back or forward.
+12:10:25: Opening eyes.
+12:10:26: Moved back or forward.
+12:10:26: Moved back or forward.
+12:10:27: Moved back or forward.
+12:10:27: Moved back or forward.
+12:10:27: Moved back or forward.
+12:10:27: Moved back or forward.
+12:10:27: Moved back or forward.
+12:10:28: Moved back or forward.
+12:10:28: Moved back or forward.
+12:10:28: Moved back or forward.
+12:10:28: Moved back or forward.
+12:10:29: Moved back or forward.
+12:10:29: Started a blink.
+12:10:29: Closing eyes.
+12:10:29: Moved back or forward.
+12:10:29: Opening eyes.
+12:10:29: Moved back or forward.
+12:10:29: Moved back or forward.
+12:10:30: Moved back or forward.
+12:10:30: Started a blink.
+12:10:30: Closing eyes.
+12:10:30: Moved back or forward.
+12:10:31: Opening eyes.
+12:10:31: Moved back or forward.
+12:10:34: Started a blink.
+12:10:34: Closing eyes.
+12:10:34: Opening eyes.
+12:10:34: Moved back or forward.
+12:10:38: Started a blink.
+12:10:38: Closing eyes.
+12:10:39: Opening eyes.
+12:10:40: Moved back or forward.
+12:10:41: Moved back or forward.
+12:10:42: Moved back or forward.
+12:10:43: Moved back or forward.
+12:10:43: Moved back or forward.
+12:10:43: Started a blink.
+12:10:44: Closing eyes.
+12:10:44: Moved back or forward.
+12:10:44: Opening eyes.
+12:10:45: Seen motion in main camera.
+12:10:45: Emotion changed: fear up 10@0.80
+12:10:45: Emotion changed: shame up 5@0.80
+12:10:45: Made a vocal sound.
+12:10:45: Opening mouth.
+12:10:45: Emotion changed: surprise up 30@1
+12:10:45: Gave a little jump.
+12:10:45: Seen motion in second camera.
+12:10:46: Vocalised.
+12:10:47: Seen motion in main camera.
+12:10:47: Started squinting.
+12:10:48: Started a blink.
+12:10:48: Closing eyes.
+12:10:48: Opening eyes.
+12:10:56: Started a blink.
+12:10:56: Closing eyes.
+12:10:56: Opening eyes.
+12:10:58: Slipped down.
+12:10:58: Emotion changed: surprise up 40@0.60
+12:10:58: Emotion changed: fear up 30@0.10
+12:10:58: Emotion changed: shame up 10@0.10
+12:10:59: Started a blink.
+12:10:59: Closing eyes.
+12:11:0: Opening eyes.
+12:11:1: Started sniffing.
+12:11:1: Started sniff.
+12:11:1: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing stopped.
+12:11:2: Breathing started.
+12:11:3: Slipped.
+12:11:5: Started a blink.
+12:11:5: Closing eyes.
+12:11:5: Opening eyes.
+12:11:8: Started a blink.
+12:11:8: Closing eyes.
+12:11:8: Opening eyes.
+12:11:11: Seen motion in main camera.
+12:11:11: Emotion changed: fear up 10@0.80
+12:11:11: Emotion changed: shame up 5@0.80
+12:11:11: Emotion changed: surprise up 30@1
+12:11:11: Gave a little jump.
+12:11:12: Seen motion in second camera.
+12:11:12: Started squinting.
+12:11:13: Started a blink.
+12:11:13: Closing eyes.
+12:11:13: Started a blink.
+12:11:13: Closing eyes.
+12:11:14: Opening eyes.
+12:11:15: Opened Debug.
+12:11:18: Started a blink.
+12:11:18: Closing eyes.
+12:11:19: Opening eyes.
+12:11:25: Seen motion in second camera.
+12:11:25: Emotion changed: fear up 20@1
+12:11:25: Emotion changed: shame up 20@1
+12:11:25: Made a vocal sound.
+12:11:25: Opening mouth.
+12:11:25: Emotion changed: surprise up 40@1
+12:11:25: Started sniffing.
+12:11:25: Started squinting.
+12:11:25: Started sniff.
+12:11:25: Breathing stopped.
+12:11:25: Breathing stopped.
+12:11:25: Breathing stopped.
+12:11:25: Breathing stopped.
+12:11:25: Breathing stopped.
+12:11:25: Breathing stopped.
+12:11:26: Breathing stopped.
+12:11:26: Breathing stopped.
+12:11:26: Breathing stopped.
+12:11:26: Breathing stopped.
+12:11:26: Breathing stopped.
+12:11:26: Breathing stopped.
+12:11:26: Vocalised.
+12:11:31: Started a blink.
+12:11:31: Closing eyes.
+12:11:31: Opening eyes.
+12:11:38: Started a blink.
+12:11:38: Closing eyes.
+12:11:43: Opening eyes.
+12:11:48: Seen motion in second camera.
+12:11:48: Emotion changed: fear up 20@1
+12:11:48: Emotion changed: shame up 20@1
+12:11:48: Made a vocal sound.
+12:11:48: Opening mouth.
+12:11:48: Emotion changed: surprise up 40@1
+12:11:48: Gave a little jump.
+12:11:48: Started sniffing.
+12:11:48: Started sniff.
+12:11:48: Breathing stopped.
+12:11:48: Breathing stopped.
+12:11:48: Breathing stopped.
+12:11:48: Breathing stopped.
+12:11:48: Breathing stopped.
+12:11:48: Breathing stopped.
+12:11:48: Breathing stopped.
+12:11:48: Breathing stopped.

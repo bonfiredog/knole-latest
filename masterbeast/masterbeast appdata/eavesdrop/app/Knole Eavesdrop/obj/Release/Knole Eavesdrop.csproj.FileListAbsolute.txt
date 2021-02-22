@@ -1,0 +1,174 @@
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe.config
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.pdb
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csprojResolveAssemblyReference.cache
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Form1.resources
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Properties.Resources.resources
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csproj.GenerateResource.Cache
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.exe
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe.config
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.exe
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Form1.resources
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Properties.Resources.resources
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csproj.GenerateResource.Cache
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe.config
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.exe
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Form1.resources
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Properties.Resources.resources
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csproj.GenerateResource.Cache
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe.config
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.exe
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Form1.resources
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Properties.Resources.resources
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csproj.GenerateResource.Cache
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Newtonsoft.Json.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Newtonsoft.Json.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\MoonPhaseCalc.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\MoonPhaseCalc.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Imaging.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Math.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Video.DirectShow.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Video.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Vision.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Imaging.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Math.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Video.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Video.DirectShow.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Vision.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\x64\liblept172.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\x64\libtesseract304.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\x86\liblept172.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\x86\libtesseract304.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Tesseract.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Tesseract.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.bigrams
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.fold
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.lm
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.nn
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.params
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.size
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.word-freq
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.tesseract_cube.nn
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.traineddata
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Microsoft.ProjectOxford.Common.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Microsoft.ProjectOxford.Emotion.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\System.Net.Http.Extensions.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\System.Net.Http.Primitives.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\System.Net.Http.Extensions.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\System.Net.Http.Primitives.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Microsoft.ProjectOxford.Vision.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.GLControl.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\ZedGraph.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.GLControl.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\ZedGraph.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\de\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\es\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\fr\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\hu\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\it\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\ja\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\pt\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\ru\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\sk\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\sv\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\tr\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\zh-cn\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\zh-tw\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.UI.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.UI.GL.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.World.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.UI.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.UI.GL.xml
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.World.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe.config
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.exe
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Form1.resources
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole_Eavesdrop.Properties.Resources.resources
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csproj.GenerateResource.Cache
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\x64\liblept172.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\x64\libtesseract304.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\x86\liblept172.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\x86\libtesseract304.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.bigrams
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.fold
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.lm
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.nn
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.params
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.size
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.cube.word-freq
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.tesseract_cube.nn
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tessdata\eng.traineddata
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.exe
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Imaging.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Math.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Video.DirectShow.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Video.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Vision.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.UI.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.UI.GL.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.World.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Microsoft.ProjectOxford.Common.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Microsoft.ProjectOxford.Emotion.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Microsoft.ProjectOxford.Vision.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\MoonPhaseCalc.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Newtonsoft.Json.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\System.Net.Http.Extensions.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\System.Net.Http.Primitives.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Tesseract.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\ZedGraph.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.GLControl.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Imaging.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Math.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Video.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Video.DirectShow.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\AForge.Vision.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.UI.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.UI.GL.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Emgu.CV.World.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\MoonPhaseCalc.pdb
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Newtonsoft.Json.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\System.Net.Http.Extensions.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\System.Net.Http.Primitives.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\Tesseract.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\ZedGraph.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.GLControl.xml
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\de\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\es\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\fr\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\hu\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\it\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\ja\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\pt\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\ru\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\sk\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\sv\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\tr\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\zh-cn\ZedGraph.resources.dll
+E:\Git Projects\knole\masterbeast\masterbeast appdata\eavesdrop\app\Knole Eavesdrop\bin\Release\zh-tw\ZedGraph.resources.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Release\OpenTK.GLControl.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Release\Knole Eavesdrop.csprojResolveAssemblyReference.cache

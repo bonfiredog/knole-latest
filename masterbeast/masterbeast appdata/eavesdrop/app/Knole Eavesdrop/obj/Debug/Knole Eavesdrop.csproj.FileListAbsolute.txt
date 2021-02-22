@@ -1,0 +1,27 @@
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\Knole Eavesdrop\Knole Eavesdrop\bin\Debug\Knole Eavesdrop.exe.config
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\Knole Eavesdrop\Knole Eavesdrop\bin\Debug\Knole Eavesdrop.exe
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\Knole Eavesdrop\Knole Eavesdrop\bin\Debug\Knole Eavesdrop.pdb
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\Knole Eavesdrop\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.csprojResolveAssemblyReference.cache
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\Knole Eavesdrop\Knole Eavesdrop\obj\Debug\Knole_Eavesdrop.Form1.resources
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\Knole Eavesdrop\Knole Eavesdrop\obj\Debug\Knole_Eavesdrop.Properties.Resources.resources
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\Knole Eavesdrop\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.csproj.GenerateResource.Cache
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\Knole Eavesdrop\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.exe
+C:\Thew\Git Projects\knole\masterbeast\eavesdrop\Knole Eavesdrop\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Debug\Knole Eavesdrop.exe.config
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.exe
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Debug\Knole Eavesdrop.exe
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Debug\Knole Eavesdrop.pdb
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole_Eavesdrop.Form1.resources
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole_Eavesdrop.Properties.Resources.resources
+E:\Git Projects\knole\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.csproj.GenerateResource.Cache
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Debug\Knole Eavesdrop.exe.config
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.exe
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Debug\Knole Eavesdrop.exe
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\bin\Debug\Knole Eavesdrop.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.csprojResolveAssemblyReference.cache
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole_Eavesdrop.Form1.resources
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole_Eavesdrop.Properties.Resources.resources
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\app\Knole Eavesdrop\obj\Debug\Knole Eavesdrop.csproj.GenerateResource.Cache
