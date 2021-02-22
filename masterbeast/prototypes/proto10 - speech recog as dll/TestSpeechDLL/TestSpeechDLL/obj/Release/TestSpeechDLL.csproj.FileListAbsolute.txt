@@ -1,0 +1,5 @@
+C:\Thew\Git Projects\knole\prototypes\proto10 - speech recog as dll\TestSpeechDLL\TestSpeechDLL\bin\Release\TestSpeechDLL.dll
+C:\Thew\Git Projects\knole\prototypes\proto10 - speech recog as dll\TestSpeechDLL\TestSpeechDLL\bin\Release\TestSpeechDLL.pdb
+C:\Thew\Git Projects\knole\prototypes\proto10 - speech recog as dll\TestSpeechDLL\TestSpeechDLL\obj\Release\TestSpeechDLL.csprojResolveAssemblyReference.cache
+C:\Thew\Git Projects\knole\prototypes\proto10 - speech recog as dll\TestSpeechDLL\TestSpeechDLL\obj\Release\TestSpeechDLL.dll
+C:\Thew\Git Projects\knole\prototypes\proto10 - speech recog as dll\TestSpeechDLL\TestSpeechDLL\obj\Release\TestSpeechDLL.pdb

@@ -1,0 +1,46 @@
+c:\thew\shared program settings\visual studio 2015\Projects\knoleAudioRecogDemo\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe.config
+C:\Thew\Shared Program Settings\Visual Studio 2015\Projects\knoleAudioRecogDemo\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe
+C:\Thew\Shared Program Settings\Visual Studio 2015\Projects\knoleAudioRecogDemo\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.pdb
+C:\Thew\Shared Program Settings\Visual Studio 2015\Projects\knoleAudioRecogDemo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csprojResolveAssemblyReference.cache
+C:\Thew\Shared Program Settings\Visual Studio 2015\Projects\knoleAudioRecogDemo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Form1.resources
+C:\Thew\Shared Program Settings\Visual Studio 2015\Projects\knoleAudioRecogDemo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Properties.Resources.resources
+C:\Thew\Shared Program Settings\Visual Studio 2015\Projects\knoleAudioRecogDemo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csproj.GenerateResource.Cache
+C:\Thew\Shared Program Settings\Visual Studio 2015\Projects\knoleAudioRecogDemo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.exe
+C:\Thew\Shared Program Settings\Visual Studio 2015\Projects\knoleAudioRecogDemo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.pdb
+E:\Git Projects\knole\prototypes\proto6 - basic speech recog demo\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe.config
+E:\Git Projects\knole\prototypes\proto6 - basic speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.exe
+E:\Git Projects\knole\prototypes\proto6 - basic speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.pdb
+E:\Git Projects\knole\prototypes\proto6 - basic speech recog demo\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe
+E:\Git Projects\knole\prototypes\proto6 - basic speech recog demo\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.pdb
+E:\Git Projects\knole\prototypes\proto6 - basic speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\prototypes\proto6 - basic speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Form1.resources
+E:\Git Projects\knole\prototypes\proto6 - basic speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Properties.Resources.resources
+E:\Git Projects\knole\prototypes\proto6 - basic speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csproj.GenerateResource.Cache
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe.config
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.exe
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.pdb
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.pdb
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csprojResolveAssemblyReference.cache
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Form1.resources
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Properties.Resources.resources
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csproj.GenerateResource.Cache
+E:\Git Projects\knole\prototypes\proto8 - full speech recog demo (with DictationGrammar)\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe.config
+E:\Git Projects\knole\prototypes\proto8 - full speech recog demo (with DictationGrammar)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.exe
+E:\Git Projects\knole\prototypes\proto8 - full speech recog demo (with DictationGrammar)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.pdb
+E:\Git Projects\knole\prototypes\proto8 - full speech recog demo (with DictationGrammar)\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe
+E:\Git Projects\knole\prototypes\proto8 - full speech recog demo (with DictationGrammar)\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.pdb
+E:\Git Projects\knole\prototypes\proto8 - full speech recog demo (with DictationGrammar)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\prototypes\proto8 - full speech recog demo (with DictationGrammar)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Form1.resources
+E:\Git Projects\knole\prototypes\proto8 - full speech recog demo (with DictationGrammar)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Properties.Resources.resources
+E:\Git Projects\knole\prototypes\proto8 - full speech recog demo (with DictationGrammar)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csproj.GenerateResource.Cache
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe.config
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.exe
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.pdb
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Form1.resources
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.Properties.Resources.resources
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\obj\Debug\knoleAudioRecogDemo.csproj.GenerateResource.Cache
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.exe
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\bin\Debug\knoleAudioRecogDemo.pdb
+E:\Git Projects\knole\prototypes\proto9 - full speech recog demo (with Microsoft.Speech.Recognition)\knoleAudioRecogDemo\bin\Debug\Microsoft.Speech.dll

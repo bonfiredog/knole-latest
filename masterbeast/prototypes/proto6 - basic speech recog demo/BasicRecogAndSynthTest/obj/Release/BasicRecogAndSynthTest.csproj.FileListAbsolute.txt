@@ -1,0 +1,9 @@
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\bin\Release\BasicRecogAndSynthTest.exe.config
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\bin\Release\BasicRecogAndSynthTest.exe
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\bin\Release\BasicRecogAndSynthTest.pdb
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Release\BasicRecogAndSynthTest.Form1.resources
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Release\BasicRecogAndSynthTest.Properties.Resources.resources
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Release\BasicRecogAndSynthTest.csproj.GenerateResource.Cache
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Release\BasicRecogAndSynthTest.exe
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Release\BasicRecogAndSynthTest.pdb
+C:\Thew\Shared Program Settings\Visual Studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Release\BasicRecogAndSynthTest.csprojResolveAssemblyReference.cache

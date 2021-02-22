@@ -1,0 +1,12 @@
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\bin\Debug\BasicRecogAndSynthTest.exe.config
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\bin\Debug\BasicRecogAndSynthTest.exe
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\bin\Debug\BasicRecogAndSynthTest.pdb
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Debug\BasicRecogAndSynthTest.csprojResolveAssemblyReference.cache
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Debug\BasicRecogAndSynthTest.Form1.resources
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Debug\BasicRecogAndSynthTest.Properties.Resources.resources
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Debug\BasicRecogAndSynthTest.csproj.GenerateResource.Cache
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Debug\BasicRecogAndSynthTest.exe
+c:\thew\shared program settings\visual studio 2015\Projects\BasicRecogAndSynthTest\BasicRecogAndSynthTest\obj\Debug\BasicRecogAndSynthTest.pdb
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\BasicRecogAndSynthTest\bin\Debug\BasicRecogAndSynthTest.exe.config
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\BasicRecogAndSynthTest\obj\Debug\BasicRecogAndSynthTest.exe
+C:\Thew\Git Projects\knole\prototypes\proto7 - full speech recog demo\BasicRecogAndSynthTest\obj\Debug\BasicRecogAndSynthTest.pdb

@@ -1,0 +1,75 @@
+Sound Engine
+==============
+
+(No point building a shitty 'whine engine' just in Gamemaker when I might use a middleware option in the future.)
+
+- WWise (somebody has built a plugin for Gamemaker! Great! And free up to 200 sounds (though you have to contact them first to get access.))
+- FMOD (Free, but no current plugin for Gamemaker; I would have to build it from scratch).
+
+Either way, I will have to learn how to use these middleware products; until then, I can use placeholder sounds in the game itself. They need to be of a high-enough quality that I COULD use them in the final work, rather than this more-complex approach. But the nature of the creature (its fixed mouth, the hardening mask) means that the sounds can be perfectly organic and do not need to be synced to lips or made procedural with the animation in any way. I do like the idea of a tongue responding to different parts of the sounds, inputted as data, variables and events by the middleware.
+
+Mainly for vocalisations, but could be used with other sort of sounds in the project.
+
+
+BREATHS
+----------
+
+Two TYPES of sound - breath in, and breath out. Several versions of each.
+Each is longer than the longest breath could be (~10 seconds) and ends abruptly
+With each breathe in, choose a breath sound and play it. Stop it as soon as the breath is finished (and unload from memory)
+Same with the breathe out (though this fades out rather than stops abruptly)
+
+The sound of breath being taken in doesn't need to extend all the ay to the animation - but does need to stop if the animation stops.
+
+SHOULDN'T NEED TO LOOP THEM
+
+Different sounds for the nose, either play just one set, both sets or the other.
+
+Can change pitch dynamically if needs be.
+
+
+
+
+Sound STRUCTURE
+-------------------
+
+FIRST - mouth open or closed?
+Closed mutes all the sounds, no open or close clack, the sound is still made but VERY distorted.
+Generated then distorted then played.
+
+Most sounds need to have a INITIATING CLACK (The lips parting, the mouth opening)
+ONLY those sounds that play when a NEW SECTION OF SPEECH IS BEING GENERATED AFTER SILENCE.
+Very quick, not very loud
+Immediately goes into next component of sound.
+Can also be used for chewing sounds.
+
+
+
+--------------------------------------------
+
+Each sound consists of only one base sound - A SYLLABLE. This is a pre-recorded audio track. All of these (or certainly all modifications of these) fit within a 'sound personality' for
+
+- It might be easier to use more mechanical, or machine generated sounds if possible,
+as these are easier to manipulate mathematically.
+
+All of the modifications are time based.
+
+Keep the vocalisations quite short or, if long, not complex.
+Either short, sweet sounds or long monotone calls.
+Slight overlay of all sounds.
+
+
+Use wave functions to change things over time.
+Pitch - how high or low the sound is.
+Attack - how 'immediate' the sound is.
+Sustain - how long the sound is held for.
+Vibrato - the 'waver'
+
+All of this will need to be done in the middleware. THere isn't really any way to do this in Gamemaker.
+
+LAST - there is no need for a final sound. just end the whole sound and return to silence.
+
+Need to think about Listeners, as well.
+
+
+Sound is not synced with framerate - remember!

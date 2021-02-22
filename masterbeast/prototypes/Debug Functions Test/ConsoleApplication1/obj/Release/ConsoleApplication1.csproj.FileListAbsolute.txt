@@ -1,0 +1,7 @@
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\ConsoleApplication1\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\ConsoleApplication1\ConsoleApplication1\bin\Release\DebugFunctions.dll
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\ConsoleApplication1\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb
