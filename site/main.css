@@ -1,0 +1,2079 @@
+/*General*/
+
+html {
+  height: 100%;
+  font-size:20px;
+}
+
+body {
+  background-color: black;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+@font-face {
+  font-family: '18thcenturyregular';
+  src: url('18thcentury-webfont.woff2') format('woff2'), url('18thcentury-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'linuxlibertine';
+  src: url('linlibertine_r-webfont.woff2') format('woff2'), url('linlibertine_r-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'chapbook';
+  src: url('chapbook-webfont.woff2') format('woff2'), url('chapbook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'chapbookitalic';
+  src: url('chapbook-italic-webfont.woff2') format('woff2'), url('chapbook-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'caslonishfraxx';
+  src: url('caslonishfraxx-webfont.woff2') format('woff2'), url('caslonishfraxx-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'strangenewes';
+  src: url('strangenewes-webfont.woff2') format('woff2'), url('strangenewes-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'kultur';
+  src: url('18thctrkurstart-webfont.woff2') format('woff2'), url('18thctrkurstart-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*Main Text */
+
+#main {
+  background-image: url("http://robsherman.co.uk/knole/img/background/background.png");
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2%;
+  padding-bottom: 0%;
+  padding-top: 3%;
+}
+
+#thinimg {
+  width: 100%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+#frontpage {
+  display: block;
+}
+
+iframe {
+  width: 438px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 5%;
+height: 255px;
+}
+
+.textimgleft {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  margin-top: 1%;
+  margin-bottom:3%;
+}
+
+.doubleimage {
+  height:24.4rem;
+}
+
+.doubleimagesmall {
+  height:11rem;
+}
+
+.textimgleft img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.textimg {
+  display: block;
+  width: 78%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textimg img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.caption {
+  font-family: 'chapbookitalic', Arial, sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  width: 74%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+}
+
+.textimgright {
+  float: right;
+  display: inline-block;
+  width: 50%;
+  margin-top: 1%;
+  margin-bottom:3%;
+}
+
+.textimgright img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*Header*/
+
+#woodcutimg {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  padding-top: 2%;
+  display: block;
+  width: 26%;
+  height: auto;
+}
+
+#githubbutton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 1;
+  width: 8%;
+}
+
+#githubbutton img {
+  width:100%;
+}
+
+.topbuttonleft {
+  float: left;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.topbuttonleft img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+p {
+  clear:both;
+}
+
+.dl_link {
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 3%;
+margin-bottom: 3%;
+background-image: url("img/border.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: auto;
+font-family: 'chapbook', serif
+}
+
+
+/*Front Page*/
+
+#frontpagetitle {
+  width: 100%;
+  text-align: center;
+  font-family: '18thcenturyregular', Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  opacity: 0.9;
+  margin-top: 3%;
+}
+
+#titleline1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: block;
+  font-style: italic;
+  font-size: 1.2rem;
+  font-family: 'chapbookitalic', serif;
+}
+
+#titleline2 {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  font-family: 'caslonishfraxx', serif;
+}
+
+#titleline2a {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-top: -2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  font-family: 'Chapbookitalic',serif;
+}
+
+#titleline3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 3%;
+}
+
+#titleline4 {
+  font-size: 4.1rem;
+  letter-spacing: 0.9rem;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  padding-left: 2%;
+  margin-right: auto;
+  font-family: 'chapbook';
+  margin-bottom: -9%;
+  display: block;
+}
+
+#headerline1 img {
+  width: 80%;
+  height: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 0%;
+  margin-top: 5%;
+}
+
+#headerline2 img {
+  width: 80%;
+  height: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  transform: rotate(180deg);
+}
+
+#headerline3 img {
+  width: 100%;
+  height: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  transform: rotate(180deg);
+  opacity: 0.9;
+}
+
+#fnline {
+  margin-bottom: -3%;
+}
+
+#fnline img {
+  width: 55%;
+  height: 4px;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5%;
+  margin-top: 6%;
+  transform: rotate(180deg);
+  opacity: 0.9;
+}
+
+.footnotes {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-bottom: -1%;
+  display: inline-block;
+}
+
+.fnnumber {
+  font-style: normal;
+  font-size: 1.1rem;
+  margin-right: 1%;
+  font-family: 'linuxlibertine';
+  display: block;
+}
+
+#titleline5 {
+  font-size: 1.3rem;
+      margin-top: 0%;
+      display: block;
+      width: 72%;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: '18thcentury', serif;
+      line-height: 1.6rem;
+      text-align: justify;
+      margin-top:3%;
+}
+
+#titleline5 i {
+  font-family: 'chapbookitalic';
+}
+
+#spyritword {
+  font-size: 1.3rem;
+}
+
+#titleline6 {
+  font-size: 1.7rem;
+  display: block;
+  margin-top: 3%;
+  font-family: 'chapbookitalic';
+  text-align: center;
+  letter-spacing: 0.3rem;
+  width: 100%;
+}
+
+#frontpageintropara {
+  font-family: 'chapbook', Arial, sans-serif;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 3%;
+  border: 2px double #000000;
+}
+
+.visitlink {
+  color: #961c1c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.visitlink:hover {
+  color: #c92222;
+  text-decoration: underline;
+}
+
+#frontpagepara1 {
+  font-size: 1.3rem;
+  color: #961c1c
+}
+
+#researchquestion {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  margin-bottom: 7%;
+  text-align: center;
+  line-height: 150%;
+}
+
+
+/*Elsewhere*/
+
+.elsewheresection {
+  overflow: hidden;
+}
+
+.elsewhereicon {
+  width: 12%;
+  margin-left: 0;
+  float: left;
+  margin-right: 3%;
+}
+
+.elsewhereintitle {
+  font-family: '18thcenturyregular', Arial, sans-serif;
+  font-size: 1.9rem;
+}
+
+.elsewhereicon img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  opacity: 0.9;
+}
+
+#emailelsewhere {
+  font-family: '18thcenturyregular', Arial, sans-serif;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+#twitterelsewheretext {
+  padding-top: 2%;
+}
+
+#emailelsewheretext {
+  padding-top: 5%;
+}
+
+#biblioelsewheretext {
+  padding-top: 1%;
+}
+
+#githubelsewheretext {
+  padding-top: 5%;
+}
+
+#elsewherepara {
+  font-family: 'chapbook', Arial, sans-serif;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 3%;
+  border: 2px double #000000;
+  display: none;
+}
+
+#elsewherepara1 {
+  font-size: 1.2rem;
+}
+
+#artpara {
+  font-family: 'chapbook', Arial, sans-serif;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 3%;
+  border: 2px double #000000;
+  display: none;
+}
+
+#visitpara {
+  font-family: 'chapbook', Arial, sans-serif;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 3%;
+  border: 2px double #000000;
+  display: none;
+}
+
+#signupsheet {
+  margin-top:3%;
+  position:relative;
+}
+
+#paper {
+width:83%;
+transform: rotate(3deg);
+position:relative;
+margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#signupsheettext {
+  position: absolute;
+  top: 9%;
+  left: 8%;
+  width: 80%;
+  transform: rotate(4deg);
+  height: 76%;
+}
+
+#ssline1 {
+  display:block;
+  text-align:left;
+}
+
+h5 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.keyterm {
+text-decoration:underline;
+font-weight: bold;
+}
+
+#moretofollow {
+  width: 42%;
+padding: 2%;
+margin-left: auto;
+margin-right: auto;
+border: double #000000;
+text-align: center;
+font-size: 2rem;
+}
+
+#ssline2 {
+  display:block;
+  font-family: "kultur";
+  text-align: left;
+font-size: 1.5rem;
+width: 55%;
+float: left;
+}
+
+#ssline2a {
+  text-align: right;
+  display: block;
+  font-family: "kultur";
+  font-size: 2.5rem;
+  width: 100%;
+  color: #503e2b;
+  margin-bottom:-3%;
+}
+
+#name {
+  background-repeat: repeat;
+  background-image: none;
+  background-position: 0% 0%;
+  /* display: block; */
+  /* position: absolute; */
+  /* left: 31%; */
+  /* bottom: 10%; */
+  background-color: rgba(0, 0, 0, 0);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  border-bottom: 1px solid rgb(80, 46, 43);
+  color: #b81e1e;
+  font-size: 1.2rem;
+    width: 29%;
+}
+
+#email {
+  background-repeat: repeat;
+  background-image: none;
+  background-position: 0% 0%;
+  /* display: block; */
+  /* position: absolute; */
+  /* left: 31%; */
+  /* bottom: 10%; */
+  background-color: rgba(0, 0, 0, 0);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  border-bottom: 1px solid rgb(80, 46, 43);
+  color: #b81e1e;
+  font-size: 1.2rem;
+    width: 29%;
+}
+
+#ssline6 {
+  font-size: 2.5rem;
+  font-family: "kultur";
+  color: #503e2b;
+  text-align: left;
+  line-height: 82%;
+  display: block;
+  width: 100%;
+  margin-left:6%;
+}
+
+#visitfamiliars {
+  width: 11%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: -5.1%;
+  margin-right: 9%;
+  margin-left: 61.3%;
+}
+
+#visitfamiliars img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#theorypara {
+  font-family: 'chapbook', Arial, sans-serif;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 3%;
+  border: 2px double #000000;
+  display: none;
+}
+
+#theorytitle {
+max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#theorymaintitle {
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  width: 71%;
+  margin: 0 auto;
+}
+
+#theoryquestion {
+  font-size: 1.1rem;
+      border: double #000000;
+      padding: 2%;
+      margin-bottom:2%;
+}
+
+#mc_rembed_signup {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  text-align: center;
+  padding: 2%;
+}
+
+#knoleform {
+  font-size: 0.8rem;
+}
+
+#mce-email {
+  background-color: rgba(0, 0, 0, 0);
+    border: none;
+      font-size: 1rem;
+}
+
+#mc-rembedded-subscribe {
+  background-color: #961c1c;
+  color: white;
+  border: solid 1px black;
+}
+
+#mc_rembed_signup label {
+  font-family: '18thcenturyregular', Arial, sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 5%;
+  display: block;
+}
+
+#mc_rembed_signup input {
+  font-family: 'chapbook', Arial, sans-serif;
+  text-align: center;
+}
+
+#subscribebutton {
+  width: 20%;
+      float: right;
+      position: absolute;
+      right: -2%;
+      bottom: -18%;
+      cursor: pointer;
+}
+
+#subscribebutton input {
+  text-align: center;
+  float: right;
+  color: #961c1c;
+  color: white;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  position: absolute;
+  left: 17%;
+  top: 35%;
+  cursor: pointer;
+  font-family: 'chapbookitalic';
+  font-size:1rem;
+}
+
+#seal {
+  width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+#ssline4 {
+  display: block;
+  text-align: right;
+  font-family: "kultur";
+  font-size: 2.1rem;
+  margin-top: -1%;
+  color: #503e2b;
+  margin-right: 15%;
+  width: 98%;
+    }
+
+#ssline3 {
+  font-family: "kultur";
+  display: block;
+  text-align: right;
+  font-size: 2.5rem;
+  margin-top: 0%;
+  width: 98%;
+  color: #503e2b;
+  margin-top: -1%;
+}
+
+#ssline5 {
+  font-size: 2rem;
+  font-family: "kultur";
+  color: #503e2b;
+  text-align: left;
+  line-height: 82%;
+  width: 100%;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left:6%;
+}
+
+ul {
+  list-style-position: outside;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  list-style-image: url('img/meta/ulmarker.png');
+}
+
+li {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-left: 2%
+}
+
+#twittericon {
+  padding-top: 2%;
+}
+
+#blogicon {
+  padding-top: -1%;
+}
+
+#githubicon {
+  padding-top: 4%;
+}
+
+#biblioicon {
+  padding-top: 3%;
+}
+
+#scholaricon {
+  margin-top: 3%;
+  width: 12%;
+}
+
+#stackicon {
+  padding-top: 6%;
+}
+
+#emailicon {
+  padding-top: 4%;
+}
+
+#artlink {
+  text-decoration: none;
+  color: #961c1c;
+}
+
+#researchoutputs p {
+  border: 1px solid #961c1c;
+  padding: 2%;
+  margin-bottom: 6%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+#artlink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.elsewheretitle {
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
+  margin-top: 2%;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  font-family: '18thcenturyregular', Arial, sans-serif;
+}
+
+#outputstitle {
+  margin-top: 11%;
+}
+
+.sectionsubtitle {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 78%;
+  margin-top: -3%;
+  margin-bottom: 7%;
+  display: block;
+}
+
+.elsewheretext {
+  width: 81%;
+  float: right;
+  display: block;
+  margin-bottom: 10%;
+  clear:none;
+}
+
+#elsewherepara ul {
+  font-size: 1rem;
+}
+
+#elsewherefootnote {
+  font-size: 0.9rem;
+  margin-right: auto;
+  width: 100%;
+  margin-top: -1%;
+  margin-bottom: 3%;
+}
+
+#elsewherenb {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#blogelsewheretext {
+  padding-top: 5%;
+}
+
+#scholarelsewheretext {
+  padding-top: 7%;
+}
+
+#stackelsewheretext {
+  padding-top: 5%;
+}
+
+
+/*General*/
+
+#menubar {
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: 6rem;
+  margin-bottom: 4%;
+}
+
+.knolesection {
+  opacity: 0.95;
+}
+
+.menubaritem {
+  width: 14%;
+  height: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+  float: left;
+  display:flex;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+}
+
+.menubaritem img {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position:absolute;
+}
+
+.menubaritem h3 {
+  pointer-events: none;
+  width: 100%;
+  text-align: center;
+  font-size: 1.9rem;
+  font-style: italic;
+  opacity: 0.9;
+  font-family: '18thcenturyregular', Arial, sans-serif;
+  align-self:center;
+  margin: 0;
+}
+
+.menubaritem:hover {
+  color: #961c1c;
+}
+
+#visitbutton {
+  color: #961c1c;
+}
+
+#elsewhere {
+  font-size: 1.4rem;
+  top: 18%;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: '18thcenturyregular', Arial, sans-serif;
+  font-size: 2.2rem;
+}
+
+h4 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: '18thCentury', Arial, sans-serif;
+  font-size: 2.2rem;
+  width: 100%;
+}
+
+
+.knole {
+  font-family: 'Courier', serif;
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+a {
+  color: #961c1c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c92222;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #961c1c;
+}
+
+
+/*Footer*/
+
+#creaturebottom {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#creaturebottom img {
+  width:20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+.clipped {
+
+  -webkit-clip-path: polygon(85% 100%, 23% 100%, 27% 94%, 29% 89%, 29% 89%, 33% 85%, 33% 85%, 34% 78%, 32% 72%, 39% 67%, 34% 59%, 34% 59%, 37% 55%, 40% 49%, 40% 49%, 39% 44%, 36% 39%, 38% 35%, 38% 38%, 43% 31%, 48% 27%, 45% 20%, 47% 13%, 48% 7%, 47% 0%, 54% 18%, 58% 27%, 58% 37%, 64% 48%, 66% 58%, 71% 67%, 76% 75%, 74% 85%, 79% 93%);
+  clip-path: polygon(85% 100%, 23% 100%, 27% 94%, 29% 89%, 29% 89%, 33% 85%, 33% 85%, 34% 78%, 32% 72%, 39% 67%, 34% 59%, 34% 59%, 37% 55%, 40% 49%, 40% 49%, 39% 44%, 36% 39%, 38% 35%, 38% 38%, 43% 31%, 48% 27%, 45% 20%, 47% 13%, 48% 7%, 47% 0%, 54% 18%, 58% 27%, 58% 37%, 64% 48%, 66% 58%, 71% 67%, 76% 75%, 74% 85%, 79% 93%);
+}
+
+#bottommatter {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  text-align: center;
+}
+
+#publishermark {
+  font-family: '18thcenturyregular', Arial, sans-serif;
+  width: 55%;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  opacity: 0.9;
+}
+
+#footerline1 img {
+  width: 93%;
+  height: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 0%;
+  margin-top: 5%;
+  opacity: 0.9;
+}
+
+#footerline2 img {
+  width: 93%;
+  height: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  transform: rotate(180deg);
+  opacity: 0.9;
+}
+
+#pubmark {
+  line-height:146%;
+  display: inline;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  margin-top: -2.5rem;
+  margin-bottom: -3.9rem;
+}
+
+#publine1 {
+  display: block;
+  text-align: center;
+  font-family: 'caslonishfraxx';
+  font-size: 1.8rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#publine2 {
+  font-family: 'chapbook';
+  font-size: 1.1rem;
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#publine3 {
+  text-align: center;
+  display: block;
+  font-family: '18thcentury';
+  font-size: 1.8rem;
+  width: 34%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:2%;
+}
+
+.large {
+  font-size:1.9rem;
+  text-decoration:underline;
+}
+
+.chapbook {
+  font-family:'chapbookitalic',serif;
+}
+
+#publine4 {
+  text-align: center;
+font-family: 'chapbookitalic';
+display: block;
+font-size: 1.1rem;
+width: 62%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#publine5 {
+  text-align: center;
+  display: block;
+  font-family: 'strangenewes';
+  font-size: 1.5rem;
+  width: 34%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#crack {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-top: -19%;
+  margin-bottom: -0.3%;
+}
+
+.footerlink {
+  height: auto;
+  display: inline-block;
+  margin-right: 2%;
+  opacity: 0.8;
+}
+
+.footerlink:hover {
+  opacity: 1;
+}
+
+.footerlink img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+#bathspalink {
+  width: 7%;
+}
+
+#mwmlink {
+  width: 15%;
+}
+
+#bathlink {
+  width: 8%;
+}
+
+#copyrightlink {
+  width: 7%;
+}
+
+sup {
+  font-size: 0.7rem;
+  font-family: 'linuxlibertine', Arial, sans-serif;
+}
+
+#githublink {
+  width: 8%;
+}
+
+#bonfiredoglink {
+  width: 7%;
+}
+
+#dtplink {
+  width: 7%;
+}
+
+#iiyamalink {
+  width: 7.7%;
+}
+
+#humanstxtlink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4%;
+  opacity: 0.7;
+}
+
+#humanstxtlink:hover {
+  opacity: 1;
+}
+
+#humanstxtlink img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.knolesection {
+  width: 74%;
+}
+
+
+/* Responsive Code */
+
+/*Very Large Screen */
+@media screen and (min-width:1920px) {
+  #publine2 {
+    width:47%;
+  }
+
+  #titleline4 {
+    margin-bottom:-7%;
+  }
+
+
+
+  .textimg {
+    width:62%;
+  }
+
+  #elsewherepara {
+    width: 62%;
+  }
+
+  #elsewherefootnote {
+    font-size:0.9rem;
+  }
+
+  .footnotes {
+    font-size:0.9rem;
+  }
+
+  #artpara {
+    font-size:1rem;
+  }
+
+  #theorypara {
+    font-size:1rem;
+  }
+
+
+
+  #visitpara {
+    font-size:1rem;
+    }
+
+    #elsewherepara {
+font-size:1rem;
+
+      }
+
+    #frontpageintropara{
+    font-size:1rem;
+  }
+
+}
+
+
+/*Big Laptop */
+
+@media screen and (min-width:1440px) and (max-width:1600px) and (min-height:900px) {
+
+  html {
+    font-size:18px;
+  }
+#paper {
+  width:100%;
+}
+
+#signupsheettext {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    width: 87%;
+    transform: rotate(4deg);
+
+}
+
+#subscribebutton input {
+  left: 18%;
+top: 34%;
+}
+
+  #frontpagetitle {
+    width: 100%;
+  }
+  #headerline1 img {
+    width: 76%;
+  }
+  #headerline2 img {
+    width: 76%;
+  }
+  .menubaritem h3 {
+    top: -5%;
+  }
+  #elsewhere {
+    top: 10%;
+  }
+  #researchoutputs p {
+    width: 90%;
+  }
+  #twittericon {
+    padding-top: 9%;
+  }
+  #blogicon {
+    padding-top: 4%;
+  }
+  #githubicon {
+    padding-top: 9%;
+  }
+  #scholaricon {
+    margin-top: 6%;
+  }
+  #emailicon {
+    padding-top: 8%;
+  }
+#titleline4 {
+  margin-bottom: -8%;
+}
+#menubar {
+  height:5rem;
+}
+
+#ssline5 {
+  margin-top:6%;
+}
+
+#ssline6 {
+  margin-left:5%;
+}
+
+#theorymaintitle {
+  width:90%;
+}
+}
+
+
+/* Smaller Laptop */
+
+@media screen and (max-width: 1439px) and (min-width: 1281px) and (max-height:899px) {
+html {
+  font-size:18px;
+}
+
+  #paper {
+    width:100%;
+  }
+
+  #signupsheettext {
+      position: absolute;
+      top: 5%;
+      left: 8%;
+      width: 87%;
+      transform: rotate(4deg);
+  }
+  #subscribebutton {
+    bottom: -17%;
+  }
+
+  #subscribebutton input {
+    left: 18%;
+  top: 34%;
+  }
+
+#ssline4 {
+  font-size:2rem;
+}
+
+#ssline5 {
+  margin-top:1%;
+}
+
+
+  #frontpagetitle {
+    width: 100%;
+  }
+  #titleline4 {
+    font-size: 2.8rem;
+  }
+  #headerline1 img {
+    width: 78%;
+  }
+  #headerline2 img {
+    width: 78%;
+  }
+  .menubaritem h3 {
+    top: -2%;
+    font-size: 1.6rem;
+  }
+  #elsewhere {
+    top: 12%;
+    font-size: 1.2rem;
+  }
+  #twittericon {
+    padding-top: 13%;
+  }
+  #githubicon {
+    padding-top: 13%;
+  }
+  #emailicon {
+    padding-top: 13%;
+  }
+  #menubar {
+    height:4rem;
+  }
+}
+
+
+/* Tablet Landscape */
+
+@media screen and (max-width: 1280px) and (max-height:800px) {
+  html {
+    font-size:17px;
+  }
+  #main {
+    width: 74%;
+  }
+  #researchoutputs p {
+    width: 82%;
+  }
+
+  #paper {
+    width:100%;
+  }
+
+  #subscribebutton {
+    bottom: -17%;
+    right: -10%;
+  }
+
+  #signupsheettext {
+ position: absolute;
+  top: 2%;
+  left: 8%;
+  width: 80%;
+  transform: rotate(4deg);
+}
+
+#subscribebutton input {
+  left:18%;
+  top:34%;
+}
+
+#headerline1 img {
+  width:79%;
+}
+
+#headerline2 img {
+  width:79%;
+}
+
+.menubaritem h3 {
+    top: -2%;
+    font-size: 1.6rem;
+}
+
+#elsewhere {
+    top: 11%;
+    font-size: 1.2rem;
+}
+
+#headerline1 img {
+  width: 78%;
+}
+#headerline2 img {
+  width: 78%;
+}
+
+#menubar {
+  height:4.5rem;
+}
+
+#titleline4 {
+  font-size:2.8rem;
+}
+
+#ssline4 {
+  width:110%;
+}
+
+}
+
+
+/* Tablet Portrait */
+
+@media screen and (max-width:800px) {
+
+  html {
+    font-size:16px;
+  }
+  #researchoutputs p {
+    width: 82%;
+  }
+  #main {
+    width: 89%;
+  }
+
+  #publine4 {
+    width:75%;
+  }
+  #titleline4 {
+    font-size: 2.4rem;
+  }
+  #headerline1 img {
+    width: 78%;
+  }
+  #headerline2 img {
+    width: 78%;
+  }
+  #humanstxtlink {
+    top: 0%;
+    width: 8%;
+  }
+  #frontpagetitle {
+    width: 95%;
+  }
+  .knolesection {
+    width: 87%;
+  }
+  #footerline1 img {
+    height: 3px;
+  }
+  #footerline2 img {
+    height: 3px;
+  }
+  .menubaritem h3 {
+    font-size: 1.5rem;
+    top: -7%;
+  }
+  #elsewhere {
+    font-size: 1.1rem;
+    top: 9%;
+  }
+  #bathspalink {
+    width: 7%;
+  }
+  #bathlink {
+    width: 7%;
+  }
+  #copyrightlink {
+    width: 7%;
+  }
+  #githublink {
+    width: 8%;
+  }
+  #bonfiredoglink {
+    width: 7%;
+  }
+  #dtplink {
+    width: 7%;
+  }
+  #iiyamalink {
+    width: 8%;
+  }
+  #bottommatter {
+    width: 78vw;
+  }
+  #emailicon {
+    padding-top: 8%;
+  }
+  #githubicon {
+    padding-top: 8%;
+  }
+  #blogicon {
+    padding-top: 5%;
+  }
+  #twittericon {
+    padding-top: 10%;
+  }
+
+  #paper {
+    width:100%;
+  }
+
+  #signupsheettext {
+ position: absolute;
+  top: 2%;
+  left: 8%;
+  width: 80%;
+  transform: rotate(4deg);
+}
+
+#subscribebutton {
+  right: -10%;
+  bottom: -22%;
+}
+
+#subscribebutton input {
+  left:18%;
+  top:34%;
+}
+#menubar {
+  height:4rem;
+}
+
+#ssline4 {
+  width:104%;
+}
+
+
+}
+
+
+/*Phone Landscape*/
+
+@media screen and (max-width:750px) {
+  #main {
+    width: 77%;
+  }
+
+  #titleline4 {
+    font-size:1.8rem;
+  }
+
+  #titleline5 {
+    margin-top:5%;
+  }
+
+  #titleline6 {
+    font-size:0.8rem;
+  }
+  #humanstxtlink {
+    width: 8%;
+    top: 0;
+  }
+  #frontpagetitle {
+    width: 94%;
+  }
+  #titleline5 {
+    font-size: 1rem;
+  }
+  .menubaritem {
+    margin-top: 4%;
+  }
+  .menubaritem h3 {
+    font-size: 1.2rem;
+  }
+  #elsewhere {
+    font-size: 0.9rem;
+  }
+  #emailicon {
+    padding-top: 10%;
+  }
+  #stackicon {
+    padding-top: 12%;
+  }
+  #scholaricon {
+    margin-top: 8%;
+  }
+  #biblioicon {
+    padding-top: 7%;
+  }
+  #githubicon {
+    padding-top: 19%;
+  }
+  #blogicon {
+    padding-top: 13%;
+  }
+  #twittericon {
+    padding-top:31%;
+  }
+  #mc_rembed_signup {
+    width: 77%;
+  }
+  #visitfamiliars {
+    margin-left: 74.3%;
+    width: 17%;
+  }
+
+  #publine1 {
+    width:50%;
+  }
+
+  #publine2 {
+    width:86%;
+    font-size:0.8rem;
+  }
+
+  #publine3 {
+    width:60%;
+  }
+
+  #publine4 {
+    font-size: 1rem;
+width: 83%;
+  }
+
+  #publine5 {
+    width:80%;
+  }
+
+  #creaturebottom img {
+    width: 41%;
+  }
+
+  #crack {
+    width:18%;
+  }
+
+  #signupsheettext {
+     position: absolute;
+    top: 2%;
+    left: 8%;
+    width: 86%;
+    transform: rotate(4deg);
+  }
+
+  #ssline2a {
+    font-size:1.8rem;
+  }
+
+  #ssline3 {
+    font-size:1.2rem;
+  }
+
+  #ssline4 {
+    font-size:1.2rem;
+    margin-top:-4%;
+  }
+
+  #ssline5 {
+      font-size: 1.2rem;
+      width: 80%;
+      margin-left: 1%;
+      margin-top: 4%;
+  }
+
+  #ssline6 {
+    font-size: 1.7rem;
+margin-left: 1%;
+margin-top: 2%;
+  }
+
+#ssline6 input {
+  width:27%;
+}
+
+#subscribebutton input {
+  font-size: 0.7rem;
+  left: 20%;
+  top: 31%;
+}
+
+#subscribebutton {
+  width: 25%;
+  right: -5%;
+  bottom: -31%;
+}
+
+#menubar {
+  width:95%;
+  margin-bottom:7%;
+  height:3rem;
+}
+
+#theorymaintitle {
+  width:90%;
+}
+
+}
+
+
+/*Phone Portrait*/
+
+@media screen and (max-width:450px) {
+  html {
+    font-size:20px;
+  }
+  #humanstxtlink {
+    width: 16%;
+  }
+  #woodcutimg {
+    padding-top: 10%;
+    width: 52%;
+  }
+  #frontpagetitle {
+    width: 100%;
+  }
+
+  #frontpagepara1 {
+    font-size:1.2rem;
+  }
+  #titleline2 {
+    font-size: 1.3rem;
+  }
+  #titleline2a {
+    font-size: 1rem;
+  }
+  #titleline3 {
+    font-size: 0.9rem;
+  }
+  #titleline1 {
+    font-size: 0.9rem;
+  }
+  #titleline4 {
+    font-size: 1.8rem;
+  }
+
+  .large {
+    font-size:1.2rem;
+  }
+  #headerline1 img {
+    width: 87%;
+    height: 4px;
+  }
+  #headerline2 img {
+    width: 87%;
+    height: 4px;
+  }
+  #titleline5 {
+    font-size: 1.1rem;
+        margin-top: 5%;
+        width: 81%;
+  }
+  #titleline6 {
+    font-size: 1.3rem;
+  }
+  #mc_rembed_signup {
+    width: 85%;
+  }
+  #visitfamiliars {
+    width: 24%;
+    margin-left: 71.3%;
+  }
+  #sectionsubtitle {
+    font-size: 0.7rem;
+  }
+  #visitpara {
+    font-size: 0.9rem;
+  }
+  ul {
+    margin-bottom: 25%;
+  }
+  .footnotes {
+    font-size: 0.9rem;
+  }
+  #elsewherefootnote {
+    font-size: 0.9rem;
+  }
+  #elsewherepara {
+    font-size: 0.9rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  #artpara {
+    font-size: 0.9rem;
+  }
+  #bottommatter {
+    width: 81vw;
+    display:none;
+  }
+  #frontpageintropara {
+    font-size: 0.9rem;
+  }
+  #publine1 {
+    width: 79%;
+  }
+  #creaturebottom img {
+    width: 58%;
+  }
+  #theorymaintitle {
+    font-size:1.4rem;
+  }
+  #publine2 {
+    font-size: 1rem;
+    width: 90%;
+  }
+  #publine3 {
+    width: 100%;
+    font-size:2rem;
+    margin-bottom:2%;
+  }
+  #publine4 {
+    font-size: 1rem;
+    width: 81%;
+  }
+  #publine5 {
+    width: 61%;
+  }
+  #footerlink {
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-right: 0%;
+  }
+  .menubaritem {
+    width: 39%;
+  float: none;
+  height: 5rem;
+  }
+
+  #menubar {
+    width:95%;
+    text-align:center;
+  margin-bottom:14%;
+  height: 2.5rem;
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+height: auto;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+  #footerline1 img {
+    height: 4px;
+    width: 84%;
+  }
+  #footerline2 img {
+    height: 4px;
+    width: 84%;
+  }
+  #publishermark {
+    width: 53%;
+    margin-top: 9%;
+    display:none;
+  }
+  #mwmlink {
+    width: 22%;
+  }
+  #bathspalink {
+    width: 22%;
+  }
+  #bathlink {
+    width: 22%;
+  }
+  #copyrightlink {
+    width: 22%;
+  }
+  #githublink {
+    width: 22%;
+  }
+  #bonfiredoglink {
+    width: 22%;
+  }
+  #dtplink {
+    width: 22%;
+  }
+  #iiyamalink {
+    width: 22%;
+  }
+  .menubaritem h3 {
+    font-size: 1.6rem;
+    top: 3%;
+  }
+  #elsewhere {
+    font-size: 1.3rem;
+    top: 17%
+  }
+  #crack {
+    width:26%;
+    display:none;
+  }
+  #main {
+    width: 89%;
+    padding-bottom:4%;
+  }
+
+  iframe {
+    width:100%;
+    height:181px;
+  }
+  #twittericon {
+    padding-top: 4%;
+  }
+  #blogicon {
+    padding-top: 5%;
+  }
+  #githubicon {
+    padding-top: 6%;
+  }
+  #biblioicon {
+    padding-top: 3%;
+  }
+  #stackicon {
+    padding-top: 7%;
+  }
+  #researchoutputs p {
+    width: 96%;
+    font-size: 0.8rem;
+  }
+  #menubar {
+    width:100%;
+  }
+  #creaturebottom {
+    display:none;
+  }
+  #paper {
+    width:100%;
+  }
+  #signupsheettext {
+    position: absolute;
+top: 2%;
+left:8%;
+width: 84%;
+transform: rotate(4deg);
+  }
+
+  #ssline2a {
+    font-size:1.8rem;
+  }
+
+  #ssline3 {
+    font-size: 1rem;
+  }
+
+#ssline4 {
+  font-size:1rem;
+}
+
+#ssline5 {
+  font-size: 1rem;
+  margin-left: 2%;
+  width: 100%;
+}
+
+#ssline6 {
+    margin-left: -3%;
+}
+
+#subscribebutton {
+  width: 26%;
+  right: -6%;
+  bottom: -21%;
+}
+
+#subscribebutton input {
+  left:15%;
+}
+
+#mc_rembed_signup {
+  width:100%;
+}
+
+#theorymaintitle {
+  width:90%;
+}
+}

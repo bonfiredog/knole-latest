@@ -1,0 +1,28 @@
+﻿/* SITE AUTHOR */
+
+Rob Sherman
+http://bonfiredog.co.uk
+rob@bonfiredog.co.uk
+@rob_sherman
+Swansea, Wales
+
+/* THANKS */
+
+Dr. Leon Watts, Bath University
+Website: http://www.cs.bath.ac.uk/Leon/index.shtml#Top
+
+Professor Kate Pullinger, Bath Spa University
+Website: http://www.katepullinger.com/
+Twitter: http://twitter.com/katepullinger
+
+/* THE SITE */
+
+Last updated 09/07/2018
+Standards: HTML5, CSS3, JS
+Doctype: HTML5
+Software: Atom, Sourcetree, cmd.exe, git, Filezilla
+
+/* MAIN LANGUAGE */
+
+English (UK)
+
