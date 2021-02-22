@@ -1,0 +1,321 @@
+Murray's AGENCY + IMMERSION = TRANSFORMATION in digital art.
+Boundreault talking about vignette games - an issue of scale.
+
+Link embodied cognition to AI. Link to Brooks - subsumption architecture, distibuted model. Like an environment. Not a central planning facility. Now tied with planning in architecture's like Brysons.
+
+
+"the
+aforementioned and predominating idea that they
+should be fun, escapist and mechanically-driven." - the 'mechanics' of mine are false - they don't work. (Ed Smith)
+
+Chapter 2 - "the contrast between their ludic quality
+and their educational value may deter educators from employing games to teach heritage
+and historical content." (Champion)
+
+" interpretation research suggests that providing enjoyable, satisfying,
+and engaging experiences lays a firm foundation for promoting environmental attitudes
+and improving the likelihood that visitors will adopt pro-environmental behaviors
+(Farmer, Knapp, & Benton, 2007; Powell & Ham, 2008)" - learning from their experiences, retaining it, changing their mental models of the world.
+"now-being-laid-down" - what is happeneing right now (chapter #1) Owain Jones
+Tilden's 'provocation'.
+
+The role of cognitive dissonance, surprise and mystery (ie narrative) in interpretation.
+
+"satisfaction, provocation, learning, and multiple perspectives of the past for digital
+heritage. "
+"a successful interpretation should also enable the visitors to make
+their own constructions of the past."
+"the unwitting obsession with technology
+as a way out for better interpretation" - 
+Tech can only provide partial interpretation if not married with a solid narrative interpretative strategy.
+
+Horniman - using narrative explanation to explain diegetic elements (don't have to do this)
+Horniman points out non-diegetic elements don't make a different
+"if all games have a fictional side... then all game teams need storytelling skills"
+more narrative design rather than writers
+Mechanics have no meaning without SOME sort of narrative meaning. 
+@ end: may need a change in focus - as to what a character is, and what the stoories we tell are, and where they focus.  
+
+Micahel Takeo Magruder - combining old and new technologies, videogame technologies, blurring the lines.
+
+Do i need to talk about mixed reality a bit more in Chapter 2?
+5/10
+-----
+
+Patrick Lindsey "game enemies... systematically dehumanized at every turn,"
+"many videogames are not
+only oblivious to a greater sense of empathy, but
+they also actively discourage it. "
+
+"Videogames shifted to a world
+where players were subtly encouraged to enact
+violence on what they were supposed to believe
+were human beings."
+
+We are training not to empathise - not to see characters as characters. Anne is doing this as well.
+"Games walk a paradoxical line between trying
+to enforce the belief that the characters that inhabit
+them are real, and trying to keep players discon-
+nected enough that they don’t think of enemies as
+human."
+"I’ve been making
+myself feel powerful for years. "
+
+Tauriq Moosa - the primacy of player agency.
+The rise of games that make you morally uncomfortable, 
+"We already know that players across the world
+“feel” for characters all the time, just as readers
+do for the lines on a page - which is essentially
+what videogame characters are."
+
+"I yearn for discomfort, because I yearn for a
+fulfilling experience"
+
+
+Mechanics/narrative - this is a false dichotomy - often more satisfying games involve the mechanics in the story in some way - they are appropriate to the narrative themes you are exploring (unless making a metaleptical point)
+
+Systemics isn't just about putting mechanics into fiction - its about better mechanics, and better systemics, in balance with the narrative.
+
+According to Jurie Horniman, all games need narrative design (even if not narrative games)
+
+Boundreault talking about vignette games - an issue of scale.
+
+I'm not really changing the algorithms under the hood - algorithms are transferable - it's how people frame the algorithms
+
+At end - where can the perspective be lain? Where is the 'attention' of the piece?
+
+Twisted Tree's Forest of Sleep - using Propp's folklore structures to create storytelling procedurally - an interesting use of older forms.
+Steven E. Jones elaborates on this point in his book the Meaning of Videogames: “Some ludologists sometimes
+ironically seemed prepared to recapitulate the history of twentieth-century literary formalism, with the ‘game
+itself’ replacing the New Critics’ ‘text in itself’ as the hermetically sealed object of attention, rules and
+procedures replacing tropes and symbols as the features to be analyzed in isolation of authorial, historical, or
+cultural factors” (5).
+Hancock (2015) mentions 80s financial crash of VG market.
+Llaura interview represents move AGAINST simulation - but that is simulation! And it isn't dehumanising!
+Don't always say what you aren't doing. a "carefully-cited overview". 10 pages -> 2-3.
+Koenitz's "designing act" (author) and "participating act" (player)
+Koenitz - points out that existing narrative frameworks for other artforms do not fit IDN (interactive digital narrative)
+his "interactive digital narrative" is part of what I am talking about.
+Koenitz points out that Laurel's model of dramatic narrative applied to games does not quite work.
+Spirit AI as a way forward - do I mention this?
+Short saying that the Ui is important for constraining and denoting the choices available to us with characters.
+Just telling different stories, and privileging expression, is not enough. What is the focus of computationality? Not an stories of persons.
+A computational char makes personhood the centre of computation. A question of focus.
+Koenitz is pro-author and pro-design.
+ Perhaps the sole, recent example of a successful implementation of dramatic structure in a computational framework was the Versu system co-authored by Emily Short (2014), unfortunately now unavailable for analysis. 
+Critique of Weiz - things must be reducible if we are to represent them - fictional characters are reductions. The real rehydration of character occurs in the mind.
+explore the autocosmic affordances of embodiement (who writes about this? Skalski argues that more like real-world actions more immersive it is)
+
+"a computer system as a whole will be significantly, qualitatively different than the sum of its parts" p256
+
+Not only is the creature an environment, but the acolyte is an agent within that system as well as outside; part of what Howard Sklar has identified as a deictic shift, where a reader is actually placed “within the experience that is being navigated.”
+
+His main method of doing this is through a game called Siboot, a piece of ‘genuine interactive storytelling’ that I have written about elsewhere, and critiqued. While it is clear that I do not disagree with Crawford as to the problem, I do disagree as to the potential solution. Siboot is not a solution to the problems of character (though I’m not sure anybody ever thought it would be).
+“Environmental factors influence the develop of all behaviour to some extent.”
+“Many genes are involved in even simple aspects of behaviour.”
+“Why are most of the richest story generators about managing people instead of being one?”
+
+“Fussy puzzles” not necessary - but mine has “fussiness”, prescribed puzzles.
+Mountain - See it as an “active, generative art piece” - not really about controlling it.
+Character must be DESIGNED.
+Pamela Jennying, Harrell - Koenitz give examples of them as people drawing on "nonliterary" and "nonwestern concepts of narrative as a theoretical basis"
+Koenitz points out that a purely narratological approach (similarities) is not enough - need differences.
+Ryan sees narratology as "transcending" form (Koenitz)
+
+Autocosmic = in Koenitz's view, Ryan's conception of the paidic - using your imagination. Ludus is not the problem, in the sense of rules. We need rules.
+Jenkins (in Koenitz) also says that narratives will be different.
+Jenkins' evocative, enacted, embedded and emergent narratives. 
+Montfort sees IF as machines for making stories, not stories in and of themselves.
+"legacy theoretical frameworks"
+I am therefore coming at koenitz's central issue in this.
+Koenitz seeing IDN as "system, process and product" as the way of instantiating a narrative/character-led experience.
+Ascott's theory of cybernetic art (in koenitz) - change from product to process, to systems.
+The "cybertextual process" - systems.
+From system process comes one "instatiated narrative"
+
+"real virtuality" Chalmers and Howard (2009)
+
+Widens the level of reader-response (koenitz)
+Koenitz talks about improv etc.
+"protostory" = the concrete system that is authored. The "artistic intent" which has "narrative design" (how the system is set up)
+Koenitz talking about the "assets"
+"instantiation" is a new element, making IDN different from other narratives.
+"interactivisation" (Jennings, 1996) - don't imitate other media.
+
+Shrank talking about avant-garde videogames."formal" or "political" - looking at art itself. Radical formal, radical politcial, complicit formal (videogaMES AS RESOURCE) - COMPLICIT POLITICAL - about the form, about cocnept.
+
+Cray 2014 - "the medium is the idea" (Peter Goldie and Elisabeth Schellekens) - artifacts imbued with ideas.
+
+Christiane Paul also talks about atforms that digital arose out of, esp. Fluxus and conceptual art.
+
+"A systems viewpoint is focused on the
+creation of stable, ongoing relationships
+between organic and non-organic systems" 
+
+“Social structure emerges from the pattern and quality of relationships among individuals… it is the scientific observers, not the animals, who see structure in the network of relationships that characterizes a social group.”
+
+Re. Memory and bugs - (misremember and lie paper) - “wary that such phenomena would appear to arise from bugs if not artfully expressed to the players - they expect simplistic systems - a bug b/c cannot easily systematise.
+
+"an
+umbrella for a broad range of artistic practices
+and does not describe one specific
+aesthetic"
+In such works, characters are personifications of ideas more than they are people - an example.
+Re. Greg garrard - “difficulty of narrating ongoing systemic crises within intrinsically individualising forms such as the travelogue and novel” - this approach, then, is better! 
+Machidon et al - VR is becoming more popular in heritage.
+Points out no human presence.
+calls them "virtual humans"
+The ultimate goal of populating virtual cultural
+heritage environments with VHs behaving similarly to the original
+people of the reconstructed places is to provide to the users a more
+engaging and realistic experience
+I'm not talking about virtual guides, like they are.
+Talk about crowds in VH.
+A trend in the development of virtual environments tries to
+achieve the richness of associationand the level of user engagement
+found in computer video games [70], a goal not reachable without
+the integration of interactive, intelligent agents
+Q&A is common appraoch - about ther space, not them as individuals.
+in-depth good for avatars and for guides, not CHARACTERS.
+Again, more about technology.
+Mainly used for crowds and guides.
+
+comp chars are good - VHs have been shown to have a huge impact on
+the sense of engagement perceived by the visitors of virtual cultural
+environments. VHs able to properly interact with the environment
+and cultural artefacts according to their specifics, and to visually
+and verbally interact with human visitors, are keen to actively
+engage the human users in the virtual world. Such a virtual environment
+is in fact a more pleasant and attractive place than the
+“classic” static collection of cultural sites or artefacts (which still
+constitutes the large majority of the available virtual reconstructions)
+and, moreover, enables a better understanding of historical
+facts through the simulation of social behaviour, thus improving
+and enriching the learning outcome.
+
+" the interplay between “narrative modes” (Rimmon-Kenan 2002b,
+145) of perceiving, living, knowing, communicating and telling requires more
+extensive theoretical interchange than is now occurring."
+
+“Digital games cannot be understood without attention to the late capitalist economic
+systems from which they emerge and the changing political, social, and cultural
+contexts in which they are produced and consumed.”
+Kerr, p. 4 (2006)
+"technological refuctionism" Ruffino
+economic factors in "indie" is important.
+Perdicini sees independence as utopian.
+
+
+Thomson-Jones
+--------------
+
+"musical notation is also a standard example of a digital system."
+A good overview of digital vs. analogue
+"the aesthetically significant effects achieved by an artist with certain kinds of tools and materials and in light of certain appreciative conventions"
+"In other words, the achievement is always relative to an artistic medium"
+"the artist recognizing the limits and capacities of her chosen medium"
+Points out that the media are all part of the machine - the mode. She says we are not at medium-free art yet.
+ binary code and its artistic uses constitute the medium of digital art
+
+“invokes a mutually reactive relationship only slightly more sophisticated than that between a person and an automated cash machine.” (Haque 2007 :
+
+Bogost - "the best interactive stories are still worse than even middling books and films"
+– does he mean in their interactivity, and their subject matter? I don’t necessarily agree with him re. Subject matter.
+
+
+However, what has arisen from this combination of technical difficulty, market pressures, the increasing costs and complexity of developing these projects and self-reflexive culture is a vicious cycle of homogenisation and regression; a "cultivated, enthusiast, techno-determinist" (Keogh) culture which thrives on inertia and reiteration, thriving on "in-jokes and brand worship" and the cannibalisation of its own past to continue, despite recent broadenings and continued profession to be interested in pursuing computational character, to produce works that will not explore the computational potential of the representtaion of personhood; which sees such content as the purview of more traditional artforms which are easily subsumed into the "media machine" of the modern computer. 
+
+Combined with other pressures, what is provided as a template for many forms of which continually, as a form of human expression, "plays second fiddle to cinema, literature [and] music" in the popular press (Samyn) and advertises a very "narrow selection" of narrative modalities (Mol et al), and even
+
+Developers frequently resort to popular culture stereotypes, distorted but readily recognizable to audiences, and thus more accessible (Soltysiak 2014). 
+Ed Smith - Gamemakers have given up trying to change, a "sick precedent" "consumer goods" and "products" rather than artforms - designed by committee.
+have reinforced and inculcated them in a vicious cycle of challenge, risk-aversion and conservatism. 
+It's a self-destructive strategy as such an attitude suffocates  all creative invention."
+C ontent ourselves with the “outer layer” - rather than “inner layers” of the characters (Ryan)
+
+The problem has been compounded by the cultures that have arisen out of these barriers, particularly within videogames; a culture which perpetuates a vicious cycle of avoidance, capitulation and stagnation, which privileged certain forms of resonant engagement with certain forms of experience 
+
+
+When the trickier elements of personhood arte considered, they are often "tacked on", "vestigial" (cite), their representation either painfully reductive and bare or instead "divorced... from the system" (Anthropy and Clark) and reliant instead on the examples and structures of pre-executed narrative forms entirely different from the procedural uniqueness of computational media.
+
+If, as one designer put it, it is still a struggle to "get... [a computational character] to walk through a door properly" (Bioshock Talk)
+
+– to "make people care about their subjects, and their subjects feelings", to allow sociable interaction with "complex characters" with "hidden layers" (study group)
+
+
+I disagree with Crawford that social interaction is the only way forward for storytelling in games - as in religion, art etc, things can showcase people.
+
+
+the 'intentional stance' of Daniel Dennett is invoked frequently (Pinchbeck, Mateas, Lankoski) - mention it right at the end.
+
+
+fabula and sujet - story and discourse - exploring a story world guided by an author. Linear, yes, but presented in certain ways. The story is the environment, the player's actions are the discourse. Diegetic environment, mimetic traversal.
+
+
+To allow humans communication to computers that is as
+natural as possible, it is argued that ECAs should be built
+upon existing psychological theories about human commu-
+nication, emotion, and motivation (Gratch & Marsella,
+2004). But what can psychology contribute to build more
+believable embodied conversational agents? As Kra ¨mer,
+Bente, Eschenburg, and Troitzsch (2009) state, up to now
+there has been very little exchange between the virtual
+agents community employing psychological theories and
+current psychological research. Although there have been
+several attempts to implement psychological theories into
+autonomous agents, many psychological theories lack the
+necessary details needed for a direct implementation. Soft-
+ware architects therefore have to do a lot of interpretation,
+extrapolation, and ‘‘filling in the gaps.’’ Psychological theo-
+ries largely differ in their level of detail, and during the pro-
+cess of implementation one soon will find some theories to
+be more suitable than others. Consequently, virtual agent
+architects sometimes seem to choose their models mainly
+based on their computability. For example, the most fre-
+quently implemented model of emotion is the OCC model
+by Ortony, Clore, and Collins (1988), a theory which is
+not the most prominent one in psychological textbooks or
+current psychological research (Kra ¨mer, 2008). Further-
+more, often specific psychological knowledge about com-
+munication and interactional processes is scarce, and it has
+been concluded that one has to rely on the intuition of the
+designers and animators of ECAs (Cassell et al., 2000) or
+on ad hoc models which are based on dubious data or no
+data at all (cf. Kra ¨mer, 2008)
+
+NPCs as a type of epistemic affordance - anode to get to know the game world - even with complex behaviours. (Tavinor)
+
+
+The 1990s brought a heteregenity of discourses about aliveness. These days, faced with even very simple relational artifacts, children’s discourse about aliveness has again shifted. Faced with relational artifacts, they no longer discuss its “aliveness” in terms of its motion or cognitive abilities. They talk about these objects as alive or “sort of alive” not because of what the creatures can do (physically or cognitively) but because of their own emotional connection to the creatures and their fantasies about how the creatures might be feeling about them. 
+
+Always bring it back to - what do these things do for resonance? What do they do for the experience?
+'Game feel' as resonance.
+
+IoT as tech - again, input/output.
+
+
+
+
+For Em Short - setting up the world/authoring alongside a GENERAL system for socialising. This is hard, so come at it another way?
+"ratchet the scenario down" - a smaller focus.
+"the scale always seems to increase, increase"
+She looked at real conversational pragmatics. 
+Maybe moving away from these very social situations. I don't necessrily think that this is a pointless exercises.
+most NPCs are for "signposting"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

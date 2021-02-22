@@ -1,0 +1,214 @@
+COMPUTATIONAL ARTISTS
+Using technology often seems to mean getting rid of the author. NWF “Refusal to author results in…banality”
+she says that eberts argument is about lack of authorial control - she disagrees. Art does not need validation
+Like other forms of art - "games are social contexts for cultural learning" - pass on cultural values through games. Can have rhetoric (useful for chapter 4). Reflect and can transform rhetoric.
+"an artiface built by authors in order to communicate a constellation of ideas and experiences to an audience"
+Games do not have a monopoly on the surpise of playersr and ‘resistant reading’, as we can see – nor do these render the author invalid.
+“auhtorial afforadance” - artistic expression ‘under the hood’
+, disagree with Celia Pearces that games "dispense with or at least significantly reframe the author’s role as creator of content"
+Flanagan - "artists using games as a medium of expression"
+"embedded beliefs" - still no death of author.
+Kroos -  the human artist does not vanish and Moura does not confine him-
+self to the role of an art agent or manager. -  the machine is the art.
+Penny - "the creation of an armature upon which emergent behavior may
+take place"
+"performative as opiposed to representational" - (Penny)
+"a mutable, kaleidoscopic world can feel to some like an unauthored world" (Murray)
+Samyn (R-TAM) - “do not hide behind the freedom of the user in an interactive environment to ignore your responsibility as creator.” 
+"player's understanding of their own actions"
+"game players participate in the construction and evolution of narrative in different weays than in traditional textual forms"
+interactivity needs a definition her - S+Z's
+Champion (2008) - points out interactivity is not always there in virtual heritage.
+Kahurlathi - properties of virtual objects may be outside the user's manipulation.
+S. Penny - "utilize electronics and sensors to endow installations and kinetic sculptures with
+awareness and responsiveness."
+Benford points out crossovers with human-computer interaction.
+" the boundary between the digital arts and
+interactive experience design."
+Talks about Happenings - the performative in art. (Edmonds) and new explicitness of interactivity.
+"We can say that both the partici-
+pant and the system become performers in this process."
+Disagree wiuth Lantz - in start of rules of play - making a distinction between mechanical and interactive systems - but certainly see it "as a key conceptual model for understanding the world and our place in it"
+Umberto Eco distinguished between a performer and a member of the audience, “an interpreter” - > book allows you to go between them
+
+COMPUTATIONAL CHARACTERS
+Matteas and Stern - do interactive dramas have STRONG or WEAK Autonomy (i.e. how much is computed. In strong, an emergent narrative). I'm more interasted in
+Brenda Laurel and her book Computers as Theatre is my touchstone for this; in this book, she advocates for seeing the user/computer relationship as like a performer/audience relationship, as a representation on stage, in many different ways, and that through the application of techniques of performance (in her case, theatrical performance) better applications and systems will be developed - audience performing with them, not just in minds but in some manual form.
+Talks about enactment - one user performing directly with technology in public (Sarah Ayers) as opposed to staging. Self-performance as well as performance to others. 
+How performing actions with characters improves our understanding of them.
+Copplestone points out that game desiners see "the past as systems, interactions, agency and multilinear narratives" - whereas historians see it as linear narratives.
+“video games is a kind of literacy. Not the
+literacy that helps us read books or write term papers, but the kind of literacy
+that helps us make or critique the systems we live in”
+Graham talks about computational agents
+Flow theory
+Tavernise and Bertacchini -  "the attention to numbers and letters in a universe as flat as the page of
+a book represses the natural human skill of 3D thinking"
+T&B - " manipulative construction of knowledge"
+'Interact' - empathy and intimate engagement (question and answer) is a "key part of holocaust education"
+AI in Computer Games book - games used
+storytelling reasoning.” - a drama manager, etc. (Reidl et al in AI for Computer Gamees book) - "experience manager" - I'm somewhere in between. " an intelligent system that attempts to coerce the state of the world
+such that a structured narrative unfolds over time without reducing the perceived
+agency of the interactive player"
+Baker et al -  intrinsically motivating narratives which compel players to deeply engage with
+their worlds
+ In games, particularly single player games, the
+non-player characters (NPCs) are the major actors in creating the drama and inter-
+actions to make it a game.
+Character as stable, homeostasis.
+"Art as experience , as distinct from art as artefact or object" 
+Bown et al - "Engaging
+with such autonomously behaving works opens up experiences that are more akin
+to conversing, performing, or negotiating."
+" system-based artworks that exhibit autonomous behaviours, and
+what may appear to be intentions, independently of being ‘activated’ by a human
+participant."
+ Artists producing such
+behavioural artefacts have often been inspired by the interdisciplinary experimenta-
+tion that occurred in cybernetic explorations (Boden and Edmonds 2009 ). At the
+Many chars are both Macro AI and Micro AI - not just one approach (Alien: Isolation)
+core of this infl uence of cybernetic thinking is the idea of looking at artworks as
+systems and systems as artworks.
+Autopoiesis, applied to aesthetics, can be understood as a self-propel-
+ling system of aesthetics that is open to negotiation
+interested in machine as autonomous performer (the autonomous performer, bown et al)
+McCorduck points out that AI has its birth in art and religion - a lot more crossover. All about resonance - the human imagination, not necessarily practical.
+"We can see a consistent conservatism in the art world which hews to the static work and the contemplative mode or consumption."  (Penny)
+Manovich - The loop "a new narrative form appropriate for the computer age"? Variation within loops - seasons, char-as-enviro
+the mainstream, the "formal poetics" of gaming. (Mullaney)
+Despite "the capacity of the artificial intelligence controlled non-player characters in the games are often large selling points"
+
+small, minimalist games that challenge our notion of what it means to engage with a videogame (Keogh)
+
+Keogh points out how causal our idea of interaction is - we are always looking for engagement, if we are just watching, then it's not 'true' gameplay.
+
+"looking for content that wasn't there' - art-games as formal exercises rather than content narratives.
+" predominately formal exercises of art"
+Points out that videogames are primarily concerned with immersion rather than formal commentary - with the immersive fallacy.
+Points out that videogames is a very wide term.
+A lack of critical engagement from critics with games - tied into consumerist realm.
+McMaster - "basic distrust of the opaque pervades game culture"
+"
+" Even beyond the AAA production space, the rhetoric surrounding indie games is deeply concerned with visual “uniqueness” or innovation""discuss formal aspects in strictly teleological terms"
+Sees this as "distrust" when we can't interact with a game...
+
+". Such models, fixated as they often are on understanding videogames first and foremost as games, reduce a heterogeneous cultural form and all its intricacies and tensions of style, form, and content to a singular type of system that must be made more efficient. In doing so, they tacitly suggest that there is a pure videogame form somewhere out there that we should be striving for, that the videogames of yesterday and today are but pale imitations, still mired in the visual and narrative trappings of ‘old’ media. This trajectory of academic game studies plays smoothly into the commercial game industry’s pervasive, progressivist coupling of ‘quality’ videogames with technological advancements, demolishing one ‘generation’ of games with a ‘better’ generation every five years (Witheford and de Peuter, 2009, p. 71). When technology allows us to leave behind the trappings of other media, then videogames will be truly special. The industry spoke, and game studies wandered off into the desert to find the Promised Land."
+
+" ‘interaction’ and ‘immersion’ do not render videogames invincible to critical analysis but have indeed prevented critical analysis through their uncritical uptake"
+"it is only this film-base dimage that computer graphics technology has learned to simulate"
+
+The history of interactive fiction, as a genre, is a history of narratives of confinement and imprisonment.
+
+Mechanics and narrative co-evolve, and so IF's traditional mechanics lean into building confining spaces.
+Bringing in ideas of grounded condition through the use of natural interfaces and sensors.
+Polygon - Last Guardian character - people wanted him to act more like a robot, blaming his "stubbornness"
+Jess Joho - the way we treat animals is similar to how we treat characters in games - as systems to train
+"we too often expect our virtual animals to blindly follow commands, like a car, regardless of whether we’ve earned their compliance or not."
+"These are not characters, or even NPCs. They are mechanics."
+"But Epona’s instantaneous and inexplicable appearances also emphasize her status as a tool,"/
+The Last Guardian -  it is designed to disempower the player as she progresses, replacing individual autonomy with the shared empowerment of successful collaboration and mutual trust.
+
+Ashwell - negative agency as metalepsis - " But it’s always a risky business. Negative agency is not the same thing as an absence of agency, as in a static work: when you’re reading a book or watching a movie there’s little expectation of audience agency, so it’s not a privation. Negative agency is by definition a privation, something that has been taken away. Negative agency is also, and this is not trivial, very easy to implement and can therefore feel like laziness or active maliciousness on the author’s part (see: meta)."
+"Single-player games, on the other hand, are behaviourist entities, functionary machines, not people. By default, we don’t want to give them input without the expectation of reciprocal output at a beneficial rate: they are hirelings, not friends. But reflective choice relies on the player being invested in the ephemeral, caring about the aesthetic elements of the game rather than the mechanical ones, developing a pseudo-personal relationship with the work: briefly, treating the game as a friendly ear."
+"Reflective choice, then, is something of an Advanced Class technique; it requires a high level of craft (or a very tightly targeted audience) to pull off."
+"Disguising a reflective choice as a Big Decision – or even unintentionally making it seem as though it might be meant as one – is playing with fire. A big decision is a promise, and nothing hurts trust like making a promise you never intend to keep."
+Chunking - " grasp increases as a player learns more and more about the rules and content of a game, possibility tends to decrease."
+", the understanding of the game’s inner structure through the exhaustion of its content"
+
+More abstract is better. Well, maybe. Or the problem is THAT SCALE of simulation cannot be anything other than abstract.
+"simulation version of the Uncanny Valley"
+
+“Sometimes being in control is too facile, too misleading” - can we really understand a character more by occupying them? Bogost thinks “passivity is underrated”. Agency does not mean “understand a character from the inside”, it means “control them from the outside.
+
+Huizinga, in his anthropological study of play, brings in this idea of severity, or rather seriousness. He states that the modern belief that play is a frivolous, superfluous activity is misguided and stagnant; that play has always at its heart a meaning, and that meaning is often extremely serious (which is not the same as grave, unhumoured or boring). This meaning has, he admits, been obfuscated by the desacralisation of play as we moved away from primitive religion. 
+
+Ryan - "exploratory mode" - just exploring, not effecting the system and "ontological mode" - affecting the system. Exploring a fixed space or changing that space. Still computational in both cases
+
+Can take other approaches to character - agent-based approach, whereever it is cited, is paramount - b/c a character has agency - ppl still interested in coming face to face with character.
+
+It is consumer-based, so about what will sell to consumers. Very ludic beginning - replicating game-like experiences from analogue - who in my biblio/john  hopkins would talk about this ludic structure doersn't lend itself to representing complex characters - whether or not they are ludic they end up taking this approach.
+
+"computo-narrative dissonance" - not a lack of resonance, but a barrier to resonance. 
+Goes down towards machine-like by illness.
+None of these solutions provide a full solution. Not bad, but not complete.
+don't say what it is not.
+
+Playing the System - newman sees our relationship with character not as merely 'identifying' with them, but experiencing them as simulations. That we don't engage with individual chgaracters, but with the game as a system. Perhaps this, then, is the problem of scope summed up. becoming part of the system itself. Make the system the character then!!!
+
+Newman mentions the "hooks" of gameplay
+"most sophisticated and certainly most pervasive example of high-level human-computer interaction presently available and, as such, provide a useful environment to learn about, and become proficient with, technology"
+Newman points out games can also resonate culturally outside of their play - this is very well and good. But can they resonate characterfully IN the understandoing of their systems, about personhood?
+Games considered just 'for fun'.
+He likes the word 'game'.
+Points out that it is difficult to decide what is the underlying factors that constitute a videogame (similarly, for me, computational art)
+Talks about genre as a way to define experience arising from magazines and going into industry parlance. He thinks they "don't represent fixities", but they do represent norms.
+"Mixed reality environments
+offer great potential for making that bridge between the here-and-now (physical) and
+the past/abstract (virtual/digital)."
+
+The management of people - not intimate with character - Sims, Tom Francis quote - Little Computer People (Stuart's article)
+
+
+
+
+
+
+
+Reed -  “In much the same way that playing with a simulation of fire or fluid dynamics can lead you to deeper understanding or quicker insights than simply reading about them, truly interactive characters potentially let us have a more immediate and intuitive kind of relationship with them than with characters in linear stories. And that is really exciting.”
+
+Also a reference for Turing's original ideas.
+Points out the simplicities of domain of chess and stuff being good for AI.
+"humans continue to outperform machines in tasks that involve ambifuities in semantics - what our brains have been "conditioned to excel" at.
+SRHDLU is an example of these "microworlds"
+Elson on the hubris of AI.
+"expert systems" as well.
+Clear that better computers does make processing better and quicker, yes.
+ML - "more favourable in some tasksx than in others"
+Elson on ML, NN and NLP.
+Bolter on AR and "augmented virtuality"
+AR "acknowledges the physical world rather than eliding it" 
+Making the real world sensor input.
+Bolter on AR in cultural heritage.
+
+Tronstad talking about emergence.
+Not interested in 'weak' or 'strong' emergence
+The emergence of character from the systems, leading to "variety, novelty and surprise"
+Tronstad talks about "apparent" emergence.
+
+Newman talks about how those playing a game (experiencing it as system) changes the relationship with character fundamentally - we see it as a cursor, an icon - it is those watching or seeing from outside ('reading' the text of the game). However, this is about PCs rather than NPCs, which muddies things. Though it still applies to setting as well! Gameworlds get subsumed into " internalised gameplay-related selections "
+
+"comparative unimportance of story presentation" "makes even the most paper-thin of
+Hollywood’s offerings seem richly complex"
+"simplicity and purity of gameplay"
+
+" the move towards a greater ‘naturalness’ in the interface encounter. Y"
+
+Artificial and computational intelligence are slightly different.
+Reinforcement learning as well.
+"a, the game industry gradually made steps towards integrating more sophisticated
+AI in their games during the early days of game AI"
+The models and systems of game AI are part of a system-based approach, but so far haven't proved enough. 
+"n the level of integration and interweaving of AI in the design of
+the game"
+They point out the flow of ideas for new tech and techniques between academic and game AI.
+"Real-time adaptation
+and learning in NPCs is one such example; quite a few academic researchers
+are excited by the idea of NPCs that can learn and develop from their interactions
+with the player and other NPCs in the game. However, AI developers in industry
+point out that it would be very hard to predict what these NPCs will learn, and it
+is very likely to “break the game” in the sense that it no longer works as designed."
+
+the difference between emergence and complexity is not really interesting to me. (Tronstad)
+"undesirable" emergence arising from overly complex systems (Harvey Smith, 3002, in Tronstad)
+Games of emergence and games of progression (Juul's) definition - this is not what will make a character interesting. Can progress through a system. Though I agree that games of progression don't really explore character computationally. (Though games of progression can have pockets opf systems within them-  mainly how the comp-systems are structured_)
+
+Pearce and Flanagan link games to avant-garde art movements (2006) and (2009)
+
+
+
+
+
+
+Stuart's article - Short and Evans on how player's use their models of how games work to underpla y the systems they are working with. THinking it is simple, not knowing what is going on - is part of the problem the opacity? The 'black box' approach? How much access does the player have to the underlying systems?
+
+

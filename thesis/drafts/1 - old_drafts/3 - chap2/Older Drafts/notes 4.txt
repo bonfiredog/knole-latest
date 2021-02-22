@@ -1,0 +1,152 @@
+A particularly systemic potential - systemic games. One of many. Indie games go towards another potential.
+So the potential is two-fold - to be computational, and to be resonant.
+
+ (See Galatea for the outcome of that — though Galatea is only a pale shadow of the Ideal NPC, since she doesn’t move, respond to a wide range of physical objects, or interact with other players. She also asks no questions.)
+
+Chap 2
+--------
+
+Shawn Graham's ghistorial IF.
+one-to-one relationships with a character - in chapter #1, this is what we might mean, in chapter #2, this is what is hard, in chapter #3, this is what we seek.
+Keogh - people playing NMS 'wrong'.
+power-fantasy-assuming, customer-is-always-right gamers
+Games For Change - atured Games
+Games For Change curates digital and non-digital games that digital and non-digital games that engage contemporary social issues in a meaningful way. 
+Games for change  games that explore ideas systemicallt.
+"newsgames"
+
+They are rules-driven environments even if the activities you have in them are not rules-driven.
+He's talking about the problem of immersion. Always trying to be immersed.
+Everyday Pretending
+Russel Davies talks about "bubble-building" - magic circles.
+
+Don't want to say that these are deficient.
+Short is pro-mechanics, pro-simulation.
+Not saying this is the ONLY way to do characters - but have set myself the task of reaching this potential.
+Horniman -
+"if all games have a fictional side... then all game teams need storytelling skills"
+more narrative design rather than writers
+Mechanics have no meaning without SOME sort of narrative meaning. 
+Systemics isn't just about putting mechanics into fiction - its about better mechanics, and better systemics, in balance with the narrative.
+Mechanics/narrative - this is a false dichotomy - often more satisfying games involve the mechanics in the story in some way - they are appropriate to the narrative themes you are exploring (unless making a metaleptical point)
+
+According to Jurie Horniman, all games need narrative design (even if not narrative games)
+
+
+Beyond tourism - " Videogames can depart from cinema in equal measure as cinema departed from painting. "
+Keogh -  I, as a player, want to experience a sense of immersion in this world so I do what I need to do to make that world make sense.
+Keogh - notes on no man's sky - indie as a constructed category.
+installation art can control the 'situation factor'
+“From the user’s perspective, the interface is the system” - is this a problem? How can this be used?
+Procedural generation does not suit characters. "variations on a core theme"
+They may be good characters, but not good computational characters.
+Keogh - "videogames (as opposed to games)"
+
+Reeves et al - I am not trying to make the computer invisible, as part of ubiquitous computing - I am commenting on the role of the computer through the work itself. Seams are metaleptical Talk about “seams”
+"intuitive physical processes" of a natural interface allow the observer's unconscious to connect to the virtual space in a much more intense way than keyboard and mouse - interface is not part of representation, but part of system.
+"huge psychological weight" of games - we spend much longer with them than films. Installations you only have a limited time with - I am overcoming issues of player scrutiny
+So what is it we mean to have a comp-char? A character that thinks? Not necessarily. Think more holistically.
+“To write a program is to legislate the laws for a world one first has to create in the imagination.”
+The juxtaposition of the real body and the subscryber's body - "motor congruence" (Gregerson and Grodal 2009) - what does this do to relations with character? Less blunt interactions.
+Samyn - for an audience of one - R-TAM. 
+Penny advocates embodiement(robots are the way) - I'm playing with the litoral nature with my creature. "materially instantiated"
+ looking to the work of Myron Kreuger, Jeffrey Shaw, Peter Weibel and Karl Sims.
+
+Use footnotes for design notes?
+Mixed reality creates immersion "connecting real spaces... with image processes of virtual environments"
+
+"the interactive part of most public experiences is is inevitably controlled, structured, and brief"
+
+"often-unpredictable, bottom-up input of the user into a global script that presupposes a top-down design, sunce it must respect the basic conditions of narrativity"
+
+Manovich - Says that it is hard to say where narrative IS in games, and WHEN it emerges
+
+Not a problem with taking a systemic, formalist position in games - as the link between text as system and meaning in mind is non-trivial.
+
+Weiser and Bolter both talk about ubicomp - I'm not doing it to try and focus attention a bit more. Could be an interesting angle for char though.
+And to use ideas of embodiement.
+  “people react to game characters in a similar way to the way that they react to real people” (Lanksoki, Gerhard, Moore, and Hobbs (2004)). 
+Anthropy's privileging of 'verbs' - what can be done.
+
+HCI “consistency principle” (Manovich)
+Tommy Thompson - Alien in Isolation used "tried and tested AI techniques" - not some new tech.
+A computer is an engine - it is a process to carry behaviours.  (murray)
+Systems thinking has dominated the last fifty years (p92) (murray)
+
+Hard to do what Spector calls "unpredictable input" - the shades of human experience.
+
+Falstein - "the squishy stuff"
+
+Koster talks about "worlds" rather than "games"
+
+Bad News (2017) - combines comp-char with a human performer.
+
+Harvey Smith - talking about how poor the tools for doing these things are in game engines. For good AI. Have to build from scratch.
+
+Falstein - "computer/computer interactions" - not just interactivity.
+
+Seller's "whole" - meaning emerges from system + the player. 
+"players will create meaning about your game whether you like it or not"
+
+Sellers - mechanics, dynamics and aesthetics - how comp-0art works.
+
+
+Recursion (Looping)
+
+Introduced to me by Patrick Winston, looped or repeated behaviours can very easily give the impression of complex behaviour. This has a ritualistic significance to my narrative, and will be employed extensively. (Recursion)
+
+Emergence (Stochastics) - In which a few preset rules, when run on a system or environment, can lead to “subtle and complex” (Boden) behaviours.
+
+
+
+Library Of Blabber - A game that realises one of the most outlandish, impressive environments in fiction; Borges’ Library of Babel. Really, this was a mathematical and philosophical exercise, which a game is suited to: the limitations of the simulation (that there is more than you can ever cover, that 99.99999999% of the books are gibberish) are part of the themes and message of the work itself.
+
+
+Weiz on applying systems thinking to all facets of life, and how dangerous and reductive this is.
+
+“The world of videogames is still imbued with indignity, plagued by its own tendency to self-humiliation.”
+“Encountering games still requires pledging fealty to gamedom.”
+Re. Leave No Trace - ritualising civic-minded behaviour. We assume a position of stewardship - we assume the power is in our hands. Let’s undertake the act of ‘not-touching”, of non-individualism.
+
+
+Chap 2
+-------
+"As they move through the film, spectators test and reformulate their mental maps of the narrative action and the story space. In games, players are forced to act upon those mental maps, to literally test them against the game world itself."
+Games and story split is "divisive question" (Jenkins) - a "blod feud"
+Espen Aarseth's 'ludology' (also attributed to Frasca in 1997 by Eskenlinen) is right to move away from other narrative forms, but just focussing on 'games' might be the issue.
+Juul says "games are not narratives" (1998), but they are "narrative". This is accepted now.
+"various attempts to map traditional narrative structures"
+"heavy-handed" to apply film theory to games, but often still is.
+Still thinks we should make "meaningful comparisons with other storytelling media"
+A "middle-ground position between ludologists and the narratologists"
+The debate is still raging, just elsewhere.
+"particularity" of medium.
+Games do have "narrative aspirations"
+Games designers stick to genres that most invested in world-building and spatial storytelling (Jenkins)
+"There is not one future of games"
+"narrative potentials of games"
+" If some games tell stories, they are unlikely to tell them in the same ways that other media tell stories." - so this is an old position - he stops short of what distinguishes them from other narrative traditions?
+Limited understanding of narrative and narration.
+Comp chars do not need to be the WHOLE of the work, or be COMPLETELY systemic.
+He talks about Japanese scroll paintings, theme parks
+"the core narratives behind many games center around the struggle to explore, map, and master contested spaces (Fuller and Jenkins 1994; Jenkins 1998)"
+A computational character, by definition, will produce some sort of emergent narrative, even that emergence is not the 'big' events.
+spatial stories "respond to alternative aesthetic principles"
+Jenkins, drawing on John Rudlin (1994) talking about the improvisation of Commedia Dell'Arte.
+Not saying that comp char has to follow realist novels - but find its own way of exploring personhood computationally.
+This idea of the character being PRESENT, rather than hidden. We want the character to be present, to be there for us.
+A  "a highly legible narrative space" in Sims - but reductive, iconify items?
+Emergent narratives seem like a good choice for computational characters - so what models do we have for emergent, instrumental relationships with characters? not in novels, or melodrama, or other forms of art.
+Drawing on Kevin Lynch - spaces with “poetic and symbolic” potential, a balance between design and imaginative affordance.
+"makes architecture, choreography, sculpture or even orienteering far more important to game scholars and designers than any travelogue or myth." - I agree with Eskenlinen, in opposition to Jenkins, here! But these are narrative, clearly!
+" crucial and incontestable formal differences" between games and narratives (Eskenlinen)
+" Jenkins rightly contends that game designers should therefore seek to expand the forms and processes from which to draw, rather than reduce them." - BUT, CRUCIALLY, WHAT IS THE SOURCE OF THESE FORMS AND PROCESSES!?
+Aarseth made clear in Cybertext that there are both similarities and difference
+Jenkins calls Aarseth and Frasca 'ur-texts' for ludiology
+The drive towards filmic tendencies continues - examples? Jenkins was already arguing against this in 1993. Have moved away from films, but still not very computational.
+Jenkins still mainly interested in "popular culture"
+"The market category of “games,” in fact, covers an enormous ground, including activities that traditional ludologists would classify as play, sports, simulations, and toys, as well as traditional games. Some, but certainly not all, of these products also make bids on telling stories" - " are a strange, still unstable, and still undertheorized hybrid between games and narratives"
+Paidic structures are still not good for characters. Paida and ludus both still a problem.
+"“games are indeed not narratives, not films, not plays - but they’re also not-not-narratives, not-not-films, not-not-plays.” "
+Kokonis (2014) - sees the ludology/narratology debate as ongoing. Says there is a middle ground - similarities AND differences. "animosity" "misconceptions" and "misunderstandings"
+Games are narrative, in the sense that everyday life is narrative - drawing on chapter 1. Gameplay is instrumental narrative. Need to find instrumental narrative. Sees it coming from live TV, cinema, computers - new media and traditional narrative forms. the digital technology actually unlocks more general (and much older) narrative forms such as religious practice. Frasca tried to bridge gap in 2003.
