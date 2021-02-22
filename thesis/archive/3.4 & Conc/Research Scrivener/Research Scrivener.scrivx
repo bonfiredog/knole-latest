@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="Farore" Modified="2020-03-10 10:25:37 +0000" ModID="3C1BEE1A-4E7D-4C1D-B073-AB1ED2DB1299">
+    <Binder>
+        <BinderItem ID="0" UUID="717006A9-6D7A-4BB2-A09A-1527BBF96B98" Created="2015-12-04 09:43:07 +0000" Modified="2016-07-01 01:01:04 +0000" Type="DraftFolder">
+            <Title>The Theory</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="709" UUID="19BC97FE-7D45-483B-AD54-219C55665F1E" Created="2016-10-09 20:54:40 +0000" Modified="2016-10-09 20:55:15 +0000" Type="Folder">
+                    <Title>For Thesis</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Light Bulb.tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="802" UUID="C6DEE31A-1EC5-4BDF-8294-986C27B53AC5" Created="2017-09-23 03:35:00 +0000" Modified="2020-02-03 10:16:53 +0000" Type="Folder">
+            <Title>Penultimate Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <Target Type="Words">0</Target>
+            </TextSettings>
+            <Children>
+                <BinderItem ID="405" UUID="B5C3530B-B7FA-4057-B0C5-944DE643ADD6" Created="2016-07-23 23:40:56 +0000" Modified="2016-10-07 17:21:18 +0000" Type="Text">
+                    <Title>Appendices</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                        <IconFileName>Tables.tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>7,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="688" UUID="74ACD85E-8215-4DB3-A2BF-15658F64A0C9" Created="2016-10-07 16:42:18 +0000" Modified="2017-05-14 20:47:20 +0000" Type="Text">
+                            <Title>Glossary</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>275,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="690" UUID="3D6189BC-8B14-4952-B553-965BC1621041" Created="2016-10-07 16:46:37 +0000" Modified="2017-07-22 04:11:09 +0000" Type="Text">
+                            <Title>Acknowledgements</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>686,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="693" UUID="1188D3AC-BF38-4D0C-A718-9A0A0749F23F" Created="2016-10-07 16:48:31 +0000" Modified="2016-10-07 17:00:49 +0000" Type="Text">
+                            <Title>Research Question</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,191</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="691" UUID="31161C22-39AB-4381-9AD7-0ACDB6D7F88C" Created="2016-10-07 16:47:58 +0000" Modified="2017-05-14 20:48:02 +0000" Type="Text">
+                            <Title>Selected Links</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>341,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="695" UUID="CEFA343A-7577-4435-96E0-A16BD7AFD419" Created="2016-10-07 17:08:34 +0000" Modified="2016-12-12 08:46:02 +0000" Type="Text">
+                            <Title>Selected Materials From Fieldwork &amp; Participant Studies</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>280,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="728" UUID="37911425-557A-4DDF-834D-B628E5BE6CFE" Created="2016-10-26 20:06:32 +0000" Modified="2016-10-30 01:32:13 +0000" Type="Folder">
+                    <Title>Chapter 1 - Introduction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="737" UUID="BA05C01A-9E2C-4718-AC7C-BA5446120134" Created="2016-10-29 16:31:49 +0000" Modified="2016-10-30 01:54:18 +0000" Type="Text">
+                            <Title>Introductory Comments</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>275,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="743" UUID="C2CFDD95-BE42-4E86-9FF5-1B347E1D9B02" Created="2016-10-30 01:28:42 +0000" Modified="2016-11-08 06:58:27 +0000" Type="Text">
+                                    <Title>Introduction To Anne's Story &amp; The Project</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>427,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="744" UUID="FEA4E787-B0C5-4375-BB1A-E39A435A1B29" Created="2016-10-30 01:29:01 +0000" Modified="2016-10-30 01:10:06 +0000" Type="Text">
+                                    <Title>Structure Of The Thesis</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection Caret="434">113,321</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="745" UUID="83020673-D5B5-4739-A95A-6A220DFFD3E4" Created="2016-10-30 01:29:18 +0000" Modified="2016-10-30 01:27:45 +0000" Type="Text">
+                            <Title>An Introduction To Character</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>48,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="746" UUID="CD053154-D306-46EC-8337-896C40BF92A1" Created="2016-10-30 01:29:28 +0000" Modified="2016-12-13 06:32:54 +0000" Type="Text">
+                                    <Title>Brief Definitions</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>5044,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="747" UUID="E32CA218-83A3-4BC0-B843-C59C9DF8EB8B" Created="2016-10-30 01:29:52 +0000" Modified="2016-12-14 07:05:04 +0000" Type="Text">
+                                    <Title>The Quality Of Character &amp; 'Resonance'</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>3281,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="740" UUID="ABAC6715-F09F-4F77-90C7-A75268FF1ED8" Created="2016-10-30 01:36:22 +0000" Modified="2016-12-08 07:37:09 +0000" Type="Text">
+                                    <Title>Examples Of Quality Characters In The Arts</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>699,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="748" UUID="BF732CB4-9D2E-4BFC-9147-69159AAC7AB0" Created="2016-10-30 01:30:35 +0000" Modified="2016-12-13 07:06:34 +0000" Type="Text">
+                            <Title>Audience, Imagination &amp; Autocosmics</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>514,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="750" UUID="7C9462DE-E7A5-4DB3-B6FB-2EDECFEC1F14" Created="2016-10-30 01:31:02 +0000" Modified="2017-02-13 07:11:25 +0000" Type="Text">
+                                    <Title>Art &lt;==&gt; Autocosmics Link (Audience Reception)</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>26050,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="751" UUID="7FB8275E-5FB3-49B1-AEB8-F37AF7259A10" Created="2016-10-30 01:32:21 +0000" Modified="2017-02-17 08:55:01 +0000" Type="Text">
+                                    <Title>Autocosmics &amp; Wider Theories</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>23009,433</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="755" UUID="57AC9CB4-E31C-424E-A3C2-89C7C274220A" Created="2016-10-30 01:56:44 +0000" Modified="2017-04-02 05:41:23 +0000" Type="Text">
+                                    <Title>Closer Study: Superstition, Magical Thinking &amp; Religion</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>19560,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="729" UUID="B5BA6894-EED1-4512-A7B2-E9C0E7B48758" Created="2016-10-26 20:06:57 +0000" Modified="2016-10-26 20:08:51 +0000" Type="Folder">
+                    <Title>Chapter 2 - Inadequacy of Game Characters, Importance Of Autocosmics To Games</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="798" UUID="A8B47FF6-C452-4E78-A67E-26042CCEF37C" Created="2017-03-01 12:44:48 +0000" Modified="2017-09-03 05:21:52 +0000" Type="Text">
+                            <Title>Introductory Comments</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>3794,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="799" UUID="91A43F80-EFAB-4EB1-A675-283C83D77260" Created="2017-03-01 12:45:41 +0000" Modified="2017-09-03 05:21:56 +0000" Type="Text">
+                            <Title>Potential Of Computational Media</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection Caret="24701">0,24701</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="800" UUID="3DBD78A1-93E0-4EE6-A081-38C813C69F2A" Created="2017-03-01 12:46:23 +0000" Modified="2017-09-10 04:16:24 +0000" Type="Text">
+                            <Title>Problems Of Characterisation In Computational Media</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection Caret="416">244,172</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="801" UUID="C0E65BB5-07E2-41C2-93C1-89436CB96BDB" Created="2017-03-01 12:47:21 +0000" Modified="2017-09-08 04:06:47 +0000" Type="Text">
+                            <Title>Solution: Applying Reader-Response And Autocosmics To Computational Media</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>37781,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="730" UUID="738636E6-92C5-4441-AB9D-8DF7038D6210" Created="2016-10-26 20:07:12 +0000" Modified="2016-10-26 20:07:18 +0000" Type="Folder">
+                    <Title>Chapter 4 - Conclusions</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="803" UUID="FB4C08D1-F0AD-46B6-988F-40B5DD344B5F" Created="2018-01-19 15:18:07 +0000" Modified="2018-07-13 03:54:37 +0000" Type="Text">
+                    <Title>Chapter Summary</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="807" UUID="EF9ED967-837A-4019-91D7-692629BD4CB9" Created="2018-02-26 10:19:56 +0000" Modified="2018-07-13 03:54:40 +0000" Type="Text">
+                    <Title>An Autocosmic Example</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="808" UUID="1A64D9C1-7124-426D-81B6-C36555483B11" Created="2018-02-26 10:23:00 +0000" Modified="2018-07-14 02:29:11 +0000" Type="Text">
+                    <Title>Computational Approaches To Environment</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="810" UUID="30136F31-B3F0-4FED-80AD-B5F36A60D49E" Created="2018-02-26 10:25:19 +0000" Modified="2018-07-14 02:29:20 +0000" Type="Text">
+                    <Title>Environments As Best Characters</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="811" UUID="99DA5094-5263-4517-810C-A774423DA878" Created="2018-02-26 10:25:32 +0000" Modified="2018-07-14 02:29:26 +0000" Type="Text">
+                    <Title>Characters As Environment</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="814" UUID="448EDE8C-881A-4A40-8A02-C105861B7BB5" Created="2018-07-13 03:54:28 +0000" Modified="2018-07-13 05:14:31 +0000" Type="Text">
+                    <Title>Part 1 - Introduction</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>654,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="762" UUID="870ABEA2-C7F9-4AA3-89A6-34B45EA9B4FC" Created="2016-10-30 01:23:02 +0000" Modified="2016-11-01 08:03:48 +0000" Type="Text">
+                    <Title>Key</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>207,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="818" UUID="862ED056-65B7-42CE-9379-1832F7DC0614" Created="2019-01-30 11:31:05 +0000" Modified="2019-02-13 10:06:15 +0000" Type="Text">
+                    <Title>Part 1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection Caret="7575">0,7575</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="817" UUID="ECA75593-B37A-4B28-AA0B-8E8914743460" Created="2019-01-30 11:26:12 +0000" Modified="2019-02-05 11:17:41 +0000" Type="Text">
+                    <Title>CHAPTER OVERVIEW</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>537,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="815" UUID="176A07FA-CED8-41E6-B889-28B9ED52664B" Created="2018-07-13 04:44:13 +0000" Modified="2019-08-23 09:19:12 +0000" Type="Text">
+                    <Title>Part 2</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>91696,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="816" UUID="98D25C88-E014-45AC-A3CD-1CB05926C430" Created="2018-07-14 02:28:29 +0000" Modified="2019-11-13 10:33:20 +0000" Type="Text">
+                    <Title>Part 3</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>58337,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="805" UUID="56CE7D3C-91FE-43D1-B391-7CD4CD3465B9" Created="2018-02-12 09:48:06 +0000" Modified="2018-02-12 09:48:08 +0000" Type="Folder">
+                    <Title>Conclusion</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="806" UUID="B7935107-9541-45A4-AF76-D02DCC9CB39E" Created="2018-02-12 09:48:12 +0000" Modified="2020-02-06 10:20:20 +0000" Type="Text">
+                            <Title>Conclusion Notes</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>47425,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="822" UUID="26F3ED12-A3B7-4795-91E8-38D2C324BC0F" Created="2020-02-03 10:16:33 +0000" Modified="2020-02-03 10:16:35 +0000" Type="Folder">
+                    <Title>Final Draft</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="820" UUID="CCE781E5-0826-4F31-8470-694B10F4A529" Created="2020-01-24 09:59:21 +0000" Modified="2020-02-06 15:18:24 +0000" Type="Text">
+                            <Title>For Other Sections</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection Caret="14465">1,14464</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="725" UUID="CA6343C8-C7AF-4538-9A83-35868DE99BB4" Created="2016-10-26 17:17:28 +0000" Modified="2016-10-26 17:17:56 +0000" Type="Folder">
+                    <Title>Chapter 3 - Character As Environment</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="813" UUID="9AEEC110-ADB3-4465-A017-23A830ABF648" Created="2018-02-27 13:44:02 +0000" Modified="2020-02-04 14:59:41 +0000" Type="Text">
+                            <Title>Part 4</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>655,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="992AD808-20FA-4644-A23C-A956E67F3D44" Created="2015-12-04 09:43:07 +0000" Modified="2017-01-16 06:06:08 +0000" Type="ResearchFolder">
+            <Title>Images &amp; Assets</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem ID="2" UUID="4738B0C9-F418-40C5-9931-6674207E5566" Created="2015-12-04 09:43:07 +0000" Modified="2015-12-04 09:43:07 +0000" Type="TrashFolder">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="819" UUID="CEE84878-B556-425F-B225-D2215B54F617" Created="2019-12-23 17:36:59 +0000" Modified="2019-12-23 17:36:59 +0000" Type="Text">
+                    <Title></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="821" UUID="CE800BDF-F55B-4B09-8D6C-9BA20E0C6931" Created="2020-01-24 11:18:25 +0000" Modified="2020-01-24 11:18:25 +0000" Type="Text">
+                    <Title></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <LabelSettings>
+        <Title>Used</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.909804 0.074510 0.086275">Used</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets>
+        <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2020-03-10 10:23:40 +0000"/>
+    </ProjectTargets>
+    <Collections>
+        <Collection Type="Binder" ID="9DAC7887-61A1-4181-82B9-C52F36DF10D1" Color="0.901961 0.917647 0.933333">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="B777E3EC-6082-4F3C-A91C-FF9D7B488414" Color="0.901961 0.901961 0.980392">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">dwarf</SearchSettings>
+        </Collection>
+    </Collections>
+    <ProjectProperties>
+        <ProjectTitle>Project &lt;knole&gt;</ProjectTitle>
+        <AbbreviatedTitle>&lt;knole&gt;</AbbreviatedTitle>
+        <FullName>Rob Sherman</FullName>
+        <LastName>Rob</LastName>
+        <FirstName>Sherman</FirstName>
+    </ProjectProperties>
+    <PrintSettings PaperType="A4" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
+</ScrivenerProject>

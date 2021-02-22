@@ -1,0 +1,127 @@
+
+
+￼
+
+Figure: A throwaway sketch by my girlfriend Sarah that provided the impetus and inspiration for 
+the creature at the heart of knole. Note its equine body, large eyes and covered head, as if by a curtain or cowl.
+
+
+A THEOLOGY OF ONE?[Alternative Titles
+
+Capitated:]
+Partial, Autocosmic Approaches For Creating An Interactive Character?[Alternative Subtitles
+
+A non-systematic approach to designing systemic characters]
+
+My practice-based PhD at the University of Bath Spa (Digital Writing) and Bath University (Computer Science).
+Supervised by Professor Kate Pullinger and Dr. Leon Watts.
+Comprised of a site-specific digital installation, a written multimodal text (of approximately 30,000 words) and a contextualising document (approximately 20,000 words). Together, the project is codenamed knole[… and is unlikely to have this changed to a more definite title, for 
+the following reasons:
+
+A) the work contains several different parts which would all require separate titles, and therefore an abstract codename for the entire project is more appropriate and easier to write about;
+
+B) both the virtual and text components stand separate and together. They are individual parts of a whole, not discrete commercial units that must be referred to (I now understand the practice of works being referred to as ‘Untitled’).
+	
+C) In the spirit of performative, immersive, autocosmic audience interaction, the work should be encountered as in-situ, unmediated and naturalised; a title is, in fact, an unnatural thing in this regard, in much the same way that giving names to animals is an autocosmic, anthropomorphic identifier exclusively and evidentally practised by humans.]. 
+
+—————————————————————————————————————————
+
+Primary Research Question
+“How can virtual interactive characters, such as those encountered in videogames, better achieve the ‘resonant’ qualities enjoyed by 	            characters found in more traditional art forms, while maintaining their defining quality of dynamic agency within a simulated system?”
+
+—————————————————————————————————————————
+
+GENERAL PURPOSE OF PROJECT
+
+The central issue of this project is the issue of character; how they are created, how they ‘act’ and’ behave’, how they are perceived by an audience and how the mode and medium of their construction influences their nature and effectiveness as characters.
+
+Characters, and their stories and worlds, are created and maintained in every form of human expression, most recently using digital, computational technology and most evidentially in the form of videogames.
+
+I am taking several stances in this work:
+	- That videogame is a limiting and inadequate term for the current and potential artistic expression using digital, computational technologies;
+	- That despite relatively-recent advances in power, availability and culture of the computer, there is a deficit in well-created, thematic and resonant digital characters, both in the generic sense of artful and also in the specific sense of possessing meaningful interactivity (or, in other terms, believable agency). Indeed, these goals may not be reached in the short-term. This is because creating dynamic, interactive and virtual characters that possess the same ‘artistic value’[This is a very subjective term.] as other sorts of characters is very difficult, for a variety of reasons.
+
+I will be looking at these problems, identifying where they lie, debating whether they can even be solved and to present a single approach which I have taken, as an artist, to creating a character that is both resonant and interactive, as well as representing this debate as an artistic work.
+
+————————————————————————————————————————————-
+
+          STRUCTURE OF THE PROJECT
+
+I am exploring these ideas through creative practice, producing two versions of a single character in very different formats, which are both individually valuable and interactive with each other and the ‘user’.
+One will be a virtual simulation of a the character, with some “dynamic agency within a simulated system”, and the other a textually-reported, materially-static account of that same character.
+The character is an animalised spirit, a fictional animist nature god with only minor powers and sacred remit, part of a young pantheon which has existed, briefly, in our world. 
+The static account, taking the form of a religious text, grimoire and spellbook, both tells the story of the god, its fellow deities and their peculiar, short lives together, as well as providing instructions, recipes and rituals for interacting with the god through the prism of many different sorts of character: an animal, a conscious individual, an object of worship and a landscape.
+The simulation represents the god in real-time, allowing them to change unpredictably and dynamically to the influences of the ‘user’, the various sensory inputs provided from the outside world, and the static account itself. 
+Both manifestations of the character will ‘work’ independently of the other, providing their own unique perspectives. However, when used together in a temporal, ritual sense (that is, moving through time and space with the experimentation and exploration of the user) we see a new blend of character arising; that of the junction between static and dynamic, computational and mental simulation, non-linear and linear. 
+These two complementary parts of the project will, I hope, allow me to explore what a character is, why humans create them and are drawn to them, and how this might relate to creating characters using both modern and traditional technologies.
+The accompanying essay, of which these notes are a major part, will take a hybrid approach to viewing these issues. It will partly be a design document of creating my character, a critique of my approach, partially an exploration of the Central Ideas mentioned below, and partly a demonstration of how autocosmics functions in my own life, as an artist.
+This subjective approach is vital; as autocosmics is a personal, qualic phenomenon, this character is a function of my own life and influences, and hopefully by demonstrating those influences, and talking about them, alongside my subjective artwork itself, I hope to vindicate my approach. 
+
+————————————————————————————————————————————
+
+         CENTRAL IDEAS
+
+
+There are probably three central ideas in my work: that of autocosmics, the non-traditional text, and the character as environment. Each of these have formed a part of my artistic work, both materially and theoretically, and my accompanying thesis will most likely focus on them.
+
+
+Autocosmics
+
+Autocosmics (literally ‘self-worlds’[I have adapted the term from paracosmics, coined by Robert Silvey and used extensively by psychologists such as Marjorie Taylor to describe, quite specifically, imaginary worlds dreamt up by artists, children and (sometimes) the delusional (another relative term). 
+
+It is already domain-specific and has its own school of thought, so I decided to create a different term. Besides, ‘para’, meaning ‘beside’, is most often commonly used in those fields that are not actual, not real and, perhaps in serious debate, not important: (see paraphysics, parapsychology and in general the ‘paranormal’). I don’t believe that just because something is imaginary that it is also not real or important, and so I do not like the implications of the term in context, whether or not it is meant. 
+
+I did, however, like the spatial and encompassing element of ‘cosm’, and so retained it for my own term. My term, with ‘auto’, concentrates on the individual and subjective perspective of what it describes.]) is a subjective theory that collects within many disparate yet related constructs such as mimesis, simulation theory, reader-response theory, animism, anthropomorphism and umwelt, from fields as disparate as ethology, artificial intelligence, storytelling, robotics, religion, nature writing, architecture, marketing, toy and game design, human-computer interaction, folklore, environmentalism, affective computing, magic, psychology and theatre.
+
+In general terms, an autocosm is the mostly-unavoidable, sometimes-directed, subjective, and unique simulation of scenarios in the human mind. It is an ability that has defined our species, and includes imagining people and places both factual and fictional, picturing systems or problems in order to solve them, explaining natural phenomena by dint of gods, playing, acting, enacting ritual, dreaming and imagining events and plots unfolding from initial states without them materially doing so.
+
+All of these fields demonstrate autocosmics at work, and I believe that it is perhaps the most important driver of storytelling, and in particular characterisation. We do not need any reason or force in order to create stories and characters within our own mind, or to augment those which are materially suggestive on the written page or computer screen; this, I argue, is invaluable to representing stories and characters deliberately, as artists. This may be of especial use in the virtual medium, especially as a non-utopian, more traditional, naive and practical solution to the problems listed above. 
+
+The Non-Traditional Text
+
+When we think of characters, many of us think primarily of the character in the novel. However, this is only one particular form of the textual character; a relatively recent one, and the one most codified and naturalised in our culture.
+
+While there are many excellent examples and models to use from literature, I think that using non-traditional textual artefacts will widen and enrich our enquiry into character, not least for the virtual form which shares few similarities, weaknesses or strengths with the textual medium. 
+
+The novel is only one form of character, a very restricted one; character is not isolated to them, but is spread across human existence. Perhaps we can say something useful about character by being more open in our definitions.
+
+This is the basis of producing my ‘holy manual’; while a ‘traditional’ approach might entail producing a linear poem or story about my character, I believe that these older forms may hold more interesting parallels for virtual characters today. Though the forms are old, in using them they seem anything but ‘traditional’ or ‘parochial’; they contain many lessons for designers and artists working today, and show the autocosmic at work in a far wider form than just the novel. Storytelling, fiction and autocosmics can be found in any human artefact, not just those designated ‘artforms’ by the culture.
+
+          Character As Environment
+
+This is an example of the ‘wider approach’ to character mentioned above, and is an example of a method that I think could be useful as a thinking tool and practical technique. It involves using the existing strengths of the virtual medium as a metaphor for character, a new context for creating them.
+
+In brief, I believe that it is evident that virtual art, particularly videogames, are spatially rich; there is much skill, artistry and passion involved in creating environments for us to explore. However, in many videogames the environment is the best character, or certainly the character that most espouses the supposed goals of character design in interactive media.
+
+They are fully-functioning, responsive, multifarious systems, complex and rich, of which the actual ‘characters’ are only small elements, rendering them less believable, rich and responsive as a result. My approach to my character, particularly in the simulation, is to render the character as an environment, to let this guide my design, the metaphors I use and the fiction that I create. I hope that this will result in a richer individual character that provides an alternative, if not a complete solution, to the current problems of character.
+
+———————————————————————————————————————————
+       
+          CAVEATS
+
+This is not a model for building characters; my character is very particular, molded to the problem at hand, with limitations and easy criticisms of my approach; particularly that it attempts to model a non-human intelligence. I hope lessons can be drawn from it, but I am not building a template; indeed, I argue that to create effective characters we cannot create templates.
+
+Furthermore, the models of human expression that I am using (holy texts, instruction manuals, animist deities, virtual pets etc.) are not typical models of character; they are formed from my own interests which have informed my own particular solution, not because they are the ‘correct’ way to influence character-building. As I argue elsewhere, each artist has to have their own way of building character; there is no template.
+
+These domains interest me as an artist and a researcher, but I am not attempting to delineate them or draw every link between them; there is no scope in my work for this. I use the term ‘autocosm’ as a way to group concepts conveniently rather than as an underlying structure for all human imagination; it allows me to represent the useful similarities between different forms of human mental simulation rather than state that they are actually similar. In the true tradition of game AI, I seek to find a method that works, rather than a Platonic framework. 
+
+As I stated above, autocosmics is a subjective theory; it is a term that is not designed to become a common set theory, but is merely an attempt to be able to speak about similar phenomena together without stating that they are one and the same. There are many other examples (indeed, almost infinite) of autocosmics at work; I make no attempt to include them all, only those which are useful to my own attempts at characterisation. It does not imply a common biological seat in the brain for all sorts of simulation, nor does it say that what can be said of one type of autocosm can be said of all. However, I think that all of these phenomena share certain characteristics which mean that they can all be usefully applied to the issue of character, and that in grouping them as such I am emphasising the role of the human, rather than the artwork/technology/artefact itself, in the creation of aesthetic experiences.
+
+————————————————————————————————————————————
+
+
+… and is unlikely to have this changed to a more definite title, for 
+the following reasons:
+
+A) the work contains several different parts which would all require separate titles, and therefore an abstract codename for the entire project is more appropriate and easier to write about;
+
+B) both the virtual and text components stand separate and together. They are individual parts of a whole, not discrete commercial units that must be referred to (I now understand the practice of works being referred to as ‘Untitled’).
+	
+C) In the spirit of performative, immersive, autocosmic audience interaction, the work should be encountered as in-situ, unmediated and naturalised; a title is, in fact, an unnatural thing in this regard, in much the same way that giving names to animals is an autocosmic, anthropomorphic identifier exclusively and evidentally practised by humans.
+
+I have adapted the term from paracosmics, coined by Robert Silvey and used extensively by psychologists such as Marjorie Taylor to describe, quite specifically, imaginary worlds dreamt up by artists, children and (sometimes) the delusional (another relative term). 
+
+It is already domain-specific and has its own school of thought, so I decided to create a different term. Besides, ‘para’, meaning ‘beside’, is most often commonly used in those fields that are not actual, not real and, perhaps in serious debate, not important: (see paraphysics, parapsychology and in general the ‘paranormal’). I don’t believe that just because something is imaginary that it is also not real or important, and so I do not like the implications of the term in context, whether or not it is meant. 
+
+I did, however, like the spatial and encompassing element of ‘cosm’, and so retained it for my own term. My term, with ‘auto’, concentrates on the individual and subjective perspective of what it describes.
+ 

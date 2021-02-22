@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.7.0" Device="Farore" Modified="2017-02-14 09:48:31 +0000" ModID="574982B2-44BF-4729-8D97-C97C6445C5C1">
+    <Binder>
+        <BinderItem ID="0" UUID="717006A9-6D7A-4BB2-A09A-1527BBF96B98" Created="2015-12-04 12:43:07 +0000" Modified="2016-06-26 03:01:04 +0000" Type="DraftFolder">
+            <Title>The Theory</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="709" UUID="19BC97FE-7D45-483B-AD54-219C55665F1E" Created="2016-10-04 22:54:40 +0000" Modified="2016-10-04 22:55:15 +0000" Type="Folder">
+                    <Title>For Thesis</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Light Bulb.tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="762" UUID="870ABEA2-C7F9-4AA3-89A6-34B45EA9B4FC" Created="2016-10-30 01:23:02 +0000" Modified="2016-11-01 11:03:48 +0000" Type="Text">
+                            <Title>Key</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>207,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="728" UUID="37911425-557A-4DDF-834D-B628E5BE6CFE" Created="2016-10-21 22:06:32 +0000" Modified="2016-10-29 00:32:13 +0000" Type="Folder">
+                            <Title>Chapter 1 - Introduction</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="737" UUID="BA05C01A-9E2C-4718-AC7C-BA5446120134" Created="2016-10-24 18:31:49 +0000" Modified="2016-10-29 00:54:18 +0000" Type="Text">
+                                    <Title>Introductory Comments</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>275,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="743" UUID="C2CFDD95-BE42-4E86-9FF5-1B347E1D9B02" Created="2016-10-29 00:28:42 +0000" Modified="2016-11-08 09:58:27 +0000" Type="Text">
+                                            <Title>Introduction To Anne's Story &amp; The Project</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>427,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="744" UUID="FEA4E787-B0C5-4375-BB1A-E39A435A1B29" Created="2016-10-29 00:29:01 +0000" Modified="2016-10-30 01:10:06 +0000" Type="Text">
+                                            <Title>Structure Of The Thesis</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection Caret="434">113,321</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="745" UUID="83020673-D5B5-4739-A95A-6A220DFFD3E4" Created="2016-10-29 00:29:18 +0000" Modified="2016-10-30 01:27:45 +0000" Type="Text">
+                                    <Title>An Introduction To Character</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>48,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="746" UUID="CD053154-D306-46EC-8337-896C40BF92A1" Created="2016-10-29 00:29:28 +0000" Modified="2016-12-13 09:32:54 +0000" Type="Text">
+                                            <Title>Brief Definitions</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>5044,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="747" UUID="E32CA218-83A3-4BC0-B843-C59C9DF8EB8B" Created="2016-10-29 00:29:52 +0000" Modified="2016-12-14 10:05:04 +0000" Type="Text">
+                                            <Title>The Quality Of Character &amp; 'Resonance'</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>3281,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="740" UUID="ABAC6715-F09F-4F77-90C7-A75268FF1ED8" Created="2016-10-28 22:36:22 +0000" Modified="2016-12-08 10:37:09 +0000" Type="Text">
+                                            <Title>Examples Of Quality Characters In The Arts</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>699,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="748" UUID="BF732CB4-9D2E-4BFC-9147-69159AAC7AB0" Created="2016-10-29 00:30:35 +0000" Modified="2016-12-13 10:06:34 +0000" Type="Text">
+                                    <Title>Audience, Imagination &amp; Autocosmics</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>514,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="750" UUID="7C9462DE-E7A5-4DB3-B6FB-2EDECFEC1F14" Created="2016-10-29 00:31:02 +0000" Modified="2017-02-13 10:11:25 +0000" Type="Text">
+                                            <Title>Art &lt;==&gt; Autocosmics Link (Audience Reception)</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>26050,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="751" UUID="7FB8275E-5FB3-49B1-AEB8-F37AF7259A10" Created="2016-10-29 00:32:21 +0000" Modified="2017-02-14 09:08:52 +0000" Type="Text">
+                                            <Title>Autocosmics &amp; Wider Theories</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>6319,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="755" UUID="57AC9CB4-E31C-424E-A3C2-89C7C274220A" Created="2016-10-29 00:56:44 +0000" Modified="2017-02-13 10:29:37 +0000" Type="Text">
+                                            <Title>Closer Study: Superstition, Magical Thinking &amp; Religion</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>28018,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="753" UUID="CEB72E5B-802F-4FE9-84D7-6E79CC464175" Created="2016-10-29 00:33:19 +0000" Modified="2017-02-13 10:06:06 +0000" Type="Text">
+                                    <Title>Conclusion</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>1166,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="729" UUID="B5BA6894-EED1-4512-A7B2-E9C0E7B48758" Created="2016-10-21 22:06:57 +0000" Modified="2016-10-21 22:08:51 +0000" Type="Folder">
+                            <Title>Chapter 2 - Inadequacy of Game Characters, Importance Of Autocosmics To Games</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="734" UUID="4E942C0D-689B-43FF-8411-F0DA0B21913E" Created="2016-10-23 00:09:18 +0000" Modified="2017-02-07 16:26:25 +0000" Type="Text">
+                                    <Title>Inadequacy Of Game Characters</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>33355,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="770" UUID="A275B2C2-A00F-446A-B594-6FB4951D0870" Created="2017-01-27 12:40:20 +0000" Modified="2017-02-01 17:06:21 +0000" Type="Text">
+                                    <Title>#2</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>1451,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="796" UUID="6AA6A8A1-05C6-4F02-BB92-DB2A48FF3B22" Created="2017-02-03 10:42:41 +0000" Modified="2017-02-09 13:44:30 +0000" Type="Text">
+                                    <Title>#3</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>3124,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="725" UUID="CA6343C8-C7AF-4538-9A83-35868DE99BB4" Created="2016-10-21 19:17:28 +0000" Modified="2016-10-21 19:17:56 +0000" Type="Folder">
+                            <Title>Chapter 3 - Character As Environment</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="727" UUID="30D04871-7873-49FA-B43B-2EFDFDB20914" Created="2016-10-21 19:18:35 +0000" Modified="2017-02-08 14:15:43 +0000" Type="Text">
+                                    <Title>Boss Battles</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>10082,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="731" UUID="7AB1C48D-8448-4304-992C-4E01718CF3BA" Created="2016-10-21 22:37:42 +0000" Modified="2017-02-03 10:46:29 +0000" Type="Text">
+                                    <Title>Animals As Elements Of Environment</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>20507,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="739" UUID="F670CB3B-7A9F-444C-86DD-464E9FF8057A" Created="2016-10-24 19:53:51 +0000" Modified="2017-02-08 12:32:24 +0000" Type="Text">
+                                    <Title>Grimoire &amp; Manual As Guidebook</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>1590,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="764" UUID="F84E7085-814D-4156-93FE-D8D2C0B2937F" Created="2016-11-02 14:30:06 +0000" Modified="2017-01-30 14:50:14 +0000" Type="Text">
+                                    <Title>Fieldwork</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>8117,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="769" UUID="55B22F35-90FF-4B38-B12F-12E8EA42D476" Created="2016-11-08 16:39:58 +0000" Modified="2017-01-27 16:42:17 +0000" Type="Text">
+                                    <Title>Animism</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>807,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="757" UUID="13449C76-7F62-4080-AB5F-25F5A39B79B3" Created="2016-10-29 00:57:45 +0000" Modified="2017-01-16 11:59:16 +0000" Type="Text">
+                                    <Title>Animals</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>18933,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="730" UUID="738636E6-92C5-4441-AB9D-8DF7038D6210" Created="2016-10-21 22:07:12 +0000" Modified="2016-10-21 22:07:18 +0000" Type="Folder">
+                            <Title>Chapter 4 - Conclusions</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="732" UUID="B2FDF332-3A65-4404-A832-A9560CAAD4AB" Created="2016-10-21 22:44:43 +0000" Modified="2017-02-13 10:25:23 +0000" Type="Text">
+                                    <Title>Future Plans</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>7873,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="710" UUID="93D84DC4-7510-48EF-9760-DF9D458047DE" Created="2016-10-04 22:54:47 +0000" Modified="2016-11-29 14:29:53 +0000" Type="Folder">
+                    <Title>For Creative Work</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Light Bulb.tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="742" UUID="43DFC231-CF05-457A-83DB-03237C2697BE" Created="2016-10-29 00:18:16 +0000" Modified="2017-01-26 16:26:10 +0000" Type="Text">
+                            <Title>Extra Simulation Context</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>23265,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="765" UUID="AA09144D-B7ED-4036-84A4-E1E68A354393" Created="2016-11-02 14:31:37 +0000" Modified="2017-01-30 14:47:19 +0000" Type="Text">
+                            <Title>The 'Housekeeping'</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>311,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="768" UUID="E0D0BF2A-ACF3-418F-9E14-1D003D30D9BB" Created="2016-11-08 16:36:37 +0000" Modified="2017-01-26 16:42:42 +0000" Type="Text">
+                            <Title>Inspirational Robot/Virtual Agent Examples</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>5366,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="733" UUID="193A59A2-9B75-4A12-8719-07083B0D2816" Created="2016-10-23 00:06:29 +0000" Modified="2017-01-30 14:51:09 +0000" Type="Text">
+                            <Title>Extra Historical Context</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>4668,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="405" UUID="B5C3530B-B7FA-4057-B0C5-944DE643ADD6" Created="2016-07-19 01:40:56 +0000" Modified="2016-10-02 19:21:18 +0000" Type="Text">
+            <Title>Appendices</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <FileExtension>rtf</FileExtension>
+                <IconFileName>Tables.tiff</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>7,0</TextSelection>
+                <Target Type="Words">0</Target>
+            </TextSettings>
+            <Children>
+                <BinderItem ID="688" UUID="74ACD85E-8215-4DB3-A2BF-15658F64A0C9" Created="2016-10-02 18:42:18 +0000" Modified="2017-02-08 11:49:30 +0000" Type="Text">
+                    <Title>Glossary</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>180,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="690" UUID="3D6189BC-8B14-4952-B553-965BC1621041" Created="2016-10-02 18:46:37 +0000" Modified="2017-01-26 16:13:49 +0000" Type="Text">
+                    <Title>Acknowledgements</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1970,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="693" UUID="1188D3AC-BF38-4D0C-A718-9A0A0749F23F" Created="2016-10-02 18:48:31 +0000" Modified="2016-10-02 19:00:49 +0000" Type="Text">
+                    <Title>Research Question</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>191,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="694" UUID="2F85A4D5-0DD9-433A-85F7-AC8D003AB70E" Created="2016-10-02 19:07:28 +0000" Modified="2016-10-30 01:45:19 +0000" Type="Text">
+                    <Title>Other Papers &amp; Outputs</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>376,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="695" UUID="CEFA343A-7577-4435-96E0-A16BD7AFD419" Created="2016-10-02 19:08:34 +0000" Modified="2016-12-12 11:46:02 +0000" Type="Text">
+                    <Title>Selected Materials From Fieldwork &amp; Participant Studies</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>279,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="691" UUID="31161C22-39AB-4381-9AD7-0ACDB6D7F88C" Created="2016-10-02 18:47:58 +0000" Modified="2016-10-02 19:07:13 +0000" Type="Text">
+                    <Title>Selected Links</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>454,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="992AD808-20FA-4644-A23C-A956E67F3D44" Created="2015-12-04 12:43:07 +0000" Modified="2017-01-16 09:06:08 +0000" Type="ResearchFolder">
+            <Title>Images &amp; Assets</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="772" UUID="F073232B-0737-4C5F-A5BA-DF6E5BEBFED0" Created="2017-01-27 12:52:00 +0000" Modified="2017-01-27 12:52:28 +0000" Type="Folder">
+                    <Title>For Supersition &amp; Religion</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="773" UUID="CD52220E-4020-472C-A68E-851827CBC2D1" Created="2016-06-17 09:50:10 +0000" Modified="2016-06-17 09:50:10 +0000" Type="Image">
+                            <Title>Huizinga on precious, votive objects</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="774" UUID="03F8202E-A27D-45FE-A54F-FA876A66B0B4" Created="2016-06-17 09:50:12 +0000" Modified="2016-06-17 09:50:12 +0000" Type="Image">
+                            <Title>Huizinga on rites creating the reality they represent</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="775" UUID="1304E288-AB30-4A49-8ABB-278645C22E7C" Created="2016-06-17 09:50:12 +0000" Modified="2016-06-17 09:50:12 +0000" Type="Image">
+                            <Title>Huizinga on ritual play</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="776" UUID="5E016500-CE69-41F4-907D-15519C48A41D" Created="2016-06-17 09:50:12 +0000" Modified="2016-06-17 09:50:12 +0000" Type="Image">
+                            <Title>Huizinga on the creation of gods as a form of play</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="777" UUID="5D582100-5534-4BA8-9CDC-DF3170AF9E3F" Created="2016-06-17 09:50:12 +0000" Modified="2016-06-17 09:50:12 +0000" Type="Image">
+                            <Title>Huizinga on the enchantment of the reader</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="778" UUID="8E808A15-1740-4CF8-B620-89C5341B8F66" Created="2016-06-17 09:50:14 +0000" Modified="2016-06-17 09:50:14 +0000" Type="Image">
+                            <Title>Huizinga on the magic circle's 'spoilsports'</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="779" UUID="FF806E08-45CB-415D-9FC6-7CFB7B763744" Created="2016-08-13 07:03:15 +0000" Modified="2016-07-26 04:47:46 +0000" Type="Image">
+                            <Title>Lambarde on the Rood representing life</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>png</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="780" UUID="8DF2461A-2D9B-4CB4-A2CB-BF4C77F1E263" Created="2016-06-17 09:50:18 +0000" Modified="2016-06-17 09:50:18 +0000" Type="Image">
+                            <Title>McCorduck - Brazen Heads</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="781" UUID="DBCF7545-01AC-45D7-A3EE-19706C23EBBB" Created="2016-06-17 09:50:18 +0000" Modified="2016-06-17 09:50:18 +0000" Type="Image">
+                            <Title>McCorduck - human artefact as godmaking</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="782" UUID="D11D0259-BF81-4C04-8E55-7FD1C4D9C673" Created="2016-06-17 09:50:18 +0000" Modified="2016-06-17 09:50:18 +0000" Type="Image">
+                            <Title>McCorduck on the making of dolls and graven images</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="783" UUID="39A532EC-4A1A-420D-9E97-C55D9CFA09F3" Created="2016-06-17 09:50:20 +0000" Modified="2016-06-17 09:50:20 +0000" Type="Image">
+                            <Title>McCorduck on Vaucanson's Duck</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="784" UUID="6877A985-BC36-481D-AF23-9F044DBD7CCB" Created="2016-06-17 09:50:20 +0000" Modified="2016-06-17 09:50:20 +0000" Type="Image">
+                            <Title>McCorduck's critique of Descartes' mechanism</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="785" UUID="CB7BB85A-22D6-4FB0-84B2-A3CD53B8F758" Created="2016-09-10 11:56:25 +0000" Modified="2016-09-10 07:49:22 +0000" Type="Image">
+                            <Title>murray on reader response</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="786" UUID="D64459B0-B803-47ED-B6E3-6298B0DBF82D" Created="2016-09-10 11:56:26 +0000" Modified="2016-09-10 07:49:49 +0000" Type="Image">
+                            <Title>murray on religion as theatre 1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="787" UUID="988AA6FD-C58A-4B0E-B381-823A925B25A8" Created="2016-09-10 11:56:26 +0000" Modified="2016-09-10 07:49:52 +0000" Type="Image">
+                            <Title>murray on religion as theatre</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="788" UUID="6B41D145-9913-458A-A09B-DE4B74EB2CA1" Created="2016-08-13 07:03:15 +0000" Modified="2016-07-26 05:06:08 +0000" Type="Image">
+                            <Title>Shershow on idols as puppets</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>png</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="789" UUID="50291326-2DC1-4F82-ACCD-8569D8BFA959" Created="2016-11-25 15:51:28 +0000" Modified="2016-11-25 15:51:02 +0000" Type="Image">
+                            <Title>superstition amongst people in cunning folk times</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>jpg</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="790" UUID="56B35448-8741-4ED0-80FE-86E1AA210DE8" Created="2016-08-13 07:03:22 +0000" Modified="2016-07-26 05:08:27 +0000" Type="Image">
+                            <Title>The monks of Boxley using illusion and autocosmics to their own ends</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>png</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="791" UUID="8233844D-884C-47C8-B4D5-6A14BDC02463" Created="2016-08-13 07:03:22 +0000" Modified="2016-07-26 05:53:57 +0000" Type="Image">
+                            <Title>The naivety of the Rood's crowd</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>png</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="792" UUID="C8C9CEC8-45C6-4939-8C36-384773D40B2C" Created="2016-08-13 07:03:22 +0000" Modified="2016-07-26 06:12:55 +0000" Type="Image">
+                            <Title>The performance of ritual as consensual social illusion</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>png</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="793" UUID="79A4FDE4-8BD2-43D7-AE9A-F0901E84745B" Created="2016-08-13 07:03:22 +0000" Modified="2016-07-26 04:57:35 +0000" Type="Image">
+                            <Title>The Rood As Theatrical Object</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>png</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="794" UUID="0E1DCCBF-3D56-4B84-8DE8-22C5890B4744" Created="2016-08-13 07:03:22 +0000" Modified="2016-07-26 06:17:33 +0000" Type="Image">
+                            <Title>The Rood's symbolic spoilsporting</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>png</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                        <BinderItem ID="795" UUID="B903A542-C5AB-45B6-92F5-B45DAD745A11" Created="2016-08-13 07:03:22 +0000" Modified="2016-07-26 05:50:02 +0000" Type="Image">
+                            <Title>The supposed naivety of late-medieval Rood audiences</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>png</FileExtension>
+                                <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                            </MetaData>
+                            <MediaSettings>
+                                <ImageScalesProportionally>Yes</ImageScalesProportionally>
+                            </MediaSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="2" UUID="4738B0C9-F418-40C5-9931-6674207E5566" Created="2015-12-04 12:43:07 +0000" Modified="2015-12-04 12:43:07 +0000" Type="TrashFolder">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <LabelSettings>
+        <Title>Used</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.909804 0.074510 0.086275">Used</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets>
+        <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2017-02-14 08:52:01 +0000"/>
+    </ProjectTargets>
+    <Collections>
+        <Collection Type="Binder" ID="9DAC7887-61A1-4181-82B9-C52F36DF10D1" Color="0.901961 0.917647 0.933333">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="B777E3EC-6082-4F3C-A91C-FF9D7B488414" Color="0.901961 0.901961 0.980392">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No">turkle</SearchSettings>
+        </Collection>
+    </Collections>
+    <ProjectProperties>
+        <ProjectTitle>Project &lt;knole&gt;</ProjectTitle>
+        <AbbreviatedTitle>&lt;knole&gt;</AbbreviatedTitle>
+        <FullName>Rob Sherman</FullName>
+        <LastName>Rob</LastName>
+        <FirstName>Sherman</FirstName>
+    </ProjectProperties>
+    <PrintSettings PaperType="A4" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
+</ScrivenerProject>
