@@ -1,0 +1,3 @@
+///InRitual()
+
+return mDriveCollectionMaster.InRitual

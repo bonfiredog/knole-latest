@@ -1,0 +1,10 @@
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\extensions\CloseEavesdrop\CloseEavesdrop\bin\Release\CloseEavesdrop.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\extensions\CloseEavesdrop\CloseEavesdrop\bin\Release\CloseEavesdrop.pdb
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\extensions\CloseEavesdrop\CloseEavesdrop\obj\Release\CloseEavesdrop.csprojResolveAssemblyReference.cache
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\extensions\CloseEavesdrop\CloseEavesdrop\obj\Release\CloseEavesdrop.dll
+C:\Users\Rob\AppData\Roaming\masterbeast\eavesdrop\extensions\CloseEavesdrop\CloseEavesdrop\obj\Release\CloseEavesdrop.pdb
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\CloseEavesdrop\CloseEavesdrop\bin\Release\CloseEavesdrop.dll
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\CloseEavesdrop\CloseEavesdrop\bin\Release\CloseEavesdrop.pdb
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\CloseEavesdrop\CloseEavesdrop\obj\Release\CloseEavesdrop.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\CloseEavesdrop\CloseEavesdrop\obj\Release\CloseEavesdrop.dll
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\CloseEavesdrop\CloseEavesdrop\obj\Release\CloseEavesdrop.pdb

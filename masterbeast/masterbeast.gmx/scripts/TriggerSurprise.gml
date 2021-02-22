@@ -1,0 +1,1 @@
+ds_grid_set(mEmotionSubController.EmotionGrid,mEmotionSubController.Activation,mEmotionSubController.SurpriseNumber,ThisIntensity)

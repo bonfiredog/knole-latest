@@ -1,0 +1,3 @@
+///ProcessInputForAttention
+
+return true

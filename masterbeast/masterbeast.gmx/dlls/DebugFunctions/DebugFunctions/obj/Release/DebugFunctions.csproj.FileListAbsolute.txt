@@ -1,0 +1,5 @@
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\DebugFunctions\DebugFunctions\bin\Release\DebugFunctions.dll
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\DebugFunctions\DebugFunctions\bin\Release\DebugFunctions.pdb
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\DebugFunctions\DebugFunctions\obj\Release\DebugFunctions.csprojResolveAssemblyReference.cache
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\DebugFunctions\DebugFunctions\obj\Release\DebugFunctions.dll
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\DebugFunctions\DebugFunctions\obj\Release\DebugFunctions.pdb

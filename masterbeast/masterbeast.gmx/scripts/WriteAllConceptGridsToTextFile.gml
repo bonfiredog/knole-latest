@@ -1,0 +1,25 @@
+///WriteAllConceptGridsToTextFile()
+
+with mCreatureController {
+ConceptsTextFile = file_text_open_write("concepts.txt")
+file_text_write_string(ConceptsTextFile,"CONCEPTS")
+file_text_writeln(ConceptsTextFile)
+file_text_write_string(ConceptsTextFile,"=======")
+file_text_writeln(ConceptsTextFile)
+file_text_writeln(ConceptsTextFile)
+file_text_write_string(ConceptsTextFile,"(Collected at: " + string(AddZeroToTwilight(current_hour)) + ":" + string(AddZeroToTwilight(current_minute)) + " on " + string(AddZeroToTwilight(current_day)) + "/" + string(AddZeroToTwilight(current_month)) + "/" + string(AddZeroToTwilight(current_year)) + ")")
+file_text_writeln(ConceptsTextFile)
+file_text_writeln(ConceptsTextFile)
+file_text_write_string(ConceptsTextFile,"Trust: " + string(Trust))
+file_text_writeln(ConceptsTextFile)
+file_text_write_string(ConceptsTextFile,"Subscryber's Intent: " + string(SubIntent))
+file_text_writeln(ConceptsTextFile)
+file_text_write_string(ConceptsTextFile,"Resistance: " + string(Resistance))
+file_text_writeln(ConceptsTextFile)
+file_text_write_string(ConceptsTextFile,"Proximity To Anne: " + string(CloseToAnne))
+file_text_writeln(ConceptsTextFile)
+file_text_write_string(ConceptsTextFile,"Anne's Intent: " + string(AnneIntent))
+file_text_writeln(ConceptsTextFile)
+
+file_text_close(ConceptsTextFile)
+}

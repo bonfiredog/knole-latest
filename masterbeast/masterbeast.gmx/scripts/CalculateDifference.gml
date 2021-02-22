@@ -1,0 +1,2 @@
+
+Difference = y - StartingPosition

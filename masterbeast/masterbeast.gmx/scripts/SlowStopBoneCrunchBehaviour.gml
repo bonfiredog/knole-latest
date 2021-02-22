@@ -1,0 +1,3 @@
+///SlowStopBoneCrunchBehaviour()
+
+mBehavioursDeliberative.BCStatus = "slowstop"

@@ -1,0 +1,19 @@
+C:\Thew\Projects\C# Tut Projects\WeatherDLL\WeatherDLL\bin\Release\WeatherDLL.dll
+C:\Thew\Projects\C# Tut Projects\WeatherDLL\WeatherDLL\bin\Release\WeatherDLL.pdb
+C:\Thew\Projects\C# Tut Projects\WeatherDLL\WeatherDLL\obj\Release\WeatherDLL.csprojResolveAssemblyReference.cache
+C:\Thew\Projects\C# Tut Projects\WeatherDLL\WeatherDLL\obj\Release\WeatherDLL.dll
+C:\Thew\Projects\C# Tut Projects\WeatherDLL\WeatherDLL\obj\Release\WeatherDLL.pdb
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\bin\Release\WeatherDLL.dll
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\bin\Release\WeatherDLL.pdb
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\obj\Release\WeatherDLL.csprojResolveAssemblyReference.cache
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\obj\Release\WeatherDLL.dll
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\obj\Release\WeatherDLL.pdb
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\bin\Release\Newtonsoft.Json.dll
+C:\Thew\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\bin\Release\Newtonsoft.Json.xml
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\bin\Release\WeatherDLL.dll
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\bin\Release\WeatherDLL.pdb
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\bin\Release\Newtonsoft.Json.dll
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\bin\Release\Newtonsoft.Json.xml
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\obj\Release\WeatherDLL.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\obj\Release\WeatherDLL.dll
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\dlls\WeatherDLL\WeatherDLL\obj\Release\WeatherDLL.pdb

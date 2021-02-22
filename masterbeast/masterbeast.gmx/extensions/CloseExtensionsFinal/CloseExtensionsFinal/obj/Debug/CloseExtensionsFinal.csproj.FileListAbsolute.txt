@@ -1,0 +1,5 @@
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\extensions\CloseExtensionsFinal\CloseExtensionsFinal\bin\Debug\CloseExtensionsFinal.dll
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\extensions\CloseExtensionsFinal\CloseExtensionsFinal\bin\Debug\CloseExtensionsFinal.pdb
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\extensions\CloseExtensionsFinal\CloseExtensionsFinal\obj\Debug\CloseExtensionsFinal.csprojResolveAssemblyReference.cache
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\extensions\CloseExtensionsFinal\CloseExtensionsFinal\obj\Debug\CloseExtensionsFinal.dll
+E:\Git Projects\knole\masterbeast\masterbeast.gmx\extensions\CloseExtensionsFinal\CloseExtensionsFinal\obj\Debug\CloseExtensionsFinal.pdb

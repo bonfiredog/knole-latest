@@ -1,0 +1,3 @@
+///IsAsleep
+
+return mBehavioursReactive.Sleeping

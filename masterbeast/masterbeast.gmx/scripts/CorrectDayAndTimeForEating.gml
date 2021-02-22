@@ -1,0 +1,3 @@
+///CorrectDayAndTimeForEating()
+
+return true
