@@ -1,0 +1,19 @@
+Need to balance positive changes - need ways to make positive changes. Think about it.
+Cutting throat makes pitch go up. (permanently?)
+Alive only affects negative emotions: happy can always go up more.
+More lust effects chancetoritualreact()
+Snapping on mouth if hand nearby: How likely?
+Hair takes a few days to grow back...
+Come forward when touched if not upset.
+The moon only shines on the top of the head.
+One of his phrases (rare to say) sounds like ‘Damnation’
+Add new scars depending on recipes.
+Use fixed numbers in ritual reactions.  
+Bruises and marks around neck
+Move throat down past first taboo.
+Make a note of which recipes she has done more of and build into creature - under fur.
+Red line on temple less distinct. Blood spots stay - line fades more slowly. 
+Doesn’t detect sounds under a certain base level, or disable if making noise (a script to check) 
+Fixing face sensitivity.
+Fix fragility of voice recog.
+DETECTING SILENCE:  What is the acceptable threshold (numerically) for marking silence? A permanent state that changes when noise is heard.
