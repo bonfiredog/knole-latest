@@ -18,7 +18,7 @@ This is just a repository for the files relating to the project; for more inform
 - Drafts of the text artefact, found in [`/housekeeping`](https://github.com/bonfiredog/knole-latest/tree/master/housekeeping);
 - Drafts of the accompanying academic thesis, found in [`/thesis`](https://github.com/bonfiredog/knole-latest/tree/master/thesis);
 - The markup and assets for the project's website, found in [`/site`](https://github.com/bonfiredog/knole-latest/tree/master/site);
-- Miscelleanous notes, screen captures and drafts, found in [`/notes and addenda`](https://github.com/bonfiredog/knole-latest/tree/master/notes and addenda).
+- Miscelleanous notes, screen captures and drafts, found in [`/notes and addenda`](https://github.com/bonfiredog/knole-latest/tree/master/notes-and-addenda).
 
 Most files can be opened with an ordinary text editor or other OS-level tools explorer. The development versions of the code-based projects, however, will require copies of [Construct 2](https://www.scirra.com/), [Gamemaker: Studio](http://www.yoyogames.com/) and [Visual Studio](https://www.visualstudio.com/). It is only designed to function on machines running Windows 7 or higher: Mac OSX and Linux (all flavours) are unsupported.
 
