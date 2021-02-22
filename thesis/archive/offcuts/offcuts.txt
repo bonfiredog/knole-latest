@@ -1,0 +1,277 @@
+
+The 'systems reply' to Searle - the man does not understand Chinese, but the system of which he is a part does.
+“Pause to see if she does anything herself. Repeat actions. The order in whcih you do things is critical” - Emily had to do this.
+
+"the representational forms of other media might not lend themselves so easily to the medium of the videogame as the role of narrative is not clearly delineated."
+
+“Every action taken results in a change affecting the overall system of the game… an action a player takes in a game results in the creation of new meanings within the system”
+The time of my characters and perspective - they are “subjective and objective… interdependent and integrated levels of time-experiencing”. Related to autocosmics - we imagine smoothness out of moments?
+
+Complex systems of chars can lead to complex patterns, rather than simple patterns that feel mechanical (Short)
+
+AI Director in L4D – Laralyn McWilliams says “that’s where the magic is”. “virtual dungeon master” 
+
+Dwarf fortress is very opaque. Short - “hiding” traits. 
+
+"increasingly rounded characters with stories, motivations and roles to play in narrative and gameplay" - really?
+
+Juul Points out that games are strict in their umporant and unimportant elements - stories less so.
+
+Nature does not have an interface for its systems other than our perceptions.
+
+architectural structures as natural, in the sense of “everyday experienced”, visual
+media are highly suitable to build a common ground for interdisciplinary and
+expert-novice communication.
+
+Mandrake root “was invested with human sentience”.
+Being "lost" in a story.
+
+ - a spatial element to aesthetic illusion. Characters, then are an aspect of a narrative world, which is not necessarily a landscape, but may be thought of as such.
+
+With characters, the temptation is to approach things from Minksy's perspective; the metaphor of the 'society' and mind, but I am going for environment and the totality of character. This is a purely physical (in a lot of ways) system, relating to BOD and reactive programming.
+
+Chowanda et. al - building a relationship, non-verbal signals. 
+
+States that visual versimilitude improved "more than other features"
+
+How characters as arising out of a text is interesting - the formalist position - characters BECOME the text, their traits are the individual characters. The text (the narrative) arising out of their existence
+
+points out the dimensionality of 'just couldn't get into it'.
+
+Kopas - "I’d grown up with games, but I’d never felt the presence of their authors."
+- This presumption of even-handedness offers an insight into the relationship between game worlds and the “real world” that constitutes a significant impediment in representing reality within games." - the competition-based structure does not always work.
+
+The game characters do not recognise you in any social sense - just as Anne makes not allowance for the creature doing so.
+
+
+fOR gRAHAM, they are "digital homunculi" - he is modelling bigger social systems. This is close to Bogost's view, but not close to mine. Maybe this is the way to do it. A very limited social sphere - not close by, not intimate.
+
+Jenkins – definitely lots of different definitions of it, by Jenkin's definition of storytelling across media I am doing transmedia. I don't have this sense of penetrating or permeating daily lives. (eg. ARGs) – not meant to be viewed across platforms.
+
+ (Augmented reality at cultural heritage sites (Dieck and Jung 2017) - "preserve histroy, enhance visitor satisfaction... and contribute to  a positive learning experience"
+Direct Manipulation Interface  
+Term introduced by Ben Shneiderman. This is opposed to a textual or command-line interface; an object-based interface with metaphor, affordance and naive physics in which things move and act much like they would in real life. Also characterised by incremental change, rather than the more monolithic changes that come from issuing distinct commands to a computer. It does not necessarily have to be graphical; can incorporate sound or haptics. 
+
+Virtual heirtgae is narrower - the "simulation of past places, events and cultures through computer game interaction" - he doesn't use the word interpretation.
+
+Physicality is a big factor (harris and sharlin) - I do not yet have this
+Reinhard 2015 - "apply real-world archaeological methods to virtual spaces"
+
+ Floridi from the Oxford Internet Institute is a good example in calling AI ‘smart technology’ rather than AI. This mediates expectations on both sides.
+
+Talks about card game art, LOTR CCG, magic the gathering - tiny hints of the story.
+Talk about autocosmics of magic: the gathering
+
+“Dormant relationships”
+Interaction - "Active relationship between at least two entities" - therefore are books interactive, really? Is it an active relationship, or paraactive? Is the book reacting back? Not physically.
+
+moving bits of information from one place to
+another, performing logical operations on other data, triggering phys-
+ical devices, and so on (Mullaney)
+
+" The network of decisions can be denser than in a Choose Your Own Adventure text, because the possible developments are narrative in a looser sense of the term: these narratives do not consist of interpersonal relations, but of the sequence of transformations that affect a micro-environment. "
+
+"confrontation with technology at the level of creation"
+
+The simulations are realistic enough to be used for real-world role-playing, says Evans, who presented the work last month at theGames and Media Eventat Imperial College London. For example, soldiers could use such a system to practise interactions with civilians in a war zone, or young people could practise confronting bullies. Seeing these things from multiple perspectives helps you to understand, says Evans. (New Scientist Article) 
+
+
+Interface - 
+ what Manovich sees as a "new cultural metalanguage" (Manovich); the interface
+
+ – not just things that make them human, but those human things that are important to narrative, and the sorts of narratives we want to create
+Use in heritage enforces a martial view of the past. Therefore, better characters would reinforce person and place, psychological history etc. "The real-life challenges that games prepare us for are almost exclusively ones based on calculations of odds." 
+"Classifying, collating and exercising power over the contents of a space is one of the fundamental lessons of all kinds of gameplay 
+My focus on autocosmics, in its broadest sense, precludes using these ideas solely for creating characters in art; characters surround us, whether self-created or created by others. What arenas of life other than the arts might benefit from resonant interactive characters, or environments? 
+Noted (like others re. children) - that young children focussed on outer characteristics of characters, older children internal. 
+Using character-led teaching techniques to allow children to understand plot and narrative BETTER and with greater understanding (by following them through the text). Character as SUPPORTING narrative, as providing understanding, resonance as a tool not just to emotion, buyt to actual understanding. 
+Differencesbetweenthecharacterandrecipientoffictioncanprovidenewunderstanding. 
+'chaotic' learning environment. 
+Environment is always connected to other environment - not isolated, not unaffected by events outside itself. 
+Haptic feedback. 
+Wear the creature as a mask, in a head harness. This changes the creature dramatically into mask mode. 
+Using compressed air for its breath. 
+Character as environment, character-as-interface. Moving towards direct manipulation. 
+risnotonlyapassively 
+suggestible recipient of fiction and its influence, but that the viewer actively assesses the 
+fictionalarrangement,whichismostdistinctiveduringtheidentificationprocess. 
+fiction is regarded 
+asasimulatedexperience 
+Choose characters that match themselves. 
+Use characters as possible  
+'play' with characters and situations so that they create and open new modalities for themselves - play is used a lot, relate in chapter 2? 
+All of this stuff will relate to chapter 4 as well. 
+
+"active choice" and "process" of choosing fictional characters to identify with (remember, identification is only one part of response) 
+Not just the character's effect on the reader, but part of a process of self-reflection - the character is taken within them. 
+Biometrics/heartbeat sensors 
+Movement sensors. 
+Water as an input device (hydrophones). 
+A smart cloak - wearing its pelt, or a hood, that squeezes you back.. This is an atavistically-comforting piece of clothing, and I want to capture that feeling. 
+A living, breathing installation of the creature in a room. The entire creature, with the screen at the centre. 
+
+
+Using the creature for therapy, like Robin, PARO, guide dogs etc. 
+In a heritage scenario. Dealing with historical characters. 
+Virtual assistants, Seymour the in-car sensation manager. 
+
+Future Extensions To Technology 
+
+Content 
+A.  Text is written in clear, straightforward English (acknowledging the need for subject- 
+specific, technical language in professional journals). 
+B.  Pictorial information supports the text. 
+C.  Information on accommodations available to people with disabilities is integrated into 
+other service information. 
+e 
+D.  As with cultural and gender equity, where appropriate, information about the life
+What methods I have used to evaluate my success - field studies, the exhibition, verbal feedback. 
+HCI book - we operate within an ecology of people, physical artefacts and electronic systems 
+
+
+Creative Computing - Hongji and Andrew differentiate it from computational creativity, which is an engineering thing. Doing computations in a creative way - this isnt the focus of my work. 
+
+#4 - Cordar et al - virtual agents (for medical student training) with a back stroy were far more empathetic than those without. 
+ "identification to action" (Manovich)
+
+We are exiting the sacred phase of society - collective animism (IoT) combined with tech utopianism. We dont understand our devices. We now look for reenchantment that correlates with science. 
+
+r - not a template or blueprint for making characters, though I hope it is useful in this regard. Only really about making this one character - not a system for including characters like versu or x or x. 
+
+what Lindley refers to as the “game-play gestalt,” “a particular way of thinking about the game state from the perspective of a player, together with a pattern of repetitive perceptual, cognitive, and motor operations” (Lindley, 2003)
+
+Queneau - “rats who construct the labyrinth from which they plan to escape.”
+
+	These potentials, when seen through the prism of those computational artworks that wish to provide the same narratological value as other artforms, are perhaps best realised in the characters that inhabit these worlds and provide or act to create these narratives. This "character-focussed" approach, seen in the work of Currie and others (Chapter 1), is perhaps even more readily applied to the computational narrative; if we see characters as agents who by their actions, decisions and mentalities constitute a narrative, a computational character (that is, a fictional character realised as a component part of a computational artwork), that narrative becomes procedural, and generated in real-time, but the computational and interactive qualities of the containing computer. Characters, like the artworks that contain them, are no longer materially created as artifacts, but as personalities who embody potentials for action and narrative. 
+In speaking about these computational characters, I must apply two caveats; the first is that my focus are videogame characters, and that many of the constituent examples I provide will be taken from the videogame industry. Never mind that the boundaries of this industry, butting up against "interactive art" and "notgames" and other such that I have explored already, are tenuous. While the last chapter of this work will think about computational character outside the purely artistic application implied by videogames, I do not think that my focus is a limiting one. If at least one of the goals of a piece of computational art is to present a narrative well, then my questions about the resonance of computational characters will have application. The videogames industry has perhaps struggled the most with the representation of computational characters, and provides the most ready examples for critique. The masterbeast does not differ greatly from characters in more traditional 'videogames' in terms of its nature.
+
+At the moment, as Naomi Alderman points out, "we're just scratching the surface of what games are and what they can be"; we are slowly moving beyond what Murray called the "incunabular days", on a timescale with no upper boundary, and seeing games move To me, the resonance of computational characters, as judged by the precepts and possibilities of the media that contains them and the aims of their containing artwork, present much of the current struggle to reach this potential. As Bartle says, "if virtual worlds could be populated by intelligent NPCs, all manner of doors would open".
+
+Mateas - behaviour of characters reveals their character, and defines the game (expressive AI).
+
+Eliza Effect 
+
+Ouija uses the paracosmic ideomotor effect. 
+Ouija board - marketed as a GAME!
+together consituting what Klugl and Bazzan call a model "rigid structures from which play will emerge" creating a simulation.
+
+“The user is not disemboded but is provided with a device which allows him or her to visit a place that would otherwise not be accessible.” - their body is part of the experience - not their mind - their bodily reaction to autocosmic stimuli change things.
+
+
+“Even the most technical discussions about computers  use terms borrowed from human mental functioning.”
+
+"Design is making sense (of things)" - both within a system, and of a system which has coherence itself. This is partly what the player does, as well.
+
+Krippendorf - definitions of design - making something, "giving it significance" - the worlds that we are making - making a system and giving it significance.
+
+ designers to communicate through the designed world with
+ other fellow human beings and to participate responsibly in an
+ ecology that is, at least in part, their own creation. T
+
+
+
+Assets are not the biggest challenge though - we've thought about this a lot more - think about them now where they come into the systemic. - "false binary" between them.
+
+
+ "one cannot design a user experience, only design for a user experience"
+
+
+- "roboticists negotiate among social, technical and cultural constraints while designing robots, and how humans and robots are constructed as cultural subjects in social robotics discourse" - bringing the human into robotics.
+Robots as "culturally situated artifacts"
+
+Lea Schonfelder-  art videogames - "What attracts me most about computer games is the possibility to express ideas in the form of systems instead of linear stories (like you have in most films or literature). I find it interesting to connect narrative content to mathematic and systematic structures."
+
+ as an interface problem posing different
+requirements for observing operations mediating between the orientations in the real
+space and the space of the image 
+
+
+Pinchbeck (2008) on the intentional stance.
+Essentially taking my position! AI relies on player's mind as much as the actual games systems.
+"importing behavioral expectations from reall life"
+"create the illusion of a greater intelligence than is ever actually present"
+Bringing in Telltale - games are all about perceptory illuusion.
+
+The fundamentally impor-
+tant issue with agents in games is not their intelligence but rather its
+appearance.
+Have we gone too far towards exteriority with smartness? Just showing the surface?
+t is often the cuing, by the system, of the adoption of the intentional
+stance in the player, and a selection of cheap and simple semantic
+tricks that achieves as much in terms of the player projecting intelli-
+gence into the system.
+
+Points out that simple system failures can undermine very important AI systems.
+adjusting even a small number of pre-existing vari-
+ables provides high potential for interpretation.
+
+What is also added to the mix, per-
+haps even more importantly, is the ability of the player to virtually
+bootstrap the actual intelligence inherent in the system, to a higher,
+246
+Pinchbeck
+anthropomorphized level. - importance of the simple systems to creating intentional stance
+But I am not saying keep the systems really simple - not necessarily best ofor the artmiddle.e in thform - somewhe
+This idea of coding as curation - not creative or original as such, but gathering grammars together? I dont buy it.  
+How will I measure success? Bind concets with concrete user testing. 
+
+The magic circle is not only difficult to conjure, but where would its boundaries be defined? With a book, or a film, this is easy, and is aided by the physical design of the arts material space to match its conceptual space. With ubicomp (Tinnells phrase, perhaps borrowed from elsewhere) we dont have those spaces bracketed off [from] the distractions of open air spontaneity. 
+Madrigal, quoted in Tinnell; No one knows how to create words and pictures that are meant to be consumed out there in the world.  
+
+demasio - emotions have "regulatory role" - making things better for organism - "assist the organism in maintaining life" - they force attention in a "rich decision space"
+The Two Cultures C.P. Snow - why split things into science and humanities. Artists need to be educated - coming from the science direction as defensive. Arguably, things have now swung around the other way. (at least outside of education. Though mainly talking about differences between countries. He later proposed a third, mediating culture. (re. John Brockmans Third CulturePARO is deliberate courting of autocosmics. 
+whereas the traditional approach to '
+
+Which is, of course, the promise of AI - the Internet of Things, networked databases, constant wireless access. This makes reflection, solitude and the magic circle very difficult to conjure. Perhaps this is why making good art digitally is difficult? Attention spans are low. 
+
+
+HCI book talks about future senses - smell, touch, texture. 
+
+
+What John Tinnell calls the ubiquitous computing paradigm - no spaces away from networked, trilling noise. 
+
+Weizenbaum - today arts are perceived largely as entertainment - as content inside more-interesting frameworks
+
+"Liking, in its varied forms, arises in the psycho-
+logical space between the virtual and the real,
+and engineering likable virtual people with
+whom real people will fully engage means at-
+tending to not just physical appearance, but also
+how they help and hinder, whether they are
+friendly or hostile, and how all these are per-
+ceived through the variety of characteristics and
+motivations that real people bring with them.
+
+Greg Garvey - Automatic Confession Machine - digital/physical installation, devotional, "religious ergonomics" force kneeling, religious belief and cosmology as reducible to computable finances. The transaction of the confessional booth. All about autocosmics - "a digital leap of faith and surrender to the belief in the power of silicon absolution." 
+Computational installations - TOuching The Sacred And Profane - touch technologies to think about touch, about religious faith (in a tryptich) - Pull For Fire and Push For Fire 
+
+Haunted Machines - an ongoing investigation into narratives of myth, mafic and haunting around technology. The continued proliferation of connected devices and the narratives driving them forward has been running parallel to stories of surveillance, hacking and black boxes. While designers and technologists talk about 'magic' and 'enchantment' in regard to these devices, we forget that magic is a form of deception; a sleight of hand. Thinkers, writers, designers and artists are beginning to refer more and more to a new time of hauntings and the supernatural in respect of this new technological climate. 
+
+
+Arbitrary images are merely suggested as things which they have no relationship to. 
+"the order of sorcery" - the assumption of a great teleology. 
+Think about "user journey" - one person at a time, 10 mins each? How do they go into it? 
+What are the "good choices" for the user? 
+autocosmics already used a huge amount in heritage, study of history - focussing on idvidual stories, using characters as ciphers for exhibitions etc. 
+
+?social and natural responses come from people, not from media themselves,?(p. 252)
+
+These are creatures with 
+whom you?d want to share some of your life? 
+
+ELIZA as “a work of electronic fiction”
+Eliza Effect - "attributing greater intelligence or intentionality to a machine than it possesses"
+
+Empathy is important - a charactet that you care for...
+
+
+Samyn is all about the single-vision model - teams dilute things - "Art creation is not a team sport" - not sure I agree with this.
+ There is a need, in this potential, to not abandon the system entirely, but to use it to explore the potentials of the medium.
+
+“emotioneering”
+
+“The software engineers must have knowledge of the creative domain, but for this to be truly effective the creative people must also have knowledge of the software engineering.”
+ to "digitise" all information (that is, convert it meaningfully into a limited but easily computed subset of information types such as words and numbers)
+
+
+	This is a wide area of interest, but the most important methodological point to the artist is this – a computer is a machine which operates according to certain physical and conceptual boundaries. One of these is the digitalisation of information; the rendering and diluting of infinitely complex analogue information into discrete units of arbitrary symbols, which can be manipulated in certain fixed ways by the machine itself (Weizenbaum, 1971). This fundamental fact of the digital computer, one which is not likely to change in any useful timeframe, is proving to be the greatest challenge to rendering something like a living being. 

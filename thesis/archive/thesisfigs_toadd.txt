@@ -1,0 +1,60 @@
+To Add
+------
+
+- Add to repository with correct figure numbers.
+- Add to the list in Appendix 9 of thesis.
+- Add as citation in thesis body (eg. see Appendix 9, Figure [x])
+
+---------------------------------------------------------------
+
+
+Figure 16 - the site of Nighthead
+Figures 17a - 17e: the emotions of the creature.
+Figure 18. Gif of it reacting to stimuli.
+Figure 19: High-res of the debug menu.
+Figure 20: The paper texture on the creature's face (close-up).
+
+
+
+
+
+
+the cellar
+go through creature features - what won't they see, and what do I need to include?
+Creature nearly dead
+Creature dying sequence
+Revealing the decaptiation
+Creature before and after multiple uses.
+Creature at night
+Creature in emotiona states.
+Doing a sigil
+Using the Cellar
+Manipulating cauldron nub.
+Fill up cauldron.
+Creature backed away.
+Creature zoomed in.
+Pulling out ear
+Cutting
+Slapping
+Pulling out horn
+Cutting off mole.
+Sleeping/dreaming
+Shaving
+Plot wound 1
+Moving creature around
+Debug interface
+Clouds
+Floaters in the ey
+Picking gound
+Picking hair
+Showing wen rings
+Photographs of the kit (microphone, computer, build, cameras, setting)
+Screenshots of Eavesdrop/Pareidolia
+Stroking nose.
+Pictures from MWM.
+Eavesdrop and the other one.
+Picture of title page.
+Picture of ballad title.
+Picture of the charms
+Picture of the evidence page.
+Picture of the almanack.#

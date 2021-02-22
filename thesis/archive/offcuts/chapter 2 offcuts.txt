@@ -1,0 +1,254 @@
+Bogost - Brenda Romero’s train makes you interact with game pieces roughly - the game’s context makes the action ambiguous, through autocosmics - the faceless characters on the train.
+
+Cannot be discussed in isolation - game stories are difficult, fundamentally different from other media, but have continuity in terms of the diegetic and mimetic, representation and immersion, identification, critical distance. Cannot split games into their own 'thing'. 
+
+While resonance concerns itself with audience response, the readiness of the videogames industry to champion the Barthesian “death of the author” popular in some circles of audience response theory (Filipowich, 2013) which frames the player/work relationship[ in terms of “owing” and “investment” (Anderson, 2014) has, as this chapter shows, led to a reductive instrumentality which makes resonance even harder to achieve. 
+
+
+Short - has a "model world" Distinguished from "choice-based narratives" and "hypertextual literature" - these also have a world model though. 
+
+"Game designers should more rigourously engage with the complex, interdependent relationship between the fictive world and story events". How does the player's imagination, aided by the 'fictive world', lend the story events meaning? A cohesion between these two means that the game world has an internal consistency - similar to characters. Using conventions, things they understand, to guide their autocosmics. 
+“The validity and legitimacy of softer knowledge”
+
+Characters in games might actually be individuals, because of OOP - characters are now discrete, NOT serial
+
+“Game designers create experience, but only indirectly”.
+
+Makes the link with cybernetics (Dreher) – reaching homeostais, seeking equilibrium – a very good overview.
+
+
+"Narrative involvement thus concerns the player ’ s engagement with
+story elements that have been written into a game as well as those that
+emerge from the player ’ s interaction with the game. " - have them come closer together.
+
+Tavinor a big fan of bioshock - little sisters "use emotions to defend themselves" both in game narrative, and for player.
+. All games have narrative, but if I've said that narrative need characters, do all games need character? Well, yes, in a way, but that character could be the player within world, or a very simple character. "The game comes first"
+
+games have goals, and players mutually agree to behave as if the goal is important to them when they play – the game creates a desire to achieve the game’s own goals.
+
+Whereas the visual arts compel viewers to engage in the act
+of looking, video games, like a whole variety of digital media, compel
+players to perform acts.
+
+Simulation - "a procedural representation of aspects of 'reality'" - therefore books, on their own, are not simulations. Only with interaction. A computer sim can be a sim on its own. Doesn't need a person The person-simulation is second-hand.
+
+
+
+Chars are even more modular, more partial, more separate - in OOO.
+
+ewing to produce alterations in the work 
+
+Is different both from percpetive of artist and of audience.
+
+Leading to ridiculous statements like - Traditional storytelling normally deals with endings in a binary way." - completely disagree)
+
+
+
+
+Games are systems designed to respond to user input,
+a set of rules defining which actions can be taken and what
+outcome should follow - and a well-presented story can help
+the player understand these rules by instinct, if the designer
+understands the need for closure and where to apply it. (Staedler)
+
+
+
+" Incorporation offers a rich understanding of the phenomenon of
+virtual environment habitation that, unlike the metaphors of presence and
+immersion, is multifaceted, media-specifi c, and precise in its formulation."
+
+the commercialisation and popularisation of that technology to become "cheaper, faster, more capacious and more connected" (Bogost)
+The difference between "affect" and "emotions" - can engage with the latter, can judge it - the former, not so much.
+
+
+Let’s talk about character as an extension of the computer system that embodies it – made of the same stuff.
+
+"The player is party to the individual and collective developmental growth the AIs experience, further enhancing player emotional investment and intensity. " - not just ascribing agency to them, receiving feedback and participating in their growth/change.
+
+
+Like books, there is the text, and then the reader's experience of it - two poles. The text as a "happening" - this happens in games as well. Like books, games must be read/played/interated with. And thus the system changes as well.
+Reeves and Nass - system facts are interpreted fictionally (that is, socially)
+treat computers as "communication partners"
+see characters both as personalities and as tools.
+
+None of these interface features is a necessity
+for the machine, but they enhance usability by referring to
+well-known work flows from the physical world (e.g.,
+‘‘grabbing a file and throwing it into the trash can’’). A pre-
+liminary culmination in the evolution toward a more user-
+centered communication has been reached in the efforts to
+develop humanlike synthetic characters (embodied conver-
+sational agents, ECAs), whose purpose is to allow natural
+verbal and nonverbal communication (Cassell, Churchill,
+Prevost, & Sullivan, 2000).
+
+Play doe not come just from game, but from the player’s interactions with the game’s systems, and the context in which it is played. Interaction is based on choices and actions from these choices.
+
+Re. Shelter 2 - adding their own rationales for behaviour - “they’re cuddling up because its cold” - could just be pathfinding. 
+
+Analog <---> digital interrelate between the partial representation of character and the "richness" of the imagined character and the relationships.
+
+
+"an object whose actual manifestation results from the strict application of a specific set of rules (or procedures) to a particular context"
+Too general - I do want to focus on the technology, as it does create affordances and cultures specific to itself.
+
+Digital media's mediality is more fluid.
+
+For Ryan - "a world situated in time" and undergo significant transformations/agents.
+
+
+Video games won't be the perfect, twenty-dimensional vision imagined in a creative person's head. There are realistic limitations to what can be translated from that imagination into a playable experience, dependent on the limitations of technology, and the structure of video game development. And yet we've still had many opportunities to play games that were representations of a studio's best ideas, however cut and culled they may have been.
+
+"greater emphasis to be placed on uncertainty in situations of human–machine interaction where the need to foster difference, novelty and creative engagement is more relevant."
+
+Telematic work of Paul Sermon (There's No Simulation Like Home)
+
+"animistic design proposes a move away from the conventions of user-centered design. Instead, by fostering unpredictable interaction among human and nonhuman agents, animistic design creates new narratives of fuzziness and productive serendipity."
+Unreal Estate
+Dalston, Mon Amour
+Bonus Levels
+
+Digital art is twice removed becayuse not only is it a representation but also it is digitalised.
+
+ giving digital devices and digital materials intention, behavior and personalit
+de-centered - with the book, the ocassionality/timetabling of coming to the creature.
+Is the system we are making like a person-as-system, or something else entirely? And what is that something else, if so?
+
+Ouija 2000 - religious/ritual experiences in games.
+Smashing 2008
+Darker Than Night Edward Kac and RC Roboto
+Lawrence Lek - definitely computational art, if not 'narrative', more conceptual. 
+Myron Kreuger - Videoplace
+
+"I use real-time engines to make videos, simulations and games"
+
+NWF - new media does things that previous media did, but quicker, in parallel, and “at time of audience experience”
+
+The use of character ideals out in the environment - the unexpected. Characters are not tools or control panels. Objects with personality.
+
+interactive narratives - "the sum of multiple trajectories through a database"
+
+Digital is discrete information - chunked down - the very nature of digital must lead to reduction.
+
+
+the "list of... interactive products... is endless" (xxii) - lots of examples.
+
+" the physical and the virtual
+are both aspects of what we perceive as real."
+
+Installations that do this - Glowflow, Artificial Changelings, Osmose
+“The field of human-computer interaction largely grew due to this change in interactive pace” - from batch processing to richer interaction.
+
+"computer-based simulations function differently"
+
+Later- Staedlers quote privileges the abstract system rather than the assigned significance of that system.
+
+S+Z - Signification is how meaningful play is created - through representation of consistent things.
+
+“Machine can act as a projection as a part of the self”
+
+virtual reality is "an active system of simulation" – Laure Ryan
+"Aarseth’s observation that a game “requires analysis practiced as performance, with direct feedback from the system” (2003, p.5)"
+- social games "offering a subjective experience of otherwise intangible social issues"
+
+Autocosmic approach breaks us into new ways of thinking - out of the "iterative", "incremental" approach associated with technology. It allows big leaps.Games need to develop this formal aspect of themselves in order to improve.
+- Frasca talks about games that can only be played once, to set up strong messages -"Consider then a commercial videogame that is played, in real-time, only once. Ever."
+McGonigal's work on wanting to protect a protagonist that you like.
+
+" An algorithm is a recipe, an instruction set, a sequence of tasks to achieve a particular calculation or result"
+
+- Genette (and Simons) - events are not narrative, it is their telling that is narrative. When someone deems them 'tellable', they become stories.
+
+Says that simulations can have observers outside - do not need players.t. And narratives are simulations with 'syntactical constructions' for further thought and simulation.
+
+Narrative is like a game (drawing on Patrick O'Neill
+Klastrup (2003) - "tellable events" after play.
+
+says virtual art is more immersive as it is newer, and older ones seem less immersive - I'm not sure books are less immersive...
+
+"there is no pre-given story but, instead, a dynamic cycle of action and percepton"
+'Code' is not what I use (that's the tool) but rather the 'system'
+
+"visualisation of complex systems"
+
+
+the mechanics emerge from
+the correct combination of these information sources by the
+player
+
+"the user-interface is the point of contact where humans and machines meet in order for exchange to take place"
+
+
+Points out narrativity of 'game theory', as opposed to 'game studies'.
+" Simulations offer the player the opportunity to engage with a dynamic system from an experiential perspective and a significant amount of this direct involvement is provided by the freedom to interact with, and have control over, the simulated system."
+
+McLuhan talks about the evolution and continuum of media and how they live on. Never a sea change or a break. Schweighauser also says that media don't just obsolesce and disappear
+"retrieval" of old media in new media.
+
+Plot vs. rules debate is not true - plot comes from rules, just as 'tellable events' come from rules.
+
+Narratologists sees narrative in games the course through the state space taken by a player. Game Theory looks at all the possible narratives/alternatives. These are both important. 
+
+"the boundaries between games and narrative are not very clear-cut"
+
+"Simulations, then, constitute far more than a large number of possible “stories” but an environment within which an alternate reality can be seen to be operating"
+
+Both player experience and the world itself.
+
+"A panoramic view is joined by sensorimoto exploration of an image space that gives the impression of a "living" ennvironment"
+
+Juul
+-----
+
+Games may spawn narratives that a player can use to tell others of what went on in a game session
+- Lots of people against his interpretation
+- Has revised his view that gamaes and narrative cannot go together
+
+“Games are both object and process,” writes Espen
+Aarseth, “they can’t be read as texts or listened to as music, they must
+be played.”
+
+A player's actions can communicate something within the game. - unique potential.
+
+ simulations is to understand, and to
+some extent predict, the behavior of systems made up of many
+processesininteraction.
+
+And because the primary phenomenological reality
+of games is that of action (rather than looking, as it is with cinema in
+what Jameson described as “rapt, mindless fascination”)
+Calls them an 'operator'
+
+"the
+relationship between the time of user actions
+(Play time) and the game’s own discourse time
+(Event time), looking for relationships between
+the two (Juul 2004; Zagal and Mateas 2007;
+Sora 2016)"
+
+
+"cybernetic engagements" - between man and machine.
+"searching for meaning where game rules and fictions intersect"
+
+
+“The meaningful play that you provide for your players emerges from the designed system of a game - and how that game interacts with larger social and cultural systems.”
+
+ in the terms of game design, a 'player', 'user' or "stakeholder" (HCI Book), in the ontology of human-computer-interaction,  rather than a reader (or still a 'reader', in abstract textual theory), as in reader-response theory either abstracted into "generic users" (HCI book) or "personae" (HCI book), or rather "several specific users" (HCI book) or "testers".
+
+Like books - mullaney Interested in links to the real world - outwards through affective action and inwards through realistic modelling
+
+Says some games have grown sophisticated enough "to invite acts of interpretation"
+
+Bogost (148) “a game exists just to invite its players to respect the space it creates merely by virtue of existing.”
+
+"Games thus embody a virtualized, or potential dramatic narrativity, which itself hinges on the virtual diegetic narrativity of a retelling that may never take place."
+
+She says this is not always true, as sequence is not always important (it would need to be for each sequence to be a new story), and also fragments don't always fit together in any way - they "are implcitly ordered by relations of ligcal presupposition, material causality and temporal sequence"
+
+Mullaney - "their artistry, their political possibility, their uniqueness"
+
+For the audience, is the system of a game (not yet determined) different from the system of a film (pre-determined)? From their perspective, (Unless seen before) the world has NOT been played out.  THeir participation is important, then, to show how the system is not pre-determined. But is it ultimately important? Lots of other inputs to a system (but I suppose can be closed system as well)
+
+Digital art is twice removed becayuse not only is it a representation but also it is digitalised.
+
+STILL AUTHORED -Ortega-i-gasset - He says the AIMS of developers ar eimportant - "puts into his work not just utilitarian, but also the aesthetic sense"

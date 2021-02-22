@@ -1,0 +1,143 @@
+
+It is therefore reassuring to see
+that Brooks now acknowledges this need (Brooks and
+Stein 1993) (need for memory).
+
+A shamanism for an age where we have changed and formed nature rather than are changed and formed by it. (link to game environments being design)
+
+
+he talks about the use of delayed consequences in this regard.
+"What the videogame outputs as audiovisual representation via the screen, speakers, and rumble motors are taken in through
+the player’s bodily senses (sight, sound, touch); these senses send messages to the brain that, in turn, determines output from the player’s muscles into the game hardware’s input device."
+"The videogame critic must account for the player-and-game as the object of study, as one textual machine."
+"social performance and different presentations of self, as studied by Erving
+Goffman"
+
+Note for 2.1 - the restortation of behaviour idea goes against the death of the author idea in games/comp-art.
+
+Games often aren't focussed on storyworld buta symbolic activity that doesn't always fit into that storyworld? But they are also long, facilitating immersion (I am playing around with length of installation visits and immersion)
+Don't want to become "fuzzy and ambiguous" by just relying on general systems, with no individualised components. Also, need to tie simulation outputs to player understanding - why is this happening? Does this have to be tightly managed through tutorials and representation, or can attributing cause and effect ('wild', unguided autocosmics) be part of the fun? Or will they always just think (oh, it's a game system, it's just doing its thing or its broken) rather than making meaningful connections in the representation?
+If sublime is destroyed in Oblivion, what about No Man’s Sky? Can computers still trigger the idea of the sublime? Are we working towards that? What is unknowable about the landscape? NMS does become bounded because we understand and chunk the PROCESSES that underlie its variety of forms. Is this a bad thing? Do we need to obscure them more, bring the scale down, create a ‘local sublime’?The ruins, created by the player, are a change in the personality of the landscape. Before, they were from before the player came. Between bucolic and sublime- knowable and unknowable. The installation version of this is important- use the body (the use of body in natural encounters (Macfarlane) - stops you getting too used to it.
+
+Games often ask us to have some sort of impact on a world. They reward us for doing things and imposing change upon a system. Oftentimes though, this forcefulness overlooks a violence that is done by the player onto the system. It also pushes us into action where we otherwise might want to wait. This is the central issue examined by Wait, one of several games from a series titled Critical Gameplay. Wait explores an alternative to a common structure within games of rewarding action, and players earn points within the game by not moving.
+ Tied to #3.Bryson - prey species are easier to simulate than, “more creative species like predators or primates.”Moving around an environment does not necessarily mean a lot of movement orr a big space. A deep space is also important.
+Put externs into it. " larger environment objects and processes but they are not human-created."
+“There is no such thing as an uncanny valley for furniture” (Short)
+Remember, for 3.4, to think about how individual characteristics in players may bring different things in the creature to the fore.
+“seeks to analyze and investigate the complex interrelationships between human activity (cultural, economic, and political) and the environment, understood in its broadest sense.” -
+So, for 3.3, individual response to game environments.
+Games are logocentric - they can come to some conclusion. Perhpas we need games that allow a plurality of meanings and metaphors and mechanics.
+"the repertoire of values and past experiential interactions" caraccil
+olo
+Talking about the dynamic shift in perspective on spaces as part of evocative narrative elements in games - the shifting perspective with the creature.
+The 'architecture' of the creature's body.
+" When a game landscape
+doubles as vista and terrain, how the player traverses that terrain forms a
+key part of the experience."
+Recent research has shown how emotions can be studied, first, through public and private expression (e.g. letters, diaries, speeches, sermons); secondly, through the material culture of magical actions that are linked emotionally to the immediate environment; and thirdly, through the ideological reduction of emotions as social ideals and transgressions.
+"cartogenic rather than cartographic"
+hus, people formed impressions of themselves, often conflicted ones, in relation to their personal, social, and cosmic environments. 
+Drawing on SHinkle's thoughts on the technological sublime - "the comeplexity and scale found in technology" - how does the creature have that
+Emergence
+Related to actor-network theory - both material and semiotic - meaning and material moving in the creature. How creature functions as a network of parts, like a landscape/environment. But characters are the others now, in games, rather than landscapes - we are comfortable/familiar with landscapes.
+Re. Greg garrard - “difficulty of narrating ongoing systemic crises within intrinsically individualising forms such as the travelogue and novel” - this approach, then, is better!The 1990s brought a heteregenity of discourses about aliveness. These days, faced with even very simple relational artifacts, children’s discourse about aliveness has again shifted. Faced with relational artifacts, they no longer discuss its “aliveness” in terms of its motion or cognitive abilities. They talk about these objects as alive or “sort of alive” not because of what the creatures can do (physically or cognitively) but because of their own emotional connection to the creatures and their fantasies about how the creatures might be feeling about them. 
+Rapture- slow, mediative, considered, observant.
+The creature is a control system, a cybernetic system, because it uses AI (which comes from cybernetics) with hierarchies etc. - but we aren't interested in the internals.
+“What is a mountain exactly? It is a stand-in for the intractability of ever understanding what its like to be a mountain. Mountain offers a videogame version of the philosophical practice that I call alien phenomenology - a sustained, deliberated and challenging space in which to speculate on what it’s like to be a thing.” 
+
+(Ryan) - god game has a combination of replayability and narrative diversity - minecraft as a god game. exploring a landscape is like a "little god game". uses sims as an example of this.
+The signs and characters of the spirits - a bit of bouba/kiki going on here!
+Aleadingpossible-worldstheorist,Lubomír
+Dole? zel, asserts that from“the viewpoint of the reader, the fictional text can be
+characterized as a set of instructions according to which the fictional world is
+to be recovered and reassembled”(1988, 489)
+@Wertheim reveals that religious and pseudoreligious elements are quickly established in cyber-
+space’s promise of the “New Jerusalem” (2000, 255)@
+"performativity is inherent in every action a person takes, whether consciously or unconsciously"
+"Heightened attention is a rich area for design exploration and can be applied to many different types of experience design . By focusing individually on the objects— including digital objects—involved in performance, the people performing, and the overall structure of the performance event, it is possible to construct opportunities for these elements to grab the attention of the audience (and participant/performer)."
+"Artefact AND communication. These art installations illustrate the importance of acknowledging the presence of information that is “created in the process of communication”,such that “meaning making” emerges as an outcome of the “process of engagement” between humans and robots 
+For him, in order to understand how things work must go beyond language - build systems."
+"what is important is that the technology involved is carefully designed to explore the felt experience of displaying one’s interaction with that technology for others"
+Describing ALL behaviour. What will happen when you do something. Mine is less straightforward than that.
+The Future Room -
+“Who knows what the future holds? This room is filled with the mysteries therein.”
+Paul Martin - game landscape “an expressive part of the game” - “meaning transforms as it is explored” - has particular construction, semiotics (but that semiotics is part of how it is constructed as well, because it is constructed, not just interpreted).
+She talks about Infocom “feelies” - made them for Savoir Faire or “doodads” - never just aesthetic, part of the game world as well, but sometimes explicitly instructional, tied to the computational. “They were often a form of copy-protection, since some games required that you use information from the feelies to progress past the very beginning of the game. “
+Ethology - fixed action pattern - a reliable sequence of actions that occur in the presence of “releasing stimuli”
+“Opens up a whole realm of educational possibilities”
+“Interested visitor” - “unlimited text”
+The creature ios the moor
+MR represents Anne’s world and the world of creature - real world and fictional worlds - a small virtual world that she can control keep track of, but she thinks its the real world - ideas of belief/imagination - a character, her world. - the border of superstition, the real world, and the simplicity of the creature’s world.
+Dennetts idea that nature is best represented by algorithm
+Exploring in games is a more organic, less points-driven feedback loop.
+“You already have 16 victories to your credit” - setting the expectation for your victory.
+Emily short calls this “narrative told through objects” - not always objects, but make it a natural interface outside the game? Does it need to be? Can be in-game? Depends on work…
+Graeme Kirkpatrick talks about the aesthetics of controls - how we actually manipulate spaces.
+" interactions with technology in which the device, system, or situation cre-
+ates an opportunity for the user to engage in performance for and/or with others"
+ There's a whole class of Dwarf Fortress players who don't play either of the traditional game modes. They just do archaeology on the worlds they've generated. 
+It is a way of explaining that “hidden beyond the reach of human intellect.” - link to nature writing being a link back to this basic system appreication.
+" debate about how artistic and humanistic approaches can inform science and research."
+"The construct of the
+fourth wall has been often challenged by theatrical
+performance through history."
+"virtual worlds and related computer games have dimensions that could afford environmental presence, social
+presence and cultural presence and should do so"
+Cultural presence can be separate from social presence. "culture can continue to
+exist in some material form without the creators. " - this is important is social agents are hard - but what if social agents become a cultural artefact?
+" The Non-Playing Characters (NPCs) have a life of their own, are of different races and professions, have detection awareness, and can speak dialogue, and be persuaded charmed or repelled." - not very good, though. He calls it a 'social world' - but not that convincing. Does critique it though. Lack of social awareness, 
+Calleja - Points out that NOT-acting can be ergodic as well - part of understanding/relating to the system.
+"The first and most important is the ability to form grand conceptions ... Second comes the stimulus of powerful and inspired emotion ... These two elements ... are very largely innate... [third is] the proper formation of ...figures of thought and figures of speech ...[fourth is] the creation of a noble diction ...[that is] the choice of words, the use of imagery, and the elaboration of the style... The fifth source of grandeur ... is the total effect resulting from dignity and elevation (Pseudo-Longinus, ed cit 108)."
+Spider of Bryce Manor - creating webs. Removes the human.
+"when we look at a person's face, a huge amount of brainpower is expended in intepreting it"
+I say personhood rather than 'mind' - the system does not have to be the internals of character.Our actions and the environment have very little effrect on the characters - (apart from perhaps PCs) - they are just nodes. This is what we need to open out - open out the ports of where we can interact with character, make them emergent; character as distributed.
+To Hinder a Sportsman from Killing any Game.
+Take a stick of green elder, from the two ends of which thou shalt clean out the pith.
+In each end place a strip of parchment of hare-skin, having written thereon with the
+blood of a black hen the following character and word. (See Figure 7.) Having made
+two of these slips, place one in each end of the stick and close the apertures up with
+pith, afterwards on a Friday in the month of February thou shalt fumigate the afore-
+said stick with suitable incense thrice in the air, and having taken it thence thou shalt
+bury it in the earth under an elder tree. Afterwards thou shalt expose it in the pathway
+by which the Sportsman will pass, and once he has passed by it, he need not hope to
+kill any game during that day. If thou shalt wish a second time to lay a spell upon him
+in like manner, thou needest but to expose the stick again in his path; but take care to
+bury it again in the earth under an elder tree, so as to be able to take it from thence
+each time that thou shalt have need of it; and to take it up each time as soon as the
+Sportsman shall have passed.
+
+Is cybernetics overly formalising? Systems of control do not preserve 'messiness'. (In Digital Media)
+"the creation of experiences that mix real and virtu-
+al worlds in rich and complex ways"
+falls into their category of " mixed-reality per-
+Formance"
+
+Difficult bedfellow with computers - moran points out the obsession with touch, away from electronic touchlessness, in Macfarlane’s writin.
+“Reciprocity of touch”
+Gary Snyder - “other orders of being have their own literature” - the myths they leave behind. A” literature of bloodstains… and piss”
+
+In #3 - asking the audience to move between two ontological points - person and place. Is this an 'impossible' world?
+Point out that interaction is more coomplex than just 'acting in the game'
+"introduce actions taht engage the player into strategic relations with other characters and require a construction of the characters mind"
+Her writing style 
+Why not just use Mateas’  ‘Expressive AI’ approach? - "Expressive AI practitioners think explicitly about how to provide the affordances supporting the narration of system behavior" - that's what I am trying to do
+AR - ‘understood as an environment in which virtual and real elements appear to coexist’ (Schraffenberger and van der Heide 2014)
+Benford et al (2016) - "accountable artefacts", using computation to turn real artefacts into storytellers - but doesn't overcome the problems inherent in the mystery narrative, necessarily. Though brining ordinary objects to life, allowing you to display or adapt virtual content - that's an interesting concept! Bringing together comp and storytelling/autocosmics.
+"o telling personal ‘tales’ of ownership"
+'dighital record' being like memory
+Mappings being like bodily interactions.
+embodied - no "corporeal redundancy" (NEwman 2002)
+Paul Milgram and Furnio Kishino ’ s taxonomy of mixed reality displays, which includes the “ virtuality continuum ”as covering a spectrum of different forms of mixed reality from purely physical, real environments at one extreme to purely virtual environments
+at the other (see fi gure 0.1) environments in which physical and digital objects cohabit and interact in real time	
+
+" traditional audience members of conventional
+theater are fi rst transformed into being interacting participants or players,
+and subsequently into being performers in their own right. "
+Dealing with somehting bigger than yourself - a creatureThe creature designed to be its own space, as well as speaking to how 'beings' work in the real world.
+The idea of microworlds - maybe make the character a 'microworld' of their own. “some well-defined domain”
+
+the existence of multiple and contrasting understandings of nature and their implications
+“t a ramshackle wildness in which people and the land have conspired to strangeness”
+Landscape = relationships, narratives between place and people.
+"marking out of some sacred spot is... the primary characteristic of every sacred act"
+The 'rustic' obsession is no coincidence.

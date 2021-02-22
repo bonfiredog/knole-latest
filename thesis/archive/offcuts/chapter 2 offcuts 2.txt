@@ -1,0 +1,157 @@
+
+
+"sub-optimal" decisions.
+Talks about self-reflexivity in e-art - commenting on role of author, narrator, audience - happens a lot b/c of interactivity. Art for art's sake
+
+INDIE NOT HELPING  - Pearce - Cites availavbility of tools, new distribution. - "new twists on traditional videogame genres" - Keogh - notes on no man's sky - indie as a constructed category. 
+
+"play with language and the digital medium which questions their functionality".
+
+"it is only this film-base dimage that computer graphics technology has learned to simulate"
+
+The birth of the computer-as-artform was commensurate with the birth of the computer as a disruptor of other artforms; providing a coercive paradigm of the “media machine” which has transformed the production of music, visual art, film and literature (Manovich, 2001).
+
+
+"historians might dream up even more highly interpretative and imaginative digital creations" 
+
+The male-dominated gaming industry keeps up a constant low roar of hostility toward female, queer, trans, and minority gamers.  - more about this.
+
+and formal realities of computational technologies have concretised into cultures and practices that either devalue character-led computation, avoid it entirely or conceptualise it into abstraction; a cyclical and cross-pollinating affair which, as Bogost notes, “becomes increasingly intractable over time” (2016). These issues rise above concerns of art versus entertainment, independent versus commercial, game versus not-game: they arise from the fundamentals of the form itself, and the nature of character as a general cultural product.    
+
+. Computational art has clearly given rise to many other forms of resonance with its audiences, resonances which do not revolve around the depiction of personhood, their narratives, and the “emotional depth… which we might associate such topics in other media forms” (Woods, 2001). Without the teleological assurance that better technology, or a more refined aesthetic sensibility, will alone provide solutions, how much ‘space’ and ‘time’ can be reasonably expected of an artform entering its eighth decade on its current trajectory?
+
+"Videogames shifted to a world
+where players were subtly encouraged to enact
+violence on what they were supposed to believe
+were human beings."
+"a computer system as a whole will be significantly, qualitatively different than the sum of its parts" p256
+
+The true extent of what the computational mode has to offer artistic expression is still unknown, its practice still buffeted by the influence "different mindsets from all types of art discussions throughout history at the same time" (Luceno and Moda, 2017).
+
+Installations - often not narrative - Wishing Wall - words into butterflies (Guljajeva and Mar Canet), co(de)factory - collaborative 3d printing - Kuafu - digital maps-based storytelling - Palimpsest Chapter 3 - using a physical book animised to capture your features, moves away from you if you do not fit certain patterns. Physica/digital - Infinite Sunset - a generative, never-ending sunset, color pallettes from google api. To do with visit time. 
+"What changes Guard_03 from an abstract obstacle into a person? Did someone"
+net-art etc. very abstract - Re-move.org (Lia) "generative audiovisual compositions" - quite abstract – JODI
+
+ “Literary works, according to this model,resemblemachines: theyaretheresultofanintentional human activity in which a specific skill transforms rawmaterialintoacomplexmechanismsuitableforapar-
+ticular purpose” (Steiner, “Russian Formalism” 18)
+Not just acting as people, but people in a world/culture - Champion's 'cultural presence'.
+
+Schrader - for edutainment, learning might be part of that resonance - for interpretation>? 
+
+"autopoesis" - a single entity (machine as autonomous performer)
+replayability, non-diegetic machine acts which break characterisation.
+Mention 'strong AI' - this is not what we are pursuing.
+
+Kahlulahti - "An ecstasy of mimésis does not result in an
+ecstasy of reading."
+
+T&B - "learning and
+teaching practices, as well as for the reaching of a wider public"
+
+“The world of videogames is still imbued with indignity, plagued by its own tendency to self-humiliation.”
+Reeves et al talk about building "breakdown" and "interference" (i.e. glitches) into the game. Using metaleptical elements. A "seamful" game - the "spatial" character
+
+Bogost (104) - “videogames have frequently inherited from the tradition of puzzles”
+
+Hancock (2015) mentions 80s financial crash of VG market.
+“Encountering games still requires pledging fealty to gamedom.”
+Zimmerman - "games created computers"
+
+Jordan Thomas calls autocosmics 'white space'
+Air Time Game  - an example of a vignette, a feeling, wish fulfillment and childish abandon with pretzels - cozy, quiet, dark
+Twisted Tree's Forest of Sleep - using Propp's folklore structures to create storytelling procedurally - an interesting use of older forms.
+
+It might be argued, as Hogan (2003) notes, that conflict is important to all narratives; it is what gives narratives their impetus and forward motion. I would agree with this statement, but refer to Salen and Zimmerman's (2004) delineation of the types of conflict that can be found in narrative, ranging from the physical conflict of the prototypical comp-art experience to the less well-defined interpersonal conflicts of dramatic works. It is not the presence of conflict, but rather how it is represented, which is at issue.
+
+When referring to resonant computational characters – these expressive and procedural representations of non-actual persons with which we hope to "establish... emotional relationships" (Spector, 2016) and other autocosmic co-productions 
+
+“Environmental factors influence the develop of all behaviour to some extent.”
+paradox of creating satisfactory experience by satisfying normative user experiences. Taxing or troubling people can be meaninguful
+
+“Many genes are involved in even simple aspects of behaviour.”
+
+His main method of doing this is through a game called Siboot, a piece of ‘genuine interactive storytelling’ that I have written about elsewhere, and critiqued. While it is clear that I do not disagree with Crawford as to the problem, I do disagree as to the potential solution. Siboot is not a solution to the problems of character (though I’m not sure anybody ever thought it would be).
+
+How Horizon:Zero Dawn LOD is like visual theatre. World doesn't exist if player is not looking at it.
+
+“Social structure emerges from the pattern and quality of relationships among individuals… it is the scientific observers, not the animals, who see structure in the network of relationships that characterizes a social group.”
+
+"complex... and noisy electrophysical world" (Penny)
+
+ Indeed, one could argue that no piece of computational art can avoid the artistic impulse, as even wildly emergent systems such as Conway's Game Of Life can be defined as the expression of the initial rules that started it off. No piece of art is entirely free-form in how readers approach it – if it was, then it would be a tool, and even then tools must be designed. 
+
+ We might define the author's skill in many ways – their storytelling ability in the linear sections, their design nous in the less-linear sections. It is as hard to define and measure resonance in games, and there are as many competing claims for its source, as in books. For me, as an artist, creating a computational character is little different from making any other character-  I use tools to create a non-actual individual who is partial enough to allow both expected and unexpected audience augmentation – while the methods, and potentials, may be different, this core mission remains the same. 
+
+a "continual negotiation" or "symbiosis" between the material and the user. The understanding provided by years of narratological, psychological, literary and scientific theory will allow to create partial beings that are augmented by myself and my audience into something, and someones, more complete, who can relay the truths that I wish to relay more effectively as something close to 'real' people. 
+This is an interdependence, which I would like to explore in the relationship going forward; actions taken together, actions remembered physically or mentally, a growing understanding of the creature both as system and individual, will increase the bond between player and creature. This is something which needs to be maintained in the long-term, over the entire timescale of the experience. 
+Putting in both - "Genes and proteins, behaviorist descriptions, and statistical representations are incomplete descriptions of animals, but they often reflect something true."
+Bown et al, talking about Accomplice - "robots as social actors" but more than abstract please?
+don't just remediate other narratives.
+I don't want to believe that the agent-based approach is JUST A BAD IDEA.
+We need to use its affordances.
+"the player's enjoyment" (Reidl et al) - an aesthetic pleasure.
+and while what follows is a deep critique of the markets and cultures which define current computational characterisation, Project knole remains a work that cannot avoid these same pressures; instead, it only seeks to move beyond the inertia of current popular response to them.
+Zeelenberg 1999 - mental simulation has a huge effect on our behaviour - therefore games are well-suited to it because we are directly interacting with the fictional world. 
+
+Playing with the principles of aesthetic illusion, getting close to "illusion-breaking", even while my deficient character does that for himself on the screen?
+
+"The moving body is integrated into the installation no longer only with the coordinated movements of hands and eyes.”
+
+"non-linguistic utterances" instead of linguistic" - shows affect still quite well, but within a context of other things on the robot. Not for more subtle emotions.
+breakdowns in natural language interaction are uncomfort-
+able for users
+he "transactional... simple.. utilitarian" (Galloway) computational dialogues of most videogames; to the animalistic "barks" of soldiers, used for "flavor only" rather than any meaningful interaction. 
+
+Sees indie as a good thing - indie has taken power away from the large-scale producers "boring games that were starting to look all the same" - Actually thinks the indie revolution was a good thing - but not good for characters.
+
+Why is this? In my view, it is because we are using the audiences mind in a wrong, or unbalanced way. With a text, or a film, or another piece of art, we are dealing with a materially-static snapshot of a world – one which serves directly as a key to the audience's imagination.
+
+Hand-authoring looked down upon. All art is hand-authored - we need to decide on the artist's focus and the granularity
+
+ I think that this is a misnomer – the interface is part of the system, and together they must provide a consistent, coherent approach  in the same way that storyworlds in fiction must be consistent and coherent – albeit in a way that is dynamic, unpredictable and very difficult. 
+
+Relying on system allows for ludonarrative resonance, in conjunction with more sytematically-defined imaginings that chime with 'doing'. 
+
+If character is the system, then is this the formalist approach - character arising out of the action of the system? No, the character IS the system, and it operates. Still a fictional person, and pre-dating their narrative. THe narrative comes from their actions, not them from a pre-existing narrative.
+
+
+"hey're all separate games in a way, but then the interconnections start to grow and you have a common framework, but they’re all very different from each other."
+
+
+Dividing mainstream culture from indie culture – will come back to indie culture – it is interesting taht the most basic narrative potential of this medium has to be pursued on the fringes. 
+
+"indie creed... experimentation and innovation"
+
+Claudette - Emotions not fired in the right context (no facial animations is a problem, then). Doesn't react appropriately to asking topics again and again. Not aware of context at all. No new goals if goals are met - just ticking them off. Players tryng to divine her character from the rules (i.e. around stolen goods) but not consistent enough.
+
+The mechanical and cultural challenges which computational artists face in their creation of resonant fictional characters are pervasive, persistent and remain some of the largest barriers to artistic expression in this nascent medium.
+
+Bringsjord thinks some of human qualities might be beyond the reach of computation, and we are quite far from it now.
+
+
+“Videogames tend to focus on fighting and strategy, exploration, puzzle-solving… these types of external conflicts are far easier to portray in a game-like fashion than the more internal emotional conflicts that are often the focus of things like romance novels and sitcoms.”
+
+Aside from all of this, and perhaps more simply, this approach simply does not engage with the potential of the computational form. If we agree that characters should be able to partake in, and be expressed through, the systemic qualities of a computer in a way that gives them a unique resonance, an approach which divorces character from the systemic, online portions of a game is an abnegation, albeit an understandable one. 
+
+Weiz - “respect, understanding and love are not technical problems” - no, but we can balance them.
+
+"whether the interactive systems that make games work could be a vehicle for storytelling that’s as rich and powerful as novels or films"
+
+"interacting with games need not be fun.. but might indeed be fulfilling, thought-provoking, challenging and also difficult... painful"
+
+I am using schedules. Using some of these problems.
+
+
+Reed -  “Shopkeepers who can carry on a more dynamic conversation, quest-givers or lore-spouters who can answer questions or respond to your specific circumstances, and so on. - but that's the problem! The focus, the types of stories!
+Janet murray - “A stirring narrative in any medium can be experienced as a virtual reality”.
+
+
+
+
+Short -  (ability to fiddle with the world in systematic, predictable, plannable ways) and diegetic agency (ability to make narratively meaningful choices that affect the plot) are available consistently throughout much of the experience, rather than just occasionally in specialized one-off scenes. 
+
+Frude -  A much stronger animistic effect can be expected when there is an opportunity for the user to interact with systems that have simulated character.
+
+
+Mellman talks about “takin an aesthetic attitude” to something - sinling it out and concentrating on it - but what about 
+

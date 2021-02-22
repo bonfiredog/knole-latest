@@ -1,0 +1,151 @@
+The dungeon is this logic of colonialism applied to a space that resembles a prison; it is both a place of confinement and a supposedly empty place.
+Champion Makes link with Donna Haraway and cybernetics - the computer's role in perhaps depicting this.
+Re. Leave No Trace - ritualising civic-minded behaviour. We assume a position of stewardship - we assume the power is in our hands. Let’s undertake the act of ‘not-touching”, of non-individualism.
+ "the world is an ongoing, differentiated construction and creation of a shared environment, by... entities that have... their own forms of embodiement"
+ “a persuasive reconfiguration of the local”.
+
+ "rethink our taken-for-granted modes of human experience" - not closed off, but part of the evolutionary, sensory, semiotic realities of other entities in network.
+"prosthesis" of the human. "changes how we think about normal human experience and how that experience gets refracted or queried in specific modes and media of artistic and cultural practice" - this is also the role of autocosmics, more specifically - it is more than post-human, though draws on it massively. Narrative is, in a posthumanist sense, the methods by which environmental complexity is processed and reduced 
+ . "challenge anthropocentric worldviews by gesturing towards a dimension of animal experience that is largely unknown to human readers".
+Limitrophy - the gaps and inconsistencies in the assumed binary divide between humans and animals.
+
+ “Our relationship with wild animals should be through imagination and respect, not through exploitation and manipulation and management.
+
+PROBLEM: As Greg Garrard says in Ecocriticism, nature is not structured or ordered entire; a Cartesian mechanism allows us to regard animals, and nature, as systems, as machines, as hackable components in a happily-whirring rig. However, I am not sure how I feel about this. Can a creature be reduced like this? Do we have a responsibility not to reduce them? Is the authorship of a system, the ineffables that are not put directly into the code, where a creature’s true expression comes from? Anthropomorphism is a dirty word in modern nature writing, and it is a problem in AI/system structures, as well. Should I care? Should it matter? What are the alternatives? Is anthropomorphism an arrogant thing, or is it a necessary narrative device? Is it just the result of a passive observation; is it always ascriptive? Do animals have NO human or systemic qualities? Do we? Are our systems not built in our image and the image of the world, especially in the case of O-O-O?
+"but a realistic mud puddle still seems years away. Simulating any natural phenomena requires the development of proper algorithms, and these developments are funded according to the game industry’s priorities."
+Problesm arise "after videogames started being narratively bound to beievable spaces"
+
+Pavlov, Thorndike etc. - behavioural model - no iunternal state - “environmental determinism”, brooks etc.
+
+- having an animal/human narrative is not simple - can be very complex and “promote dialogue and exchange among the arts, sciences and humanities”. 
+
+ in the modern age. Including: - Indigenous beliefs - In novels and literature - beliefs in faeries - eco-paganism - Ethics - Darwinian science - Drug use - Economics - Object theory - Environmentalism - Politics - Animals new approaches to anthropology - "the 'who-ness' rather than the 'whatn-ness' of the world"
+
+ - "ANT’s paramount significance when studying landscape, allowing the researcher, artist – whoever – to draw upon any entity – theory, object, thing, whatever – in their pursuit for understanding, despite scale, space, place and/or time where they reside" - ANT related to performativity - activities create connections.
+
+Miller pointing out the subjectivity, both the distance and lack of diastance, from the 'field' in fieldwork. (Autocosmics, narrative in real life etc.) “ the ethnographer's subjectivity is the central organizing principle of "the field,"” a conceptual space as constructed as any digital gameworld
+
+
+YOU ARE A ROCK - characterising and personifying the alien experiences of being the processes of geology - how to characterise its otherness.When a game of Wait begins, the player’s surroundings appear to be a bare valley, enclosed by rock walls. Over time, however, trees fade in to the picture, followed by flowers and small animals – like cats and butterflies – converting the space into a rich, beautiful environment. If at any point the player moves, the surroundings will clear away. If the player continues to move, everything will disappear, and the player will be lost in a blank expanse.
+
+Instead, they
+offer players an opportunity to listen and understand systems that they might not otherwise
+have considered.
+Games (Norman) “a category in which designers deliberately flout the laws of understandability and usability. Hide critical components, make things difficult to do, require precise timings, don’t give feedback, use unnatural mappings so that system state is difficult to interpret.
+
+We get into Spinozian-Deleuzian perspectives (matter as relational and always changing, instead of fixed and inert.
+
+I've often thought that the impoverishment a lot of 20 and 30-something gamers feel about their hobby simply stems from the fact that mainstream games have stopped producing new sensations for them.
+
+---Last Seed, 18th, 4E 201---
+Dogs in the game make the most snese as we are hard-wired to interact with them, their expressions SEEM to change (we have such a good mental model of a dog that it changes for us) and their behaviour is not all hostile. Hostility breeds misunderstanding and decharacterisation.
+Giner-Sorolla makes his own NPC in this vein - KIM.
+Thelema and maths as play/magic. (The Book Of Law)
+characters part of epistemic revelation - coming to know a place. Curiosity drives most gameplay (a problem) - use to advantage.
+
+Confined spaces in IF (Waypoint article)
+Drawing on Kevin Lynch - spaces with “poetic and symbolic” potential, a balance between design and imaginative affordance.
+The problem has been compounded by the cultures that have arisen out of these barriers, particularly within videogames; a culture which perpetuates a vicious cycle of avoidance, capitulation and stagnation, which privileged certain forms of resonant engagement with certain forms of experience 
+
+The potential of games - library of blabber - an example of possibility of place in a game - can do anything, but futile - linked to borges’ story? Must read it. The hunt, the idea, the imagining of that library was enough - did it need to be made? Sunlight is the same in each room. Did you need to build it? Nobody will check. 
+There are roman numerals on the wall? How far do they go. 
+As an example, broad and dominant deciduous foliage density might lend a quality of feeling encapsulated, or enwombed by the environment. These feelings could instill a desire in the player to slow their pacing down a bit, giving them pause to more thoroughly explore a location, in a measured, even, relaxed fashion. Using a darker, muted color palette for this same forested environment could simulate an atmosphere with an unsettling feel, directly translating to the experience of being in that forest. Or, perhaps, using a cheerfully saturated palette, a sense of wistful enchantment and playfulness could be instilled within the explorer.In contrast, what if these same broad-leafed trees were instead tall evergreens, having a more open, jagged, vertical profile? This same location might instead lead the player’s eye upward, towards distant landmarks visible towards the horizon, subconsciously ushering them forward within the space. Any art and visual element used within a location can affect the player’s experience in such ways, and is important that these early, broad visual strokes serve to flesh out and enrich the overarching design and player experience goals for the project.
+Yang (2015) - the design of videogame levels are imprinted with authorship. "countless decisions made by its deisgners [to make] a space feel like a person"
+The use of space is one of NWF's "operational logics" for games. As he says we must do, I am applying them in lots of different places.
+
+Manovich’s ‘loop’ is good for the ‘cycle’s of an enviro rather than a character…
+
+Williamson talking about shenmue - "pedantic level of detail" - masterpiece, about simulating a place and people - incredibly expensive - "would never be financed today"
+
+Cixous' pluralistic, non-impositonary character links with ideas of character as system, as cybernetics; as long as we do not chunk character, and try to own and understand it, we have the same end.
+
+#3 - Character development might be the development of the
+player’s understanding of the rules and how they interact. 
+(Anthropy)
+
+Journey story, whcih she identifies, is about the environment. “Uniting the problem solving with the active process of navigation.” The puzzles must relate to the consistency of the illusory world.
+---Last Seed, 18th, 4E 201---
+Elements must make sense, in the same way that charactersitics must make sense for characters - why would things be built there? How would this landscape have formed?
+
+- Making sense of Skyrim as a virtual place witha particular geography - character. Taking a geographers perspective to the game.
+- Deriving the geological and biological contexts from what the game presents - the imagination.
+- Making a geographer's sense of the virtual world.
+- A different perspective on a fictional space.
+- How it interacts with culture of the people in the game.
+- Testing the 'coherence' of the world.
+- Game spaces, landscapes, can be read in many different ways as well.
+- The 'sense', the 'narrative', the 'character', of the place.
+- Working out how the representative systems would function as geographic systems. The sense of the architecture, they were placed there by designers. Did they consciously design it this way?
+- Using the map as well as fieldwork (paratexts to the game)
+- Intense observation of the environment, understanding what lies behind it.
+- Extrapolating the future of this environment -what will happen in 10, 100 years.
+- The memories of the past geologic action of the place.
+
+DWARF FORTRESS
+“Surroundings are mirthful”
+A Normal Lost Phone
+Exploring a landscape (a ruined landscape) of a person, to learn their personality. 
+
+The idea of the “virtual tourist”
+
+For #3 - Rapture felt like
+a coherent world that you could explore and experience.
+
+“Modern video game environments are often beautiful, exotic and atmospheric”
+
+“Artefacts telling the history of this lush tropical island can be found everywhere” - enviro storytelling in Fary Cry 3
+
+"environmental storytelling creates the preconditions for an immersive narrative experience" - existing association, staging ground for narrative, embed narrative or provide resources for emergent narratives.
+
+ daily contact with the forms and structures of architecture and built space in everyday life create a strong familiarity with their characters, symbols and representations. Though architecture is adequate for transporting knowledge about a shape and spatial setting of objects, it also facilitates a communication and knowledge exchange for more abstract and sophisticated concepts. It functions as a shared metaphor.
+
+Same with places 1-4 - the purest of roleplaying - imagine yout other senses being engaged. We love to roam about in place. It is wonderful, microworlds. 
+
+These so-called “landscape narratives” can be relatively punctual, when the events took place in a restricted area or spread out in space, when the events took place over large areas or periods of time; they can be either thematically arranged, leaving the visitor a choice of itinerary, or they can guide her along a chronologically arranged storyline.
+
+It’s a map, it’s about exploring, so we started looking at the idea of the poem being a series of rooms.”
+
+FW -  It is a system that is set up not just to be observed, but to react back.
+
+Each region has its own personality.
+In a game as Bioshock that deals with social experiments related
+to greed and morality, themes concerning collapse and decay
+conveyed through the scenery make players feel free to bash and
+loot, therefore, they help to shape an identity or role for the player
+[22]. Dissimilarly, the environment of Portal 2 – with its almost
+empty white rooms mostly filled with the objects the participant
+will use to solve puzzles – makes players feel as lab rats, which is
+suitable for a puzzle game [22].
+
+
+"an affinity between the aesthetic of bilding a large complex program, with its treelike structure, its subprograms and sub-subprograms, and working one's way through a highly-structured, constructed world of mazes and magic and secret, hidden rooms."
+
+"It was one of the strangest, gut-wrenching, bittersweet moments I have ever experienced in a videogame, to know this adventure was coming to an end."
+Adam Williamson returning to the persistent world of Oinktown after three years of absence
+Models the seasons - nostalgia, hope, plaintiveness, this world in which he spent so much time, and made his own, his actions recorded there.
+
+
+"virtual worlds must be thought of as part of, rather than apart from, the real world in which they take place."
+Etc. - all of these were important methods of engaging with the world collectively. It is perhaps language, more than any other, which defines ritual's power and possibility.
+
+
+"it communicates a great deal about what its designers and players believe a world to be."
+" a bounded physical space dotted by places, organized by a self-sustaining and seemingly coherent set of historical narratives and physical rules"
+
+" Crucially, the
+identity of the player’s character as a subject is left indeterminate."
+Samantha Allen - the liminality of Silent Hill, place as psyche. Relates to her own experience with transgenderism.
+
+“staging player-space with environmental properties that can be interpreted as a meaningful whole, furthering the narrative of the game.”
+
+"games consoles should be regarded as machines for generating compelling spaces"
+
+
+Using de Certeau's The Practice of Everyday Life to create virtual spaces.
+Talks about flaneur, the "naviagable space [becoming] a subjective space"
+
+“if it is true that forests of
+gestures are manifest in the streets, their movement cannot be captured in a
+picture, nor can the meaning of their movements be circumscribed in a
+text.” 17
+Perhaps they can be experienced within a game.
