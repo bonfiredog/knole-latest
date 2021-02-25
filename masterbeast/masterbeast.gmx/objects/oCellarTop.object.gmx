@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Setup
 
-depth = CellarBaseLayer - 0.01
+depth = HeadSkinLayer - 0.002
 Cut = false
 image_xscale = oCellarBase.image_xscale + 0.034
 image_yscale = oCellarBase.image_yscale + 0.05

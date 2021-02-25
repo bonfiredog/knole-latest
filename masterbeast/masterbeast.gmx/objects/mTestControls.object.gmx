@@ -31,7 +31,7 @@ x = ControllerObjectX
 y = ControllerObjectY
 depth = MetaLayer
 image_alpha = 0
-
+ActivateMoles = false
 Testing = false
 </string>
           </argument>
@@ -82,14 +82,20 @@ EnterRitual()
 }
 }
 
-if keyboard_check_pressed(ord('S')) {
-with oBellSounder {
-StartedTolling = true 
-NumberOfTolls = current_hour
-TollStart = false
+if keyboard_check(ord('M')) and mouse_check_button_pressed(mb_any) {
+instance_create(mouse_x,mouse_y,oMoleHerd)
+}
+if keyboard_check_pressed(ord('A')) {
+if ActivateMoles = false {
+ActivateMoles = true
+} else {
+ActivateMoles = false
 }
 }
 
+if keyboard_check_pressed(ord('H')) {
+with oMoleHerd{Hunger += 40}
+}
 
 
 </string>
@@ -174,12 +180,9 @@ DrawY += 15
 draw_text(DrawX,DrawY,"=======================")
 DrawY += 25
 //------------------ Variables below here.
-draw_text(DrawX,DrawY,"PotentialSlap: " + string(mInterfaceController.PotentialSlap))
+draw_text(DrawX,DrawY,"Number Of Moles: " + string(instance_number(oMoleHerd)))
 DrawY += 15
-draw_text(DrawX,DrawY,"WillSlap: " + string(mInterfaceController.WillSlap))
-DrawY += 15
-draw_text(DrawX,DrawY,"CurrentHandUse: " + string(mInterfaceController.CurrentHandUse))
-DrawY += 15
+
 }
 
 </string>

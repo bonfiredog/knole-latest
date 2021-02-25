@@ -35,49 +35,18 @@ ZoomedOutDirection = random(360)
 direction = 0
 ZoomedOutXScale = image_xscale
 ZoomedOutYScale = image_yscale
-ZoomedInScale = random_range(0.04,0.06)
+ZoomedInScale = random_range(0.02, 0.05)
 
-ZoomedInSprite = choose(sSigilMoleLarge1,sSigilMoleLarge4,sSigilMoleLarge6,sSigilMoleLarge7,sSigilMoleLarge8,sSigilMoleLarge9,sSigilMoleLarge10)
+ZoomedInSprite = sTempleMole1
 switch ZoomedInSprite {
-case sSigilMoleLarge1:
-Bottom = sSigilMoleBottom1
-Red = sSigilMoleRed1
+case sTempleMole1:
+Red = sTempleMoleRed1
 break;
-case sSigilMoleLarge2:
-Bottom = sSigilMoleBottom2
-Red = sSigilMoleRed2
+case sTempleMole2:
+Red = sTempleMoleRed2
 break;
-case sSigilMoleLarge3:
-Bottom = sSigilMoleBottom3
-Red = sSigilMoleRed3
-break;
-case sSigilMoleLarge4:
-Bottom = sSigilMoleBottom4
-Red = sSigilMoleRed4
-break;
-case sSigilMoleLarge5:
-Bottom = sSigilMoleBottom5
-Red = sSigilMoleRed5
-break;
-case sSigilMoleLarge6:
-Bottom = sSigilMoleBottom6
-Red = sSigilMoleRed6
-break;
-case sSigilMoleLarge7:
-Bottom = sSigilMoleBottom7
-Red = sSigilMoleRed7
-break;
-case sSigilMoleLarge8:
-Bottom = sSigilMoleBottom8
-Red = sSigilMoleRed8
-break;
-case sSigilMoleLarge9:
-Bottom = sSigilMoleBottom9
-Red = sSigilMoleRed9
-break;
-case sSigilMoleLarge10:
-Bottom = sSigilMoleBottom10
-Red = sSigilMoleRed10
+case sTempleMole3:
+Red = sTempleMoleRed3
 break;
 }
 
@@ -147,7 +116,6 @@ and Occupied = true
 and mInterfaceController.DragStatus = "dragging"
 and mInterfaceController.DragSpeed &gt; 10
 {
-//SigilMoleCutReaction()
 CreateParticleSplash(x,y,3,ps_shape_ellipse,ps_distr_gaussian,DebugRedTextColour,5,15,0.04,0.07,0,360,70,125,0.5,30)
 CreateStain(10,0,360,5,10,0.2,0.3,0.5,0.05,0.06,BloodLiquidColour,x,y)
 WriteToLog("Cut out sigil mole.")
@@ -209,9 +177,9 @@ ShakeTimer = 2
 }
 
 if ShakeDirection = "out" {
-ShakeModX -= 0.1
+ShakeModX -= 0.3
 } else if ShakeDirection = "in" {
-ShakeModX += 0.1
+ShakeModX += 0.3
 }
 
 }
@@ -254,8 +222,8 @@ TouchedSizeMod -= 0.0003
 x = OriginalX + ShakeModX
 y = OriginalY
 
-Redness = BaseRedness + ((0.5 / 100) * mDriveCollectionMaster.RitualTolerance)
-BaseRedness = clamp(BaseRedness,0,0.5)
+Redness = BaseRedness
+BaseRedness = clamp(BaseRedness,0,1)
 
 if Occupied = true {
 sprite_index = ZoomedInSprite

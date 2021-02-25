@@ -5,11 +5,11 @@ if DrivesAreOn() {
 if mCreatureController.Alive > 0 and mBehavioursReactive.Sleeping = false and mInterfaceController.CurrentView = MicroView {
 ChanceToWake(1)
 TwitchIfNearBP(mouse_x,mouse_y,150)
-mDriveCollectionMaster.BaseBreathRate += 0.01
+mDriveCollectionMaster.BaseBreathRate += 0.001
 if mBehavioursReactive.Sleeping = false  {
 if mDriveCollectionMaster.InRitual = true {
 with mCreatureController {
-BaseLust += 0.1
+BaseLust += 2
 BaseResistance -= 0.1
 BaseTrust += 0.1
 AnneIntent += 0.001
@@ -29,7 +29,7 @@ ShiverChance(60)
 LittleJump()
 ChangeEmotion("surprise","up",0.2,10)
 if Chance(mEmotionSubController.FearActivation / 2){StartVocalisation("shortlow",0.2,choose("same","rise","fall"),50)}
-mDriveCollectionMaster.TouchMoleTimer = irandom_range(1000,2000)
+mDriveCollectionMaster.TouchMoleTimer = irandom_range(3000,5000)
 }
 
 if mCreatureController.Triad > 0 {

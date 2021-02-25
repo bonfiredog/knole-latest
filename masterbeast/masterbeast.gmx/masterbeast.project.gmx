@@ -2655,6 +2655,7 @@
         <sprite>sprites\sSigilMoleSmall1</sprite>
         <sprite>sprites\sSigilMoleBottomLittle</sprite>
         <sprite>sprites\sSigilMoleSmall2</sprite>
+        <sprite>sprites\sMoleSmallRed</sprite>
         <sprite>sprites\sSigilMoleSmall3</sprite>
         <sprite>sprites\sSigilMoleSmall4</sprite>
         <sprite>sprites\sSigilMoleSmall5</sprite>
@@ -2695,6 +2696,7 @@
         <sprite>sprites\sSigilMoleRed10</sprite>
         <sprite>sprites\sSigilPart</sprite>
         <sprite>sprites\sMoleHoleHealed</sprite>
+        <sprite>sprites\sSigilBruise</sprite>
       </sprites>
       <sprites name="Cauldron">
         <sprite>sprites\sCaulBowl</sprite>
@@ -2778,6 +2780,15 @@
         <sprite>sprites\sBellSounderTongue</sprite>
         <sprite>sprites\sBellSounderRed</sprite>
         <sprite>sprites\sBellSounderBroke</sprite>
+      </sprites>
+      <sprites name="Moles New">
+        <sprite>sprites\sTempleMole1</sprite>
+        <sprite>sprites\sRedMole</sprite>
+        <sprite>sprites\sTempleMole2</sprite>
+        <sprite>sprites\sTempleMole3</sprite>
+        <sprite>sprites\sTempleMoleRed1</sprite>
+        <sprite>sprites\sTempleMoleRed2</sprite>
+        <sprite>sprites\sTempleMoleRed3</sprite>
       </sprites>
     </sprites>
     <sprites name="World Objects">
@@ -3219,6 +3230,7 @@
     <script>scripts\MakeRedMark.gml</script>
     <script>scripts\ResetEmotion.gml</script>
     <script>scripts\TextBar.gml</script>
+    <script>scripts\ClusterMoles.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fDebugTitle</font>
@@ -3319,6 +3331,7 @@
         <object>objects\mWoundParent</object>
         <object>objects\mHeadParent</object>
         <object>objects\mFavouredParent</object>
+        <object>objects\mTabooLayerParent</object>
       </objects>
       <object>objects\mTestControls</object>
     </objects>
@@ -3384,7 +3397,6 @@
         <object>objects\oHead2</object>
         <object>objects\oHead3</object>
         <object>objects\mHeadDrawer</object>
-        <object>objects\oMoleHerd</object>
         <object>objects\oTabooLayer1</object>
         <object>objects\oTabooLayer2</object>
         <object>objects\oTabooLayer3</object>
@@ -3425,6 +3437,10 @@
         <object>objects\oEarRight</object>
         <object>objects\oEarTaboo</object>
         <object>objects\mEarAnchorRight</object>
+      </objects>
+      <objects name="Moles">
+        <object>objects\oMoleHerd</object>
+        <object>objects\oMoleHerdRed</object>
       </objects>
     </objects>
     <objects name="World Objects">

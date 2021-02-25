@@ -45,6 +45,7 @@ instance_create(x,y,mHeadDrawer)
 instance_create(x,y,mFurController)
 instance_create(x,y,mEmotionSubController)
 instance_create(x,y,mLiquidSubController)
+instance_create(719,616,oMoleHerdRed)
 
 /* Load Plans &amp; Behaviours */
 instance_create(x,y,mDriveCollectionMaster)

@@ -604,12 +604,27 @@ RubCaulReaction()
 
 if mouse_check_button_pressed(mb_any) and instance_exists(mFinger) = false {
 instance_create(mouse_x,mouse_y,mFinger)
+
+if instance_number(mScentMarker) &lt; 5 {
 instance_create(mouse_x,mouse_y,mScentMarker)
+} else {
+CandidateMarker = instance_find(mScentMarker, irandom(instance_number(mScentMarker) - 1))
+with CandidateMarker{instance_destroy()}
+instance_create(mouse_x,mouse_y,mScentMarker)
+}
+
+
 mCreatureController.Dirt += 0.00005
 }
 
 if mouse_check_button_released(mb_any) {
+if instance_number(mScentMarker) &lt; 5 {
 instance_create(mouse_x,mouse_y,mScentMarker)
+} else {
+CandidateMarker = instance_find(mScentMarker, irandom(instance_number(mScentMarker) - 1))
+with CandidateMarker{instance_destroy()}
+instance_create(mouse_x,mouse_y,mScentMarker)
+}
 }
 
 //Pressing
@@ -1362,7 +1377,7 @@ SmearAmountMax = 0
             <string>///Mole Sequences
 
 if SequenceBegun = false {
-if PostDisplay = false {
+if PostDisplay = false and SigilSurfaceAlpha &lt;= 0 {
 if mInterfaceController.CurrentView = MicroView and CurrentHandUse != "knife" and mCreatureController.Alive &gt; 0 {
 if position_meeting(mouse_x,mouse_y,sSigilMoleParent) and mouse_check_button(mb_any) and instance_exists(mDebug) = false {
 SequenceBegun = true
@@ -1377,6 +1392,7 @@ ex_audio_play(TouchSound,0)
 Touched = true
 ShakeModX = 0
 ShakeModMod = 0
+CreateParticleSplash(x,y,7,ps_shape_ellipse,ps_distr_gaussian,DebugRedTextColour,0.03,0.05,0.03,0.06,30,150,40,80,0,20)
 mInterfaceController.SequenceArray[mInterfaceController.NextSequencePos] = self.id
 mInterfaceController.NextSequencePos = 1
 mInterfaceController.CandidateSymbol = string(ID) + ","
@@ -1426,8 +1442,7 @@ SigilSurfaceAlpha = 1
 ex_audio_set_pitch("lowrumblesigil",0.6,0)
 ex_audio_set_volume("lowrumblesigil",0,0)
 ex_audio_play("lowrumblesigil",true)
-ex_audio_set_pitch("lowrumblesigil",1,90)
-ex_audio_set_volume("lowrumblesigil",BothVolMod(0.0075),20)
+ex_audio_set_volume("lowrumblesigil",BothVolMod(0.3),20)
 ex_audio_set_volume("sigilloop",0,0)
 ex_audio_set_pitch("sigilloop",random_range(0.8,1.2),0)
 }
@@ -1451,7 +1466,7 @@ ex_audio_stop("sigilloop")
 }
 }
 
-CreateSigilStain(25,0,360,0.5,0.6,0.001,0.3,0.4,0.001,0.002,DebugRedTextColour,mouse_x,mouse_y)
+CreateSigilStain(100,0,360,0.8,1.3,0.001,0.3,0.4,0.001,0.002,DebugRedTextColour,mouse_x,mouse_y)
 
 part_emitter_region(SigilPartSys,SigilEmit,mouse_x - 10,mouse_x + 10,mouse_y - 10, mouse_y + 10, ps_shape_ellipse,ps_distr_gaussian)
 part_emitter_burst(SigilPartSys,SigilEmit,SigilPart,10)
@@ -1466,7 +1481,7 @@ ex_audio_set_position(TouchSound,mouse_x,mouse_y,1)
 ex_audio_set_pitch(TouchSound,random_range(0.8,1.2),0)
 ex_audio_set_volume(TouchSound,BothVolMod(0.1),0)
 ex_audio_play(TouchSound,0)
-
+CreateParticleSplash(x,y,7,ps_shape_ellipse,ps_distr_gaussian,DebugRedTextColour,0.003,0.005,0.03,0.06,direction - 210,direction - 150,40,80,0,20)
 TwitchRun(irandom_range(15,20))
 
 mInterfaceController.SequenceArray[mInterfaceController.NextSequencePos] = self.id
@@ -1495,7 +1510,7 @@ mCreatureController.BaseAlive += 0.5
 break;
 }
 PostDisplay = true
-Timer = 120
+Timer = 300
 SequenceBegun = false
 }
 }
@@ -1511,7 +1526,7 @@ with sSigilMoleParent {
 Touched = false
 }
 if SigilSurfaceAlpha &gt; 0 {
-SigilSurfaceAlpha -= 0.01
+SigilSurfaceAlpha -= 0.001
 }
 if SigilBruiseAlpha &gt; 0 {
 SigilBruiseAlpha -= 0.001
@@ -1522,7 +1537,7 @@ SigilBruiseAlpha -= 0.001
 if PostDisplay = true {
 if Timer &gt; 0 {
 Timer -= 1
-SigilAlpha -= (0.3 / 120)
+SigilAlpha -= (0.3 / 300)
 } else {
 PostDisplay = false
 NextSequencePos = 0
@@ -2043,13 +2058,15 @@ CloseEavesdropAndPareidolia()
             <kind>1</kind>
             <string>///Draw The Sigil Surface
 
-SigilSurfaceX = oHead1.x - 530
-SigilSurfaceY = oHead1.y - 409
 
-draw_sprite_ext(sTempleBruise,0,oHead1.x - 346,oHead1.y - 254,0.51,0.51,0,c_white,SigilBruiseAlpha)
+
+SigilSurfaceX = oHead1.x - 120
+SigilSurfaceY = oHead1.y - 388
+
+draw_sprite_ext(sSigilBruise,0,SigilSurfaceX,SigilSurfaceY,1,1,0,c_white,SigilBruiseAlpha)
 
 if !surface_exists(SigilSurface) {
-SigilSurface = surface_create(345,290)
+SigilSurface = surface_create(301,298)
 }
 
 if SigilSurfaceAlpha &lt;= 0 {
@@ -2057,10 +2074,6 @@ surface_set_target(SigilSurface)
 draw_clear_alpha(c_black,0)
 surface_reset_target()
 } 
-
-surface_set_target(SigilSurface)
-draw_sprite_ext(sTempleBruise,0,SigilSurfaceX + 250,SigilSurfaceY + 250,0.3,0.3,0,c_white,SigilBruiseAlpha)
-surface_reset_target()
 
 draw_surface_ext(SigilSurface,SigilSurfaceX,SigilSurfaceY,1,1,0,c_white,SigilSurfaceAlpha)
 

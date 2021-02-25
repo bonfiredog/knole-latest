@@ -32,6 +32,7 @@ x = ControllerObjectX
 y = ControllerObjectY
 
 PartSplashSys = part_system_create()
+part_system_depth(PartSplashSys,OffObjectsLayer)
 LiquidEmit = part_emitter_create(PartSplashSys)
 LiquidPart = part_type_create()
 part_type_alpha1(LiquidPart,1)

@@ -1,8 +1,8 @@
 ///SigilProgressReactions() 
 
-if DrivesAreOn() {
+//if DrivesAreOn() {
 
-if SigilStartTimer <= 0 {
+if mDriveCollectionMaster.SigilStartTimer <= 0 {
 if IsInRitual() = false {
 ChanceToWake(20)
 LittleJump()
@@ -12,7 +12,7 @@ StopMoveInOut()
 if Chance(35){HoldBreathFor(irandom_range(25,60))}
 ChangeEmotion("surprise","up",2,30)
 if mCreatureController.Lust > 30 { ShakeCaul(1,irandom_range(30,50)) StartCaulVibrateBehaviour(irandom_range(20,50))}
-SigilStartTimer = irandom_range(1500,2500) + NumberISMod(Stress,300) + NumberISMod(Tiredness,400) + LowAliveMod(500) - NumberISMod(Trust,500)
+mDriveCollectionMaster.SigilStartTimer = irandom_range(1500,2500) + NumberISMod(mCreatureController.Stress,300) + NumberISMod(mCreatureController.Tiredness,400) + LowAliveMod(500) - NumberISMod(mCreatureController.Trust,500)
 } else {
 MoveToXY(oSigilArea.x,oSigilArea.y,15,mInterfaceController.CurrentView,10)
 }
@@ -61,4 +61,4 @@ ChangeEmotionStep("shame","up",0.02)
 }
 }
 }
-}
+//}

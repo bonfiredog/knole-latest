@@ -348,8 +348,8 @@ PreviousFear = mEmotionSubController.FearActivation
 PreviousSad = mEmotionSubController.SadActivation
 RitualModX = 0
 RitualModDir = "left"
-RitualModTimerTotal = 5
-RitualModTimer = 5
+RitualModTimerTotal = 7
+RitualModTimer = RitualModTimerTotal
 
 //Initialise
 StartBreatheBehaviour(RestBreathRate,RestBreathTime,RestBreathHold,BreathType)
@@ -1625,6 +1625,7 @@ SwallowTimer = irandom_range(8000,9000)
 if position_meeting(mouse_x,mouse_y,mTabooParent) or ((position_meeting(mouse_x,mouse_y,oEyeballLeft) or position_meeting(mouse_x,mouse_y,oEyeballLeft)) and EyeCuts &gt; 0) 
 or (position_meeting(mouse_x,mouse_y,oHornSocketLeftBack) or position_meeting(mouse_x,mouse_y,oHornLeft) and oHornLeft.Growing = true) or (position_meeting(mouse_x,mouse_y,oHornRight) or position_meeting(mouse_x,mouse_y,oHornSocketRightBack) and oHornRight.Growing = true)
 or (position_meeting(mouse_x,mouse_y,oCaulNub) and CaulCutTimer &gt; 0)
+or (position_meeting(mouse_x,mouse_y,mWoundParent))
 and mouse_check_button(mb_any) 
 {
 
@@ -2336,7 +2337,7 @@ RitualModTimer = RitualModTimerTotal
 
 
 //Tiredness Up Over Time
-mCreatureController.BaseTiredness += 0.005
+mCreatureController.BaseTiredness += 0.0005
 
 //Ending Ritual
 if RitualTolerance &gt;= 100 or mCreatureController.Alive &lt;= 0 or mDriveCollectionMaster.NoInteractionTimer &gt;= 20000 {

@@ -1,0 +1,5 @@
+- Research PhD prizes
+- Leonardo Abstract Service for PhD
+- Notify the ETHos Database.
+- Contact Sara Gould and Sarah Barkla with thesis details when finished.
+- Archive Knole repo on server.

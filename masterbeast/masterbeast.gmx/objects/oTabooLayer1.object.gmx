@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>mTabooParent</parentName>
+  <parentName>mTabooLayerParent</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -31,7 +31,7 @@ OriginalX = x
 OriginalY = y
 OriginalXScale = image_xscale
 OriginalYScale = image_yscale
-depth = TabooLayerLayer
+depth = HeadSkinLayer - 0.00001
 TouchingTwitch = false
 Health = 100
 Alpha = 1

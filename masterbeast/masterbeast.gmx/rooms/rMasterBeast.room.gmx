@@ -80,7 +80,7 @@
     <instance objName="oEyelidUpperLeft" x="361" y="1462" name="inst_DD8CF7B4" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="45"/>
     <instance objName="oEyelidLowerLeft" x="476" y="1575" name="inst_E92BE535" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="47"/>
     <instance objName="oEyeMaskLeft" x="417" y="1527" name="inst_5F87813A" locked="0" code="" scaleX="0.159999996423721" scaleY="0.25" colour="4294967295" rotation="0"/>
-    <instance objName="oHead1" x="649" y="1285" name="inst_251F9194" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="oHead1" x="650" y="1288" name="inst_251F9194" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="oHead2" x="649" y="2873" name="inst_7A1E7FF3" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="oHead3" x="649" y="4520" name="inst_4E6DADFE" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="oHornSocketRightFront" x="1050" y="654" name="inst_292C1C7F" locked="0" code="" scaleX="0.25" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
@@ -115,31 +115,24 @@
     <instance objName="mEarAnchorRight" x="1163" y="1615" name="inst_0CC9E906" locked="0" code="Parent = oEarRight&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mEarWellingAreaRight" x="1138" y="1620" name="inst_EB975DD0" locked="0" code="Parent = oEarRight&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mEarWellingAreaRight" x="1156" y="1450" name="inst_C6AFD092" locked="0" code="Parent = oEarRight&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="262" y="997" name="inst_5AFE6F6C" locked="0" code="ID = 1&#xA;ChangeMultiplier = 3&#xA;XDir = -1&#xA;&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="277" y="977" name="inst_D8A662C3" locked="0" code="ID = 2&#xA;ChangeMultiplier = 3&#xA;XDir = -1&#xA;" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="300" y="957" name="inst_7327280D" locked="0" code="ID = 3&#xA;ChangeMultiplier = 3&#xA;XDir = 0&#xA;" scaleX="0.144999995827675" scaleY="0.144999995827675" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="321" y="979" name="inst_AC983090" locked="0" code="ID = 4&#xA;ChangeMultiplier = 3&#xA;XDir = 1&#xA;" scaleX="0.234999999403954" scaleY="0.234999999403954" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="353" y="997" name="inst_D38F2CE4" locked="0" code="ID = 5&#xA;XDir = 1&#xA;ChangeMultiplier = 3&#xA;" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="243" y="1012" name="inst_BEBEFF9F" locked="0" code="ID = 6&#xA;ChangeMultiplier = 2.5&#xA;XDir = -1&#xA;" scaleX="0.330000013113022" scaleY="0.330000013113022" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="273" y="1012" name="inst_E9B98644" locked="0" code="ID = 7&#xA;ChangeMultiplier = 2.5&#xA;XDir = -1&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="307" y="1021" name="inst_31F97128" locked="0" code="XDir = -1&#xA;ChangeMultiplier = 2.5&#xA;ID = 8&#xA;" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="343" y="1023" name="inst_C8F38D89" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 2.5&#xA;ID = 9&#xA;" scaleX="0.234999999403954" scaleY="0.234999999403954" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="386" y="1011" name="inst_BCF9A2FD" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 2.5&#xA;ID = 10&#xA;" scaleX="0.180000007152557" scaleY="0.180000007152557" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="240" y="1043" name="inst_776539B3" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 2.5&#xA;ID = 11&#xA;" scaleX="0.180000007152557" scaleY="0.180000007152557" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="252" y="1033" name="inst_FDD17DB9" locked="0" code="XDir = -1&#xA;ChangeMultiplier = 2&#xA;ID = 12&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="263" y="1046" name="inst_E6D9DC13" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 2&#xA;ID = 13&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="321" y="1053" name="inst_8C617824" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 2&#xA;ID = 14&#xA;" scaleX="0.159999996423721" scaleY="0.159999996423721" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="350" y="1064" name="inst_8AB32A81" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 2&#xA;ID = 15&#xA;" scaleX="0.280000001192093" scaleY="0.280000001192093" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="278" y="1066" name="inst_98C6DAE5" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 1.5&#xA;ID = 16&#xA;" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="302" y="1082" name="inst_9C704DA4" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 1.5&#xA;ID = 17&#xA;" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="309" y="1103" name="inst_3612CEE2" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 1&#xA;ID = 18&#xA;" scaleX="0.384999990463257" scaleY="0.384999990463257" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1086" y="899" name="inst_613820CD" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1100" y="934" name="inst_484C6753" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1128" y="1106" name="inst_48E9A081" locked="0" code="" scaleX="0.219999998807907" scaleY="0.219999998807907" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1142" y="1080" name="inst_768DB1A9" locked="0" code="" scaleX="0.159999996423721" scaleY="0.159999996423721" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1079" y="1115" name="inst_808E705D" locked="0" code="" scaleX="0.129999995231628" scaleY="0.129999995231628" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="306" y="1718" name="inst_66DBCB0C" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1133" y="1745" name="inst_70601292" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="641" y="997" name="inst_5AFE6F6C" locked="0" code="ID = 1&#xA;ChangeMultiplier = 3&#xA;XDir = -1&#xA;&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="670" y="981" name="inst_D8A662C3" locked="0" code="ID = 2&#xA;ChangeMultiplier = 3&#xA;XDir = -1&#xA;" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="687" y="960" name="inst_7327280D" locked="0" code="ID = 3&#xA;ChangeMultiplier = 3&#xA;XDir = 0&#xA;" scaleX="0.144999995827675" scaleY="0.144999995827675" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="705" y="976" name="inst_AC983090" locked="0" code="ID = 4&#xA;ChangeMultiplier = 3&#xA;XDir = 1&#xA;" scaleX="0.234999999403954" scaleY="0.234999999403954" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="733" y="1003" name="inst_D38F2CE4" locked="0" code="ID = 5&#xA;XDir = 1&#xA;ChangeMultiplier = 3&#xA;" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="620" y="1023" name="inst_BEBEFF9F" locked="0" code="ID = 6&#xA;ChangeMultiplier = 2.5&#xA;XDir = -1&#xA;" scaleX="0.330000013113022" scaleY="0.330000013113022" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="659" y="1027" name="inst_E9B98644" locked="0" code="ID = 7&#xA;ChangeMultiplier = 2.5&#xA;XDir = -1&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="692" y="1016" name="inst_31F97128" locked="0" code="XDir = -1&#xA;ChangeMultiplier = 2.5&#xA;ID = 8&#xA;" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="730" y="1029" name="inst_C8F38D89" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 2.5&#xA;ID = 9&#xA;" scaleX="0.234999999403954" scaleY="0.234999999403954" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="762" y="1024" name="inst_BCF9A2FD" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 2.5&#xA;ID = 10&#xA;" scaleX="0.180000007152557" scaleY="0.180000007152557" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="606" y="1067" name="inst_776539B3" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 2.5&#xA;ID = 11&#xA;" scaleX="0.180000007152557" scaleY="0.180000007152557" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="635" y="1051" name="inst_FDD17DB9" locked="0" code="XDir = -1&#xA;ChangeMultiplier = 2&#xA;ID = 12&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="658" y="1063" name="inst_E6D9DC13" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 2&#xA;ID = 13&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="695" y="1055" name="inst_8C617824" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 2&#xA;ID = 14&#xA;" scaleX="0.159999996423721" scaleY="0.159999996423721" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="746" y="1053" name="inst_8AB32A81" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 2&#xA;ID = 15&#xA;" scaleX="0.280000001192093" scaleY="0.280000001192093" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="667" y="1097" name="inst_98C6DAE5" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 1.5&#xA;ID = 16&#xA;" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="720" y="1082" name="inst_9C704DA4" locked="0" code="XDir = 1&#xA;ChangeMultiplier = 1.5&#xA;ID = 17&#xA;" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="700" y="1107" name="inst_3612CEE2" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 1&#xA;ID = 18&#xA;" scaleX="0.384999990463257" scaleY="0.384999990463257" colour="4294967295" rotation="0"/>
     <instance objName="mFocusLeft" x="-54" y="664" name="inst_F5218386" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mFocusRight" x="1433" y="647" name="inst_D68285BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCellarTop" x="1483" y="4364" name="inst_7144DD70" locked="0" code="" scaleX="0.025000000372529" scaleY="0.0199999995529652" colour="4294967295" rotation="0"/>
@@ -151,7 +144,7 @@
     <instance objName="oCellarBase" x="1059" y="4291" name="inst_844CB985" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0350000001490116" colour="4294967295" rotation="0"/>
     <instance objName="oReplaceDock" x="1040" y="4291" name="inst_F4991E8E" locked="0" code="" scaleX="0.800000011920929" scaleY="0.16666667163372" colour="4294967295" rotation="0"/>
     <instance objName="mBaldTemplate2" x="1064" y="4254" name="inst_6BCD2ADE" locked="0" code="" scaleX="1.47333335876465" scaleY="0.828025460243225" colour="4294967295" rotation="0"/>
-    <instance objName="oWen" x="529" y="1070" name="inst_F61AC616" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
+    <instance objName="oWen" x="660" y="938" name="inst_F61AC616" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="oTabooLayer1" x="679" y="2762" name="inst_DCDFF7D0" locked="0" code="" scaleX="0.970000028610229" scaleY="0.970000028610229" colour="4294967295" rotation="0"/>
     <instance objName="oTabooLayer2" x="670" y="4113" name="inst_EF940BF7" locked="0" code="" scaleX="0.97264152765274" scaleY="0.965811967849731" colour="4294967295" rotation="0"/>
     <instance objName="oTabooLayer3" x="660" y="5132" name="inst_2DF5658D" locked="0" code="" scaleX="0.939999997615814" scaleY="1" colour="4294967295" rotation="0"/>
@@ -272,52 +265,6 @@
     <instance objName="mTestControls" x="-43" y="-162" name="inst_D71F45A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mBaldTemplate1" x="347" y="3762" name="inst_CEF14894" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mBaldTemplate3" x="412" y="4792" name="inst_E0FF30B0" locked="0" code="" scaleX="0.579999983310699" scaleY="0.54666668176651" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="909" y="962" name="inst_68A16D43" locked="0" code="" scaleX="1.39999997615814" scaleY="1.72727274894714" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="969" y="1250" name="inst_5FE7716B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="342" y="1792" name="inst_751E3447" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="315" y="1751" name="inst_FB520226" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1011" y="1872" name="inst_3CF6EFA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1074" y="3344" name="inst_BB615A60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="524" y="3220" name="inst_5547F765" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1024" y="3851" name="inst_8C8F87FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="328" y="3811" name="inst_67C130E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1084" y="4030" name="inst_42218579" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="918" y="3801" name="inst_299AEE2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="840" y="3176" name="inst_92D71F95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1012" y="2987" name="inst_EA2346FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="781" y="2875" name="inst_DCF70C49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="567" y="2916" name="inst_401B0964" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="386" y="3901" name="inst_3F959E67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="484" y="1231" name="inst_A3B6A729" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1049" y="824" name="inst_4E6320B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="654" y="775" name="inst_9AD69C82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1072" y="1943" name="inst_DFF411A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1016" y="1897" name="inst_B69E5AEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="227" y="2391" name="inst_1698C550" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="248" y="3252" name="inst_70AB68DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="285" y="2850" name="inst_1B393304" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="289" y="2969" name="inst_C8474436" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="262" y="2809" name="inst_84770FFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="752" y="2918" name="inst_7A4217A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1035" y="3027" name="inst_51D49621" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1055" y="2988" name="inst_B0C16D81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1137" y="3111" name="inst_9D646558" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1069" y="3191" name="inst_0E8FB2D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="955" y="3844" name="inst_0DE8E700" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="879" y="3844" name="inst_BAB20E9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1078" y="3793" name="inst_3A6A4A3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1107" y="3748" name="inst_17143D3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="355" y="3395" name="inst_0B451EB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="339" y="3877" name="inst_798C912C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="224" y="3861" name="inst_5BDF8C63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="412" y="3941" name="inst_9644C2D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="303" y="4040" name="inst_B61E0370" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1014" y="4089" name="inst_81AEC040" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="976" y="1191" name="inst_226583F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1043" y="1196" name="inst_C285F144" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="209" y="1272" name="inst_F426F4D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1141" y="1522" name="inst_F2433E4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oMoleHerd" x="1057" y="1025" name="inst_AF251032" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mBaldTemplate2" x="671" y="3669" name="inst_85AF7A9D" locked="0" code="" scaleX="1.25999999046326" scaleY="1.02999997138977" colour="4294967295" rotation="0"/>
     <instance objName="oCaulCankerCentral" x="529" y="3514" name="inst_36A8E929" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="oCaulCankerCentral" x="542" y="3541" name="inst_9A3C4F59" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
@@ -338,8 +285,8 @@
     <instance objName="oCaulCankerCentral" x="506" y="3390" name="inst_0032B3C8" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="oCaulCankerCentral" x="722" y="3438" name="inst_E2BFD1FC" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
     <instance objName="oCaulCankerCentral" x="826" y="3389" name="inst_DFE52F2A" locked="0" code="" scaleX="0.0500000007450581" scaleY="0.0500000007450581" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="330" y="1118" name="inst_18D3C15A" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 1.3&#xA;ID = 19&#xA;" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
-    <instance objName="sSigilMoleParent" x="350" y="1131" name="inst_CD5C03A8" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 1.3&#xA;ID = 20&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="734" y="1120" name="inst_18D3C15A" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 1.3&#xA;ID = 19&#xA;" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="sSigilMoleParent" x="744" y="1144" name="inst_CD5C03A8" locked="0" code="XDir = 0&#xA;ChangeMultiplier = 1.3&#xA;ID = 20&#xA;" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
     <instance objName="mBellSounderFurTemplate" x="278" y="3963" name="inst_1D3CF99F" locked="0" code="" scaleX="0.330000013113022" scaleY="0.379999995231628" colour="4294967295" rotation="10"/>
     <instance objName="oPlotWound3" x="535" y="5151" name="inst_30E3855D" locked="0" code="" scaleX="0.600000023841858" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="oPlotWound3" x="535" y="5151" name="inst_B9AD1681" locked="0" code="" scaleX="0.600000023841858" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
@@ -356,6 +303,10 @@
     <instance objName="oPlotWound3" x="472" y="5080" name="inst_FF68B229" locked="0" code="" scaleX="0.800000011920929" scaleY="0.200000002980232" colour="4294967295" rotation="1"/>
     <instance objName="oPlotWound3" x="582" y="5012" name="inst_F1F4F31D" locked="0" code="" scaleX="1" scaleY="0.300000011920929" colour="4294967295" rotation="6"/>
     <instance objName="oPlotWound3" x="232" y="5015" name="inst_77AC7196" locked="0" code="" scaleX="1.20000004768372" scaleY="0.300000011920929" colour="4294967295" rotation="-3"/>
+    <instance objName="mSun" x="-175" y="895" name="inst_93EB094B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mSun" x="1519" y="991" name="inst_36D541D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mSun" x="1530" y="803" name="inst_5D3FD350" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mSun" x="1525" y="989" name="inst_698A0009" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

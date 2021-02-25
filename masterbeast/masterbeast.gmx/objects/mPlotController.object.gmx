@@ -54,11 +54,11 @@ TabooLayer3Broken = false
 //Mole Variables 
 TopMoleNumber = 200
 Spawnable = true
-LonelyChangeRate = 0.0005
-HungerChangeRate = 0.0005
-EnergyChangeRate = 0.0005
+LonelyChangeRate = 0.005
+HungerChangeRate = 0.005
+EnergyChangeRate = 0.005
 ChosenMole = noone
-MaxClusters = 4
+MaxClusters = 3
 Clusters = 0
 CandidateFound = false
 ScentMarkerMax = 20
@@ -99,33 +99,8 @@ InRitual = false
             <kind>1</kind>
             <string>///Start a Random Mole Clustering
 
-if instance_exists(oMoleHerd) {
-if Clusters &lt; MaxClusters {
-while CandidateFound = false {
-for (i = 0; i &lt; MaxRetries; i++) {
-if CandidateFound = false {
-CandidateCluster = instance_find(oMoleHerd,random(instance_number(oMoleHerd)))
-if CandidateCluster.SeedClusterer = false
-and CandidateCluster.State != "clustering" 
-and CandidateCluster.Loneliness &lt; 20
-and CandidateCluster.Hunger &lt; 20
-and CandidateCluster.Energy &gt; 0 
-{
-CandidateFound = true 
-CandidateCluster.SeedClusterer = true 
-CandidateCluster.State = "clustering"
-CandidateCluster.BabyTimer = random_range(CandidateCluster.BabyCreateLower,CandidateCluster.BabyCreateHigher)
-Clusters += 1
-}
-}
-}
-CandidateFound = true
-}
-}
-
-CandidateFound = false
-}
-alarm[0] = random_range(15000,20000)
+ClusterMoles()
+alarm[0] = random_range(10000,15000)
 </string>
           </argument>
         </arguments>

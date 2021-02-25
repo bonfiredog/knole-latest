@@ -30,7 +30,9 @@
 image_alpha = 0
 OriginalX = x
 OriginalY = y
-FadeTimer = 100
+FadeTimer = 400
+image_xscale = 0.05
+image_yscale = 0.05
 </string>
           </argument>
         </arguments>
