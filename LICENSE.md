@@ -22,4 +22,4 @@ There is a broad, murky march between plagiarism and inspiration, but I think th
 Attribution
 -----------
 
-**Sherman, Robert. *Project knole: An Autocosmic Approach To Authoring Resonant Computational Characters*. 2018 [Online] Available from: http://github.com/bonfiredog/knole [Accessed (date)].**
+**Sherman, Robert. *Project knole: An Autocosmic Approach To Authoring Resonant Computational Characters*. 2021 [Online] Available from: http://github.com/bonfiredog/knole [Accessed (date)].**
