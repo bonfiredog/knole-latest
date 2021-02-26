@@ -1867,17 +1867,7 @@ if mInterfaceController.CurrentView = MicroView and Occupied = true and mInterfa
 draw_sprite_ext(Red,0,x,y,ZoomedInScale,ZoomedInScale,0,DebugRedTextColour,Redness)
 }
 
-draw_set_font(fTest)
-draw_set_color(c_white)
-DrawX = x
-DrawY = y - 20
 
-draw_text(DrawX,DrawY,"Hunger: " + string(Hunger))
-DrawY -= 10
-draw_text(DrawX,DrawY,"State: " + string(State))
-DrawY -= 10
-draw_text(DrawX,DrawY,"Currently Hunting: " + string(CurrentlyHunting))
-DrawY -= 10
 </string>
           </argument>
         </arguments>

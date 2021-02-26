@@ -17,8 +17,8 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>202</width>
-  <height>160</height>
+  <width>209</width>
+  <height>167</height>
   <frames>
     <frame index="0">images\sRedMole_0.png</frame>
   </frames>
