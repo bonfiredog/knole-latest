@@ -32,13 +32,13 @@ OriginalX = x
 OriginalY = y
 BaseY = OriginalY
 BaseX = OriginalX
-OriginalXScale = image_xscale
-OriginalYScale = image_yscale
-OriginalRotation = image_angle
 direction = image_angle
 
 XLimit = 50
-XLimitLeft = OriginalX - XLimit 
+XLimitLeft = OriginalX - XLimit
+OriginalXScale = image_xscale
+OriginalYScale = image_yscale
+OriginalRotation = image_angle
 XLimitRight = OriginalX + XLimit
 YLimit = 150
 YLimitUp = OriginalY - YLimit
@@ -150,6 +150,7 @@ if position_meeting(mouse_x,mouse_y,self)
 and mouse_check_button_pressed(mb_any)
 and AmountForward(70)
 and instance_exists(mDebug) = false
+and mInterfaceController.Cleaning = false and mInterfaceController.Healing = false
 and mInterfaceController.CurrentHandUse = "none"
 and Touching = false {
 
@@ -240,13 +241,13 @@ ResetXY = true
 
 
 HappyModOut = ((50 / 100) * mEmotionSubController.HappyActivation)
-HappyModUp = ((70 / 100) * mEmotionSubController.HappyActivation)
+HappyModUp = ((80 / 100) * mEmotionSubController.HappyActivation)
 SadModIn = ((20 / 100) * mEmotionSubController.SadActivation) 
 SadModDown = ((20 / 100) * mEmotionSubController.SadActivation)
 SadModRotate = ((25/ 100) * mEmotionSubController.SadActivation)
 AngryModIn = ((20 / 100) * mEmotionSubController.AngerActivation)
 AngryModDown = ((20 / 100) * mEmotionSubController.AngerActivation)
-AngryModRotate = ((35 / 100) * mEmotionSubController.AngerActivation)
+AngryModRotate = ((25 / 100) * mEmotionSubController.AngerActivation)
 TiredModDown = ((30 / 100) * mCreatureController.Tiredness)
 TiredModOut = ((30 / 100) * mCreatureController.Tiredness)
 PainModUp = ((30 / 100) * mCreatureController.Pain)
@@ -256,18 +257,17 @@ FearModUp = ((30 / 100) * mEmotionSubController.FearActivation)
 FearModRotate = ((25 / 100) * mEmotionSubController.FearActivation) 
 FearModIn = ((20 / 100) * mEmotionSubController.FearActivation)
 StressModRotate = ((25 / 100) * mCreatureController.Stress)
-SurpriseModUp = ((90 / 100) * mEmotionSubController.SurpriseActivation)
+SurpriseModUp = ((40 / 100) * mEmotionSubController.SurpriseActivation)
 ShameModRotate = ((25 / 100) * mEmotionSubController.ShameActivation)
 
 
 if instance_exists(mFrontLoading) = false {
-
 if Touching = false and ResetXY = true {
-
 Breathing()
-BaseDirection = OriginalRotation - ((10 / 100) * oCheekLeft.UpPercentageDifference) + RotateModifier
-RotateModifier = clamp(RotateModifier, 0, 60)
+BaseDirection = OriginalRotation + RotateModifier //- ((10 / 100) * oCheekLeft.UpPercentageDifference)
+RotateModifier = clamp(RotateModifier, -60, 60)
 direction = BaseDirection + SadModRotate - AngryModRotate + PainModRotate + FearModRotate - StressModRotate + ShameModRotate
+direction = clamp(direction,0,60)
 BaseY =  OriginalY + ((10 / 100) * oCheekRight.UpPercentageDifference) + UpModifier - ((20 / 100) * BreathingMod)
 UpModifier = clamp(UpModifier,0,YLimit)
 y = BaseY - ((80/ 100) * oMouthCentre.PercentageDiff) - HappyModUp + SadModDown + AngryModDown + TiredModDown - PainModUp - FearModUp - SurpriseModUp - TwitchMod
@@ -278,13 +278,11 @@ y = clamp(y,YLimitUp,YLimitDown)
 image_xscale = clamp(image_xscale,XScaleLimitDown,XScaleLimitUp)
 image_yscale = clamp(image_yscale,YScaleLimitDown,YScaleLimitUp)
 
-} else {
-
+    } else { 
 x = clamp(x,XLimitLeft + 30,XLimitRight - 30)
 y = clamp(y,YLimitUp + 100,YLimitDown - 40)
 image_xscale = clamp(image_xscale,XScaleLimitDown,XScaleLimitUp)
 image_yscale = clamp(image_yscale,YScaleLimitDown,YScaleLimitUp)
-
 }
 
 
@@ -318,6 +316,7 @@ UpAndRotatePercentage = (UpDifferencePercentage / 2) + (RotateDifferencePercenta
 
 RotateDifference = direction - OriginalRotation
 }
+
 </string>
           </argument>
         </arguments>
@@ -339,7 +338,7 @@ RotateDifference = direction - OriginalRotation
           <argument>
             <kind>1</kind>
             <string>///Staying Within Limits
-direction = clamp(direction,1,60)
+direction = clamp(direction,0,60)
 image_angle = direction
 
 </string>
@@ -373,7 +372,7 @@ draw_sprite_ext(sBrowLeft,1,x,y,image_xscale,image_yscale,direction,c_white,Redn
 
 with mFurBrowParent {
 if Tag = "browleft" {
-draw_sprite_ext(PoreSprite,0,x,y,image_xscale * 0.8,image_yscale * 0.8,90,c_white,1)
+draw_sprite_ext(PoreSprite,0,x,y,image_xscale * 0.2,image_yscale * 0.2,90,c_white,1)
 }
 }
 </string>

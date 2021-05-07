@@ -245,7 +245,7 @@ draw_self()
 draw_sprite_ext(sCaulLipRed,1,x,y,image_xscale,image_yscale,image_angle,c_white,TotalRedness)
 
 if (!surface_exists(LipSurface)) { LipSurface = surface_create(sprite_width,sprite_height) }
-CleanableSurface(oCaulLip.LipSurface,oCaulLip,1)
+CleanableSurface(oCaulLip.LipSurface,oCaulLip,0.2)
 draw_surface_ext(LipSurface,x - (sprite_width / 2),y - (sprite_height / 2),1 + XScaleDifference,1 + YScaleDifference,0,c_white,1)
 </string>
           </argument>

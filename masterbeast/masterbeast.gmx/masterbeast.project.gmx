@@ -2200,6 +2200,7 @@
       <sound>sound\aSneeze5</sound>
       <sound>sound\aSneeze6</sound>
       <sound>sound\aSneeze1</sound>
+      <sound>sound\mMMM</sound>
     </sounds>
     <sounds name="Breathing">
       <sound>sound\aBreatheInNose2</sound>
@@ -2262,6 +2263,7 @@
       <sound>sound\aEyeLeftPond</sound>
       <sound>sound\aEyeRightPond</sound>
       <sound>sound\aLowRumble</sound>
+      <sound>sound\aLowRumble2</sound>
       <sound>sound\aShiver</sound>
       <sound>sound\aTwitchShort</sound>
       <sound>sound\aBellSound</sound>
@@ -2790,6 +2792,23 @@
         <sprite>sprites\sTempleMoleRed2</sprite>
         <sprite>sprites\sTempleMoleRed3</sprite>
       </sprites>
+      <sprites name="Markings">
+        <sprite>sprites\markingmouth</sprite>
+        <sprite>sprites\markingnose</sprite>
+        <sprite>sprites\markingorbits</sprite>
+        <sprite>sprites\markingrightear</sprite>
+        <sprite>sprites\markingsigil</sprite>
+        <sprite>sprites\markingthroat</sprite>
+        <sprite>sprites\markingtophead</sprite>
+        <sprite>sprites\markingyoke</sprite>
+        <sprite>sprites\cardinalmarking</sprite>
+        <sprite>sprites\cellarmarking</sprite>
+        <sprite>sprites\markinglefthorn</sprite>
+        <sprite>sprites\markingbottom</sprite>
+        <sprite>sprites\markingbyre</sprite>
+        <sprite>sprites\markingeyeducts</sprite>
+        <sprite>sprites\markingleftear</sprite>
+      </sprites>
     </sprites>
     <sprites name="World Objects">
       <sprites name="Liquid">
@@ -2828,6 +2847,7 @@
         <sprite>sprites\sCellarRed</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\sprite438</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -2911,6 +2931,9 @@
         <script>scripts\MoveBackForward.gml</script>
         <script>scripts\MoveBackForwardUnCapped.gml</script>
         <script>scripts\LittleJump.gml</script>
+        <script>scripts\Buck.gml</script>
+        <script>scripts\StartBuck.gml</script>
+        <script>scripts\ZoomSpeedCalc.gml</script>
       </scripts>
       <scripts name="Twitching">
         <script>scripts\ShiverChance.gml</script>
@@ -2929,14 +2952,17 @@
         <script>scripts\StartEyebrowTwitchLeftBehaviour.gml</script>
         <script>scripts\ShedNearbyFur.gml</script>
         <script>scripts\TwitchRun.gml</script>
+        <script>scripts\WinkRun.gml</script>
       </scripts>
       <scripts name="Reaction Shortcuts">
+        <script>scripts\NewPhraseReactions.gml</script>
         <script>scripts\FurShaveReaction.gml</script>
         <script>scripts\PullHornOngoing.gml</script>
         <script>scripts\PullHornInitial.gml</script>
         <script>scripts\TouchNotNewReactions.gml</script>
         <script>scripts\PressReaction.gml</script>
         <script>scripts\FurPullReaction.gml</script>
+        <script>scripts\ReactMotion2.gml</script>
         <script>scripts\CutCellarInitial.gml</script>
         <script>scripts\CutCellarReaction.gml</script>
         <script>scripts\GrabBPReactions.gml</script>
@@ -2953,6 +2979,7 @@
         <script>scripts\PressThroatReaction.gml</script>
         <script>scripts\CellarProximityReactions.gml</script>
         <script>scripts\MoveCellarReaction.gml</script>
+        <script>scripts\ReactToEmotions.gml</script>
         <script>scripts\EarPullOngoing.gml</script>
         <script>scripts\EarPullInitial.gml</script>
         <script>scripts\RubCaulReaction.gml</script>
@@ -2978,21 +3005,25 @@
         <script>scripts\TouchMoleReactions.gml</script>
         <script>scripts\CutMoleInitial.gml</script>
         <script>scripts\CutMoleReactions.gml</script>
+        <script>scripts\ReactMotion1.gml</script>
         <script>scripts\TouchSigilAreaReactions.gml</script>
         <script>scripts\CutNubReactions.gml</script>
         <script>scripts\ChanceToRitualReact.gml</script>
         <script>scripts\MouthSnapReactions.gml</script>
+        <script>scripts\HearLoudNoiseReactions.gml</script>
         <script>scripts\CantEscapeReactions.gml</script>
         <script>scripts\DrivesAreOn.gml</script>
         <script>scripts\SlippingReactions.gml</script>
         <script>scripts\TestReaction.gml</script>
         <script>scripts\HearNoiseReactions.gml</script>
         <script>scripts\BellSoundReaction.gml</script>
+        <script>scripts\NewFaceReaction.gml</script>
       </scripts>
       <scripts name="Ritual Behaviours">
         <script>scripts\EnterRitual.gml</script>
         <script>scripts\ExitRitual.gml</script>
         <script>scripts\RitualRefuseReactions.gml</script>
+        <script>scripts\ReduceTabooLayerHealth.gml</script>
       </scripts>
     </scripts>
     <scripts name="Positioning">
@@ -3022,7 +3053,9 @@
         <script>scripts\StartWounding.gml</script>
         <script>scripts\EndCut.gml</script>
         <script>scripts\CauseBruise.gml</script>
+        <script>scripts\MakeRedMark.gml</script>
       </scripts>
+      <script>scripts\StartDraggingMode.gml</script>
     </scripts>
     <scripts name="Physical Qualities">
       <scripts name="Internals">
@@ -3045,6 +3078,7 @@
           <script>scripts\ShameDecayRateModifiers.gml</script>
           <script>scripts\ChangeEmotionStep.gml</script>
           <script>scripts\ChangeEmotion.gml</script>
+          <script>scripts\ResetEmotion.gml</script>
         </scripts>
       </scripts>
       <script>scripts\IsAlive.gml</script>
@@ -3095,6 +3129,8 @@
       <script>scripts\Heard.gml</script>
       <script>scripts\EyesNotClosed.gml</script>
       <script>scripts\instance_nth_nearest.gml</script>
+      <script>scripts\Seen.gml</script>
+      <script>scripts\HeardPhrase.gml</script>
     </scripts>
     <scripts name="World">
       <scripts name="Weather">
@@ -3219,18 +3255,45 @@
       <script>scripts\IfDrivePreconditionsSatisfied.gml</script>
       <script>scripts\CompleteRetry.gml</script>
       <script>scripts\DrivePriorities.gml</script>
-      <script>scripts\CorrectDayAndTimeForEating.gml</script>
-      <script>scripts\TimeThroughEatingHour.gml</script>
       <script>scripts\ResettingDrives.gml</script>
-      <script>scripts\NotInWorkingHours.gml</script>
+      <script>scripts\ReappraiseDrives.gml</script>
+      <script>scripts\AreDrivesActualOn.gml</script>
+      <script>scripts\AreRitualsOn.gml</script>
+      <script>scripts\IsCurrentDrive.gml</script>
+      <script>scripts\RandomiseState.gml</script>
     </scripts>
-    <script>scripts\Buck.gml</script>
-    <script>scripts\StartBuck.gml</script>
-    <script>scripts\Seen.gml</script>
-    <script>scripts\MakeRedMark.gml</script>
-    <script>scripts\ResetEmotion.gml</script>
-    <script>scripts\TextBar.gml</script>
-    <script>scripts\ClusterMoles.gml</script>
+    <scripts name="Rituals And Moles">
+      <script>scripts\ClusterMoles.gml</script>
+      <script>scripts\RitualCommandRefuse.gml</script>
+      <script>scripts\RitualGoodReaction.gml</script>
+      <script>scripts\GeneralWanderAndGraze.gml</script>
+      <script>scripts\TryingToGoDownReactions.gml</script>
+      <script>scripts\TimeThroughEatingHour.gml</script>
+      <script>scripts\RitualBadReaction.gml</script>
+      <script>scripts\NotInWorkingHours.gml</script>
+      <script>scripts\CorrectDayAndTimeForEating.gml</script>
+      <script>scripts\IsInRitualHours.gml</script>
+      <script>scripts\EjacReactions.gml</script>
+      <script>scripts\RitualCommandAccept.gml</script>
+      <script>scripts\Ejaculate.gml</script>
+      <script>scripts\MoleHerd.gml</script>
+      <script>scripts\GoToTop.gml</script>
+      <script>scripts\EjacTrackReactions.gml</script>
+      <script>scripts\Decide.gml</script>
+      <script>scripts\MoveSpeedCalc.gml</script>
+      <script>scripts\SigilCompleted.gml</script>
+      <script>scripts\IsInEatingHours.gml</script>
+      <script>scripts\WaitingForPsalmReactions.gml</script>
+      <script>scripts\NoPsalmReactions.gml</script>
+      <script>scripts\EODOngoingReaction.gml</script>
+      <script>scripts\EODReaction.gml</script>
+      <script>scripts\LeavingCircleReactionsEarly.gml</script>
+      <script>scripts\LeavingCircleReactionsOnTime.gml</script>
+      <script>scripts\FadeInWithZoomSet.gml</script>
+      <script>scripts\MakeMouthSplatter.gml</script>
+      <script>scripts\MoleDetergeant.gml</script>
+      <script>scripts\ReactChance.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fDebugTitle</font>
@@ -3332,6 +3395,10 @@
         <object>objects\mHeadParent</object>
         <object>objects\mFavouredParent</object>
         <object>objects\mTabooLayerParent</object>
+        <object>objects\mDuctParent</object>
+        <object>objects\mMoleFoodParent</object>
+        <object>objects\mEyeLeftParent</object>
+        <object>objects\mEyeRightParent</object>
       </objects>
       <object>objects\mTestControls</object>
     </objects>
@@ -3441,6 +3508,7 @@
       <objects name="Moles">
         <object>objects\oMoleHerd</object>
         <object>objects\oMoleHerdRed</object>
+        <object>objects\oByre</object>
       </objects>
     </objects>
     <objects name="World Objects">
@@ -3458,6 +3526,7 @@
       <objects name="In Hand">
         <object>objects\mFurPlucked</object>
         <object>objects\mDripBlood</object>
+        <object>objects\mDripWater</object>
         <object>objects\mDripBloodCaul</object>
         <objects name="The Cellar">
           <object>objects\oJosephHead</object>

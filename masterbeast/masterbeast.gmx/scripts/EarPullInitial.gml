@@ -2,11 +2,11 @@
 
 if AmountForward(80) and IsAlive() {
 
-if DrivesAreOn() {
+if mDriveCollectionMaster.RealReactionsOn = true {
 
 ChanceToWake(50)
 StopYawnBehaviour()
-
+ReduceTabooLayerHealth(0.5)
 if Chance(mCreatureController.Pain) {
 TwitchRun(irandom_range(1,2) + (8))
 }
@@ -25,17 +25,19 @@ StartSwallowBehaviour(10,30)
 }
 if ChanceToRitualReact() {
 ChangeEmotion("fear","up",0.5,5)
-}
-mCreatureController.BaseResistance -= 2
-mCreatureController.CloseToAnne += 1
-mCreatureController.BaseStress += 2
-mCreatureController.BasePain += 2
+} 
+mCreatureController.BaseResistance -= 2  * mPlotController.ISModifier
+mCreatureController.CloseToAnne += 1  * mPlotController.ISModifier
+mCreatureController.BaseStress += 2  * mPlotController.ISModifier
+mCreatureController.BasePain += 2  * mPlotController.ISModifier
 
 if mDriveCollectionMaster.EarPullTimer <= 0 or mDriveCollectionMaster.NoReactionTimer > 3000 {
-if Chance(60) {
+if Chance(60 
+* ReactChance()) {
 HoldBreathFor(irandom_range(50,70) - (40 * mCreatureController.EarsPulled))
 }
-if ChanceToRitualReact() {
+if ChanceToRitualReact() 
+* ReactChance() {
 LittleJump()
 }
 ChangeEmotion("surprise","up",1.3,irandom_range(50,70) - (40 * mCreatureController.EarsPulled))
@@ -75,7 +77,7 @@ ChangeEmotion("fear","up",0.5,1 - (4  * mCreatureController.EarsPulled))
 ChangeEmotion("shame","up",0.5,1  - (4  * mCreatureController.EarsPulled))
 ChangeEmotion("happy","down",0.3,2  - (5 * mCreatureController.EarsPulled))
 with mCreatureController {
-BaseSubIntent -= 0.03
+BaseSubIntent -= 0.03 * mPlotController.ISModifier
 BaseTrust += 3 - (1 * mCreatureController.EarsPulled)
 CloseToAnne -= 3 - (1 * mCreatureController.EarsPulled)
 BaseAlive -= 0.03
@@ -85,22 +87,26 @@ BaseResistance -= 3 - (1 * mCreatureController.EarsPulled)
 }
 } else {
 if IsInRitual() {
-if ChanceToRitualReact() {
+if ChanceToRitualReact() 
+* ReactChance() {
 StartNumberSniffsBehaviour(1)
 }
-if ChanceToRitualReact() {
+if ChanceToRitualReact() 
+* ReactChance() {
 StartSwallowBehaviour(10,30)
 }
-if ChanceToRitualReact() {
+if ChanceToRitualReact() 
+* ReactChance() {
 ChangeEmotion("fear","up",0.5,5)
 }
-mCreatureController.BaseResistance-=2
-mCreatureController.CloseToAnne+=1
-mCreatureController.BaseStress+=2
-mCreatureController.BasePain+=2
+mCreatureController.BaseResistance-=2  * mPlotController.ISModifier
+mCreatureController.CloseToAnne+=1  * mPlotController.ISModifier
+mCreatureController.BaseStress+=2  * mPlotController.ISModifier
+mCreatureController.BasePain+=2  * mPlotController.ISModifier
 
 if mDriveCollectionMaster.EarPullTimer <= 0 or mDriveCollectionMaster.NoReactionTimer > 3000 {
-if Chance(60) {
+if Chance(60 
+* ReactChance()) {
 HoldBreathFor(irandom_range(50,70) - (40 * mCreatureController.EarsPulled))
 }
 if ChanceToRitualReact() {
@@ -144,7 +150,7 @@ ChangeEmotion("shame","up",0.5,1  - (4  * mCreatureController.EarsPulled))
 ChangeEmotion("happy","down",0.3,2  - (5 * mCreatureController.EarsPulled))
 with mCreatureController {
 BaseLust+=3 - (1 * mCreatureController.EarsPulled)
-BaseSubIntent-=0.03
+BaseSubIntent-=0.03 * mPlotController.ISModifier
 BaseTrust-=3 - (1 * mCreatureController.EarsPulled)
 CloseToAnne+=3 - (1 * mCreatureController.EarsPulled)
 BaseAlive-=0.03
@@ -154,6 +160,6 @@ BaseResistance-=3 - (1 * mCreatureController.EarsPulled)
 }
 }
 }
-
+mDriveCollectionMaster.alarm[1] = 60
 Pulling = true
 }

@@ -10,7 +10,7 @@ StartEyebrowTwitchLeftBehaviour()
 StartEyebrowTwitchRightBehaviour()
 break;
 case "manyblinks":
-if mDriveCollectionMaster.InRitual = false {
+if mDriveCollectionMaster.InRitual = false and mBehavioursReactive.Sleeping = false {
 NumberOfBlinks(irandom_range(2,5))
 } else {
 StartCheekTwitchRightBehaviour()
@@ -18,7 +18,7 @@ StartCheekTwitchLeftBehaviour()
 }
 break;
 case "blinking":
-if mDriveCollectionMaster.InRitual = false {
+if mDriveCollectionMaster.InRitual = false and mBehavioursReactive.Sleeping = false {
 StartBlinkBehaviour()
 } else {
 StartCheekTwitchRightBehaviour()

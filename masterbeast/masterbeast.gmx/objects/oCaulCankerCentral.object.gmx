@@ -50,10 +50,12 @@ WobbleSpeed = random_range(4,7)
 
 depth = random_range(MidCankerLayerLower,MidCankerLayerUpper)
 sprite_index = choose(sCankerMid1,sCankerMid2,sCankerMid3,sCankerMid4,sCankerMid5,sCankerMid6,sCankerMid7)
-image_xscale = random_range(0.04,0.06)
-image_yscale = image_xscale
-OriginalXScale = image_xscale
-OriginalYScale = image_yscale
+GrownToSize = false
+image_xscale = 0
+image_yscale = 0
+
+OriginalXScale = random_range(0.04,0.06)
+OriginalYScale = OriginalXScale
 
 switch sprite_index {
 case sCankerMid1:
@@ -108,8 +110,41 @@ break;
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Grow To Size
+
+if GrownToSize = false {
+if image_xscale &lt; OriginalXScale {
+image_xscale += 0.0001
+image_yscale = image_xscale
+} else {
+image_xscale = OriginalXScale
+image_yscale = OriginalYScale
+GrownToSize = true
+}
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>///Touching
 
+if GrownToSize = true {
 if place_meeting(x,y,mFinger) and instance_exists(mDebug) = false
 and mInterfaceController.CurrentHandUse != "holding"
 and Plucking = false
@@ -162,7 +197,7 @@ TouchRotateMod += RotateChange
 }
 
 
-
+}
 </string>
           </argument>
         </arguments>
@@ -185,6 +220,7 @@ TouchRotateMod += RotateChange
             <kind>1</kind>
             <string>///Cutting
 
+if GrownToSize = true {
 if (instance_exists(mFinger) and place_meeting(x,y,mFinger)) and mInterfaceController.CurrentHandUse = "knife" 
 and Plucked = false and instance_exists(mDebug) = false
 and AmountForward(75)
@@ -221,6 +257,7 @@ ThisPluck.x = mouse_x
 ThisPluck.y = mouse_y
 Plucked = true
 sprite_index = choose(sCankerWound1,sCankerWound2,sCankerWound3)
+}
 }
 </string>
           </argument>
@@ -271,8 +308,11 @@ WobbleMod = clamp(WobbleMod,-100,100)
 if Plucking = false and Plucked = false {
 image_angle = OriginalRotation + TouchRotateMod + ((WobbleLimit / 100) * WobbleMod)
 }
+
+if GrownToSize = true {
 image_xscale = OriginalXScale + PluckYMod
 image_yscale = OriginalYScale 
+}
 
 TouchRotateMod = clamp(TouchRotateMod,RotateLimitLower,RotateLimitUpper)
 image_angle = clamp(image_angle,OriginalRotation -40,OriginalRotation + 40)
@@ -299,8 +339,9 @@ image_angle = clamp(image_angle,OriginalRotation -40,OriginalRotation + 40)
             <string>///Plucking
 
 ///Being Plucked
-
-if (instance_exists(mFinger) and place_meeting(x,y,mFinger)) and instance_exists(mDebug) = false
+if GrownToSize = true {
+if (instance_exists(mFinger) and place_meeting(x,y,mFinger)) and mouse_check_button_pressed(mb_any) 
+and instance_exists(mDebug) = false
 and Plucking = false
 and AmountForward(80)
 and oCaulJug.GlobalPlucking = false
@@ -412,7 +453,32 @@ BaseRedness = clamp(BaseRedness,0,0.5)
 Redness = BaseRedness + ((0.4 / 100) * oCaulJug.EngorgedPercentage)  + ((0.5 / 100) * mDriveCollectionMaster.RitualTolerance)
 Redness = clamp(Redness,0,0.9)
 PluckYMod = clamp(PluckYMod,0,0.1)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///If Shrunk, Destroy
 
+if OriginalXScale &lt;= 0 and OriginalYScale &lt;= 0 and GrownToSize = true{
+instance_destroy()
+}
 </string>
           </argument>
         </arguments>

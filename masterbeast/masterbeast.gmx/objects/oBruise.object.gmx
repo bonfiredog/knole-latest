@@ -34,6 +34,11 @@ Intensity = 0
 sprite_index = choose(sBruise1,sBruise2,sBruise3,sBruise4,sBruise5,sBruise6,sBruise7,sBruise8)
 CurrentXScale = 0
 CurrentYScale = 0
+if Chance(15) {
+BlackOrRed = c_red
+} else {
+BlackOrRed = c_white
+}
 image_alpha = 0
 Dir = "in"
 ChangeRate = 0.00005
@@ -96,6 +101,31 @@ instance_destroy()
 
 image_xscale = CurrentXScale 
 image_yscale = CurrentYScale 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//Draw Red Or Black
+
+draw_sprite_ext(sprite_index,0,x,y,image_xscale,image_yscale,image_angle,BlackOrRed,image_alpha)
 </string>
           </argument>
         </arguments>

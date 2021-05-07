@@ -7,7 +7,7 @@ MoveBackForwardUnCapped("comeforward",60,100)
 if mInterfaceController.CurrentView = MicroView {
 StartZoom(200,room_width/2,1000 + (view_hport[0] / 2))
 } else {
-MoveToXY(0,1000,200,MacroView,50)
+MoveToXY(500,1000,200,MacroView,50)
 }
 }
 ChanceToWake(100)

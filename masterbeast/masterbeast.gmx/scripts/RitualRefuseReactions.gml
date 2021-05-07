@@ -13,9 +13,9 @@ if Chance(40) {
 RandomVoc(irandom_range(0.5,1.2) + (0.5 / 100) * mEmotionSubController.AngerActivation)
 }
 
-mCreatureController.BaseLust -= 5
-mCreatureController.BaseResistance += 5
-mCreatureController.CloseToAnne -= 2
+mCreatureController.BaseLust -= 5  * mPlotController.ISModifier
+mCreatureController.BaseResistance += 5  * mPlotController.ISModifier
+mCreatureController.CloseToAnne -= 2  * mPlotController.ISModifier
 
 ChangeEmotion("happy","up",0.2,5)
 ChangeEmotion("anger","up",0.5,10)

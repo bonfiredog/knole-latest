@@ -31,11 +31,11 @@ depth = MouseLayer
 x = mouse_x
 y = mouse_y
 
-if mInterfaceController.FingerObjectVisible = true {
+//if mInterfaceController.FingerObjectVisible = true {
 image_alpha = 0.6
-} else {
-image_alpha = 0
-}
+//} else {
+//image_alpha = 0
+//}
 
 if mInterfaceController.CurrentView = MacroView {
 image_xscale = 2
@@ -47,7 +47,7 @@ image_yscale = image_xscale
 
 LightRad = 0
 LightRadLower = mInterfaceController.LightRadBase - 0.2
-LightRadUpper = mInterfaceController.LightRadBase + 0./2
+LightRadUpper = mInterfaceController.LightRadBase + 0.2
 Grown = false
 FlickerWait = random_range(10,50)
 Speed = random_range(0.8,2)
@@ -180,7 +180,7 @@ y = mouse_y
             <kind>1</kind>
             <string>///Creating Light
 
-if mInterfaceController.FingerLightOn = true {
+if mBehavioursDeliberative.PercentForward &gt;= 70 {
 if Grown = false {
 if LightRad &lt; LightRadUpper {
 LightRad += 0.2

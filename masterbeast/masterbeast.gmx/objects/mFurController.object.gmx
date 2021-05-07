@@ -148,27 +148,27 @@ WindDir = "left"
 if mWeatherSubController.SimpleWindS &gt; 0 {
 with mFurParent {
 if mFurController.WindDir = "left" {
-WindMod -= (((0.05 * mWeatherSubController.SimpleWindS)) - (0.4 / 100) * WetTouchPercent)
+WindMod -= (((0.05 * mWeatherSubController.SimpleWindS)) - ((0.6 / 100) * WetTouchPercent) + ((6 / 120) * mWorldController.HeardSoundRustle))
 } else if mFurController.WindDir = "right" {
-WindMod += (((0.05 * mWeatherSubController.SimpleWindS)) - (0.4 / 100) * WetTouchPercent)
+WindMod += (((0.05 * mWeatherSubController.SimpleWindS)) - ((0.6 / 100) * WetTouchPercent) + ((6 / 120) * mWorldController.HeardSoundRustle))
 }
-WindMod = clamp(WindMod,-25,25)
+WindMod = clamp(WindMod,-20,20)
 }
 with mFurCurledParent {
 if mFurController.WindDir = "left" {
-WindMod -= (((0.06 * mWeatherSubController.SimpleWindS)) - (0.4 / 100) * WetTouchPercent)
+WindMod -= (((0.06 * mWeatherSubController.SimpleWindS)) - ((0.6 / 100) * WetTouchPercent) + ((6 / 120) * mWorldController.HeardSoundRustle))
 } else if mFurController.WindDir = "right" {
-WindMod += (((0.06 * mWeatherSubController.SimpleWindS)) - (0.4 / 100) * WetTouchPercent)
+WindMod += (((0.06 * mWeatherSubController.SimpleWindS)) - ((0.6 / 100) * WetTouchPercent) + ((6 / 120) * mWorldController.HeardSoundRustle))
 }
-WindMod = clamp(WindMod,-25,25)
+WindMod = clamp(WindMod,-20,20)
 }
 with mFurBrowParent {
 if mFurController.WindDir = "left" {
-WindMod -= (((0.06 * mWeatherSubController.SimpleWindS)) - (0.4 / 100) * WetTouchPercent)
+WindMod -= (((0.06 * mWeatherSubController.SimpleWindS)) - ((0.6 / 100) * WetTouchPercent) + ((6 / 120) * mWorldController.HeardSoundRustle))
 } else if mFurController.WindDir = "right" {
-WindMod += (((0.06 * mWeatherSubController.SimpleWindS)) - (0.4 / 100) * WetTouchPercent)
+WindMod += (((0.06 * mWeatherSubController.SimpleWindS)) - ((0.6 / 100) * WetTouchPercent) + ((6 / 120) * mWorldController.HeardSoundRustle))
 }
-WindMod = clamp(WindMod,-25,25)
+WindMod = clamp(WindMod,-20,20)
 }
 } else if mWeatherSubController.SimpleWindS &lt;= 0 {
 with mFurParent {
@@ -205,14 +205,7 @@ WindMod = 0
             <kind>1</kind>
             <string>///Fur Regrow Rate
 
-FurRegrowRate = 0.0000007 /
-(1 + 
-max(0,
-((
-(3 + mWorldController.SeasonFurMod) 
-/ 100) * (100 - mCreatureController.Alive))))
-
- 
+FurRegrowRate = 0.0007
    
 </string>
           </argument>
@@ -239,7 +232,7 @@ max(0,
             <string>///Draw Pores
 
 with mFurParent {
-draw_sprite_ext(PoreSprite,0,x,y,image_xscale * 0.45,image_yscale * 0.45,90,c_white,1)
+draw_sprite_ext(PoreSprite,0,x,y,image_xscale * 0.2,image_yscale * 0.2,90,c_white,1)
 }
 </string>
           </argument>

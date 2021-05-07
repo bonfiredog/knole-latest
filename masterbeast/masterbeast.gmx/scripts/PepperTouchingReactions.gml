@@ -1,6 +1,6 @@
 ///PepperTouchingReactions()
 
-if DrivesAreOn() {
+if mDriveCollectionMaster.RealReactionsOn = true {
 
 //If The Pepper Reaches Them...
 if mCreatureController.Alive > 0 and mBehavioursDeliberative.PercentForward >= 60 {
@@ -9,17 +9,19 @@ if mCreatureController.Alive > 0 and mBehavioursDeliberative.PercentForward >= 6
 //General Stuff (even if not new)
 
 mCreatureController.Dirt += 1
-mCreatureController.BaseAlive -= 0.4
+mCreatureController.BaseAlive -= 0.1
 TwitchIfNearBP(x,y,500)
 MakeRedMark(x,y)
 ChanceToWake(5)
-mCreatureController.BaseWenRateLower -= 100
-mCreatureController.BaseWenRateHigher -= 100 
-mCreatureController.BasePain -= 3
-mCreatureController.BaseResistance -= 1
-mCreatureController.BaseStress += 2
-mCreatureController.BaseTiredness += 2
-mCreatureController.CloseToAnne -= 2
+TwitchRun(irandom_range(10,20))
+if Chance(40){RandomShake()}
+mCreatureController.BaseWenRateLower -= 20  * mPlotController.ISModifier
+mCreatureController.BaseWenRateHigher -= 20  * mPlotController.ISModifier
+mCreatureController.BasePain -= 2  * mPlotController.ISModifier
+mCreatureController.BaseResistance -= 1  * mPlotController.ISModifier
+mCreatureController.BaseStress += 2  * mPlotController.ISModifier
+mCreatureController.BaseTiredness += 2  * mPlotController.ISModifier
+mCreatureController.CloseToAnne -= 2  * mPlotController.ISModifier
 
 if IsInRitual() = false {
 ChangeEmotion("happy","down",3,3 - (2 * mCreatureController.Triad))
@@ -42,12 +44,12 @@ mInterfaceController.CurrentView,
 
 //CAULDRON
 if place_meeting(x,y,mCaulParent) {
-mCreatureController.BaseLust += 3
+mCreatureController.BaseLust += 3  * mPlotController.ISModifier
 mDriveCollectionMaster.BaseWibbleTimer -= 100
-oCaulJug.WobbleSpeed += 0.5
+oCaulJug.CankerWobbleBase += 0.5
 StartCaulVibrateBehaviour(60)
-ShakeCaul(0.8,20)
-oCaulJug.BaseCankerRate -= 100
+ShakeCaul(2,30)
+oCaulJug.BaseCankerRate -= 20
 }
 
 
@@ -122,7 +124,6 @@ instance_destroy()
 //BELL SOUNDER
 
 if place_meeting(x,y,oBellSounder) and oBellSounder.Broken = false {
-mPlotController.CurrentPerceivedHour += 1
 with oBellSounder {
 StartedTolling = true 
 NumberOfTolls = 1

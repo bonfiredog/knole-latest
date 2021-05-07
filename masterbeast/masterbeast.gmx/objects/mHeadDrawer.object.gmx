@@ -33,7 +33,7 @@ y = ControllerObjectY
 
 BodyWipeSurface = surface_create(room_width,room_height)
 surface_set_target(BodyWipeSurface)
-draw_sprite_ext(sHeadBottomBlood,0,-50,(oHead3.y - (oHead3.sprite_height / 2)) + 1076,1,1,0,c_white,1)
+draw_sprite_ext(sHeadBottomBlood,0,-52,(oHead3.y - (oHead3.sprite_height / 2)) + 1076,1,1,0,c_white,1)
 surface_reset_target()
 RainCleanTimer = irandom_range(200,600)
 TabooSurface = surface_create(room_width,room_height)
@@ -42,6 +42,30 @@ surface_set_target(TabooSurface)
 draw_sprite_ext(sTabooLayer1100,0,oTabooLayer1.x,oTabooLayer1.y,oTabooLayer1.image_xscale,oTabooLayer1.image_yscale,0,c_white,1)
 draw_sprite_ext(sTabooLayer2100,0,oTabooLayer2.x,oTabooLayer2.y,oTabooLayer2.image_xscale,oTabooLayer2.image_yscale,0,c_white,1)
 draw_sprite_ext(sTabooLayer3100,0,oTabooLayer3.x,oTabooLayer3.y,oTabooLayer3.image_xscale,oTabooLayer3.image_yscale,0,c_white,1)
+surface_reset_target()
+
+//Draw Body Markings
+
+MarkingSurface = surface_create(room_width,room_height)
+surface_set_target(MarkingSurface)
+draw_sprite_ext(markingtophead,0,746,639,0.5,0.5,0,c_white,1)
+draw_sprite_ext(markinglefthorn,0,476,648,0.6,0.6,0,c_white,1)
+draw_sprite_ext(markingrightear,0,1150,1540,0.25,0.25,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingleftear,0,239,1613,0.25,0.25,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingeyeducts,0,341,1658,0.25,0.25,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingeyeducts,0,1063,1670,0.25,0.25,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingmouth,0,516,2295,0.2,0.2,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingnose,0,473,1895,0.4,0.4,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingsigil,0,840,1054,0.2,0.2,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingbyre,0,718,2723,0.4,0.4,0,c_white,1)
+draw_sprite_ext(markingthroat,0,675,3970,0.4,0.4,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingyoke,0,603,3110,0.2,0.2,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(cardinalmarking,0,368,3039,0.2,0.2,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(cellarmarking,0,1024,4287,0.8,0.8,0,c_white,1)
+draw_sprite_ext(markingbottom,0,962,4949,0.1,0.2,irandom_range(-10,10),c_white,1)
+
+
+
 surface_reset_target()
 
 
@@ -77,12 +101,12 @@ if (!surface_exists(BodyWipeSurface))
 {
 BodyWipeSurface = surface_create(room_width,room_height)
 surface_set_target(BodyWipeSurface)
-draw_sprite_ext(sHeadBottomBlood,0,-50,(oHead3.y - (oHead3.sprite_height / 2)) + 1076,1,1,0,c_white,1)
+draw_sprite_ext(sHeadBottomBlood,0,-52,(oHead3.y - (oHead3.sprite_height / 2)) + 1076,1,1,0,c_white,1)
 surface_reset_target()
 }
 
 //Draw Cleanable Stain Surface
-CleanableSurface(BodyWipeSurface,mCreatureParent,1)
+CleanableSurface(BodyWipeSurface,mCreatureParent,0.2)
 
 switch mWorldController.ThisPeriodWT {
 case 9:
@@ -155,11 +179,69 @@ surface_reset_target()
 }
 
 //Draw Cleanable Stain Surface
-CleanableSurface(TabooSurface,mTabooParent,0.06)
+if position_meeting(mouse_x,mouse_y,oCheekLeft) = false {
+CleanableSurface(mHeadDrawer.TabooSurface,mTabooLayerParent,0.06)
+}
 
 draw_surface(TabooSurface,0,0)
 
 
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Draw Marking Surface
+
+if !surface_exists(MarkingSurface) {
+
+//Draw Body Markings
+MarkingSurface = surface_create(room_width,room_height)
+surface_set_target(MarkingSurface)
+draw_sprite_ext(markingtophead,0,746,639,0.5,0.5,0,c_white,1)
+draw_sprite_ext(markinglefthorn,0,476,648,0.6,0.6,0,c_white,1)
+draw_sprite_ext(markingrightear,0,1150,1540,0.25,0.25,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingleftear,0,239,1613,0.25,0.25,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingeyeducts,0,341,1658,0.25,0.25,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingeyeducts,0,1063,1670,0.25,0.25,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingmouth,0,516,2295,0.2,0.2,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingnose,0,473,1895,0.4,0.4,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingsigil,0,840,1054,0.2,0.2,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingbyre,0,718,2723,0.4,0.4,0,c_white,1)
+draw_sprite_ext(markingthroat,0,675,3970,0.4,0.4,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(markingyoke,0,603,3110,0.2,0.2,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(cardinalmarking,0,368,3039,0.2,0.2,irandom_range(-10,10),c_white,1)
+draw_sprite_ext(cellarmarking,0,1064,4287,0.6,0.6,0,c_white,1)
+draw_sprite_ext(markingbottom,0,962,4949,0.1,0.2,irandom_range(-10,10),c_white,1)
+surface_reset_target()
+}
+
+//Draw Cleanable Mark Surface
+if position_meeting(mouse_x,mouse_y,oCheekLeft) = false {
+CleanableSurface(MarkingSurface,mCreatureParent,0.2)
+}
+
+
+MarkAlpha = FadeInWithZoomSet()
+
+//Draw Surface
+draw_surface_ext(MarkingSurface,0,0,1,1,0,c_white,MarkAlpha)
 
 </string>
           </argument>

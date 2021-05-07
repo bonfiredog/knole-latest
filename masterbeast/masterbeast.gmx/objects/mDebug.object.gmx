@@ -191,7 +191,7 @@ with mDebugFingerToggleButton {instance_destroy()}
             <kind>1</kind>
             <string>///Destroy Cursor If Not Toggled
 
-show_debug_overlay(false)
+//show_debug_overlay(false)
 WriteToLog("Closed Debug.")
 </string>
           </argument>
@@ -290,7 +290,7 @@ show_debug_overlay(false)
 if surface_exists(ScrollSurface) {
 surface_free(ScrollSurface)
 }
-window_set_cursor(cr_none)
+//window_set_cursor(cr_none)
 instance_destroy()
 }
 }
@@ -447,26 +447,6 @@ instance_deactivate_all(true)
 
 }
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
           </argument>
         </arguments>
       </action>
@@ -728,7 +708,7 @@ DrawTextRelativeDebugSurface(fDebugStatsBig, DebugBlackTextColour,0.7,fa_left,fa
 "Trust: " + string(mCreatureController.Trust),Column1WidthSurface)
 TextY += 20
 DrawTextRelativeDebugSurface(fDebugStatsBig, DebugBlackTextColour,0.7,fa_left,fa_center,
-"Subscryber Intent: " + string(mCreatureController.SubIntent),Column1WidthSurface)
+"Subscryber Intent: " + string(mCreatureController.BaseSubIntent),Column1WidthSurface)
 TextY += 20
 DrawTextRelativeDebugSurface(fDebugStatsBig, DebugBlackTextColour,0.7,fa_left,fa_center,
 "Resistance: " + string(mCreatureController.Resistance),Column1WidthSurface)
@@ -877,7 +857,7 @@ DrawTextRelativeDebugSurface(fDebugStats, DebugBlackTextColour, 0.7,fa_left,fa_c
 }
 TextY+= 45
 
-DrawTextRelativeDebugSurface(fDebugStats,DebugRedTextColour, 0.7, fa_left,fa_center,"Raw Mic Volume: " + string(mWorldController.MicrophoneVolume),Column2WidthSurface)
+DrawTextRelativeDebugSurface(fDebugStats,DebugRedTextColour, 0.7, fa_left,fa_center,"Raw Mic Volume: " + string(mWorldController.LatestMicVolume),Column2WidthSurface)
 TextY += 35
 
 RecorderInfo = audio_get_recorder_info(mWorldController.CurrentMic)
@@ -1169,21 +1149,7 @@ draw_set_alpha(0.7)
 draw_line(TextX,TextY - DebugScrollOffset(),TextX + Column2WidthSurface,TextY - DebugScrollOffset())
 draw_set_colour(DebugBlackTextColour)
 TextY += 30
-//--------------------------------------------------
 
-if mDriveCollectionMaster.Drive9FinalPriority &lt; -100 {
-Drive9String = "Too Low"
-} else {
-Drive9String = string(mDriveCollectionMaster.Drive9FinalPriority)
-} 
-
-DrawTextRelativeDebugSurface(fDebugStats,DebugBlackTextColour,0.7,fa_left,fa_center,"Drive: " + mDriveCollectionMaster.Drive9Name + " with Priority " + Drive9String,Column2WidthSurface)
-TextY += 15
-draw_set_colour(DebugRedTextColour)
-draw_set_alpha(0.7)
-draw_line(TextX,TextY - DebugScrollOffset(),TextX + Column2WidthSurface,TextY - DebugScrollOffset())
-draw_set_colour(DebugBlackTextColour)
-TextY += 30
 //--------------------------------------------------
 
 if mDriveCollectionMaster.Drive10FinalPriority &lt; -100 {
@@ -1193,21 +1159,6 @@ Drive10String = string(mDriveCollectionMaster.Drive10FinalPriority)
 } 
 
 DrawTextRelativeDebugSurface(fDebugStats,DebugBlackTextColour,0.7,fa_left,fa_center,"Drive: " + mDriveCollectionMaster.Drive10Name + " with Priority " + Drive10String,Column2WidthSurface)
-TextY += 15
-draw_set_colour(DebugRedTextColour)
-draw_set_alpha(0.7)
-draw_line(TextX,TextY - DebugScrollOffset(),TextX + Column2WidthSurface,TextY - DebugScrollOffset())
-draw_set_colour(DebugBlackTextColour)
-TextY += 30
-//--------------------------------------------------
-
-if mDriveCollectionMaster.Drive11FinalPriority &lt; -100 {
-Drive11String = "Too Low"
-} else {
-Drive11String = string(mDriveCollectionMaster.Drive11FinalPriority)
-} 
-
-DrawTextRelativeDebugSurface(fDebugStats,DebugBlackTextColour,0.7,fa_left,fa_center,"Drive: " + mDriveCollectionMaster.Drive11Name + " with Priority " + Drive11String,Column2WidthSurface)
 TextY += 15
 draw_set_colour(DebugRedTextColour)
 draw_set_alpha(0.7)
@@ -1239,21 +1190,6 @@ Drive13String = string(mDriveCollectionMaster.Drive13FinalPriority)
 
 DrawTextRelativeDebugSurface(fDebugStats,DebugBlackTextColour,0.7,fa_left,fa_center,"Drive: " + mDriveCollectionMaster.Drive13Name + " with Priority " + Drive13String,Column2WidthSurface)
 TextY += 14
-draw_set_colour(DebugRedTextColour)
-draw_set_alpha(0.7)
-draw_line(TextX,TextY - DebugScrollOffset(),TextX + Column2WidthSurface,TextY - DebugScrollOffset())
-draw_set_colour(DebugBlackTextColour)
-TextY += 30
-//--------------------------------------------------
-
-if mDriveCollectionMaster.Drive14FinalPriority &lt; -100 {
-Drive14String = "Too Low"
-} else {
-Drive14String = string(mDriveCollectionMaster.Drive14FinalPriority)
-} 
-
-DrawTextRelativeDebugSurface(fDebugStats,DebugBlackTextColour,0.7,fa_left,fa_center,"Drive: " + mDriveCollectionMaster.Drive14Name + " with Priority " + Drive14String,Column2WidthSurface)
-TextY += 15
 draw_set_colour(DebugRedTextColour)
 draw_set_alpha(0.7)
 draw_line(TextX,TextY - DebugScrollOffset(),TextX + Column2WidthSurface,TextY - DebugScrollOffset())
@@ -1319,36 +1255,7 @@ draw_set_alpha(0.7)
 draw_line(TextX,TextY - DebugScrollOffset(),TextX + Column2WidthSurface,TextY - DebugScrollOffset())
 draw_set_colour(DebugBlackTextColour)
 TextY += 30
-//--------------------------------------------------
 
-if mDriveCollectionMaster.Drive19FinalPriority &lt; -100 {
-Drive19String = "Too Low"
-} else {
-Drive19String = string(mDriveCollectionMaster.Drive19FinalPriority)
-} 
-
-DrawTextRelativeDebugSurface(fDebugStats,DebugBlackTextColour,0.7,fa_left,fa_center,"Drive: " + mDriveCollectionMaster.Drive19Name + " with Priority " + Drive19String,Column2WidthSurface)
-TextY += 15
-draw_set_colour(DebugRedTextColour)
-draw_set_alpha(0.7)
-draw_line(TextX,TextY - DebugScrollOffset(),TextX + Column2WidthSurface,TextY - DebugScrollOffset())
-draw_set_colour(DebugBlackTextColour)
-TextY += 30
-//--------------------------------------------------
-
-if mDriveCollectionMaster.Drive20FinalPriority &lt; -100 {
-Drive20String = "Too Low"
-} else {
-Drive20String = string(mDriveCollectionMaster.Drive20FinalPriority)
-} 
-
-DrawTextRelativeDebugSurface(fDebugStats,DebugBlackTextColour,0.7,fa_left,fa_center,"Drive: " + mDriveCollectionMaster.Drive20Name + " with Priority " + Drive20String,Column2WidthSurface)
-TextY += 15
-draw_set_colour(DebugRedTextColour)
-draw_set_alpha(0.7)
-draw_line(TextX,TextY - DebugScrollOffset(),TextX + Column2WidthSurface,TextY - DebugScrollOffset())
-draw_set_colour(DebugBlackTextColour)
-TextY += 30
 //--------------------------------------------------
 
 if mDriveCollectionMaster.Drive21FinalPriority &lt; -100 {

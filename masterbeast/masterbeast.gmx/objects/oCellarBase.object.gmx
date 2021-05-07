@@ -29,7 +29,7 @@
 
 AnchoredX = x
 AnchoredY = y
-depth = depth = HeadSkinLayer - 0.001
+depth = HeadSkinLayer - 0.001
 BuriedSurface = surface_create(sprite_width + 200,400)
 Shade = 1
 

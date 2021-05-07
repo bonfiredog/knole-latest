@@ -1,10 +1,10 @@
 ///ConsentIntensity()
 
 ConsentInten = 
-mCreatureController.Shame
+mEmotionSubController.ShameActivation
 - mCreatureController.Lust
 - mWorldController.MoonLustMod
-+ mCreatureController.Fear
++ mEmotionSubController.FearActivation
 - mEmotionSubController.HappyActivation
 + mEmotionSubController.AngerActivation
 - (mCreatureController.Triad * 100)

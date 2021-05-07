@@ -112,7 +112,7 @@ y = OriginalY + Parent.XDifference
 }
 } else {
 if y &gt; OriginalY {
-y -= 0.003 - (0.002 / ((1 / 100) * (100 - mCreatureController.Alive)))
+y -= 0.2
 } else {
 Growing = false
 oHornSocketRightBack.Growing = false
@@ -159,6 +159,7 @@ ShakeModMod = 0
 CurrentX = x
 CurrentY = y
 PullHornInitial()
+StartScreenShake(300,3,2)
 }
 
 
@@ -193,7 +194,7 @@ y = clamp(y,(OriginalY - PullLimit),OriginalY)
 
 if y &lt;= (OriginalY - PullLimit) {
 PullLimitReached = true
-PullTimer = 120
+PullTimer = 240
 }
 
 //If reached pull limit...
@@ -207,7 +208,11 @@ y = clamp(y,(OriginalY - PullLimit),OriginalY)
 if PullTimer &gt; 0 {
 //Countdown
 PullTimer -= 1
-ShakeModMod += 0.03
+ShakeModMod += 0.035
+
+with mInterfaceController {
+SSIntensity = 3 + ((9 / 240) * (240 - oHornRight.PullTimer))
+}
 
 
 //Shaking
@@ -248,10 +253,12 @@ ex_audio_play("hornbreak",0)
 WriteToLog("Pulled out right horn.")
 Ripped = true
 ChooseDir = choose(-1,1)
+direction = 90
+speed = 70
 ShakeModX = 0
 ShakeModY = 0
 ShakeModMod = 0
-CreateParticleSplash(x,y + (sprite_height / 2),15,ps_shape_ellipse,ps_distr_gaussian,DebugRedTextColour,80,120,0.2,0.4,30,150,15,40,0,300)
+CreateParticleSplash(x,y + (sprite_height / 2),15,ps_shape_ellipse,ps_distr_gaussian,DebugRedTextColour,40,80,0.5,0.8,30,150,60,100,0,300)
 CreateStain(10,40,130,4,10,0.5,0.1,0.2,0.1,0.2,DebugRedTextColour,x,y + (sprite_height / 2))
 CreateStain(10,40,130,4,10,0.5,0.1,0.2,0.1,0.2,DebugRedTextColour,x,y + (sprite_height / 2))
 CreateStain(10,40,130,4,10,0.5,0.1,0.2,0.1,0.2,DebugRedTextColour,x,y + (sprite_height / 2))
@@ -266,6 +273,8 @@ Pulling = false
 mCreatureController.HornsPulled += 1
 mCreatureController.HornsPulled = clamp(mCreatureController.HornsPulled,0,20)
 RipOutHornReactions()
+y = OriginalY - 50
+y += 50
 }
 }
 } else {
@@ -284,20 +293,13 @@ if Ripped = true {
 
 depth = OffObjectsLayer
 
-DestroyIfLeaveBottomOfRoom()
-
-if position_meeting(mouse_x,mouse_y,self.id) and mouse_check_button(mb_any) {
-x = mouse_x - PullingXOffset
-y = mouse_y - PullingYOffset
-} else {
-
-
 image_angle += (1 * ChooseDir)
 
-
-speed = 70
-direction = 270
+if speed &gt; -70 {
+speed -= 10
 }
+
+DestroyIfLeaveBottomOfRoom()
 } 
 
 }

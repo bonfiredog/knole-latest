@@ -60,7 +60,10 @@ PitchHighest = StartingPitch + 0.3 + ((0.2 / 100) * (VocIntensity * 100))
 CurrentVocVolume = TopVolume
 CurrentVocPitch = StartingPitch
 }
-
+with oMoleHerd {
+State = "shivering"
+ShiverTimer = random_range(30,100)
+}
 
 BaseMouthOpen = oMouthCentre.PercentageDiff
 StartOpenMouthBehaviour(0.02,0.01 + ((0.05 / 100) * (VocIntensity * 100)))

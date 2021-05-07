@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>mCollisionParent</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -93,6 +93,7 @@ TwitchMod = 0
 if position_meeting(mouse_x,mouse_y,self)
 and mouse_check_button_pressed(mb_any)
 and AmountForward(70)
+and mInterfaceController.Cleaning = false and mInterfaceController.Healing = false
 and instance_exists(mDebug) = false
 and mInterfaceController.CurrentHandUse = "none"
 and mInterfaceController.HandWet = false
@@ -292,7 +293,7 @@ if !surface_exists(CheekLeftSurface) {
 CheekLeftSurface = surface_create(sprite_width,sprite_height)
 }
 
-CleanableSurface(oCheekLeft.CheekLeftSurface,oCheekLeft,1)
+CleanableSurface(CheekLeftSurface,oCheekLeft,0.2)
 draw_surface_ext(CheekLeftSurface,x - (sprite_width / 2),y - (sprite_height / 2),1,1,direction,c_white,1)
 
 </string>

@@ -197,7 +197,7 @@ y = clamp(y,(CurrentY - 10),CurrentY + 10)
 
 if PullTimer &lt; 100 {
 //Countdown
-PullTimer += 0.2
+PullTimer += 0.3
 
 
 //Make ear redder

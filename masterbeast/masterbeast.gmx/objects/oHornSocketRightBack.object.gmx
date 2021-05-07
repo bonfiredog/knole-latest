@@ -90,7 +90,7 @@ SetSound = true
 }
 
 if Growing = true {
-ex_audio_set_volume("hornregrowright",InVolMod(0.01))
+ex_audio_set_volume("hornregrowright",InVolMod(0.03))
 ex_audio_set_position("hornregrowright",x,y,1)
 if ex_audio_is_playing("hornregrowright") = false {
 ex_audio_play("hornregrowright",1)

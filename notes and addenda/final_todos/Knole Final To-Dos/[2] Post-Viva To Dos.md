@@ -3,3 +3,5 @@
 - Notify the ETHos Database.
 - Contact Sara Gould and Sarah Barkla with thesis details when finished.
 - Archive Knole repo on server.
+- Recontact heritage people.
+- Give cable and webcam back to Kris.

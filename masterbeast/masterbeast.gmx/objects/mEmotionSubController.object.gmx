@@ -740,7 +740,7 @@ mBehavioursReactive.Dreaming = true
 HappyDecayRate = 0.05
 SadDecayRate = 0.5
 AngerDecayRate = 0.7
-SurpriseDecayRate = 0.7
+SurpriseDecayRate = 2
 FearDecayRate = 0.08
 ShameDecayRate = 0.08 
 } else {
@@ -773,11 +773,25 @@ ShameDecayRate = ShameDecayRateModifiers()
             <kind>1</kind>
             <string>///Emotion Modifiers
 
-HappyActivation = HappyBaseActivation + HappyWeatherMod - (mWorldController.LightLevelInRL / 10) + (mWorldController.LightLevelInMB * 10) + HappySeasonMod + mDriveCollectionMaster.RitualInternalMod
-SadActivation = SadBaseActivation + SadWeatherMod + SadMoonMod + SadSeasonMod - mDriveCollectionMaster.RitualInternalMod
-AngerActivation = AngerBaseActivation + AngerWeatherMod + AngerMoonMod + (mCreatureController.Dirt / 10) + ((20 / 10000) * mCreatureController.LustIrriTimer) - mDriveCollectionMaster.RitualInternalMod
+HappyActivation = HappyBaseActivation 
++ HappyWeatherMod - (mWorldController.LightLevelInRL / 10) + (mWorldController.LightLevelInMB * 10) + HappySeasonMod + mDriveCollectionMaster.RitualInternalMod - mDriveCollectionMaster.SatMod
+
+//- (mCreatureController.Tiredness / 10) - (mCreatureController.Pain / 10) - (mCreatureController.Stress / 10) + ((100 - mCreatureController.Alive) / 10) + (mCreatureController.Trust / 10) + (mCreatureController.BaseSubIntent * 10)
+
+SadActivation = SadBaseActivation + SadWeatherMod + SadMoonMod + SadSeasonMod - mDriveCollectionMaster.RitualInternalMod 
+//+ (mCreatureController.Pain / 10) - (mCreatureController.BaseSubIntent * 10)
+
+AngerActivation = AngerBaseActivation + AngerWeatherMod + AngerMoonMod + (mCreatureController.Dirt / 10) + ((20 / 10000) * mCreatureController.LustIrriTimer) - mDriveCollectionMaster.RitualInternalMod + mDriveCollectionMaster.SatMod
+//+ (mCreatureController.Tiredness / 10) + (mCreatureController.Pain / 10) + (mCreatureController.Stress / 10) - ((100 - mCreatureController.Alive) / 10) + (mCreatureController.Resistance / 10) + (mCreatureController.Trust / 10) 
+//- (mCreatureController.BaseSubIntent * 10)
+
 FearActivation = FearBaseActivation + mWorldController.NightMod + FearWeatherMod + FearMoonMod + FearSeasonMod - (mWorldController.LightLevelInMB * 10) - mDriveCollectionMaster.RitualInternalMod
+//- (mCreatureController.Tiredness / 10) + (mCreatureController.Pain / 10) - (mCreatureController.Trust / 10)
+//- (mCreatureController.BaseSubIntent * 10)
+
 ShameActivation = ShameBaseActivation + (mCreatureController.Dirt / 5) + ShameSeasonMod + ShameWeatherMod - mDriveCollectionMaster.RitualInternalMod
+//+ (mCreatureController.Pain / 10) - (mCreatureController.Resistance / 10)
+
 SurpriseActivation = SurpriseBaseActivation - mDriveCollectionMaster.RitualInternalMod
 </string>
           </argument>

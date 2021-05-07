@@ -359,33 +359,33 @@ if mWorldController.InitialSunMoonSetup = true {
 
 if mWorldController.MorningTwilightInProgress = true {
 
-CurrentSunAlpha = CurrentSunAlpha - (((abs(MorningTwilightStartAlpha - MorningTwilightEndAlpha) / 30) / 60) / room_speed)
+CurrentSunAlpha = (CurrentSunAlpha - (((abs(MorningTwilightStartAlpha - MorningTwilightEndAlpha) / 30) / 60) / room_speed)) * 1.25
 
 //Dawn -&gt; Midmorning
 } else if mWorldController.CurrentSunMinute &gt; 30 and mWorldController.CurrentSunMinute &lt;= 70 {
 
-CurrentSunAlpha = CurrentSunAlpha - (((abs(MiddayAlpha - DawnAlpha)) / 40 / 60) / room_speed)
+CurrentSunAlpha = (CurrentSunAlpha - (((abs(MiddayAlpha - DawnAlpha)) / 40 / 60) / room_speed)) * 1.25
 
 //Midmorning -&gt; Midday
 
 } else if mWorldController.CurrentSunMinute &gt; 70 and mWorldController.CurrentSunMinute &lt;= (mWorldController.TodaySunshineLength / 2) {
 
-CurrentSunAlpha = MiddayAlpha
+CurrentSunAlpha = (MiddayAlpha) * 1.25
 
 //Midday -&gt; Midafternoon
 } else if (mWorldController.CurrentSunMinute &gt; (mWorldController.TodaySunshineLength / 2)) and mWorldController.CurrentSunMinute &lt;= (mWorldController.TodayLength - 90) {
 
-CurrentSunAlpha = MiddayAlpha
+CurrentSunAlpha = MiddayAlpha * 1.25
 
 //Midafternoon -&gt; Sunset
 } else if (mWorldController.CurrentSunMinute &gt; (mWorldController.TodayLength - 90)) and mWorldController.CurrentSunMinute &lt; (mWorldController.TodaySunshineLength) {
 
-CurrentSunAlpha = CurrentSunAlpha + (((abs(MiddayAlpha - SunsetAlpha)) / 60 / 60) / room_speed)
+CurrentSunAlpha = (CurrentSunAlpha + (((abs(MiddayAlpha - SunsetAlpha)) / 60 / 60) / room_speed)) * 1.25
 
 //Evening Twilight 
 } else if mWorldController.EveningTwilightInProgress = true {
 
-CurrentSunAlpha = CurrentSunAlpha + (((abs(EveningTwilightStartAlpha - EveningTwilightEndAlpha) / 30) / 60) / room_speed)
+CurrentSunAlpha = (CurrentSunAlpha + (((abs(EveningTwilightStartAlpha - EveningTwilightEndAlpha) / 30) / 60) / room_speed)) * 1.25
 
 }
 

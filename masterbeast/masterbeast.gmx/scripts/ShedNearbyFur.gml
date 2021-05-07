@@ -1,7 +1,5 @@
 ///ShedNearbyFur(centrex,centrey,distance)
 
-///FurShedding
-
 //Set the CandidateFur from the currently activated furs (all types)
 CandidateFur = instance_find(mFurSuperParent,random(instance_number(mFurSuperParent)))
 

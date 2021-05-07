@@ -1,0 +1,3 @@
+///AreRitualsOn
+
+return mDriveCollectionMaster.RitualsOn

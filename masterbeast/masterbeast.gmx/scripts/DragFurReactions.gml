@@ -1,6 +1,6 @@
 ///DragFurReactions()
 
-if DrivesAreOn() {
+if mDriveCollectionMaster.RealReactionsOn = true {
 
 if AmountForward(80) and IsAlive() {
 
@@ -46,13 +46,12 @@ ShakeCaul(irandom_range(10,20),irandom_range(30,50))
 
 if mCreatureController.Triad > 0 {
 if Chance(0.1 + ((0.1 / 200) * DragFurTimer)) {
-MoveBackForward("comeforward",15,irandom_range(5,15))
+MoveBackForward("comeforward",MoveSpeedCalc(),irandom_range(5,15))
 }
 if Chance(0.1 + ((0.1 / 200) * DragFurTimer)) {
 NodUpDown(irandom_range(1,3))
 }
 if Chance(0.1 + ((0.1 / 200) * DragFurTimer)) {
-MoveToXY(mFinger.x,mFinger.y,10,mInterfaceController.CurrentView,10)
 mCreatureController.BaseResistance += 0.005 + ((0.005 / 200) * DragFurTimer)
 mCreatureController.BaseStress += 0.005 + + ((0.005 / 200) * DragFurTimer)
 ChangeEmotionStep("fear","down",0.005 + ((0.1 / 200) * DragFurTimer))
@@ -61,13 +60,15 @@ ChangeEmotionStep("happy","up",0.005 + ((0.1 / 200) * DragFurTimer))
 ChangeEmotionStep("shame","down",0.005 + ((0.1 / 200) * DragFurTimer))
 ChangeEmotionStep("sad","down",0.005 + ((0.1 / 200) * DragFurTimer))
 
-
 } else {
 mCreatureController.BaseResistance -= 0.005 + ((0.005 / 200) * DragFurTimer)
 mCreatureController.BaseStress -= 0.005 + + ((0.005 / 200) * DragFurTimer)
+}
 
+} else {
+if mInterfaceController.Healing = false {
 if Chance(0.1 + ((0.1 / 200) * DragFurTimer)) {
-MoveBackForward("retreat",10,irandom_range(5,15))
+MoveBackForward("retreat",MoveSpeedCalc(),irandom_range(5,15))
 }
 if Chance(0.1 + ((0.1 / 200) * DragFurTimer)) {
 RandomShake()
@@ -81,7 +82,7 @@ if mEmotionSubController.FearActivation < 50 {
 ChangeEmotionStep("anger","up",0.005 + ((0.1 / 200) * DragFurTimer))
 }
 ChangeEmotionStep("happy","down",0.005 + ((0.1 / 200) * DragFurTimer))
-
+}
 }
 
 
@@ -98,6 +99,6 @@ ShiftAway(mFinger.x,mFinger.y,irandom_range(100,200),random(360))
 
 }
 }
-}
+
 
 DragFurTimer = clamp(DragFurTimer,0,200)

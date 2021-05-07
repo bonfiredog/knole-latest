@@ -60,9 +60,12 @@ DirectionSet = false
             <kind>1</kind>
             <string>///Move Across Eye, Always Decelerating, At Random Intervals Sped Up
 
+if IsInRitual() = false or mDriveCollectionMaster.MotesVibrating = false {
+
 //Set Parent Direction
 if DirectionSet = false {
-direction = point_direction(x,y,oEyeballLeft.x,oEyeballLeft.y) + random_range(-1,1)
+direction = point_direction(x,y,oEyeballLeft.x,oEyeballRight.y) + random_range(-1,1)
+SetDirection = direction
 DirectionSet = true
 }
 
@@ -75,6 +78,13 @@ SpeedMod = random_range(20,60)
 speed = SpeedMod / room_speed
 SpeedUpTimer = random_range(30,70)
 }
+} else {
+if speed &gt; 0 {
+speed -= 1
+}
+image_angle += 1
+}
+
 
 FadeInWithZoom()
 

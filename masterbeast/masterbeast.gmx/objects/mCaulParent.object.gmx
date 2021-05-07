@@ -78,7 +78,7 @@ MouthYDiff = (50 / 100) * oMouthCentre.PercentageDiff
 
 if instance_exists(mFinger) {
 if place_meeting(x,y,mFinger) {
-mCreatureController.BaseLust += 0.04
+mCreatureController.BaseLust += 0.002  * mPlotController.ISModifier
 }
 }
 </string>

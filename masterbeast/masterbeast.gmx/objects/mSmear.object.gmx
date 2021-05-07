@@ -84,10 +84,6 @@ surface_reset_target()
 surface_set_target(oCaulJug.CaulJugSurface)
 draw_sprite_ext(sprite_index,0,(x - oCaulJug.CaulJugSurfaceCurrentX),(y - oCaulJug.CaulJugSurfaceCurrentY),image_xscale,image_yscale,direction,image_blend,image_alpha)
 surface_reset_target()
-} else if ObjectFullyOverlapping(bbox_left,bbox_top,bbox_right,bbox_top,bbox_left,bbox_bottom,bbox_right,bbox_bottom,oCaulLip) {
-surface_set_target(oCaulLip.LipSurface)
-draw_sprite_ext(sprite_index,0,(x - oCaulLip.SurfaceX),(y - oCaulLip.SurfaceY),image_xscale,image_yscale,direction,image_blend,image_alpha)
-surface_reset_target()
 } else if ObjectFullyOverlapping(bbox_left,bbox_top,bbox_right,bbox_top,bbox_left,bbox_bottom,bbox_right,bbox_bottom,oCaulBowl) {
 surface_set_target(oCaulBowl.BowlSurface)
 draw_sprite_ext(sprite_index,0,(x - oCaulBowl.SurfaceX),(y - oCaulBowl.SurfaceY),image_xscale,image_yscale,direction,image_blend,image_alpha)

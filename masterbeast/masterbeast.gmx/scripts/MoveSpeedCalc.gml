@@ -1,0 +1,15 @@
+///MoveSpeedCalc()
+
+return 90 
+- ((10 / 100) * mCreatureController.Lust)
++ ((10 / 100) * mCreatureController.Tiredness)
++ ((10 / 100) * mCreatureController.Pain)
+- ((20 / 100) * (100 - mCreatureController.Alive))
+- ((10 / 100) * mCreatureController.CloseToAnne)
++ ((20 / 100) * mCreatureController.Resistance)
+- ((10 / 100) * mEmotionSubController.HappyActivation)
++ ((10 / 100) * mEmotionSubController.AngerActivation)
++ ((10 / 100) * mEmotionSubController.ShameActivation)
++ ((10 / 100) * mEmotionSubController.SadActivation)
+- ((20 / 100) * mEmotionSubController.FearActivation)
+- ((30 * mDriveCollectionMaster.InRitual))

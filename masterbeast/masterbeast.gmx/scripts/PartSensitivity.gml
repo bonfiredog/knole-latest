@@ -1,5 +1,6 @@
 ///PartSensitivity()
 
+if instance_exists(mFinger) {
 if place_meeting(mFinger.x,mFinger.y,oCaulLead) {
 return 10
 }
@@ -16,3 +17,6 @@ if place_meeting(mFinger.x,mFinger.y,oCaulNub) {
 return 100
 }
 return 0
+} else {
+return 0
+}

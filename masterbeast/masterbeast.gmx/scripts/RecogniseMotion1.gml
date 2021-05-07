@@ -5,7 +5,7 @@
 
 if file_exists(working_directory + "new motion.txt") {
 MotionDetected1 = true
-MotionCounter1 = 40
+MotionCounter1 = 20
 mCreatureController.TimeSinceLastMotion = 0
 mDriveCollectionMaster.NoInteractionTimer = 0
 file_delete("new motion.txt")

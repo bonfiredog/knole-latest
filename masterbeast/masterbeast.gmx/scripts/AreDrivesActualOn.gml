@@ -1,0 +1,4 @@
+///AreDrivesActualOn
+
+return mDriveCollectionMaster.DrivesActualOn
+

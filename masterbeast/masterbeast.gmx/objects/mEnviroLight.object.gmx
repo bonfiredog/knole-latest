@@ -106,7 +106,7 @@ ImageAlpha = clamp(ImageAlpha,0,0.95)
 if On = true {
 //Create the surface.
 if surface_exists(LightSurface) = false {
-LightSurface = surface_create(room_width,room_height)
+LightSurface = surface_create(room_width * 2,room_height * 2)
 }
 
 surface_set_target(LightSurface)
@@ -124,13 +124,13 @@ draw_set_blend_mode(bm_src_color)
 if mCreatureController.Alive &gt; 0 {
 with (oEyeballRight){
 if Light = true {
-draw_sprite_ext(sLightFlickerCircle,1,x - mInterfaceController.FloatModX,y - mInterfaceController.FloatModY,GlowSize,GlowSize,0,c_white,1)
+draw_sprite_ext(sLightFlickerCircle,1,x - mInterfaceController.FloatModX + 400,y - mInterfaceController.FloatModY + 400,GlowSize,GlowSize,0,c_white,1)
 }
 }
 
 with (oEyeballLeft){
 if Light = true {
-draw_sprite_ext(sLightFlickerCircle,1,x  - mInterfaceController.FloatModX,y - mInterfaceController.FloatModY,GlowSize,GlowSize,0,c_white,1)
+draw_sprite_ext(sLightFlickerCircle,1,x  - mInterfaceController.FloatModX + 400,y - mInterfaceController.FloatModY+ 400,GlowSize,GlowSize,0,c_white,1)
 }
 }
 }
@@ -138,14 +138,30 @@ draw_sprite_ext(sLightFlickerCircle,1,x  - mInterfaceController.FloatModX,y - mI
 //--------------------------------------------
 //Moon Glowing
 with (mMoonVisible) {
-draw_sprite_ext(sLightFlickerCircle,1,x,y,TonightMoonPowerFinal * 16,TonightMoonPowerFinal * 16,0,c_white,1)
+draw_sprite_ext(sLightFlickerCircle,1,x + 400,y + 400,TonightMoonPowerFinal * 16,TonightMoonPowerFinal * 16,0,c_white,1)
 }
 
 //---------------------------------------------
 //Finger Light
 if mInterfaceController.FingerLightOn = true and instance_exists(mFinger) {
 with (mFinger) {
-draw_sprite_ext(sLightFlickerCircle,1,x,y,LightRad,LightRad,0,c_white,1)
+draw_sprite_ext(sLightFlickerCircle,1,x + 400,y + 400,LightRad,LightRad,0,c_white,1)
+}
+}
+//---------------------------------------------
+//Red Mole (except on Monday)
+if current_weekday != "Monday" and instance_exists(oMoleHerdRed) {
+with oMoleHerdRed {
+if mInterfaceController.CurrentView = MicroView and mInterfaceController.ChangingView = false {
+draw_sprite_ext(sLightFlickerCircle,1,x + 400,y + 400,LightRad,LightRad,0,c_white,1)
+}
+} 
+}
+//---------------------------------------------
+//NightTime Glinting
+if mDriveCollectionMaster.Glowing = true {
+with mDriveCollectionMaster {
+draw_sprite_ext(sLightFlickerCircle,1,RandX + 400,RandY + 400,GlowSize,GlowSize,0,c_white,1)
 }
 }
 
@@ -154,7 +170,8 @@ draw_set_blend_mode(bm_normal)
 //---------------------------
 
 surface_reset_target()
-draw_surface_ext(LightSurface,0 + mInterfaceController.FloatModX,0 + mInterfaceController.FloatModY,1,1,0,c_white,1)
+draw_surface_ext(LightSurface,
+-400 +  mInterfaceController.FloatModX,-400 + mInterfaceController.FloatModY,1,1,0,c_white,1)
 }
 </string>
           </argument>

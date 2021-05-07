@@ -33,14 +33,25 @@ Status = "whole"
 ZoomedOutSprite = sMoleSmallRed
 ZoomedOutDirection = random(360)
 direction = 0
-
+Chosen = false
 Size = "large"
 
 image_xscale = 0.6
 image_yscale = image_xscale
 depth = OnObjectsLayer + 0.002
+OriginalDepth = depth
+CheekDepth = oCheekLeft.depth - 0.002
 ZoomedInSprite = sRedMole
 
+GeneralGrazeTimer = 5000
+GeneralWanderTimer = 0
+DetergeantTimer = 0
+DetergeantMod = 0
+
+LightRadLower = mInterfaceController.LightRadBase - 0.2
+LightRadUpper = mInterfaceController.LightRadBase + 0.2
+LightRad = LightRadUpper
+Difference = 0
 
 ZoomedOutXScale = 0
 ZoomedOutXScaleTarget = image_xscale
@@ -50,6 +61,7 @@ ZoomedInScale = 0
 ZoomedInScaleTarget = image_xscale / 4
 OriginalDepth = depth
 VibeReady = true
+DebugText = false
 
 OriginalXScale = image_xscale
 OriginalYScale = image_xscale
@@ -84,8 +96,9 @@ SpriteIndexInAlpha = 0
 SpriteIndexInXScale = 0
 SpriteIndexInYScale = 0
 
+PathCalculate = false
 
-Activated = false
+Activated = true
 
 ChangeSpriteWithZoom(ZoomedOutXScale,ZoomedOutYScale,ZoomedInScale,ZoomedInScale)
 
@@ -117,6 +130,7 @@ WoundAhead2 = false
 WoundAhead3 = false 
 CollidingWound = false
 CollidingWall = false
+ClosestSigil = noone
 
 //Growing
 
@@ -230,6 +244,8 @@ TabooLayer2Ahead2 = noone
 TabooLayer2Ahead3 = noone
 TabooLayer2Blocking = true
 
+Goal = "none"
+
 //Initialise!
 CurrentSpeed = DesiredSpeed
 CurrentHeading = DesiredHeading
@@ -311,6 +327,12 @@ image_yscale = ZoomedInScale - 0.2
 }
 }
 
+///Creating 'Flicker'
+
+Difference = choose(0.1,-0.1,0)
+LightRad += Difference
+LightRad = clamp(LightRad,LightRadLower,LightRadUpper)
+
 
 </string>
           </argument>
@@ -335,8 +357,8 @@ image_yscale = ZoomedInScale - 0.2
             <string>///Make A Trail If Moving
 
 if (speed &gt; 0 or State = "clustering" or State = "eating") and (mInterfaceController.CurrentView = "Micro" and Activated = true) {
-CreateParticleSplash(x,y,5,ps_shape_ellipse,ps_distr_gaussian,c_black,0.003,0.005,0.02,0.05,20,160,60,100,0,10)
-CreateStain(4,direction - 210,direction - 150,0.000001,0.000002,0.003,1,30,0.0001,0.0007,c_black,x,y)
+CreateParticleSplash(x,y,10,ps_shape_ellipse,ps_distr_gaussian,c_black,0.003,0.005,0.02,0.05,0,180,60,100,0,30)
+CreateStain(10,direction - 210,direction - 150,0.000001,0.000002,0.003,1,30,0.0001,0.0007,c_black,x,y)
 }
 </string>
           </argument>
@@ -522,7 +544,7 @@ LonelyMod = 1
 //Viewport Speed Mod
 
 if mInterfaceController.CurrentView = "Macro" {
-ViewSpeedMod = 0.07
+ViewSpeedMod = 0.05
 } else if mInterfaceController.CurrentView = "Micro" {
 ViewSpeedMod = 1
 }
@@ -532,6 +554,7 @@ ViewSpeedMod = 1
 NearestMole = instance_nth_nearest(oMoleHerd,x,y,2)
 NearestFur = instance_nearest(x,y,mFurParent)
 NearestWound = instance_nearest(x,y,mWoundParent)
+ClosestSigil = instance_nearest(x,y,sSigilMoleParent)
 
 
 //As long as has energy, detect whether a certain POI is within 
@@ -560,7 +583,7 @@ SensedWound = false
 }
 }
 
-
+MoleDetergeant()
 </string>
           </argument>
         </arguments>
@@ -652,305 +675,13 @@ ZOutScale = BaseXScale * 5
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Drives
-/*
-if GrownToSize = true {
+            <string>///Setting Depth For Going Over Things
 
-if Activated = true {
-
-if State = "grazing" {
-HungerChangeMod = 1
-EnergySpeedMod = 1
-} else if State = "wandering" {
-HungerChangeMod = 1.1
-EnergySpeedMod = 1.1
-} else if State =  "fleeing" {
-HungerChangeMod = 1.5
-EnergySpeedMod = 1.5
-} else if State = "clustering" {
-HungerChangeMod = 0.5
-EnergySpeedMod = 0
-} else if State = "following" {
-HungerChangeMod = 1.5
-EnergySpeedMod = 1.5
-}
-
-//Normal Actions (Night or Zoomed-Out Day)
-
-//Hunger
-
-//Hunger goes up at all times, apart from when eating, when it goes down.
-
-if State != "eating" and State != "clustering" {
-Hunger += mPlotController.HungerChangeRate * HungerChangeMod
-} else if State = "eating" {
-Hunger -= mPlotController.HungerChangeRate * 4
-}
-
-//Loneliness 
-
-//Loneliness goes up when away from others, down when near to others.
-
-if State != "clustering" {
-if SensedMole = false {
-Loneliness += (mPlotController.LonelyChangeRate * LonelyDayMod) * LonelyMod
+if place_meeting(x,y,oCheekLeft) or place_meeting(x,y,oCheekRight) {
+depth = CheekDepth
 } else {
-Loneliness -= (mPlotController.LonelyChangeRate * 10) * LonelyDayMod
+depth = OriginalDepth
 }
-}
-
-//Fear
-
-//When fleeing, count down the flee timer - if it reaches zero, reset and go back to grazing.
-
-if State = "fleeing" {
-if instance_exists(SourceOfFear) {
-if point_distance(x,y,SourceOfFear.x,SourceOfFear.y) &gt;= SenseRadius / 4 {
-if FleeTimer &gt; 0 {
-FleeTimer -= 1
-} else if FleeTimer &lt;= 0 {
-if Contaged = true {
-ContagTimer = 500
-}
-FleeTimer = 0
-DesiredSpeed = 0
-SpeedChangeRate = 0.01
-ShiverOrNot = choose(-1,1)
-if ShiverOrNot = 1 {
-State = "shivering"
-ShiverTimer = random_range(100,400) * (GrowMax * 5)
-} else {
-SourceOfFear = noone
-GrazeX = x
-GrazeY = y
-State = "grazing"
-}
-}
-}
-}
-}
-
-//The timeout to stop emotional contagion triggering constantly, leading to panic stasis in a crowd.
-if ContagTimer &gt; 0 {
-ContagTimer -= 1
-}
-
-//Clustering
-//If in range of a clusterer, and not clustering, begin clustering, and set that clusterer as your parent.
-
-if State != "clustering" {
-if SensedMole = true {
-with oMoleHerd {
-if point_distance(x,y,other.x,other.y) &lt;= other.SenseRadius {
-if SeedClusterer = true {
-if other.OriginalXScale &lt;= OriginalXScale {
-if CurrentChildren &lt; MaxChildren {
-other.State = "clustering"
-CurrentChildren += 1
-other.ClusterStopped = false
-other.ClusterParent = id
-other.CVal = irandom_range(ClusterRadius - 2, ClusterRadius + 2)
-other.ClusterPointX = x + lengthdir_x(other.CVal,random(360))
-other.ClusterPointY = y + lengthdir_y(other.CVal,random(360))
-}
-}
-}
-}
-}
-}
-}
-
-//--------------------------------------
-
-//Action Plan
-
-//Running if a nearby mole is scared (Emotional Contagion)
-if NearestMole != noone {
-if SensedMole = true {
-if ContagTimer &lt;= 0 {
-if NearestMole.State = "fleeing" and NearestMole.FleeTimer &gt; 20 and State != "fleeing" {
-SourceOfFear = NearestMole
-State = "fleeing"
-Pausing = false
-Contaged = true
-FleeTimer = irandom_range(40,80)
-GrazePauseTimer = random_range(GrazePTLower,GrazePTUpper)
-DesiredHeading = point_direction(NearestMole.x,NearestMole.y,x,y) + (random_range(-30,30))
-CurrentHeading = DesiredHeading
-}
-}
-}
-}
-
-//If the nearest wound is new (i.e. not of the latest interest), move
-//towards it to investigate, then disregard it.
-
-if instance_exists(oWound) or instance_exists(oStabWound) {
-if SensedWound = true {
-if WoundOfInterest != NearestWound {
-if State = "grazing" or (State = "wandering" and CurrentlyHunting != "food") {
-if point_distance(x,y,NearestWound.x,NearestWound.y) &gt; (sprite_width / 2) + 30 {
-DesiredHeading = point_direction(x,y,NearestWound.x,NearestWound.y)
-if State = "grazing" {
-CurrentHeading = DesiredHeading
-}
-} else {
-WoundOfInterest = NearestWound
-}
-}
-}
-}
-}
-
-//Attracted Areas - if grazing or wandering, and the parent object is in range,
-//set this as a new graze point or wander point.
-if State = "grazing" or State = "wandering" {
-if instance_exists(mFavouredParent) {
-ClosestFavour = instance_nearest(x,y,mFavouredParent)
-if point_distance(x,y,ClosestFavour.x,ClosestFavour.y) &lt;= (SenseRadius + (ClosestFavour.sprite_width / 2)) {
-if State = "grazing" {
-GrazeX = ClosestFavour.x
-GrazeY = ClosestFavour.y
-} else if State = "wandering" {
-WanderStartX = ClosestFavour.x
-WanderStartY = ClosestFavour.y
-}
-}
-}
-}
-
-//Taboo Areas - if clustering and seed, if fleeing/grazing or wandering, and parent object is in range,
-//move directly away from it until out of sight.
-
-if State = "grazing" or State = "wandering" or (State = "clustering" and SeedClusterer = true) or State = "fleeing" {
-if instance_exists(mTabooParent) {
-ClosestTaboo = instance_nearest(x,y,mTabooParent)
-if point_distance(x,y,ClosestTaboo.x,ClosestTaboo.y) &lt;= (SenseRadius + (ClosestTaboo.sprite_width / 2)) {
-Pausing = false
-DesiredHeading = point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y)
-if State = "grazing" {
-CurrentHeading = DesiredHeading
-GrazeTimer = 20
-GrazeX = ClosestTaboo.x + lengthdir_x(ClosestTaboo.sprite_width / 2,point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y))
-GrazeY = ClosestTaboo.y + lengthdir_y(ClosestTaboo.sprite_width / 2,point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y))
-} else if State = "wandering" {
-WanderTimer = 20
-WanderX = ClosestTaboo.x + lengthdir_x(ClosestTaboo.sprite_width / 2,point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y))
-WanderY = ClosestTaboo.y + lengthdir_y(ClosestTaboo.sprite_width / 2,point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y))
-}
-if State = "clustering" {
-DoNotClusterHere = true
-}
-} else {
-if State = "clustering" {
-DoNotClusterHere = false
-}
-}
-} else {
-if State = "clustering" {
-DoNotClusterHere = false
-}
-}
-}
-
-//Run if come into contact with player scent.
-
-ScentInContact = instance_place(x,y,mScentMarker)
-if ScentInContact and State != "clustering" {
-SourceOfFear = ScentInContact
-State = "fleeing"
-Pausing = false
-Contaged = false
-GrazePauseTimer = random_range(GrazePTLower,GrazePTUpper)
-FleeTimer = irandom_range(120,180)
-}
-
-
-//Begin wandering if hungry or lonely (hunger wins).
-if State != "fleeing" and State != "clustering" and State != "eating" and State != "shivering" and State != "following" {
-
-if Hunger &gt;= HungerLatch {
-//Pausing = false
-if State != "wandering" {
-WanderStartX = x
-WanderStartY = y
-}
-State = "wandering"
-CurrentlyHunting = "food" 
-if LastRememberedWound != noone and instance_exists(LastRememberedWound) {
-DesiredHeading = point_direction(x,y,LastRememberedWound.x,LastRememberedWound.y)
-} else {
-if State != "wandering" {
-DesiredHeading = random(360)
-CurrentHeading = DesiredHeading
-}
-}
-}
-
-if Loneliness &gt;= LonelinessLatch and SensedMole = false {
-//Pausing = false
-if State != "wandering" {
-WanderStartX = x
-WanderStartY = y
-}
-State = "wandering" 
-CurrentlyHunting = "moles"
-if LastRememberedMole != noone and instance_exists(LastRememberedMole){
-DesiredHeading = point_direction(x,y,LastRememberedMole.x,LastRememberedMole.y)
-} else {
-if State != "wandering" {
-DesiredHeading = random(360)
-CurrentHeading = DesiredHeading
-}
-}
-}
-}
-
-//In Day And Zoomed In
-} else {
-
-if State = "fleeing" {
-FleeTimer = 0
-State = "shivering"
-ShiverTimer = random_range(100,400)
-}
-
-ScentInContact = instance_place(x,y,mScentMarker)
-if ScentInContact and State != "clustering" {
-State = "shivering"
-ShiverTimer = random_range(100,400)
-}
-
-//Shiver when come into shot, but otherwise stay still.
-
-if (instance_exists(self) and PlayerViewOverObject(self) and VibeReady = true) or (mInterfaceController.CurrentView = "MicroView"
-and VibeReady = true) {
-State = "shivering"
-ShiverTimer = random_range(100,400)
-VibeReady = false
-}
-
-if (instance_exists(self) and PlayerViewOverObject(self) = false)
-or ((mInterfaceController.ChangingView = true or mInterfaceController.CurrentView = "MacroView"))
-and VibeReady = false
-{ 
-VibeReady = true
-}
-
-
-
-hspeed = 0
-vspeed = 0
-
-}
-}
-
-
-
-
-Hunger = clamp(Hunger,0,100)
-Loneliness = clamp(Loneliness,0,100)
-FleeTimer = clamp(FleeTimer,0,700)
 </string>
           </argument>
         </arguments>
@@ -972,35 +703,29 @@ FleeTimer = clamp(FleeTimer,0,700)
           <argument>
             <kind>1</kind>
             <string>///Behaviours
-/*
+
 ///Top Speed Affected By Current Energy Level
 SpeedMod = 1 * ViewSpeedMod
 
 if GrownToSize = true {
+if mDriveCollectionMaster.MSTimer &lt;= 0 and Chosen = false{
 
-//Make sure that seed clustering is reset if, for any reason, the state changes.
-if State != "clustering" {
-if SeedClusterer = true {
-SeedClusterer = false 
-ClusterTimer = 8000
-}
-}
 
 //As long as we are alive, do these behaviours.
 if Activated = true {
 
 // FLEEING ---------------------------------------------------------------------
 if State = "fleeing" {
-
+PathCalculate = false
 if instance_exists(SourceOfFear) {
-if point_distance(x,y,SourceOfFear.x,SourceOfFear.y) &lt;= SenseRadius / 2.5 {
-DesiredSpeed = FleeSpeed * SpeedMod
+if distance_to_object(SourceOfFear) &lt;= SenseRadius / 2.5 {
+DesiredSpeed = (FleeSpeed * SpeedMod)- (((40 / room_speed) / 100) * DetergeantMod)
 DirectionChangeRate = 5
 SpeedChangeRate = 0.04
 DesiredHeading = point_direction(SourceOfFear.x,SourceOfFear.y,x,y)
 } else {
 if place_meeting(x,y,mFurParent) = false {
-DesiredSpeed = FleeSpeed * SpeedMod
+DesiredSpeed = (FleeSpeed * SpeedMod)- (((40 / room_speed) / 100) * DetergeantMod)
 DirectionChangeRate = 5
 SpeedChangeRate = 0.01
 
@@ -1029,7 +754,7 @@ ShiverTimer = random_range(400,800)
 }
 } else {
 if place_meeting(x,y,mFurParent) = false {
-DesiredSpeed = FleeSpeed * SpeedMod
+DesiredSpeed = (FleeSpeed * SpeedMod)- (((40 / room_speed) / 100) * DetergeantMod)
 DirectionChangeRate = 5
 SpeedChangeRate = 0.04
 
@@ -1059,8 +784,8 @@ ShiverTimer = random_range(400,800)
 
 // GRAZING ---------------------------------------------------------------------
 } else if State = "grazing" {
-
-DesiredSpeed = GrazingSpeed * SpeedMod
+PathCalculate = false
+DesiredSpeed = (GrazingSpeed * SpeedMod)- (((5 / room_speed) / 100) * DetergeantMod)
 DirectionChangeRate = 1
 SpeedChangeRate = 0.003
 
@@ -1106,147 +831,146 @@ CurrentHeading = DesiredHeading
 
 DirectionChangeRate = 1
 SpeedChangeRate = 0.008
-
-if SensedMole = false {
-if Pausing = false {
-if WanderTimer &gt; 0 {
-WanderTimer -= 1
-} else if WanderTimer &lt;= 0 {
-if CurrentlyHunting = "moles" {
-CallOrNot = choose(-1,1)
-} else {
-CallOrNot = -1
-}
-Called = false
-CallWaitTimer = random_range(40,80)
-WanderPauseTimer = random_range(WanderPTLower,WanderPTUpper)
-Pausing = true 
-}
-} else if Pausing = true {
-if WanderPauseTimer &gt; 0 {
-WanderPauseTimer -= 1
-} else if WanderPauseTimer &lt;= 0 {
-WanderTimer = random_range(WanderTLower,WanderTUpper)
-Pausing = false
-}
-}
-} else {
-Pausing = false
-}
-
-if CurrentlyHunting = "food" {
-DesiredSpeed = WanderSpeed * SpeedMod
-} else if CurrentlyHunting = "moles" {
-DesiredSpeed = WanderSpeed * SpeedMod
-} else {
-DesiredSpeed = WanderSpeed * SpeedMod
-}
-
-
-if Loneliness &lt; 70 {
 WanderRadius = BaseWanderRadius
-} else {
-WanderRadius = BaseWanderRadius / 2
-}
-
-
-
-//Reset Flocking Variables
-AlignVar = 0
-CohVar = 0
-SepVar = 0
-Neighbours = 0
-
-if CollidingWall = noone and CollisionAhead1 = noone and CollisionAhead2 = noone and CollisionAhead3 = noone and TabooArea = false
-and GapAhead1 = false and GapAhead2 = false and GapAhead3 = false
-{
-with oMoleHerd {
-//Alignment Calculation
-NDistance = point_distance(other.x,other.y,x,y)
-if (id != other.id) and (NDistance &lt;= other.SenseRadius) { 
-other.AlignVar += CurrentHeading
-other.CohVar += point_direction(other.x,other.y,x,y)
-other.SepVar += point_direction(x,y,other.x,other.y)
-other.Neighbours += 1
-}
-}
-
-if CurrentlyHunting = "food" {
-if LastRememberedWound != noone and instance_exists(LastRememberedWound){
-HuntingHeading = point_direction(x,y,LastRememberedWound.x,LastRememberedWound.y)
-} else {
-HuntingHeading = CurrentHeading
-}
-} else if CurrentlyHunting = "moles" {
-if LastRememberedMole != noone and instance_exists(LastRememberedMole){
-HuntingHeading = point_direction(x,y,LastRememberedMole.x,LastRememberedMole.y)
-} else {
-HuntingHeading = CurrentHeading
-}
-} else {
-HuntingHeading = CurrentHeading
-}
-
-//Desired Heading With Flocking (Ignore Search)
-if Neighbours &gt; 0 {
-AverageHeading = ((AlignVar / Neighbours) + (CohVar / Neighbours) + (SepVar / Neighbours))  / 3
-DesiredHeading = AverageHeading //+ irandom_range(((WanderRange / 2) * -1),(WanderRange / 2))
-DirectionChangeRate = 5
-//Desired Heading Without Flocking (Active Search)
-} else if Neighbours &lt;= 0 {
-ChangeDirection = irandom_range(1,15)
-if ChangeDirection = 15 {
-WanderModLower = HuntingHeading - (WanderRange / 2)
-WanderModHigher = HuntingHeading + (WanderRange / 2)
-DesiredHeading = irandom_range(WanderModLower,WanderModHigher)
-}
-}
-}
+mp_potential_settings(90,90,5,true)
 
 //Seek Thing And Arrive If In Sense Radius
-if CurrentlyHunting = "food" {
-if SensedWound = true {
-DirectionChangeRate = 5
-if instance_exists(NearestWound) {
-DesiredHeading = point_direction(x,y,NearestWound.x,NearestWound.y)
 
-DesiredSpeed = WanderSpeed //* 3) * ((distance_to_object(NearestWound) + 12) / SenseRadius )) * SpeedMod
-CurrentSpeed = DesiredSpeed
-
-if distance_to_object(NearestWound) &lt;= 1 {
+//Byre
+if CurrentlyHunting = "byre" {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 1 {
+PathCalculate = true 
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+mp_potential_step_object(oByre.x,oByre.y,CurrentSpeed,mCollisionParent)
+} else {
 DesiredSpeed = 0
 CurrentSpeed = 0
-State = "eating"
+PathCalculate = false
 }
 }
+
+//Left Eye
+else if CurrentlyHunting = "lefteye" {
+
+if distance_to_object(mEyeLeftParent) &gt; 10 {
+PathCalculate = true 
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+mp_potential_step_object(oEyeballLeft.x,oEyeballLeft.y,CurrentSpeed,mCollisionParent)
+
+} else {
+DesiredSpeed = 0
+CurrentSpeed = 0
+PathCalculate = false
+}
 }
 
+//Right Eye
+else if CurrentlyHunting = "righteye" {
+if distance_to_object(mEyeRightParent) &gt; 10 {
+PathCalculate = true 
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+mp_potential_step_object(oEyeballRight.x,oEyeballRight.y,CurrentSpeed,mCollisionParent)
 
-} else if CurrentlyHunting = "moles" {
-if SensedMole = true {
-DirectionChangeRate = 5
-if instance_exists(NearestMole) {
-DesiredHeading = point_direction(x,y,NearestMole.x,NearestMole.y)
+} else {
+DesiredSpeed = 0
+CurrentSpeed = 0
+PathCalculate = false
+}
+}
 
-DesiredSpeed = ((WanderSpeed * 3) * ((distance_to_object(NearestMole) + 12) / SenseRadius )) * SpeedMod
-CurrentSpeed = DesiredSpeed
+//Top
+else if CurrentlyHunting = "top" {
+if distance_to_object(oHornSocketRightFront) &gt; 50 and distance_to_object(oHornSocketLeftFront) &gt; 50 {
+PathCalculate = true 
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+mp_potential_step_object(oHornSocketRightFront.x,oHornSocketRightFront.y,CurrentSpeed,mCollisionParent)
+} else {
+State = "shivering"
+ShiverTimer = random_range(3000,6000)
+}
+}
 
-if instance_exists(NearestMole) 
-and point_distance(x,y,NearestMole.x,NearestMole.y) &lt;= MoleProx {
+//West Woods
+else if CurrentlyHunting = "westwoods" {
+
+if (y &lt; 3525 or y &gt; 3888) or x &gt;= oHead2.x - 200 {
+
+PathCalculate = true 
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+mp_potential_step_object((oHead2.x - oHead2.sprite_width / 2),3680,CurrentSpeed,mCollisionParent)
+} else {
+State = "grazing"
 GrazeX = x
 GrazeY = y
-DesiredSpeed = 0
-CurrentSpeed = 0
-Loneliness = 0
-State = "grazing"
-}
-}
+PathCalculate = false
 }
 }
 
-//Turn Back If Outside Wander Radius
-if point_distance(x,y,WanderStartX,WanderStartY) &gt; WanderRadius {
-CurrentHeading = point_direction(x,y,WanderStartX,WanderStartY)
+//South Woods
+else if CurrentlyHunting = "southwoods" {
+if (x &lt; 600 or x &gt; 700) or (y &lt; 2600 or y &gt; 2800) {
+PathCalculate = true 
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+mp_potential_step_object(650,2700,CurrentSpeed,mCollisionParent)
+
+
+} else {
+State = "grazing"
+GrazeX = x
+GrazeY = y
+PathCalculate = false
+}
+}
+
+
+//Top Woods
+else if CurrentlyHunting = "topwoods" {
+if (y &lt; 690 or y &gt; 900) {
+PathCalculate = true 
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+mp_potential_step_object(677,754,CurrentSpeed,mCollisionParent)
+} else {
+State = "grazing"
+GrazeX = x
+GrazeY = y
+PathCalculate = false
+}
+}
+
+//Moles 
+else if CurrentlyHunting = "moles" {
+//Seek Moles, biased to Last Remembered Mole, until one is in sense radius.
+if SensedMole = false {
+if LastRememberedMole != noone and instance_exists(LastRememberedMole) {
+PathCalculate = true 
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+mp_potential_step_object(LastRememberedMole.x,LastRememberedMole.y,CurrentSpeed,mCollisionParent)
+} else {
+PathCalculate = false
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+DirectionChangeRate = 5
+}
+} else {
+//When find a mole, get close to it.
+if SensedMole = true {
+PathCalculate = true 
+DesiredSpeed = WanderSpeed - (((30 / room_speed) / 100) * DetergeantMod)
+CurrentSpeed = DesiredSpeed * ViewSpeedMod
+mp_potential_step_object(NearestMole.x,NearestMole.y,CurrentSpeed,mCollisionParent)
+}
+LastRememberedMole = noone
+}
+} else {
+PathCalculate = false
 }
 
 
@@ -1254,14 +978,14 @@ CurrentHeading = point_direction(x,y,WanderStartX,WanderStartY)
 // EATING -----------------------------------------------------------------------
 
 } else if State = "eating" {
-
+PathCalculate = false
 DesiredSpeed = 0
 SpeedChangeRate = 0.01
 
 //If sated, stop eating and 'detach'.
 if Hunger &lt;= 0 or instance_exists(NearestWound) = false {
 if place_meeting(x,y,NearestWound) {
-DesiredSpeed = GrazingSpeed
+DesiredSpeed = Grazing - (((5 / room_speed) / 100) * DetergeantMod)
 SpeedChangeRate = 0.001
 DesiredHeading = point_direction(NearestWound.x,NearestWound.y,x,y)
 CurrentHeading = DesiredHeading
@@ -1296,7 +1020,7 @@ ShiverDirection = "left"
 // CLUSTERING ----------------------------------------------------------------------
 
 } else if State = "clustering" {
-
+PathCalculate = false
 if ShiverDirection = "left" {
 x -= 0.5
 XOffset += 1
@@ -1399,10 +1123,10 @@ DesiredSpeed = GrazingSpeed * SpeedMod
 // SHIVERING -----------------------------------------------------------------------------
 
 if State = "shivering" {
-
+PathCalculate = false
 if instance_exists(SourceOfFear) {
 if point_distance(x,y,SourceOfFear.x,SourceOfFear.y) &lt;= SenseRadius {
-DesiredSpeed = FleeSpeed * SpeedMod
+DesiredSpeed = FleeSpeed - (((40 / room_speed) / 100) * DetergeantMod)
 DirectionChangeRate = 5
 SpeedChangeRate = 0.02
 DesiredHeading = point_direction(SourceOfFear.x,SourceOfFear.y,x,y)
@@ -1451,7 +1175,488 @@ ShiverDirection = "left"
 
 }
 
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Drives (Following A Schedule)
 
+///Checking what we should be doing on each day, at each hour
+
+if GrownToSize = true {
+if mDriveCollectionMaster.MSTimer &lt;= 0 or Chosen = false {
+if Activated = true {
+
+//Fear
+
+//When fleeing, count down the flee timer - if it reaches zero, reset and go back to grazing.
+
+if State = "fleeing" {
+if instance_exists(SourceOfFear) {
+if point_distance(x,y,SourceOfFear.x,SourceOfFear.y) &gt;= SenseRadius / 4 {
+if FleeTimer &gt; 0 {
+FleeTimer -= 1
+} else if FleeTimer &lt;= 0 {
+if Contaged = true {
+ContagTimer = 500
+}
+FleeTimer = 0
+DesiredSpeed = 0
+SpeedChangeRate = 0.01
+ShiverOrNot = choose(-1,1)
+if ShiverOrNot = 1 {
+State = "shivering"
+ShiverTimer = random_range(100,400) * (GrowMax * 5)
+} else {
+SourceOfFear = noone
+GrazeX = x
+GrazeY = y
+State = "grazing"
+}
+}
+}
+}
+}
+
+//The timeout to stop emotional contagion triggering constantly, leading to panic stasis in a crowd.
+if ContagTimer &gt; 0 {
+ContagTimer -= 1
+}
+
+
+//Taboo Areas - if clustering and seed, if fleeing/grazing or wandering, and parent object is in range,
+//move directly away from it until out of sight.
+
+if State = "grazing" or State = "wandering" or (State = "clustering" and SeedClusterer = true) or State = "fleeing" {
+
+if instance_exists(sSigilMoleParent) {
+if ClosestSigil != noone {
+if point_distance(x,y,ClosestSigil.x,ClosestSigil.y) &lt;= (SenseRadius + (ClosestSigil.sprite_width / 2)) {
+Pausing = false
+DesiredHeading = point_direction(ClosestSigil.x,ClosestSigil.y,x,y)
+if State = "grazing" {
+CurrentHeading = DesiredHeading
+GrazeTimer = 20
+GrazeX = ClosestSigil.x + lengthdir_x(ClosestSigil.sprite_width / 2,point_direction(ClosestSigil.x,ClosestSigil.y,x,y))
+GrazeY = ClosestSigil.y + lengthdir_y(ClosestSigil.sprite_width / 2,point_direction(ClosestSigil.x,ClosestSigil.y,x,y))
+} else if State = "wandering" {
+WanderTimer = 20
+WanderX = ClosestSigil.x + lengthdir_x(ClosestSigil.sprite_width / 2,point_direction(ClosestSigil.x,ClosestSigil.y,x,y))
+WanderY = ClosestSigil.y + lengthdir_y(ClosestSigil.sprite_width / 2,point_direction(ClosestSigil.x,ClosestSigil.y,x,y))
+}
+if State = "clustering" {
+DoNotClusterHere = true
+}
+} else {
+if State = "clustering" {
+DoNotClusterHere = false
+}
+}
+} else {
+if State = "clustering" {
+DoNotClusterHere = false
+}
+}
+}
+
+if instance_exists(mCollisionParent) {
+ClosestCollision = instance_nearest(x,y,mCollisionParent) 
+if distance_to_object(ClosestCollision) &lt;= (SenseRadius) {
+DesiredHeading = point_direction(ClosestCollision.x,ClosestCollision.y,x,y)
+if State = "grazing" {
+CurrentHeading = DesiredHeading
+GrazeTimer = 20
+GrazeX = ClosestCollision.x + lengthdir_x(ClosestCollision.sprite_width / 2,point_direction(ClosestCollision.x,ClosestCollision.y,x,y))
+GrazeY = ClosestCollision.y + lengthdir_y(ClosestCollision.sprite_width / 2,point_direction(ClosestCollision.x,ClosestCollision.y,x,y))
+} else if State = "wandering" {
+WanderTimer = 20
+WanderX = ClosestCollision.x + lengthdir_x(ClosestCollision.sprite_width / 2,point_direction(ClosestCollision.x,ClosestCollision.y,x,y))
+WanderY = ClosestCollision.y + lengthdir_y(ClosestCollision.sprite_width / 2,point_direction(ClosestCollision.x,ClosestCollision.y,x,y))
+}
+if State = "clustering" {
+DoNotClusterHere = true
+}
+} else {
+if State = "clustering" {
+DoNotClusterHere = false
+}
+}
+} else {
+if State = "clustering" {
+DoNotClusterHere = false
+}
+}
+
+
+
+
+if instance_exists(mTabooParent) {
+ClosestTaboo = instance_nearest(x,y,mTabooParent)
+if point_distance(x,y,ClosestTaboo.x,ClosestTaboo.y) &lt;= (SenseRadius + (ClosestTaboo.sprite_width / 2)) {
+Pausing = false
+DesiredHeading = point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y)
+if State = "grazing" {
+CurrentHeading = DesiredHeading
+GrazeTimer = 20
+GrazeX = ClosestTaboo.x + lengthdir_x(ClosestTaboo.sprite_width / 2,point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y))
+GrazeY = ClosestTaboo.y + lengthdir_y(ClosestTaboo.sprite_width / 2,point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y))
+} else if State = "wandering" {
+WanderTimer = 20
+WanderX = ClosestTaboo.x + lengthdir_x(ClosestTaboo.sprite_width / 2,point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y))
+WanderY = ClosestTaboo.y + lengthdir_y(ClosestTaboo.sprite_width / 2,point_direction(ClosestTaboo.x,ClosestTaboo.y,x,y))
+}
+if State = "clustering" {
+DoNotClusterHere = true
+}
+} else {
+if State = "clustering" {
+DoNotClusterHere = false
+}
+}
+} else {
+if State = "clustering" {
+DoNotClusterHere = false
+}
+}
+
+}
+
+//Following A Schedule
+if State != "fleeing" {
+switch mWorldController.CurrentWeekday {
+//------------------------------- SUNDAY
+case "Sunday":
+//Midnight - 8: Patrolling
+if current_hour &gt;= 0 and current_hour &lt; 8 {
+GeneralWanderAndGraze()
+}
+
+//8 - 6pm: After Moles
+if current_hour &gt;= 8 and current_hour &lt; 18 {
+MoleHerd()
+}
+
+//6pm - Midnight: Byre
+if current_hour &gt;= 18 and current_hour &lt;= 24 {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+}
+}
+break;
+
+//------------------------------- MONDAY
+case "Monday":
+//Any time - random choice.
+if current_hour &lt; 18 {
+GeneralWanderAndGraze()
+} else {
+if mWorldController.TonightMoonPhase = "New Moon" {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+} 
+} else {
+GoToTop()
+}
+}
+break;
+
+//------------------------------- TUESDAY
+case "Tuesday":
+//Less than 3: Byre
+if current_hour &lt; 3 {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+} 
+}
+
+//3 - 10: West Woods
+if current_hour &gt;= 3 and current_hour &lt; 10 {
+if (y &lt; 3525 or y &gt; 3888) or x &gt; oHead2.x {
+State = "wandering"
+CurrentlyHunting = "westwoods"
+}
+}
+
+//10 - 2: Right Eye
+if current_hour &gt;= 10 and current_hour &lt; 14 {
+if distance_to_object(mEyeRightParent) &gt;= 10 {
+State = "wandering"
+CurrentlyHunting = "righteye"
+}
+}
+
+//2 - 4pm: To Top
+if current_hour &gt;= 14 and current_hour &lt; 16 {
+GoToTop()
+}
+
+//4 - 5.30: To Byre
+if current_hour &gt;= 16 and (current_hour &lt; 17 or (current_hour = 17 and current_minute &lt; 30)) {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+}
+} 
+
+//5.30 - Midnight: If moon, herd, if no moon, byre
+if current_hour &gt;= 17 and current_hour &lt;= 24 {
+if mWorldController.TonightMoonPhase = "New Moon" {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+} 
+} else {
+MoleHerd()
+}
+}
+
+break;
+
+
+//------------------------------- WEDNESDAY
+case "Wednesday":
+if current_hour &lt; 18 {
+MoleHerd()
+}
+
+if current_hour &gt;= 18 {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+} 
+}
+break;
+
+
+//------------------------------- THURSDAY
+case "Thursday":
+
+//Before 6: Wait At Byre
+if current_hour &lt; 6 {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+}
+}
+
+//6 - 12: Left Eye
+if current_hour &gt;= 6 and current_hour &lt; 12 {
+if distance_to_object(mEyeLeftParent) &gt; 10 {
+State = "wandering"
+CurrentlyHunting = "lefteye"
+}
+}
+
+//12 - 2.30: Go to southern woods and graze.
+if current_hour &gt;= 12 and (current_hour &lt; 14 or (current_hour = 14 and current_minute &lt; 30)) {
+if (x &lt; 600 or x &gt; 700) or (y &lt; 2600 or y &gt; 2800) {
+State = "wandering"
+CurrentlyHunting = "southwoods"
+}
+}
+
+//2.30 - 4: General wandering and grazing (intersperse)
+if (current_hour &gt; 14 or (current_hour = 14 and current_minute &gt;= 30)) and current_hour &lt; 16 {
+GeneralWanderAndGraze()
+}
+
+//After 4: Go back to byre.
+if current_hour &gt;= 16 and current_hour &lt;= 24 {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+}
+}
+break;
+
+//------------------------------- FRIDAY
+case "Friday":
+//Midnight - 11am: In Byre
+if current_hour &gt;= 0 and current_hour &lt; 11 {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+}
+}
+
+//11am - 6pm: After Moles
+if current_hour &gt;= 11 and current_hour &lt; 18 {
+MoleHerd()
+}
+
+
+//After 6: Up To Top
+if current_hour &gt;= 18 and current_hour &lt;= 24 {
+GoToTop()
+}
+break;
+
+//------------------------------- SATURDAY
+case "Saturday":
+//Midnight to 5 - At top
+if current_hour &gt;= 0 and current_hour &lt; 5 {
+GoToTop()
+}
+
+//5 - 1: In byre
+if current_hour &gt;= 5 and current_hour &lt; 13 {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+}
+}
+
+//1 - 3: Top Wood
+if current_hour &gt;= 13 and current_hour &lt; 15 {
+if (y &lt; 690 or y &gt; 900) {
+State = "wandering"
+CurrentlyHunting = "topwoods"
+}
+}
+
+//3 - 6: Byre 
+if current_hour &gt;= 15 and current_hour &lt; 18 {
+if point_distance(x,y,oByre.x,oByre.y) &gt; 0 {
+State = "wandering"
+CurrentlyHunting = "byre"
+}
+}
+
+//6 - Midnight: Patrolling
+if current_hour &gt;= 18 and current_hour &lt;= 24 {
+GeneralWanderAndGraze()
+}
+break;
+}
+}
+
+//Run if come into contact with player scent.
+
+ScentInContact = instance_place(x,y,mScentMarker)
+if ScentInContact and State != "clustering" {
+SourceOfFear = ScentInContact
+State = "fleeing"
+Pausing = false
+Contaged = false
+GrazePauseTimer = random_range(GrazePTLower,GrazePTUpper)
+FleeTimer = irandom_range(200,350)
+}
+
+//Run if come into contact with cellar
+if (instance_exists(oSarahHead) and point_distance(x,y,oSarahHead.x,oSarahHead.y) &lt; SenseRadius) {
+SourceOfFear = oSarahHead
+State = "fleeing"
+Pausing = false
+Contaged = false
+GrazePauseTimer = random_range(GrazePTLower,GrazePTUpper)
+FleeTimer = irandom_range(200,350)
+}
+
+} else {
+
+if State = "fleeing" {
+FleeTimer = 0
+State = "shivering"
+ShiverTimer = random_range(40,200)
+}
+
+ScentInContact = instance_place(x,y,mScentMarker)
+if ScentInContact and State != "clustering" {
+State = "shivering"
+ShiverTimer = random_range(40,200)
+}
+
+//Shiver when come into shot, but otherwise stay still.
+
+if (instance_exists(self) and PlayerViewOverObject(self) and VibeReady = true) or (mInterfaceController.CurrentView = "MicroView"
+and VibeReady = true) {
+State = "shivering"
+ShiverTimer = random_range(40,200)
+VibeReady = false
+}
+
+if (instance_exists(self) and PlayerViewOverObject(self) = false)
+or ((mInterfaceController.ChangingView = true or mInterfaceController.CurrentView = "MacroView"))
+and VibeReady = false
+{ 
+VibeReady = true
+}
+
+
+
+hspeed = 0
+vspeed = 0
+} 
+
+} else {
+
+
+
+State = "following"
+SpeedMod = (1 * ViewSpeedMod) * 2
+
+//if Chosen, Shiver Constantly
+
+//Stay Still Unless Player Finger is inside sense radius
+
+if mouse_check_button(mb_any) and point_distance(mouse_x,mouse_y,x,y) &lt;= ( SenseRadius * 5 ) and point_distance(mouse_x,mouse_y,x,y) &gt; 40 {
+DirectionChangeRate = 1
+SpeedChangeRate = 0.008
+DesiredSpeed = WanderSpeed * SpeedMod
+CurrentSpeed = DesiredSpeed
+DesiredHeading = point_direction(x,y,mouse_x,mouse_y)
+CurrentHeading = DesiredHeading
+direction = CurrentHeading
+hspeed = CurrentSpeed
+vspeed = CurrentSpeed
+} else {
+DesiredSpeed = 0
+CurrentSpeed = 0
+hspeed = CurrentSpeed
+vspeed = CurrentSpeed
+if ShiverDirection = "left" {
+x -= 0.5
+XOffset += 1
+if XOffset &gt; 1 {
+XOffset = 0 
+ShiverDirection = "right"
+}
+} else if ShiverDirection = "right" {
+x += 0.5
+XOffset += 1
+if XOffset &gt; 1 {
+XOffset = 0 
+ShiverDirection = "left"
+}
+}
+}
+
+}
+}
+
+
+
+FleeTimer = clamp(FleeTimer,0,700)
 </string>
           </argument>
         </arguments>
@@ -1476,6 +1681,7 @@ ShiverDirection = "left"
 
 ///Then, Collision Avoidance &amp; Separation
 
+/*
 //Set Current Depth Depending On Nearby Moles
 HighestColliderY = 0
 HighestCollider = noone
@@ -1498,11 +1704,16 @@ depth = OriginalDepth
 } else {
 depth = OriginalDepth
 }
-
+*/
 
 
 
 if Activated = true {
+
+if mDriveCollectionMaster.MSTimer &lt;= 0 and Chosen = false {
+
+
+if PathCalculate = false {
 if CollisionAhead1 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,CollisionAhead1.x,CollisionAhead1.y)
@@ -1533,6 +1744,7 @@ DesiredHeading = (CurrentHeading - 30)
 }
 }
 
+
 //-------------------------TABOOS
 
 if TabooLayer1Blocking = true {
@@ -1540,9 +1752,9 @@ if TabooLayer1Ahead1 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,TabooLayer1Ahead1.x,TabooLayer1Ahead1.y)
 if HeadingToCol &lt; CurrentHeading {
-DesiredHeading = (CurrentHeading + 30)
+DesiredHeading = (CurrentHeading + 60)
 } else if HeadingToCol &gt;= CurrentHeading {
-DesiredHeading = (CurrentHeading - 30)
+DesiredHeading = (CurrentHeading - 60)
 }
 }
 
@@ -1550,9 +1762,9 @@ if TabooLayer1Ahead2 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,TabooLayer1Ahead2.x,TabooLayer1Ahead2.y)
 if HeadingToCol &lt; CurrentHeading {
-DesiredHeading = (CurrentHeading + 30)
+DesiredHeading = (CurrentHeading + 60)
 } else if HeadingToCol &gt;= CurrentHeading {
-DesiredHeading = (CurrentHeading - 30)
+DesiredHeading = (CurrentHeading - 60)
 }
 }
 
@@ -1560,9 +1772,9 @@ if TabooLayer1Ahead3 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,TabooLayer1Ahead3.x,TabooLayer1Ahead3.y)
 if HeadingToCol &lt; CurrentHeading {
-DesiredHeading = (CurrentHeading + 30)
+DesiredHeading = (CurrentHeading + 60)
 } else if HeadingToCol &gt;= CurrentHeading {
-DesiredHeading = (CurrentHeading - 30)
+DesiredHeading = (CurrentHeading - 60)
 }
 }
 }
@@ -1575,9 +1787,9 @@ if TabooLayer2Ahead1 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,TabooLayer2Ahead1.x,TabooLayer2Ahead1.y)
 if HeadingToCol &lt; CurrentHeading {
-DesiredHeading = (CurrentHeading + 30)
+DesiredHeading = (CurrentHeading + 60)
 } else if HeadingToCol &gt;= CurrentHeading {
-DesiredHeading = (CurrentHeading - 30)
+DesiredHeading = (CurrentHeading - 60)
 }
 }
 
@@ -1585,9 +1797,9 @@ if TabooLayer2Ahead2 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,TabooLayer2Ahead2.x,TabooLayer2Ahead2.y)
 if HeadingToCol &lt; CurrentHeading {
-DesiredHeading = (CurrentHeading + 30)
+DesiredHeading = (CurrentHeading + 60)
 } else if HeadingToCol &gt;= CurrentHeading {
-DesiredHeading = (CurrentHeading - 30)
+DesiredHeading = (CurrentHeading - 60)
 }
 }
 
@@ -1595,9 +1807,9 @@ if TabooLayer2Ahead3 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,TabooLayer2Ahead3.x,TabooLayer2Ahead3.y)
 if HeadingToCol &lt; CurrentHeading {
-DesiredHeading = (CurrentHeading + 30)
+DesiredHeading = (CurrentHeading + 60)
 } else if HeadingToCol &gt;= CurrentHeading {
-DesiredHeading = (CurrentHeading - 30)
+DesiredHeading = (CurrentHeading - 60)
 }
 }
 }
@@ -1610,9 +1822,9 @@ if TabooLayer3Ahead1 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,TabooLayer3Ahead1.x,TabooLayer3Ahead1.y)
 if HeadingToCol &lt; CurrentHeading {
-DesiredHeading = (CurrentHeading + 30)
+DesiredHeading = (CurrentHeading + 60)
 } else if HeadingToCol &gt;= CurrentHeading {
-DesiredHeading = (CurrentHeading - 30)
+DesiredHeading = (CurrentHeading - 60)
 }
 }
 
@@ -1620,9 +1832,9 @@ if TabooLayer3Ahead2 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,TabooLayer3Ahead2.x,TabooLayer3Ahead2.y)
 if HeadingToCol &lt; CurrentHeading {
-DesiredHeading = (CurrentHeading + 30)
+DesiredHeading = (CurrentHeading + 60)
 } else if HeadingToCol &gt;= CurrentHeading {
-DesiredHeading = (CurrentHeading - 30)
+DesiredHeading = (CurrentHeading - 60)
 }
 }
 
@@ -1630,9 +1842,9 @@ if TabooLayer3Ahead3 != noone {
 //Turning
 HeadingToCol = point_direction(x,y,TabooLayer3Ahead3.x,TabooLayer3Ahead3.y)
 if HeadingToCol &lt; CurrentHeading {
-DesiredHeading = (CurrentHeading + 30)
+DesiredHeading = (CurrentHeading + 60)
 } else if HeadingToCol &gt;= CurrentHeading {
-DesiredHeading = (CurrentHeading - 30)
+DesiredHeading = (CurrentHeading - 60)
 }
 }
 }
@@ -1676,6 +1888,10 @@ DesiredHeading = (CurrentHeading + 30)
 DesiredHeading = (CurrentHeading - 30)
 }
 }
+}
+
+}
+}
 
 if CollidingWound {
 DistX = sign (x - CollidingWound.x)
@@ -1697,13 +1913,13 @@ CurrentHeading = point_direction(CollidingWall.x,CollidingWall.y,x,y)
 DirectionChangeRate = 5
 }
 
-if CollidingTaboo {
+if CollidingTaboo and CollidingTaboo.Health &gt; 0 {
 DistX = sign(x - CollidingTaboo.x)
 DistY = sign(y - CollidingTaboo.y)
 x += DistX
 y += DistY
 CurrentHeading = point_direction(CollidingTaboo.x,CollidingTaboo.y,x,y)
-DirectionChangeRate = 5
+DirectionChangeRate = 20
 }
 
 
@@ -1718,24 +1934,14 @@ DesiredHeading = (CurrentHeading - 30)
 }
 }
 
-//Clamping To Body
-if place_meeting(x,y,oHead1) {
-x = clamp(x,oHead1.x - (oHead1.sprite_width / 2),oHead1.x + (oHead1.sprite_width / 2))
-y = clamp(y,oHead1.y - (oHead1.sprite_height / 2),oHead1.y + (oHead1.sprite_height / 2))
-} else if place_meeting(x,y,oHead2) {
-x = clamp(x,oHead2.x - (oHead2.sprite_width / 2),oHead2.x + (oHead2.sprite_width / 2))
-y = clamp(y,oHead2.y - (oHead2.sprite_height / 2),oHead2.y + (oHead2.sprite_height / 2))
-} else if place_meeting(x,y,oHead3) {
-x = clamp(x,oHead3.x - (oHead3.sprite_width / 2),oHead3.x + (oHead3.sprite_width / 2))
-y = clamp(y,oHead3.y - (oHead3.sprite_height / 2),oHead3.y + (oHead3.sprite_height / 2))
+//Back onto body if not on it anymore
+if !place_meeting(x,y,mCreatureParent) {
+DesiredHeading = point_direction(x,y,instance_nearest(x,y,mHeadParent).x,instance_nearest(x,y,mHeadParent).y)
+x = x + lengthdir_x(20,DesiredHeading)
+y = y + lengthdir_y(20,DesiredHeading)
+CurrentHeading = DesiredHeading
 }
 
-
-
-
-
-
-}
 </string>
           </argument>
         </arguments>
@@ -1759,9 +1965,10 @@ y = clamp(y,oHead3.y - (oHead3.sprite_height / 2),oHead3.y + (oHead3.sprite_heig
             <string>///Coming To Desired Speed And Direction
 
 if GrownToSize = true {
+if mDriveCollectionMaster.MSTimer &lt;= 0 or Chosen = false {
 
 //Speed
-
+if PathCalculate = false {
 if Pausing = false and Activated = true {
 if CurrentSpeed != DesiredSpeed {
 if CurrentSpeed &lt; DesiredSpeed {
@@ -1792,7 +1999,33 @@ CurrentHeading -= DirectionChangeRate
 direction = CurrentHeading
 
 }
+} else {
+direction = CurrentHeading
+}
+}
 
+//Clamping To Body
+if place_meeting(x,y,oHead1) {
+x = clamp(x,oHead1.x - (oHead1.sprite_width / 2),oHead1.x + (oHead1.sprite_width / 2))
+} else if place_meeting(x,y,oHead2) {
+x = clamp(x,oHead2.x - (oHead2.sprite_width / 2),oHead2.x + (oHead2.sprite_width / 2))
+} else if place_meeting(x,y,oHead3) {
+x = clamp(x,oHead3.x - (oHead3.sprite_width / 2),oHead3.x + (oHead3.sprite_width / 2))
+}
+
+if TabooLayer1Blocking = true {
+y = clamp(y,oHead1.y - (oHead1.sprite_height / 2),oTabooLayer1.y)
+} else {
+if TabooLayer2Blocking = true {
+y = clamp(y,oHead1.y - (oHead1.sprite_height / 2),oTabooLayer2.y)
+} else {
+if TabooLayer3Blocking = true {
+y = clamp(y,oHead1.y - (oHead1.sprite_height / 2),oTabooLayer3.y)
+} else {
+y = clamp(y,oHead1.y - (oHead1.sprite_height / 2),oHead3.y + (oHead3.sprite_height / 2))
+}
+}
+}
 </string>
           </argument>
         </arguments>
@@ -1820,8 +2053,28 @@ if Occupied = true {
 ChangeDrawingWithZoom(ZoomedOutSprite,ZoomedInSprite,UnoccupiedRotation)
 }
 
+if DebugText = true {
+draw_set_font(fTest)
 
+DrawX = x
+DrawY = y - 30
 
+draw_text(DrawX,DrawY,"Activated: " + string(Activated))
+DrawY += 10
+draw_text(DrawX,DrawY,"Grown To Size: " + string(GrownToSize))
+DrawY += 10
+draw_text(DrawX,DrawY,"State: " + State)
+DrawY += 10
+draw_text(DrawX,DrawY,"Chosen: " + string(Chosen))
+DrawY += 10
+draw_line(x,y,x + lengthdir_x(50,CurrentHeading),y+lengthdir_y(50,CurrentHeading))
+DrawY += 10
+draw_line_width(x,y,x + lengthdir_x(50,CurrentHeading),y+lengthdir_y(50,CurrentHeading),10)
+DrawY += 10
+draw_set_color(c_green)
+draw_line_width(x,y,x + lengthdir_x(50,direction),y+lengthdir_y(50,direction),10)
+DrawY += 10
+}
 </string>
           </argument>
         </arguments>

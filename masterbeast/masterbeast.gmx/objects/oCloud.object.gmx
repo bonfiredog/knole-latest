@@ -40,11 +40,11 @@ speed = StartingSpeed
 direction = SimpleWindDAsDirection()
 
 if depth = AnatomyLayer2 {
-image_alpha = 1
+image_alpha = 0.85
 } else if depth &gt; AnatomyLayer2 and depth &lt;= AnatomyLayer2 + 0.05 {
-image_alpha = 0.9
+image_alpha = 0.75
 } else if depth &gt; AnatomyLayer2 + 0.05 {
-image_alpha = 0.8
+image_alpha = 0.65
 }
 OriginalAlpha = image_alpha
 InRoom = false
@@ -184,7 +184,7 @@ ZoomMod = clamp(ZoomMod,0,100)
 DisappearMod = 100 - ((100 / 100) * mBehavioursDeliberative.PercentForward)
 DisappearMod = clamp(DisappearMod,0,100)
 
-y = OriginalY - ZoomMod - DisappearMod
+y = OriginalY - ZoomMod - DisappearMod - mInterfaceController.JumpMod + mInterfaceController.SlipMod + mInterfaceController.DeadMod + mBehavioursReactive.SleepDroopYCurrent + mInterfaceController.FloatModY
 image_alpha = 1 - (DisappearMod / 100)
 </string>
           </argument>

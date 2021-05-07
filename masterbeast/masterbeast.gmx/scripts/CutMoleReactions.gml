@@ -2,7 +2,7 @@
 
 if IsAlive() and mInterfaceController.CurrentView = MicroView {
 ChanceToWake(0.01)
-mDriveCollectionMaster.BaseBreathRate += 0.00002
+mDriveCollectionMaster.BaseBreathRate += 0.002
 
 ISDown(BaseAlive,0.00000005)
 ISUp(BasePain,0.002)

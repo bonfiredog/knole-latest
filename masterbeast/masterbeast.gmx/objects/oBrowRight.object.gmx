@@ -134,6 +134,7 @@ and mouse_check_button_pressed(mb_any)
 and AmountForward(70)
 and instance_exists(mDebug) = false
 and mInterfaceController.CurrentHandUse = "none"
+and mInterfaceController.Cleaning = false and mInterfaceController.Healing = false
 and Touching = false {
 XOffset = mouse_x - x
 YOffset = mouse_y - y
@@ -225,10 +226,10 @@ if instance_exists(mFrontLoading) = false {
 if Touching = false and ResetXY = true {
 Breathing()
 
-BaseDirection = OriginalRotation + ((10 / 100) * oCheekRight.UpPercentageDifference) + RotateModifier
-RotateModifier = clamp(RotateModifier,(RotateLimitUp * -1),RotateLimitDown)
+BaseDirection = OriginalRotation + RotateModifier //+ ((10 / 100) * oCheekRight.UpPercentageDifference)
+RotateModifier = clamp(RotateModifier, -60, 60)
 direction = BaseDirection - oBrowLeft.SadModRotate + oBrowLeft.AngryModRotate - oBrowLeft.PainModRotate - oBrowLeft.FearModRotate + oBrowLeft.StressModRotate - oBrowLeft.ShameModRotate
-
+direction = clamp(direction,300,360)
 BaseY =  OriginalY + ((10 / 100) * oCheekRight.UpPercentageDifference) + UpModifier  - ((20 / 100) * BreathingMod)
 UpModifier = clamp(UpModifier,0,YLimit)
 
@@ -298,7 +299,7 @@ UpAndRotatePercentage = (UpDifferencePercentage / 2) + (RotateDifferencePercenta
           <argument>
             <kind>1</kind>
             <string>///Staying Within Limits
-direction = clamp(direction,300,358)
+direction = clamp(direction,300,360)
 image_angle = direction
 
 </string>
@@ -329,7 +330,7 @@ draw_self()
 
 with mFurBrowParent {
 if Tag = "browright" {
-draw_sprite_ext(PoreSprite,0,x,y,image_xscale * 0.8,image_yscale * 0.8,90,c_white,1)
+draw_sprite_ext(PoreSprite,0,x,y,image_xscale * 0.2,image_yscale * 0.2,90,c_white,1)
 }
 }
 </string>

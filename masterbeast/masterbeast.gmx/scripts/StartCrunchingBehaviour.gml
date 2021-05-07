@@ -4,6 +4,6 @@ with mBehavioursDeliberative {
 WriteToLog("Started crunching.")
 CrunchingActive = true
 Repeats = 0
-TotalCrunches = irandom_range(3,8)
+TotalCrunches = irandom_range(2000,3000)
 CrunchingTimer = 60
 }

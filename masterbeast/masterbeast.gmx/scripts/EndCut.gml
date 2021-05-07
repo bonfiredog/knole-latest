@@ -104,6 +104,8 @@ CutStartY = 0
 CutTimer = 0
 }
 mDriveCollectionMaster.CutReactOut = true
+if ResetKnifeOnLift = true {
 CurrentHandUse = "none"
+}
 
 

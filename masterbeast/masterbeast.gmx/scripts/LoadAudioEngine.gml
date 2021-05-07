@@ -5,7 +5,6 @@ instance_create(x,y,obj_ex_audio)
 
 
 //2. Create any ex_audio classes that are neeced.
-
 ex_audio_class_create("breathingmouthinhealthy")
 ex_audio_class_create("breathingmouthouthealthy")
 ex_audio_class_create("breathingnoseinhealthy")
@@ -106,6 +105,7 @@ ex_audio_set_falloff("sneezebreath2",1500,10000,1)
 ex_audio_load("sneezebreath3",aSniffIn3)
 ex_audio_set_falloff("sneezebreath3",1500,10000,1)
 
+ex_audio_load("mmm",mMMM)
 
 ex_audio_load("slap1",aSlap1,"slaps",1)
 ex_audio_set_falloff("slap1",1500,10000,1)
@@ -193,10 +193,10 @@ ex_audio_set_falloff("cut4",1500,10000,1)
 ex_audio_set_falloff("cut5",1500,10000,1)
 
 ex_audio_load("clean",aCutLoop1)
-ex_audio_set_falloff("clean",1500,10000,1)
+ex_audio_set_falloff("clean",3000,10000,1)
 
 ex_audio_load("bellsound",aBellSound)
-ex_audio_set_falloff("bellsound",400,7000,1)
+ex_audio_set_falloff("bellsound",2000,8000,1)
 
 ex_audio_load("cellarcut",aCutLoop5)
 ex_audio_set_falloff("cellarcut",1500,10000,1)
@@ -295,6 +295,7 @@ ex_audio_load("shortlow3",aVocShortLowEn3,"vocalisations")
 ex_audio_load("shortlow4",aVocShortLowEn4,"vocalisations")
 ex_audio_load("shortlow5",aVocShortLowEn5,"vocalisations")
 ex_audio_load("shortlow6",aVocShortLowEn6,"vocalisations")
+ex_audio_set_falloff("vocalisations",500,5000,1)
 
 mInterfaceController.BaseSoundPitch = 2.5
 
@@ -329,7 +330,7 @@ ex_audio_load("earclick",aEarClick)
 ex_audio_set_falloff("earclick",1000,8000,1)
 
 ex_audio_load("lowrumblesigil",aLowRumble)
-ex_audio_set_falloff("lowrumblesigil",1500,10000,1)
+//ex_audio_set_falloff("lowrumblesigil",1500,10000,1)
 
 ex_audio_load("sigilloop",aSigilLoop)
 ex_audio_set_falloff("sigilloop",1500,10000,1)
@@ -342,17 +343,17 @@ ex_audio_set_falloff("cvibrate",200,400,1)
 ex_audio_set_pitch("cvibrate",1.3,0)
 
 ex_audio_load("clack1",aClack1)
-ex_audio_set_falloff("clack1",500,6000,1)
+ex_audio_set_falloff("clack1",1500,6000,1)
 ex_audio_load("clack2",aClack2)
-ex_audio_set_falloff("clack2",500,6000,1)
+ex_audio_set_falloff("clack2",1500,6000,1)
 ex_audio_load("clack3",aClack3)
-ex_audio_set_falloff("clack3",500,6000,1)
+ex_audio_set_falloff("clack3",1500,6000,1)
 ex_audio_load("clack4",aClack4)
-ex_audio_set_falloff("clack4",500,6000,1)
+ex_audio_set_falloff("clack4",1500,6000,1)
 ex_audio_load("clack5",aClack5)
-ex_audio_set_falloff("clack5",500,6000,1)
+ex_audio_set_falloff("clack5",1500,6000,1)
 ex_audio_load("clack6",aClack6)
-ex_audio_set_falloff("clack6",500,6000,1)
+ex_audio_set_falloff("clack6",1500,6000,1)
 
 
 ex_audio_load("sneeze1",aSneeze1,"sneezes")
@@ -401,6 +402,9 @@ ex_audio_set_falloff("lowrumblezoom",1500,10000,1)
 
 ex_audio_load("lowrumblerf",aLowRumble)
 ex_audio_set_falloff("lowrumblerf",1500,10000,1)
+ex_audio_load("lowrumblerf2",aLowRumble2)
+ex_audio_set_falloff("lowrumblerf2",3000,10000,1)
+ex_audio_set_volume("lowrumblerf2",2,0)
 
 ex_audio_load("movebp",aMoveBodyPart)
 ex_audio_set_falloff("movebp",1500,10000,1)

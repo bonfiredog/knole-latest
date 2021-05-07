@@ -1,7 +1,15 @@
 ///MoveToXY(x,y,speed,zoom,zoomspeed)
 
 with mBehavioursDeliberative {
-if position_meeting(argument0,argument1,mCreatureParent) {
+if PercentForward < 100 {
+MoveBackForwardUnCapped("comeforward",MoveSpeedCalc(),100 - PercentForward)
+MoveXYAfter = true
+AfterDestX = argument0
+AfterDestY = argument1
+AfterZoom = argument3
+AfterZoomSpeed = argument4
+AfterSpeed = argument2
+} else {
 XYMove = true
 DestX = argument0
 DestY = argument1
@@ -42,7 +50,7 @@ DestZoomSpeed = 0
 if  mInterfaceController.CurrentView = MacroView {
 XYMoveType = "moveout"
 StartY = mInterfaceController.BaseYView
-TargetY = DestY - 960
+TargetY = DestY
 YChange = TargetY - StartY
 ex_audio_set_volume("skintouch",BothVolMod(0.01),30)
 ex_audio_set_pitch("skintouch",random_range(0.8,1.2),0)
@@ -64,7 +72,6 @@ ex_audio_play("skintouch",1)
 
 WriteToLog("Moved to a certain position.")
 StartingXYMove = false
-
 
 
 }

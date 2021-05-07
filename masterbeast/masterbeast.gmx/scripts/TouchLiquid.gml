@@ -1,6 +1,7 @@
 ///TouchLiquid(type)
 
-if AmountForward(60) and instance_exists(mDebug) = false {
+if AmountForward(60) and instance_exists(mDebug) = false 
+and mInterfaceController.Cleaning = false and mInterfaceController.Healing = false {
 with mInterfaceController {
 if HandWet = false {
 HandWet = true
@@ -15,7 +16,7 @@ HandWetType = argument0
 } else {
 HandWetType = choose(argument0,argument0,"blood")
 }
-if HandWetType = "blood" {
+if HandWetType = "blood" or HandWetType = "rennet" {
 HandWetColour = BloodLiquidColour
 } else {
 HandWetColour = c_black

@@ -68,7 +68,10 @@ MaxRetries = 10
 
 //DegradationVariables
 
-DegradationRate = 0.00000003
+DegradationRate = 0.0000003
+ChangeModifier = 0.65
+ChangeModifier2 = 0
+ISModifier = 0.65
 
 //Ritual Variables
 
@@ -167,6 +170,37 @@ Spawnable = true
 } else {
 Spawnable = false
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Setting Change Modifier
+
+ChangeModifier2 = 
+1 + 
+(
+(mCreatureController.CloseToAnne / 1000)
++
+(mEmotionSubController.FearActivation / 1000)
+)
+
+ChangeModifier2 = clamp(ChangeModifier2,1,1.5)
 </string>
           </argument>
         </arguments>

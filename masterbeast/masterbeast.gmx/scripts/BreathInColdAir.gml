@@ -1,7 +1,7 @@
 ///BreathInColdAir(which?nose/mouth/both)
 
 
-if mWorldController.ThisPeriodTemp <= 10 {
+if mWorldController.ThisPeriodTemp <= 15 and mBehavioursDeliberative.PercentForward > 4 {
 
 with mCreatureController {
 

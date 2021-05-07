@@ -236,7 +236,7 @@ y = ClosedMinY + (oNose1.YDifference / 2) + (((OpenMaxY - ClosedMinY) / 100) * P
             <string>///Path Bending
 
 
-HappyModUp = ((70 / 100) * mEmotionSubController.HappyActivation)
+HappyModUp = ((120 / 100) * mEmotionSubController.HappyActivation)
 SadModDown = ((70 / 100) * mEmotionSubController.SadActivation)
 AngryModDown = ((70 / 100) * mEmotionSubController.AngerActivation)
 ShameModDown = ((55 / 100) * mEmotionSubController.ShameActivation)

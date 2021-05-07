@@ -59,9 +59,11 @@ depth = OnObjectsLayer
           <argument>
             <kind>1</kind>
             <string>///Tolling The Bell
-if Broken = false {
+if Broken = false and mBehavioursReactive.SleepingActive = false and mDriveCollectionMaster.Dozing = false 
+{
 if StartedTolling = true {
 if NumberOfTolls &gt; 0 {
+ex_audio_set_volume("bellsound",BothVolMod(1),0)
 ex_audio_play("bellsound", false)
 BellSoundReaction()
 CreateParticleSplash(x,y,2,ps_shape_ellipse,ps_distr_gaussian,c_black,10,30,0.001,0.003,-40,40,10,30,50,100)
@@ -170,22 +172,33 @@ TollStart = false
 }
 
 if StartedTolling = true and NumberOfTolls &gt; 0 and TollStart = false {
-TollStart = true
+if mBehavioursReactive.SleepingActive = false 
+and mDriveCollectionMaster.Dozing = false {
+mDriveCollectionMaster.CurrentPerceivedHour += 1
 BellSoundReaction()
+ex_audio_set_volume("bellsound",BothVolMod(1),0)
 ex_audio_play("bellsound", false)
 CreateParticleSplash(x,y,2,ps_shape_ellipse,ps_distr_gaussian,c_black,10,30,0.001,0.003,-40,40,30,50,0,200)
 
+with oMoleHerd {
+State="shivering"
+ShiverTimer = 60
+}
 if instance_exists(oBellSounderTongue) {
 oBellSounderTongue.StepsToWindDown = ex_audio_get_track_duration("bellsound") * room_speed
 oBellSounderTongue.StepsToWindDownTotal = oBellSounderTongue.StepsToWindDown
 oBellSounderTongue.SideTimer = 10
 }
 NumberOfTolls -= 1
+} else {
+NumberOfTolls = 1
+}
+TollStart = true
 alarm[1] = (ex_audio_get_track_duration("bellsound") * 60) + 20
 }
 }
 
-ex_audio_set_volume("bellsound",BothVolMod(0.7),1)
+ex_audio_set_volume("bellsound",BothVolMod(1),1)
 
 
 </string>

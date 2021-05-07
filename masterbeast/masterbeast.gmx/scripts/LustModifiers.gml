@@ -14,8 +14,8 @@ LustMod = 0
 - (mEmotionSubController.SadActivation / 50)
 //Shame makes lust go down.
 - (mEmotionSubController.ShameActivation / 50)
-//Less alive makes it go down.
-- ((40 / 100) * (100 - Alive))
+//Less alive makes it go up.
++ ((40 / 100) * (100 - Alive))
 + mWorldController.MoonLustMod / 2
 //Close To Anne makes it go up
 + ((20 / 100) * mCreatureController.CloseToAnne)

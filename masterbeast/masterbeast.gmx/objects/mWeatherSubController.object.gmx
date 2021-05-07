@@ -45,8 +45,6 @@ WeatherOn = true
 
 //---------------------------------------Cloud, Fog &amp; Mist
 
-
-
 CloudEmitterRate = 2000
 CloudEmitterNextRate = 2000
 Emitter = instance_create(x,y,oCloudEmitter)
@@ -90,7 +88,7 @@ part_type_size(RainPart,0.4,0.6,0,0)
 part_type_colour1(RainPart,c_white)
 part_type_alpha2(RainPart,0.5,0.1)
 part_type_gravity(RainPart,0.15,PartGravity)
-part_type_speed(RainPart,(0.3 * SimpleWindS),(0.3 * SimpleWindS),0,0)
+part_type_speed(RainPart,(0.4 * SimpleWindS),(0.4 * SimpleWindS),0,0)
 part_type_direction(RainPart,PartGravity - 30,PartGravity + 30,0,1)
 part_type_orientation(RainPart,PartGravity,PartGravity,0,0,0)
 part_type_life(RainPart,480,600);
@@ -101,7 +99,7 @@ part_type_size(SleetPart,0.5,0.8,0,0)
 part_type_colour1(SleetPart,c_white)
 part_type_alpha2(SleetPart,0.5,0.1)
 part_type_gravity(SleetPart,0.15,PartGravity)
-part_type_speed(SleetPart,(0.2 * SimpleWindS),(0.2 * SimpleWindS),0.03,0)
+part_type_speed(SleetPart,(0.3 * SimpleWindS),(0.3 * SimpleWindS),0.03,0)
 part_type_direction(SleetPart,PartGravity - 10,PartGravity + 10,0,1)
 part_type_orientation(SleetPart,PartGravity,PartGravity,0,0,0)
 part_type_life(SleetPart,480,600);
@@ -185,6 +183,9 @@ CurrentMistMinute = 0
 CurrentTimer = 0
 NextTimer = 0
 
+RitualWeather = "none"
+RitualWindS = 0
+
 </string>
           </argument>
         </arguments>
@@ -220,7 +221,7 @@ SimpleWindD = -1
 SimpleWindD = 1
 }
 
-SimpleWindS = mWorldController.CurrentWindS
+SimpleWindS = mWorldController.CurrentWindS + RitualWindS
 </string>
           </argument>
         </arguments>
@@ -312,6 +313,10 @@ case 9: //Light Rain
 case 10:
 case 11:
 case 12:
+
+
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
+
 CloudEmitterRate = 1200
 
 part_type_gravity(RainPart,0.8,PartGravity)
@@ -325,18 +330,23 @@ part_type_size(RainPart,0.1,0.3,0,0)
 }
 
 part_emitter_region(CurrentPartSys,CurrentPartEmitTop,EmitterTopXMin,EmitterTopXMax,EmitterTopYMin,EmitterTopYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,RainPart,round(CurrentWeatherMod / 120))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,RainPart,round(CurrentWeatherMod / 60))
 part_emitter_region(CurrentPartSys,CurrentPartEmitLeft,EmitterLeftXMin,EmitterLeftXMax,EmitterLeftYMin,EmitterLeftYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,RainPart,round(CurrentWeatherMod / 120))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,RainPart,round(CurrentWeatherMod / 60))
 part_emitter_region(CurrentPartSys,CurrentPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,RainPart,round(CurrentWeatherMod / 120))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,RainPart,round(CurrentWeatherMod / 60))
 WeatherLiquid("current","lightrain")
 FogMistInProgress = false
+} else {
+FogMistInProgress = false
+}
 break;
 
 case 13: //Heavy Rain
 case 14:
 case 15:
+
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 CloudEmitterRate = 700
 part_type_gravity(RainPart,0.8,PartGravity)
 part_type_speed(RainPart,(3 * SimpleWindS),(3 * SimpleWindS),0,0)
@@ -349,18 +359,23 @@ part_type_size(RainPart,0.1,0.4,0,0)
 }
 
 part_emitter_region(CurrentPartSys,CurrentPartEmitTop,EmitterTopXMin,EmitterTopXMax,EmitterTopYMin,EmitterTopYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,RainPart,round(CurrentWeatherMod / 15))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,RainPart,round(CurrentWeatherMod / 10))
 part_emitter_region(CurrentPartSys,CurrentPartEmitLeft,EmitterLeftXMin,EmitterLeftXMax,EmitterLeftYMin,EmitterLeftYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,RainPart,round(CurrentWeatherMod / 15))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,RainPart,round(CurrentWeatherMod / 10))
 part_emitter_region(CurrentPartSys,CurrentPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,RainPart,round(CurrentWeatherMod / 15))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,RainPart,round(CurrentWeatherMod / 10))
 WeatherLiquid("current","heavyrain")
 FogMistInProgress = false
+} else {
+FogMistInProgress = false
+}
 break;
 
 case 16: //Sleet
 case 17:
 case 18:
+
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 CloudEmitterRate = 700
 part_type_gravity(SleetPart,0.15,PartGravity)
 part_type_speed(SleetPart,(2 * SimpleWindS),(2 * SimpleWindS),0.03,0)
@@ -373,18 +388,22 @@ part_type_size(SleetPart,0.2,0.5,0,0)
 }
 
 part_emitter_region(CurrentPartSys,CurrentPartEmitTop,EmitterTopXMin,EmitterTopXMax,EmitterTopYMin,EmitterTopYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,SleetPart,round(CurrentWeatherMod / 65))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,SleetPart,round(CurrentWeatherMod / 30))
 part_emitter_region(CurrentPartSys,CurrentPartEmitLeft,EmitterLeftXMin,EmitterLeftXMax,EmitterLeftYMin,EmitterLeftYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,SleetPart,round(CurrentWeatherMod / 65))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,SleetPart,round(CurrentWeatherMod / 30))
 part_emitter_region(CurrentPartSys,CurrentPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,SleetPart,round(CurrentWeatherMod / 65))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,SleetPart,round(CurrentWeatherMod / 30))
 WeatherLiquid("current","lightrain")
 FogMistInProgress = false
+} else {
+FogMistInProgress = false
+}
 break;
 
 case 19: //Hail
 case 20:
 case 21:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 CloudEmitterRate = 700
 part_type_gravity(HailPart,3,PartGravity)
 part_type_speed(HailPart,(16 * SimpleWindS),(16 * SimpleWindS),0,0)
@@ -397,17 +416,21 @@ part_type_size(HailPart,0.2,0.6,0,0)
 }
 
 part_emitter_region(CurrentPartSys,CurrentPartEmitTop,EmitterTopXMin,EmitterTopXMax,EmitterTopYMin,EmitterTopYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,HailPart,round(CurrentWeatherMod / 80))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,HailPart,round(CurrentWeatherMod / 40))
 part_emitter_region(CurrentPartSys,CurrentPartEmitLeft,EmitterLeftXMin,EmitterLeftXMax,EmitterLeftYMin,EmitterLeftYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,HailPart,round(CurrentWeatherMod / 80))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,HailPart,round(CurrentWeatherMod / 40))
 part_emitter_region(CurrentPartSys,CurrentPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,HailPart,round(CurrentWeatherMod / 80))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,HailPart,round(CurrentWeatherMod / 40))
 FogMistInProgress = false
+} else {
+FogMistInProgress = false
+}
 break;
 
 case 22: //Light Snow
 case 23:
 case 24:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 CloudEmitterRate = 1300
 part_type_life(SnowPart,200,600);
 part_type_gravity(SnowPart,0.7,PartGravity)
@@ -421,17 +444,21 @@ part_type_size(SnowPart,0.2,0.6,0,0)
 }
 
 part_emitter_region(CurrentPartSys,CurrentPartEmitTop,EmitterTopXMin,EmitterTopXMax,EmitterTopYMin,EmitterTopYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,SnowPart,round(CurrentWeatherMod / 150))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,SnowPart,round(CurrentWeatherMod / 70))
 part_emitter_region(CurrentPartSys,CurrentPartEmitLeft,EmitterLeftXMin,EmitterLeftXMax,EmitterLeftYMin,EmitterLeftYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,SnowPart,round(CurrentWeatherMod / 150))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,SnowPart,round(CurrentWeatherMod / 70))
 part_emitter_region(CurrentPartSys,CurrentPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,SnowPart,round(CurrentWeatherMod / 150))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,SnowPart,round(CurrentWeatherMod / 70))
 FogMistInProgress = false
+} else {
+FogMistInProgress = false
+}
 break;
 
 case 25: //Heavy Snow
 case 26:
 case 27:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 CloudEmitterRate = 700
 part_type_life(SnowPart,200,600);
 part_type_gravity(SnowPart,0.7,PartGravity)
@@ -445,17 +472,21 @@ part_type_size(SnowPart,0.2,0.6,0,0)
 }
 
 part_emitter_region(CurrentPartSys,CurrentPartEmitTop,EmitterTopXMin,EmitterTopXMax,EmitterTopYMin,EmitterTopYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,SnowPart,round(CurrentWeatherMod / 90))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,SnowPart,round(CurrentWeatherMod / 35))
 part_emitter_region(CurrentPartSys,CurrentPartEmitLeft,EmitterLeftXMin,EmitterLeftXMax,EmitterLeftYMin,EmitterLeftYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,SnowPart,round(CurrentWeatherMod / 90))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,SnowPart,round(CurrentWeatherMod / 35))
 part_emitter_region(CurrentPartSys,CurrentPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
-part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,SnowPart,round(CurrentWeatherMod / 90))
+part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,SnowPart,round(CurrentWeatherMod / 35))
 FogMistInProgress = false
+} else {
+FogMistInProgress = false
+}
 break;
 
 case 28: //Thunder &amp; Lightning
 case 29:
 case 30:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 CloudEmitterRate = 700
 part_type_gravity(RainPart,0.8,PartGravity)
 part_type_speed(RainPart,(3 * SimpleWindS),(3 * SimpleWindS),0,0)
@@ -476,6 +507,9 @@ part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,RainPart,round(CurrentWea
 WeatherLiquid("current","heavyrain")
 ThunderLightAndSound()
 FogMistInProgress = false
+} else {
+FogMistInProgress = false
+}
 break;
 }
 }
@@ -563,6 +597,7 @@ case 9: //Light Rain
 case 10:
 case 11:
 case 12:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 NextFurWetAmount = 20
 CloudEmitterNextRate = 1200
 part_type_gravity(RainPart,0.8,PartGravity)
@@ -583,11 +618,15 @@ part_emitter_region(NextPartSys,NextPartEmitRight,EmitterRightXMin,EmitterRightX
 part_emitter_burst(NextPartSys,NextPartEmitRight,RainPart,round(NextWeatherMod / 120))
 WeatherLiquid("next","lightrain")
 NextFogMistInProgress = false
+} else {
+NextFogMistInProgress = false 
+}
 break;
 
 case 13: //Heavy Rain
 case 14:
 case 15:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 NextFurWetAmount = 40
 CloudEmitterNextRate = 700
 part_type_gravity(RainPart,0.8,PartGravity)
@@ -610,11 +649,15 @@ part_emitter_region(NextPartSys,NextPartEmitRight,EmitterRightXMin,EmitterRightX
 part_emitter_burst(NextPartSys,NextPartEmitRight,HailPart,round(NextWeatherMod / 32))
 WeatherLiquid("next","heavyrain")
 NextFogMistInProgress = false
+} else {
+NextFogMistInProgress = false 
+}
 break;
 
 case 16: //Sleet
 case 17:
 case 18:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 NextFurWetAmount = 40
 CloudEmitterNextRate = 700
 part_type_gravity(SleetPart,0.15,PartGravity)
@@ -636,11 +679,15 @@ part_emitter_region(NextPartSys,NextPartEmitRight,EmitterRightXMin,EmitterRightX
 part_emitter_burst(NextPartSys,NextPartEmitRight,SleetPart,round(NextWeatherMod / 90))
 WeatherLiquid("next","lightrain")
 NextFogMistInProgress = false
+} else {
+NextFogMistInProgress = false 
+}
 break;
 
 case 19: //Hail
 case 20:
 case 21:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 NextFurWetAmount = 40
 CloudEmitterNextRate = 700
 part_type_gravity(HailPart,3,PartGravity)
@@ -661,11 +708,15 @@ part_emitter_burst(NextPartSys,NextPartEmitLeft,HailPart,round(NextWeatherMod / 
 part_emitter_region(NextPartSys,NextPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
 part_emitter_burst(NextPartSys,NextPartEmitRight,HailPart,round(NextWeatherMod / 200))
 NextFogMistInProgress = false
+} else {
+NextFogMistInProgress = false 
+}
 break;
 
 case 22: //Light Snow
 case 23:
 case 24:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 NextFurWetAmount = 0
 CloudEmitterNextRate = 1000
 part_type_life(SnowPart,200,600);
@@ -686,11 +737,15 @@ part_emitter_burst(NextPartSys,NextPartEmitLeft,SnowPart,round(NextWeatherMod / 
 part_emitter_region(NextPartSys,NextPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
 part_emitter_burst(NextPartSys,NextPartEmitRight,SnowPart,round(NextWeatherMod / 150))
 NextFogMistInProgress = false
+} else {
+NextFogMistInProgress = false 
+}
 break;
 
 case 25: //Heavy Snow
 case 26:
 case 27:
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 NextFurWetAmount = 0
 CloudEmitterNextRate = 700
 part_type_life(SnowPart,200,600);
@@ -711,9 +766,13 @@ part_emitter_burst(NextPartSys,NextPartEmitLeft,SnowPart,round(NextWeatherMod / 
 part_emitter_region(NextPartSys,NextPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
 part_emitter_burst(NextPartSys,NextPartEmitRight,SnowPart,round(NextWeatherMod / 90))
 NextFogMistInProgress = false
+} else {
+NextFogMistInProgress = false 
+}
 break;
 
 case 28: //Thunder &amp; Lightning
+if IsInRitual() = false or (IsInRitual() and RitualWeather != "calm") {
 NextFurWetAmount = 60
 CloudEmitterNextRate = 700
 if mWorldController.ThisPeriodWT != 28 and mWorldController.ThisPeriodWT != 29 and mWorldController.ThisPeriodWT != 30 {
@@ -738,7 +797,124 @@ part_emitter_region(NextPartSys,NextPartEmitRight,EmitterRightXMin,EmitterRightX
 part_emitter_burst(NextPartSys,NextPartEmitRight,RainPart,round(NextWeatherMod / 32))
 WeatherLiquid("next","heavyrain")
 NextFogMistInProgress = false
+} else {
+NextFogMistInProgress = false 
+}
 break;
+}
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Displaying Ritual Weather
+
+if IsInRitual() {
+
+switch RitualWeather {
+case "storm":
+RitualWindS = 20
+CloudEmitterRate = 700
+part_type_gravity(RainPart,0.8,PartGravity)
+part_type_speed(RainPart,(3 * SimpleWindS),(3 * SimpleWindS),0,0)
+part_type_direction(RainPart,PartGravity - 30,PartGravity + 30,0,1)
+part_type_orientation(RainPart,PartGravity,PartGravity,0,0,0)
+if mInterfaceController.CurrentView = MacroView {
+part_type_size(RainPart,0.4,0.7,0,0)
+} else if mInterfaceController.CurrentView = MicroView {
+part_type_size(RainPart,0.1,0.4,0,0)
+}
+
+part_emitter_region(CurrentPartSys,CurrentPartEmitTop,EmitterTopXMin,EmitterTopXMax,EmitterTopYMin,EmitterTopYMax,ps_shape_line,ps_distr_linear)
+part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,RainPart,round(CurrentWeatherMod / 15))
+part_emitter_region(CurrentPartSys,CurrentPartEmitLeft,EmitterLeftXMin,EmitterLeftXMax,EmitterLeftYMin,EmitterLeftYMax,ps_shape_line,ps_distr_linear)
+part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,RainPart,round(CurrentWeatherMod / 15))
+part_emitter_region(CurrentPartSys,CurrentPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
+part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,RainPart,round(CurrentWeatherMod / 15))
+WeatherLiquid("current","heavyrain")
+
+ThunderLightAndSound()
+FogMistInProgress = false
+NextFogMistInProgress = false
+break;
+
+//---------------------------------------------------
+
+case "calm":
+RitualWindS = 0
+CloudEmitterRate = 0
+CloudEmitterNextRate = 0
+FogMistInProgress = false
+NextFogMistInProgress = false
+break;
+
+//---------------------------------------------------
+
+case "hail":
+RitualWindS = 0
+CloudEmitterRate = 700
+part_type_gravity(HailPart,3,PartGravity)
+part_type_speed(HailPart,(16 * SimpleWindS),(16 * SimpleWindS),0,0)
+part_type_direction(HailPart,PartGravity,PartGravity,0,0)
+part_type_orientation(HailPart,PartGravity,PartGravity,0,0,0)
+if mInterfaceController.CurrentView = MacroView {
+part_type_size(HailPart,0.4,1.1,0,0)
+} else if mInterfaceController.CurrentView = MicroView {
+part_type_size(HailPart,0.2,0.6,0,0)
+}
+
+part_emitter_region(CurrentPartSys,CurrentPartEmitTop,EmitterTopXMin,EmitterTopXMax,EmitterTopYMin,EmitterTopYMax,ps_shape_line,ps_distr_linear)
+part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,HailPart,round(CurrentWeatherMod / 80))
+part_emitter_region(CurrentPartSys,CurrentPartEmitLeft,EmitterLeftXMin,EmitterLeftXMax,EmitterLeftYMin,EmitterLeftYMax,ps_shape_line,ps_distr_linear)
+part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,HailPart,round(CurrentWeatherMod / 80))
+part_emitter_region(CurrentPartSys,CurrentPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
+part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,HailPart,round(CurrentWeatherMod / 80))
+break;
+//---------------------------------------------------
+
+case "rain":
+RitualWindS = 0
+CloudEmitterRate = 700
+part_type_gravity(RainPart,0.8,PartGravity)
+part_type_speed(RainPart,(3 * SimpleWindS),(3 * SimpleWindS),0,0)
+part_type_direction(RainPart,PartGravity - 30,PartGravity + 30,0,1)
+part_type_orientation(RainPart,PartGravity,PartGravity,0,0,0)
+if mInterfaceController.CurrentView = MacroView {
+part_type_size(RainPart,0.4,0.7,0,0)
+} else if mInterfaceController.CurrentView = MicroView {
+part_type_size(RainPart,0.1,0.4,0,0)
+}
+
+part_emitter_region(CurrentPartSys,CurrentPartEmitTop,EmitterTopXMin,EmitterTopXMax,EmitterTopYMin,EmitterTopYMax,ps_shape_line,ps_distr_linear)
+part_emitter_burst(CurrentPartSys,CurrentPartEmitTop,RainPart,round(CurrentWeatherMod / 15))
+part_emitter_region(CurrentPartSys,CurrentPartEmitLeft,EmitterLeftXMin,EmitterLeftXMax,EmitterLeftYMin,EmitterLeftYMax,ps_shape_line,ps_distr_linear)
+part_emitter_burst(CurrentPartSys,CurrentPartEmitLeft,RainPart,round(CurrentWeatherMod / 15))
+part_emitter_region(CurrentPartSys,CurrentPartEmitRight,EmitterRightXMin,EmitterRightXMax,EmitterRightYMin,EmitterRightYMax,ps_shape_line,ps_distr_linear)
+part_emitter_burst(CurrentPartSys,CurrentPartEmitRight,RainPart,round(CurrentWeatherMod / 15))
+WeatherLiquid("current","heavyrain")
+break;
+//---------------------------------------------------
+
+case "windy":
+RitualWindS = 20
+break;
+//---------------------------------------------------
 }
 }
 </string>
@@ -841,7 +1017,7 @@ ex_audio_play("wind", true)
 }
 
 //Modulate the volume of the light wind sound to suit the current speed.
-ex_audio_set_volume("wind", 0.1 + ((0.1 / 100) * ((SimpleWindS/TopWindS) * 100)))
+ex_audio_set_volume("wind", 0.2 + ((0.2 / 100) * ((SimpleWindS/TopWindS) * 100)) - (0.1 * mBehavioursReactive.SleepingActive))
 
     
 //Weather Sounds
@@ -879,15 +1055,15 @@ ex_audio_play("lightrain", true)
 else {
 if CurrentWeatherMod &gt;= 90 {
 if mWorldController.NextWeatherSound = "lightrain" {
-ex_audio_set_volume("lightrain", (0.1 + ((0.05 / 90) * CurrentWeatherMod) + ((0.05 / 90) * NextWeatherMod)), 0)
+ex_audio_set_volume("lightrain", (0.2 + ((0.05 / 90) * CurrentWeatherMod) + ((0.05 / 90) * NextWeatherMod)) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 } else {
-ex_audio_set_volume("lightrain", (0.1 + ((0.05 / 90) * CurrentWeatherMod)), 0)
+ex_audio_set_volume("lightrain", (0.2 + ((0.05 / 90) * CurrentWeatherMod)) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 }
 } else if CurrentWeatherMod &lt; 90 {
 if mWorldController.NextWeatherSound = "lightrain" {
-ex_audio_set_volume("lightrain", (0.1 - ((0.05 / 90) * (CurrentWeatherMod - 90)) + ((0.05 /90) * (NextWeatherMod / 2))), 0)
+ex_audio_set_volume("lightrain", (0.2 - ((0.05 / 90) * (CurrentWeatherMod - 90)) + ((0.05 /90) * (NextWeatherMod / 2))) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 } else {
-ex_audio_set_volume("lightrain", (0.1 - ((0.05 / 90) * (CurrentWeatherMod - 90))), 0)
+ex_audio_set_volume("lightrain", (0.2 - ((0.05 / 90) * (CurrentWeatherMod - 90)))  - (0.2 * mBehavioursReactive.SleepingActive), 0)
 }
 }
 }
@@ -923,15 +1099,15 @@ ex_audio_play("heavyrain", true)
 else {
 if CurrentWeatherMod &gt;= 90 {
 if mWorldController.NextWeatherSound = "heavyrain" {
-ex_audio_set_volume("heavyrain", (0.2 + ((0.1 / 90) * CurrentWeatherMod) + ((0.1 / 90) * NextWeatherMod)) , 0)
+ex_audio_set_volume("heavyrain", (0.3 + ((0.1 / 90) * CurrentWeatherMod) + ((0.1 / 90) * NextWeatherMod)) - (0.2 * mBehavioursReactive.SleepingActive) , 0)
 } else {
-ex_audio_set_volume("heavyrain", (0.2 + ((0.1 / 90) * CurrentWeatherMod)), 0)
+ex_audio_set_volume("heavyrain", (0.3 + ((0.1 / 90) * CurrentWeatherMod))  - (0.2 * mBehavioursReactive.SleepingActive), 0)
 }
 } else if CurrentWeatherMod &lt; 90 {
 if mWorldController.NextWeatherSound = "heavyrain" {
-ex_audio_set_volume("heavyrain", (0.2 - ((0.1 / 90) * (CurrentWeatherMod - 90)) + ((0.1 /90) * (NextWeatherMod / 2))), 0)
+ex_audio_set_volume("heavyrain", (0.3 - ((0.1 / 90) * (CurrentWeatherMod - 90)) + ((0.1 /90) * (NextWeatherMod / 2)))  - (0.2 * mBehavioursReactive.SleepingActive), 0)
 } else {
-ex_audio_set_volume("heavyrain", (0.2 - ((0.1 / 90) * (CurrentWeatherMod - 90))), 0)
+ex_audio_set_volume("heavyrain", (0.3 - ((0.1 / 90) * (CurrentWeatherMod - 90))) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 }
 }
 }
@@ -966,15 +1142,15 @@ ex_audio_play("hail", true)
 else {
 if CurrentWeatherMod &gt;= 90 {
 if mWorldController.NextWeatherSound = "hail" {
-ex_audio_set_volume("hail", (0.2 + ((0.1 / 90) * CurrentWeatherMod) + ((0.1 / 90) * NextWeatherMod)), 0)
+ex_audio_set_volume("hail", (0.2 + ((0.2 / 90) * CurrentWeatherMod) + ((0.1 / 90) * NextWeatherMod)) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 } else {
-ex_audio_set_volume("hail", (0.2 + ((0.1 / 90) * CurrentWeatherMod)), 0)
+ex_audio_set_volume("hail", (0.2 + ((0.2 / 90) * CurrentWeatherMod)) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 }
 } else if CurrentWeatherMod &lt; 90 {
 if mWorldController.NextWeatherSound = "hail" {
-ex_audio_set_volume("hail", (0.2 - ((0.1 / 90) * (CurrentWeatherMod - 90)) + ((0.1 /90) * (NextWeatherMod / 2))), 0)
+ex_audio_set_volume("hail", (0.2 - ((0.2 / 90) * (CurrentWeatherMod - 90)) + ((0.1 /90) * (NextWeatherMod / 2))) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 } else {
-ex_audio_set_volume("hail", (0.2 - ((0.1 / 90) * (CurrentWeatherMod - 90))), 0)
+ex_audio_set_volume("hail", (0.2 - ((0.2 / 90) * (CurrentWeatherMod - 90))) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 }
 }
 }
@@ -1000,7 +1176,7 @@ ex_audio_play("lightrain", true)
 //Set volume programatically depending on current weather mod: before 50%, it is going up; after 50%, its going down.
 
 else {
-ex_audio_set_volume("lightrain", (0 + ((0.1 / 180) * NextWeatherMod)), 0)
+ex_audio_set_volume("lightrain", (0 + ((0.1 / 180) * NextWeatherMod)) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 }
 }
 break;
@@ -1018,7 +1194,7 @@ ex_audio_play("heavyrain", true)
 //Set volume programatically depending on current weather mod: before 50%, it is going up; after 50%, its going down.
 
 else {
-ex_audio_set_volume("HeavheavyrainyRainSound", (0 + ((0.1 / 180) * NextWeatherMod)), 0)
+ex_audio_set_volume("HeavheavyrainyRainSound", (0 + ((0.1 / 180) * NextWeatherMod))  - (0.2 * mBehavioursReactive.SleepingActive), 0)
 }
 }
 break;
@@ -1035,7 +1211,7 @@ ex_audio_play("hail", true)
 //Set volume programatically depending on current weather mod: before 50%, it is going up; after 50%, its going down.
 
 else {
-ex_audio_set_volume("hail", (0 + ((0.1 / 180) * NextWeatherMod)), 0)
+ex_audio_set_volume("hail", (0 + ((0.1 / 180) * NextWeatherMod)) - (0.2 * mBehavioursReactive.SleepingActive), 0)
 }
 }
 

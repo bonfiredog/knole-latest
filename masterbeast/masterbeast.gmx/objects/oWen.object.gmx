@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>mTabooParent</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Setup
 
-depth = HeadSkinLayer - 0.0001
+depth = HeadSkinLayer - 0.0002
 OtherWen = instance_place(x,y,oWen)
 if instance_exists(OtherWen) {
 if OtherWen.y &gt; y {
@@ -40,7 +40,7 @@ image_yscale = image_xscale
 OriginalScale = image_xscale
 RootedX = x
 RootedY = y
-
+TouchReset = true
 </string>
           </argument>
         </arguments>
@@ -67,7 +67,7 @@ RootedY = y
 
 if position_meeting(mouse_x,mouse_y,self)
 and mouse_check_button(mb_any)
-and mInterfaceController.CurrentHandUse != "shave"
+and mInterfaceController.CurrentHandUse = "burstwen"
 and sprite_index != sWenHole
 and mInterfaceController.CurrentView = MicroView
 {
@@ -92,8 +92,48 @@ image_yscale = image_xscale
 image_angle = random(360)
 }
 
+if (instance_exists(mFinger) and place_meeting(x,y,mFinger) and mInterfaceController.Healing = true) {
+instance_destroy()
+}
 
 FadeInWithZoom()
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Touching With Sound
+
+if position_meeting(mouse_x,mouse_y,self) and mInterfaceController.CurrentHandUse = "burstwen" and instance_exists(mDebug) = false
+and AmountForward(80) and mouse_check_button(mb_any) {
+if TouchReset = true {
+TouchReset = false
+TouchSound = choose("touchwet1","touchwet2","touchwet3")
+ex_audio_set_volume(TouchSound,BothVolMod(0.05),0)
+ex_audio_set_position(TouchSound,mouse_x,mouse_y,1)
+ex_audio_set_pitch(TouchSound,random_range(0.95,1.05))
+ex_audio_play(TouchSound,0)
+}
+} else {
+if TouchReset = false {
+TouchReset = true
+}
+}
 </string>
           </argument>
         </arguments>

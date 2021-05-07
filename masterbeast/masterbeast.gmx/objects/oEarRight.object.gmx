@@ -47,6 +47,7 @@ ShakeModY = 0
 ShakeTimer = 0
 Ripped = false
 ClearOfHead = false
+PullGraceTimer = 0
 
 EarLumpRightY = 0
 
@@ -162,6 +163,7 @@ ShakeModY = 0
 ShakeModMod = 0
 EarPullInitial()
 StartScreenShake(420,1,2)
+PullGraceTimer = 400
 }
 
 //Slowly repair the ear over time.
@@ -174,7 +176,7 @@ PullTimer -= 0.05
 
 //When Pulling...
 if Pulling = true {
-
+PullGraceTimer = 400
 CurrentVol = ex_audio_get_volume("hornpull")
 ex_audio_set_volume("hornpull", CurrentVol + 0.01,0) 
 EarPullOngoing()
@@ -200,7 +202,7 @@ y = clamp(y,(CurrentY - 10),CurrentY + 10)
 
 if PullTimer &lt; 100 {
 //Countdown
-PullTimer += 0.2
+PullTimer += 0.3
 
 
 //Make ear redder
@@ -274,6 +276,7 @@ if BaseRedness &gt; 0 {
 BaseRedness -= 0.01
 }
 
+
 //Rotate onto a tilt {
 if image_angle &gt; -20 {
 image_angle -= 3
@@ -300,6 +303,9 @@ image_angle += (2 * ChooseDir)
 
 PullTimer = clamp(PullTimer,0,100)
 
+if PullGraceTimer &gt; 0 {
+PullGraceTimer -= 1
+}
 
 </string>
           </argument>

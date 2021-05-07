@@ -1,5 +1,5 @@
 ///EarPullOngoing()
-if DrivesAreOn() {
+if mDriveCollectionMaster.RealReactionsOn = true {
 if mCreatureController.EarsPulled < 1 {
 if IsInRitual() {
 mCreatureController.BaseResistance-=0.5 + ((0.5 / 180) * (180 - PullTimer))
@@ -12,20 +12,22 @@ ChangeEmotionStep("happy","up",0.0005+ ((0.005 / 180) * (180 - PullTimer))
 ChangeEmotionStep("fear","up",0.5+ ((0.5 / 180) * (180 - PullTimer))
 )
 mCreatureController.BaseLust+=0.005 + ((0.005 / 180) * (180 - PullTimer))
-mDriveCollectionMaster.BaseBreathRate += 0.00004 + ((0.005 / 180) * (180 - PullTimer))
+mDriveCollectionMaster.BaseBreathRate += 0.000004 + ((0.005 / 180) * (180 - PullTimer))
+if Chance(mCreatureController.Pain / 1000) - ((1000 / 180) * (180 - PullTimer)) {WinkRun(irandom_range(2,6))}
 
-if ChanceToRitualReact() {
+if ChanceToRitualReact() * ReactChance()
+{
 EyeSquint(irandom_range(0,3),true,irandom_range(80,200))
 }
 ShiverChance(0.02)
 
 } else {
 ChanceToWake(0.05)
-mCreatureController.BasePain += 0.9
-mCreatureController.BaseStress += 0.9
+mCreatureController.BasePain += 0.9 * mPlotController.ISModifier
+mCreatureController.BaseStress += 0.9 * mPlotController.ISModifier
 ChangeEmotionStep("fear","up",0.9)
-mCreatureController.BaseResistance -= 0.9
-mCreatureController.SubIntent -= 0.04
+mCreatureController.BaseResistance -= 0.9 * mPlotController.ISModifier
+mCreatureController.BaseSubIntent -= 0.04 * mPlotController.ISModifier
 VocaliseChance(1 + (5 / 100 * PullTimer))
 mCreatureController.BaseResistance-=0.005 + ((0.005 / 180) * (180 - PullTimer))
 mCreatureController.BaseStress+=0.005 + ((0.005 / 180) * (180 - PullTimer))
@@ -46,7 +48,7 @@ ChangeEmotionStep("sad","up",0.0005 + ((0.005 / 180) * (180 - PullTimer)))
 ChangeEmotionStep("shame","up",0.0005 + ((0.005 / 180) * (180 - PullTimer)))
 }
 mCreatureController.BaseLust+=0.005 + ((0.005 / 180) * (180 - PullTimer))
-mDriveCollectionMaster.BaseBreathRate += 0.00004 + ((0.005 / 180) * (180 - PullTimer))
+mDriveCollectionMaster.BaseBreathRate += 0.000004 + ((0.00005 / 180) * (180 - PullTimer))
 if Chance(mCreatureController.Pain / 1000) - ((1000 / 180) * (180 - PullTimer)) {
 RandomShake()
 }
@@ -82,7 +84,7 @@ ChangeEmotionStep("shame","up",0.005 + ((0.05 / 180) * (180 - PullTimer)))
 }
 mCreatureController.BaseLust+=0.005 + ((0.05 / 180) * (180 - PullTimer))
 
-mDriveCollectionMaster.BaseBreathRate += 0.0004 + ((0.05 / 180) * (180 - PullTimer))
+mDriveCollectionMaster.BaseBreathRate += 0.000004 + ((0.000005 / 180) * (180 - PullTimer))
 if Chance(mCreatureController.Pain / 100) - ((100 / 180) * (180 - PullTimer)) {
 RandomShake()
 }

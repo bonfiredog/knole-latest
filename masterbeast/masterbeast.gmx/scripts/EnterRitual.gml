@@ -6,18 +6,23 @@ TimeTaken = irandom_range(60,120)
 EyeSquint(3,true,TimeTaken)
 LittleJump()
 TwitchRun(15)
-MoveToXY(0,1000,60,MacroView,50)
+MoveToXY(500,1000,MoveSpeedCalc(),MacroView,ZoomSpeedCalc())
 NumberOfBlinks(5)
 with oBellSounder {
 StartedTolling = true 
 NumberOfTolls = 1
 TollStart = false
 }
+if instance_exists(oEarLeft) {
 oEarLeft.BaseRedness = 0.5
+}
+if instance_exists(oEarRight) {
 oEarRight.BaseRedness = 0.5
+}
 
 ChangeEmotion("surprise","up",1,40)
 mCreatureController.Lust += 20
+mCreatureController.CloseToAnne += 0.03 * mPlotController.ISModifier
 StartShiverBehaviour(12,TimeTaken,2)
 
 with mDriveCollectionMaster {

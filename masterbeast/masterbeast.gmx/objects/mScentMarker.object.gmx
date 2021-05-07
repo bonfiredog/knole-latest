@@ -31,8 +31,8 @@ image_alpha = 0
 OriginalX = x
 OriginalY = y
 FadeTimer = 400
-image_xscale = 0.05
-image_yscale = 0.05
+image_xscale = 0.1
+image_yscale = 0.1
 </string>
           </argument>
         </arguments>
@@ -55,9 +55,11 @@ image_yscale = 0.05
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Move With Body &amp; Destroy If Zoom Out
+            <string>///Fade, Then Destroy
 
-if mBehavioursDeliberative.PercentForward &lt; 70 {
+if FadeTimer &gt; 0 {
+FadeTimer -= 0.3
+} else {
 instance_destroy()
 }
 </string>
@@ -80,11 +82,38 @@ instance_destroy()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Fade, Then Destroy
+            <string>///Destroy If Cleaned
 
-if FadeTimer &gt; 0 {
-FadeTimer -= 0.3
-} else {
+if instance_exists(mFinger) 
+and mInterfaceController.Cleaning = true
+and position_meeting(mFinger.x,mFinger.y,self)
+and mInterfaceController.PressBegun = true 
+{ 
+instance_destroy()
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Move With Body &amp; Destroy If Zoom Out
+
+if mBehavioursDeliberative.PercentForward &lt; 70 {
 instance_destroy()
 }
 </string>

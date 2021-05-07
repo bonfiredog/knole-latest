@@ -1,7 +1,11 @@
 ///CellarProximityReactions()
 
-if DrivesAreOn() {
-if IsAlive() and PickedUp = true and Rooted = false and IsInRitual() = false {
+if mDriveCollectionMaster.RealReactionsOn = true {
+
+if IsAlive() 
+and PickedUp = true 
+and Rooted = false 
+and IsInRitual() = false {
 
 if IsAsleep() = false {
 TwitchIfNearBP(x,y,50)
@@ -20,17 +24,17 @@ StopVocalisation()
 ChangeEmotion("surprise","up",0.4,40)
 HoldBreathFor(30)
 ShiftAway(x,y,irandom_range(20,30),random(360))
-CellarProxTimer = 3000 + NumberISMod(Tiredness,1000) + LowAliveMod(1000) 
+CellarProxTimer = 3000 + NumberISMod(mCreatureController.Tiredness,1000) + LowAliveMod(1000) 
 } else {
-CellarProxTimer = 3000 + NumberISMod(Tiredness,1000) + LowAliveMod(1000)
+CellarProxTimer = 3000 + NumberISMod(mCreatureController.Tiredness,1000) + LowAliveMod(1000)
 }
-if Chance(0.01){EyeSquint(irandom_range(0,3),true,irandom_range(20,45))}
-if Chance(0.01){NumberOfBlinks(irandom_range(20,46))}
+if Chance(0.2 ){EyeSquint(irandom_range(0,3),true,irandom_range(20,45))}
+if Chance(0.2){NumberOfBlinks(irandom_range(20,46))}
 
-if Chance(0.01){RandomShake()}
-mCreatureController.BaseStress += 0.5
-mDriveCollectionMaster.BaseBreathRate += 0.05
-mCreatureController.BaseSubIntent -= 0.05
+if Chance(0.2){RandomShake()}
+mCreatureController.BaseStress += 0.5 * mDriveCollectionMaster.ISModifier
+mDriveCollectionMaster.BaseBreathRate += 0.000005 * mPlotController.ISModifier
+mCreatureController.BaseSubIntent -= 0.05 * mPlotController.ISModifier
 ChangeEmotionStep("happy","down",0.5)
 ChangeEmotionStep("anger","up",0.5)
 ChangeEmotionStep("fear","up",0.5)
@@ -39,7 +43,7 @@ mCreatureController.BaseResistance -= 0.5
 }
 
 //Ears
-if point_distance(x,y,oEarLeft.x,oEarLeft.y) < 100 or point_distance(x,y,oEarRight.x,oEarRight.y) < 100 
+if (instance_exists(oEarLeft) and point_distance(x,y,oEarLeft.x,oEarLeft.y) < 100) or (instance_exists(oEarRight) and point_distance(x,y,oEarRight.x,oEarRight.y) < 100) 
 and AmountForward(60)
 {
 ChanceToWake(0.1)
@@ -53,15 +57,15 @@ StopVocalisation()
 ChangeEmotion("surprise","up",0.4,40)
 HoldBreathFor(30)
 ShiftAway(x,y,irandom_range(20,30),random(360))
-CellarProxTimer = 3000 + NumberISMod(Tiredness,1000) + LowAliveMod(1000) 
+CellarProxTimer = 3000 + NumberISMod(mCreatureController.Tiredness,1000) + LowAliveMod(1000) 
 } else {
-CellarProxTimer = 3000 + NumberISMod(Tiredness,1000) + LowAliveMod(1000)
+CellarProxTimer = 3000 + NumberISMod(mCreatureController.Tiredness,1000) + LowAliveMod(1000)
 }
 
-if Chance(0.01){RandomShake()}
-mCreatureController.BaseStress += 0.5
-mDriveCollectionMaster.BaseBreathRate += 0.05
-mCreatureController.BaseSubIntent -= 0.05
+if Chance(0.2){RandomShake()}
+mCreatureController.BaseStress += 0.5 * mPlotController.ISModifier
+mDriveCollectionMaster.BaseBreathRate += 0.000005 * mPlotController.ISModifier
+mCreatureController.BaseSubIntent -= 0.05 * mPlotController.ISModifier
 ChangeEmotionStep("happy","down",0.5)
 ChangeEmotionStep("anger","up",0.5)
 ChangeEmotionStep("fear","up",0.5)
@@ -72,7 +76,7 @@ mCreatureController.BaseResistance -= 0.5
 //Nose
 if distance_to_object(oNose1) < 30
 and AmountForward(60) {
-ChanceToWake(0.1)
+ChanceToWake(0.2)
 if mDriveCollectionMaster.CellarProxTimer <= 0 {
 LittleJump()
 StopShiverBehaviour()
@@ -83,18 +87,18 @@ StopVocalisation()
 ChangeEmotion("surprise","up",0.4,40)
 HoldBreathFor(30)
 ShiftAway(x,y,irandom_range(20,30),random(360))
-CellarProxTimer = 3000 + NumberISMod(Tiredness,1000) + LowAliveMod(1000) 
+CellarProxTimer = 3000 + NumberISMod(mCreatureController.Tiredness,1000) + LowAliveMod(1000) 
 } else {
-CellarProxTimer = 3000 + NumberISMod(Tiredness,1000) + LowAliveMod(1000)
+CellarProxTimer = 3000 + NumberISMod(mCreatureController.Tiredness,1000) + LowAliveMod(1000)
 }
-if Chance(0.01){StartNumberSniffsBehaviour(irandom_range(1,3))}
-if Chance(0.01){StartTwitchBehaviour(30,30,2)}
-if Chance(0.01){StartTwitchNoseSideBehaviour(irandom_range(20,50))}
+if Chance(0.2){StartNumberSniffsBehaviour(irandom_range(1,3))}
+if Chance(0.2){StartTwitchBehaviour(30,30,2)}
+if Chance(0.2){StartTwitchNoseSideBehaviour(irandom_range(20,50))}
 
-if Chance(0.01){RandomShake()}
-mCreatureController.BaseStress += 0.5
-mDriveCollectionMaster.BaseBreathRate += 0.05
-mCreatureController.BaseSubIntent -= 0.05
+if Chance(0.2){RandomShake()}
+mCreatureController.BaseStress += 0.5 * mPlotController.ISModifier
+mDriveCollectionMaster.BaseBreathRate += 0.000005 * mPlotController.ISModifier
+mCreatureController.BaseSubIntent -= 0.05 * mPlotController.ISModifier
 ChangeEmotionStep("happy","down",0.5)
 ChangeEmotionStep("anger","up",0.5)
 ChangeEmotionStep("fear","up",0.5)

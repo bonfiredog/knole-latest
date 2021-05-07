@@ -11,7 +11,7 @@ LittleJump()
 if Chance(20) {
 TwitchRun(irandom_range(3,8))
 }
-mDriveCollectionMaster.BaseBreathRate += 0.002
+mDriveCollectionMaster.BaseBreathRate += 0.0002
 StopYawnBehaviour()
 StopVocalisation()
 StopXYMove()
@@ -30,7 +30,7 @@ ISUp(CloseToAnne,2)
 if ChanceToRitualReact() {
 StartShiverBehaviour(3,irandom_range(2,5),1)
 }
-MoveToXY(mFinger.x,mFinger.y,20,mInterfaceController.CurrentView,10)
+MoveToXY(mouse_x,mouse_y,20,mInterfaceController.CurrentView,10)
 if mBehavioursDeliberative.PercentForward < 100 {
 MoveBackForward("comeforward",20,20)
 }
@@ -38,7 +38,7 @@ MoveBackForward("comeforward",20,20)
 EmotionRequest()
 ChangeEmotion("shame","up",0.3,2)
 ChangeEmotion("sad","up",0.3,2)
-ISUp(BaseStress,2)
+ISUp(mCreatureController.BaseStress,2)
 ISDown(BaseSubIntent,0.002)
 if Chance(5) {
 ShiftAway(mFinger.x,mFinger.y,50,random(360))

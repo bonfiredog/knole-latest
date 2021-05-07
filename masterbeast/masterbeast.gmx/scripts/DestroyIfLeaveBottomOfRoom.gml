@@ -1,5 +1,5 @@
 ///DestroyIfLeaveBottomOfRoom()
 
-if y > room_height + 20 {
+if y > 5000 {
 instance_destroy()
 }

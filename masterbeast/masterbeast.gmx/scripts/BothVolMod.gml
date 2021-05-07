@@ -3,17 +3,19 @@
 if mBehavioursDeliberative.PercentForward <= 0
 {
 return 0
-} 
-else if mInterfaceController.CurrentView = MacroView {
-//If Disappearing/Reappearing
-if instance_exists(mBehavioursDeliberative.DScreen) {
-return argument0 / 6 + ((((argument0 / 6) * 5) / 100) * (mBehavioursDeliberative.DScreen.image_alpha * 100))
-//If Zooming In
-} else if mInterfaceController.ChangingView = true {
+} else {
+
+if mInterfaceController.CurrentView = MacroView {
+if mInterfaceController.ChangingView = true {
 return argument0 + (((argument0 / 2) / mInterfaceController.ZoomRate) * mInterfaceController.ZoomTimer)
 //If Stable
 } else {
+//If Disappearing/Reappearing
+if mBehavioursDeliberative.PercentForward >= 70 {
 return argument0
+} else {
+return (argument0 / 70) * mBehavioursDeliberative.PercentForward
+}
 }
 
 } else if mInterfaceController.CurrentView = MicroView {
@@ -24,6 +26,6 @@ return (argument0 * 1.1) - (((argument0 / 2) / mInterfaceController.ZoomRate) * 
 } else {
 return argument0 * 1.1
 }
-} else {
-return argument0
-} 
+}
+}
+

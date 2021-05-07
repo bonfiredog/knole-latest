@@ -148,80 +148,6 @@ AmountGrown = clamp(AmountGrown,0,100)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Being Touched
-
-if Shed = false {
-if Wettening != true {
-
-if (Plucking = false 
-and mouse_check_button(mb_any)
-and instance_exists(mDebug) = false
-and place_meeting(x,y,mFinger)
-and mBehavioursDeliberative.PercentForward &gt;= 70)
-or
-(place_meeting(x,y,oMoleHerd))
-{
-if Touched = false {
-Touched = true
-}
-} else {
-Touched = false
-}
-
-
-
-
-if Touched = true and Plucking = false  {
-//Rotate To One Side Slowly
-if x &lt; (mouse_x) {
-TouchRotateMod -= (2 - ((1 / 100) * WetTouchPercent))
-} else if x &gt; (mouse_x) {
-TouchRotateMod += (2 - ((1 / 100) * WetTouchPercent))
-}
-
-} else if Touched = false {
-
-//Slowly Return To Normal Rotation
-
-ChangeOrNot = choose(-1,-1,-1,-1,-1,1)
-
-if ChangeOrNot = 1 {
-RotateChange = random_range(3,6)
-}
-
-if TouchRotateMod &gt; 0 {
-TouchRotateMod -= RotateChange 
-}
-
-if TouchRotateMod &lt; 0 {
-TouchRotateMod += RotateChange
-}
-
-}
-}
-
-TouchRotateMod = clamp(TouchRotateMod,-30,30)
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>///Maintain Position
 
 direction = OriginalRotation + WindMod + TouchRotateMod + HoldRotateMod + WetMod
@@ -291,6 +217,80 @@ if position_meeting(x,y,oStabWound) or position_meeting(x,y,oWound) {
 part_emitter_region(mFurController.FurPartSys,mFurController.FurPartEmit,x - 3,x + 3,y - 3,y + 3,ps_shape_ellipse,ps_distr_gaussian)
 part_emitter_burst(mFurController.FurPartSys,mFurController.FurPartEmit,mFurController.FurPart,50)
 instance_destroy()
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Being Touched
+
+if Shed = false {
+if Wettening != true {
+
+if (Plucking = false 
+and mouse_check_button(mb_any)
+and instance_exists(mDebug) = false
+and place_meeting(x,y,mFinger)
+and mBehavioursDeliberative.PercentForward &gt;= 70)
+or
+(place_meeting(x,y,oMoleHerd))
+{
+if Touched = false {
+Touched = true
+}
+} else {
+Touched = false
+}
+
+
+
+
+if Touched = true and Plucking = false  {
+//Rotate To One Side Slowly
+if x &lt; (mouse_x) {
+TouchRotateMod -= (2 - ((1 / 100) * WetTouchPercent))
+} else if x &gt; (mouse_x) {
+TouchRotateMod += (2 - ((1 / 100) * WetTouchPercent))
+}
+
+} else if Touched = false {
+
+//Slowly Return To Normal Rotation
+
+ChangeOrNot = choose(-1,-1,-1,-1,-1,1)
+
+if ChangeOrNot = 1 {
+RotateChange = random_range(3,6)
+}
+
+if TouchRotateMod &gt; 0 {
+TouchRotateMod -= RotateChange 
+}
+
+if TouchRotateMod &lt; 0 {
+TouchRotateMod += RotateChange
+}
+
+}
+}
+
+TouchRotateMod = clamp(TouchRotateMod,-30,30)
 }
 </string>
           </argument>

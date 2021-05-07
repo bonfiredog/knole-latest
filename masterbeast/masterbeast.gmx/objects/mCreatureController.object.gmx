@@ -53,15 +53,14 @@ Stress = BaseStress
 //Create Internal Systems SubControllers
 
 //Concepts
-BaseTrust = 0
-Trust = 0
+BaseTrust = 50
+Trust = 50
 BaseSubIntent = 0
-SubIntent = 0
-BaseResistance = 0
-BaseAnneIntent = 0
-Resistance = 0
-CloseToAnne = 0
-AnneIntent = 0
+BaseResistance = 30
+Resistance = 30
+CloseToAnne = 50
+BaseAnneIntent = -1
+AnneIntent = -1
 Triad = 0
 Dirt = 0
 
@@ -132,6 +131,7 @@ HeardLoudSound = false
 HeardLoudSoundConf = false
 HeardSoundTimer = 0
 HeardLoudSoundReset = false
+HeardSoundReset = false
 
 PewterWeight = 0
 
@@ -147,6 +147,7 @@ alarm[2] = HairDropRate
 alarm[3] = 50
 
 NewPhrase = false
+CankerPullTimer = 0
 
 
 PartBreathSys = part_system_create()
@@ -165,7 +166,7 @@ part_type_life(BreathPart,20,30)
 
 CoughPart = part_type_create()
 part_type_sprite(CoughPart,sSleet,0,0,0)
-part_type_size(CoughPart,0.03,0.06,0.01,0)
+part_type_size(CoughPart,0.1,0.2,0.01,0)
 part_type_alpha1(CoughPart,1)
 part_type_speed(CoughPart,40,80,0,0)
 part_type_direction(CoughPart,0,359,0,0)
@@ -173,6 +174,7 @@ part_type_gravity(CoughPart,0.001,90)
 part_type_blend(CoughPart,0)
 part_type_life(CoughPart,5,10)
 part_type_orientation(CoughPart,0,359,0,0,true)
+
 
 BreathEmit = part_emitter_create(PartBreathSys)
 
@@ -215,6 +217,9 @@ TimeSinceLastMotion = 0
 NewTouchReacted = false
 
 LustIrriTimer = 0
+
+HearingMB = 0
+CloseToAnneTemp = 0
 </string>
           </argument>
         </arguments>
@@ -272,6 +277,7 @@ BasePain -= 0.001 // (over course of day)
 BaseLust -= 0.03 // over course of hour)
 BaseStress -= 0.03 // over course of hour
 BaseResistance -= 0.06 // over course of half hour)
+BaseSubIntent += 0.00003
 }
 
 alarm[3] = fps
@@ -435,7 +441,33 @@ alarm[0] = 10
             <kind>1</kind>
             <string>///Hearing Noise
 
+
+if Alive &gt; 0 {
+
+if HeardSound = true {
+if HeardSoundReset = false {
 HearNoiseReactions()
+}
+HeardSoundReset = true
+HeardSound = false
+}
+
+
+if HeardSoundReset = true {
+
+if HeardSoundTimer &gt; 0 {
+HeardSoundTimer -= 1
+}
+
+if HeardSoundTimer &lt;= 0 {
+HeardSoundTimer = 0
+HeardSound = false
+HeardSoundConf = false
+HeardSoundReset = false
+LatestMicVolume = 0
+}
+}
+}
 </string>
           </argument>
         </arguments>
@@ -459,62 +491,20 @@ HearNoiseReactions()
             <string>///Hearing Loud Noise
 
 if Alive &gt; 0 {
+
 if HeardLoudSound = true {
 if HeardLoudSoundReset = false {
-
-if DrivesAreOn() {
-if mBehavioursReactive.Sleeping = false {
-StopXYMove()
-if Chance(70) {
-StopMoveInOut()
-} else {
-MoveBackForward("retreat",10,20 + ((20 / 100) * mEmotionSubController.FearActivation))
-}
-if mBehavioursDeliberative.Vocalising = true {
-StopOrNot = choose(-1,1,1)
-StopOrNot += ((1.5 / 100) * mCreatureController.Resistance)
-if StopOrNot &gt; 0 {
-StopVocalisation()
-StopVocalPhrase()
-}
-}
-}
-
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-if Chance(30){RandomShake()}
-VocaliseChance(30 + ((30 / 100) * mEmotionSubController.FearActivation))
-ChangeEmotion("fear","up",1,max(0,((25 / 100) * (Triad * 100))))
-ChangeEmotion("happy","down",1,(10 + ((10 / 100) * Pain)))
-ChangeEmotion("anger","up",0.5,((20 / 100) * Resistance))
-BaseResistance -= 5
-BaseStress += 5
-SubIntent -= 0.05 
-BaseTrust -= 4 
-CloseToAnne += 2
-BasePain += 4
-LittleJump()
-mDriveCollectionMaster.BaseBreathRate += irandom_range(0.1,0.3)
-if mBehavioursReactive.Sleeping = true {
-ChanceToWake(40)
-}
-if Faces = "none" and mInterfaceController.PressBegun = false {
-ChangeEmotion("surprise","up",0.7,irandom_range(40,70))
-} else {
-ChangeEmotion("surprise","up",0.7,irandom_range(40,50))
-}
-}
+HearLoudNoiseReactions()
 mDriveCollectionMaster.NoInteractionTimer = 0
 HeardLoudSoundReset = true
 }
+}
 
 if HeardLoudSoundReset = true {
+
 if HighVolumeTimer &gt; 0 {
 HighVolumeTimer -= 1
 }
-}
-
 
 if HighVolumeTimer &lt;= 0 {
 HighVolumeTimer = 0
@@ -551,8 +541,8 @@ FaceCooldown -= 1
 }
 
 if file_exists("new speech result.txt") {
-if Alive &gt; 0 and mBehavioursDeliberative.PercentForward &gt; 0 and Heard() {
-if Chance(Alive + 50) {
+if Alive &gt; 0 and Heard() {
+if Chance(Alive + 70) {
 ReadLastRecognitionResult()
 WriteToLog("New Recognition Result - '" + global.LatestRecognisedPhrase + "'")
 NewPhrase = true
@@ -569,55 +559,18 @@ if LatestPhraseTimer &gt; 0 {
 LatestPhraseTimer -= 1
 } else if LatestPhraseTimer &lt;= 0 {
 LatestPhraseTimer = 0
-global.LastRecognisedPhrase = global.LatestRecognisedPhrase
+if global.LatestRecognisedPhrase != "" {
+//global.LastRecognisedPhrase = global.LatestRecognisedPhrase
+}
 global.LatestRecognisedPhrase = ""
 }
 }
 
 
 if NewPhrase = true {
-if DrivesAreOn() {
 
-ChanceToWake(10)
-if mBehavioursReactive.Sleeping = false {
-if mDriveCollectionMaster.InRitual = true {
-TwitchRun(irandom_range(5,10))
-if Chance(50){HoldBreathFor(irandom_range(10,30))}
-StopYawnBehaviour()
-StopMoveInOut()
-StopXYMove()
-StopVocalisation()
-StopVocalPhrase()
-if Chance(75) and mBehavioursDeliberative.PercentForward &lt; 100{MoveBackForward("comeforward",10,100 - mBehavioursDeliberative.PercentForward)}
-CloseToAnne += 1
-ChangeEmotionStep("happy","up",2)
-ChangeEmotionStep("fear","down",2)
-ChangeEmotionStep("anger","down",1)
-BaseLust += 1
-} else {
-if Chance(50){HoldBreathFor(irandom_range(10,30))}
-if Chance(30 + ((30 / 100) * mEmotionSubController.FearActivation)){StartSwallowBehaviour(20,3)}
-RCom = choose(-1,1)
-if RCom = 1 {StartEyebrowTwitchLeftBehaviour() StartEyebrowTwitchRightBehaviour()}
-RCom = choose(-1,1)
-if RCom = 1 {StartTwitchNoseSideBehaviour(irandom_range(20,30))}
-RCom = choose(-1,1)
-if RCom = 1 {StartBlinkBehaviour()}
-if Chance(30) {StartNumberSniffsBehaviour(irandom_range(1,3))}
-if (mEmotionSubController.FearActivation &gt; 50) {
-StopYawnBehaviour()
-StopMoveInOut()
-StopXYMove()
-StopVocalisation()
-StopVocalPhrase()
-ChangeEmotionStep("fear","up",(3 * Triad))
-ChangeEmotion("happy","down",0.2,(3 * Triad))
-ChangeEmotionStep("anger","up",((3 / 100) * mEmotionSubController.AngryActivation))
-if Chance(15){MoveBackForward("retreat",10,100 - mBehavioursDeliberative.PercentForward)}
-}
-}
-} 
-}
+NewPhraseReactions()
+NewPhrase = false
 
 }
 
@@ -645,7 +598,7 @@ if Chance(15){MoveBackForward("retreat",10,100 - mBehavioursDeliberative.Percent
           <argument>
             <kind>1</kind>
             <string>///Motion Detection (#1 and #2)
-/*
+
 if Alive &gt; 0 and EyesNotClosed() and Seen() and
 (
 (mInterfaceController.CurrentView = MacroView and mBehavioursDeliberative.PercentForward &gt; 0)
@@ -654,71 +607,17 @@ or
 )
 )
 {
-mCreatureController.TimeSinceLastMotion += 1
 RecogniseMotion1()
 RecogniseMotion2()
 }
 
+
+
+
 if MotionDetected1 = true {
-if IsAlive() and IsAsleep() = false and mDriveCollectionMaster.Dozing = false and EyesNotClosed() and AmountForward(5) and (PlayerViewOverObject(oEyeballLeft) or PlayerViewOverObject(oEyeballRight)) {
-
-if MotionReact1 = false {
-WriteToLog("Seen motion in main camera.")
-
-if IsInRitual() {
-RandomTwitch()
-if Faces = "0" or MoveSurpriseTimer1 &lt;= 0 or mDriveCollectionMaster.NoInteractionTimer &gt; 2000 {
-HoldBreathFor(30)
-ChangeEmotion("surprise","up",1,30)
-ChangeEmotion("happy","up",0.6,20)
-mDriveCollectionMaster.BaseBreathRate += 0.3
-if ChanceToRitualReact() {StartNumberSniffsBehaviour(irandom_range(2,5))}
-NumberOfBlinks(irandom_range(1,5))
-if Chance(50) {MoveBackForward("comeforward",20,100 - mBehavioursDeliberative.PercentForward)}
-if ChanceToRitualReact() {
-choose(
-LittleJump,
-TwitchRun(irandom_range(5,20)),
-ShiverChance(90)
-)
+if MotionReact1 = false
+ReactMotion1()
 }
-}
-} else {
-RandomTwitch()
-if Faces = "0" or MoveSurpriseTimer1 &lt;= 0 or mDriveCollectionMaster.NoInteractionTimer &gt; 2000 {
-HoldBreathFor(30)
-if Chance(40) {StartNumberSniffsBehaviour(irandom_range(2,5))}
-ChangeEmotion("surprise","up",1,30)
-if Chance(50) {StartEyebrowTwitchRightBehaviour() StartEyebrowTwitchLeftBehaviour() }
-mDriveCollectionMaster.BaseBreathRate += 0.3
-NumberOfBlinks(irandom_range(1,5))
-if Chance(40) { LittleJump() }
-VocaliseChance(30)
-if Chance(40) { EyeSquint(3,true,25) }
-if Triad &lt; 0 {
-if Chance(20 - (10 * Triad)) {MoveBackForward("retreat",20,irandom_range(10,20))} 
-if Chance(40) { StartSwallowBehaviour(25,20)}
-ChangeEmotion("fear","up",0.3,20)
-if Resistance &gt; 50 { ChangeEmotion("anger","up",0.3,10) }
-ChangeEmotion("shame","up",0.3,10)
-ISUp(BaseStress,3)
-if Chance(35) { RandomShake() }
-} else { 
-if Chance(20 + (10 * Triad)) {MoveBackForward("comeforward",10 + (20 * Triad),irandom_range(10,20))} 
-if Chance(25 + (20 * Triad)) { NodUpDown(irandom_range(1,3),20)}
-ChangeEmotion("happy","up",0.3,10)
-ISDown(BaseStress,3)
-ISUp(Lust,2)
-}
-}
-}
-MoveSurpriseTimer1 = irandom_range(2000,3000) + ((2000 / 100) * (100 - Alive))
-MotionReact1 = true
-}
-}
-}
-
-
 
 if MotionCounter1 &gt; 0 {
 MotionCounter1 -= 1
@@ -727,67 +626,15 @@ MotionDetected1 = false
 MotionReact1 = false
 }
 
+
 //----------------------------------------------
 
 
 if MotionDetected2 = true {
-if IsAlive() and IsAsleep() = false and mDriveCollectionMaster.Dozing = false and EyesNotClosed() and AmountForward(5) and (PlayerViewOverObject(oEyeballLeft) or PlayerViewOverObject(oEyeballRight)) {
+if MotionReact2 = false
+ReactMotion2()
+}
 
-if MotionReact2 = false {
-WriteToLog("Seen motion in secondary camera.")
-
-if IsInRitual() {
-RandomTwitch()
-if Faces = "0" or MoveSurpriseTimer2 &lt;= 0 or mDriveCollectionMaster.NoInteractionTimer &gt; 2000 {
-HoldBreathFor(30)
-ChangeEmotion("surprise","up",1,30)
-ChangeEmotion("happy","up",0.6,20)
-mDriveCollectionMaster.BaseBreathRate += 0.3
-if ChanceToRitualReact() {StartNumberSniffsBehaviour(irandom_range(2,5))}
-NumberOfBlinks(irandom_range(1,5))
-if Chance(50) {MoveBackForward("comeforward",20,100 - mBehavioursDeliberative.PercentForward)}
-if ChanceToRitualReact() {
-choose(
-LittleJump,
-TwitchRun(irandom_range(5,20)),
-ShiverChance(90)
-)
-}
-}
-} else {
-RandomTwitch()
-if Faces = "0" or MoveSurpriseTimer2 &lt;= 0 or mDriveCollectionMaster.NoInteractionTimer &gt; 2000 {
-HoldBreathFor(30)
-if Chance(40) {StartNumberSniffsBehaviour(irandom_range(2,5))}
-ChangeEmotion("surprise","up",1,30)
-if Chance(50) {StartEyebrowTwitchRightBehaviour() StartEyebrowTwitchLeftBehaviour() }
-mDriveCollectionMaster.BaseBreathRate += 0.3
-NumberOfBlinks(irandom_range(1,5))
-if Chance(40) { LittleJump() }
-VocaliseChance(30)
-if Chance(40) { EyeSquint(3,true,25) }
-if Triad &lt; 0 {
-if Chance(20 - (10 * Triad)) {MoveBackForward("retreat",20,irandom_range(20,30))} 
-if Chance(40) { StartSwallowBehaviour(25,20)}
-ChangeEmotion("fear","up",0.3,20)
-if Resistance &gt; 50 { ChangeEmotion("anger","up",0.3,10) }
-ChangeEmotion("shame","up",0.3,10)
-ISUp(BaseStress,3)
-if Chance(35) { RandomShake() }
-} else { 
-if Chance(20 + (10 * Triad)) {MoveBackForward("comeforward",10 + (20 * Triad),irandom_range(20,30))} 
-if Chance(25 + (20 * Triad)) { NodUpDown(irandom_range(1,3),20)}
-ChangeEmotion("happy","up",0.3,10)
-ISDown(BaseStress,3)
-ISUp(Lust,2)
-}
-}
-}
-MoveSurpriseTimer2 = irandom_range(2000,3000) + ((2000 / 100) * (100 - Alive))
-MotionReact2 = true
-}
-}
-}
 
 if MotionCounter2 &gt; 0 {
 MotionCounter2 -= 1
@@ -795,8 +642,6 @@ MotionCounter2 -= 1
 MotionDetected2 = false
 MotionReact2 = false
 }
-
-
 
 
 
@@ -884,11 +729,10 @@ RoundInternalStates()
           <argument>
             <kind>1</kind>
             <string>///Pulling In Image Results &amp; ColourResults
-/*
+
 PullInImageResult1()
 PullInImageResult2()
-PullInColourResult1()
-PullInColourResult2()
+
 </string>
           </argument>
         </arguments>
@@ -986,7 +830,7 @@ PullInEmotionResult()
             <kind>1</kind>
             <string>///New Touches
 
-if DrivesAreOn() {
+if mDriveCollectionMaster.RealReactionsOn = true {
 if position_meeting(mouse_x,mouse_y,mCreatureParent)
 and Alive &gt; 0 
 and NewTouch = false 
@@ -1000,10 +844,11 @@ NewTouchReacted = false
 }
 
 //React To New Touches
-if NewTouchReacted = false {
+if NewTouch = true and NewTouchReacted = false {
 
+WinkRun(1)
 ChanceToWake(irandom_range(5,8))
-TwitchIfNearBP(mouse_x,mouse_y,150)
+TwitchIfNearBP(mouse_x,mouse_y,200)
 if Lust &gt; 60 and Chance(10) {
 TwitchRun(irandom_range(3,25))
 }
@@ -1018,15 +863,15 @@ StartCaulVibrateBehaviour(irandom_range(25,50))
 if IsInRitual() {
 if Triad &lt; 0 or Lust &gt; 50 {
 HoldBreathFor(25)
-mDriveCollectionMaster.BaseBreathRate += 0.3
+mDriveCollectionMaster.BaseBreathRate += 0.0003
 }
 
-if Chance(40) {MoveToXY(mouse_x,mouse_y,25,mInterfaceController.CurrentView,10)}
-mCreatureController.BaseLust += 3
-ChangeEmotion("happy","up",0.3,6)
-ChangeEmotion("fear","down",0.3,6)
+if Chance(40 * ReactChance()) {MoveToXY(mouse_x,mouse_y,25,mInterfaceController.CurrentView,10)}
+mCreatureController.BaseLust += 3  * mPlotController.ISModifier
+ChangeEmotion("happy","up",0.3,10)
+ChangeEmotion("fear","down",0.3,10)
 } else {
-if Chance(25) {
+if Chance(25 * ReactChance()) {
 choose(
 LittleJump(),
 NumberOfBlinks(irandom_range(2,5)),
@@ -1035,13 +880,13 @@ VocaliseChance(80)
 }
 
 if Triad &gt; 0 {
-mCreatureController.BaseLust += 3
-ChangeEmotion("happy","up",0.3,6)
-ChangeEmotion("fear","down",0.3,6)
+mCreatureController.BaseLust += 3  * mPlotController.ISModifier
+ChangeEmotion("happy","up",0.3,10)
+ChangeEmotion("fear","down",0.3,10)
 } else {
-ChangeEmotion("fear","up",0.3,6)
-mCreatureController.BaseStress += 3
-if Chance(30){EmotionRequest()}
+ChangeEmotion("fear","up",0.3,15)
+mCreatureController.BaseStress += 5 * mDriveCollectionMaster.ISModifier
+if Chance(30  * ReactChance()){EmotionRequest()}
 }
 }
 }
@@ -1053,28 +898,28 @@ if position_meeting(mouse_x,mouse_y,oCheekLeft) {
 StartCheekTwitchLeftBehaviour()
 HoldBreathFor(8)
 if mDriveCollectionMaster.InRitual = true {
-ChangeEmotion("happy","up",0.02,1)
+ChangeEmotion("happy","up",0.02,5)
 } else {
 if Triad &lt; 0 {
-ChangeEmotion("anger","up",0.3,1.5) 
-mCreatureController.BaseStress += 1
-mCreatureController.BaseResistance += 1
+ChangeEmotion("anger","up",0.3,5) 
+mCreatureController.BaseStress += 4 * mPlotController.ISModifier
+mCreatureController.BaseResistance += 4 * mPlotController.ISModifier
 }
-mCreatureController.BaseSubIntent -= 0.01
+mCreatureController.BaseSubIntent -= 0.05 * mPlotController.ISModifier
 }
 }
 if position_meeting(mouse_x,mouse_y,oCheekRight) {
 StartCheekTwitchRightBehaviour()
 HoldBreathFor(8)
 if mDriveCollectionMaster.InRitual = true {
-ChangeEmotion("happy","up",0.02,4)
+ChangeEmotion("happy","up",0.02,5)
 } else {
 if Triad &lt; 0 {
-ChangeEmotion("anger","up",0.3,3) 
-mCreatureController.BaseStress += 2
-mCreatureController.BaseResistance += 2
+ChangeEmotion("anger","up",0.3,5) 
+mCreatureController.BaseStress += 4 * mPlotController.ISModifier
+mCreatureController.BaseResistance += 4 * mPlotController.ISModifier
 }
-mCreatureController.BaseSubIntent -= 0.01
+mCreatureController.BaseSubIntent -= 0.05 * mPlotController.ISModifier
 }
 }
 
@@ -1091,12 +936,12 @@ if mDriveCollectionMaster.InRitual = true {
 ChangeEmotion("happy","up",0.02,4)
 } else {
 if Triad &lt; 0 {
-ChangeEmotion("anger","up",0.3,3) 
-mCreatureController.BaseStress += 2
-mCreatureController.BaseResistance += 2
+ChangeEmotion("anger","up",0.3,4) 
+mCreatureController.BaseStress += 4 * mPlotController.ISModifier
+mCreatureController.BaseResistance += 4 * mPlotController.ISModifier
 }
-mCreatureController.BaseSubIntent -= 0.01
-}
+mCreatureController.BaseSubIntent -= 0.04 * mPlotController.ISModifier
+} 
 }
 
 //Brows
@@ -1107,11 +952,11 @@ if mDriveCollectionMaster.InRitual = true {
 ChangeEmotion("happy","up",0.02,4)
 } else {
 if Triad &lt; 0 {
-ChangeEmotion("anger","up",0.3,3) 
-mCreatureController.BaseStress += 2
-mCreatureController.BaseResistance += 2
+ChangeEmotion("anger","up",0.3,4) 
+mCreatureController.BaseStress += 4 * mPlotController.ISModifier
+mCreatureController.BaseResistance += 4 * mPlotController.ISModifier
 }
-mCreatureController.BaseSubIntent -= 0.01
+mCreatureController.BaseSubIntent -= 0.04 * mPlotController.ISModifier
 }
 }
 if position_meeting(mouse_x,mouse_y,oBrowRight) {
@@ -1121,11 +966,11 @@ if mDriveCollectionMaster.InRitual = true {
 ChangeEmotion("happy","up",0.02,4)
 } else {
 if Triad &lt; 0 {
-ChangeEmotion("anger","up",0.3,3) 
-mCreatureController.BaseStress += 2
-mCreatureController.BaseResistance += 2
+ChangeEmotion("anger","up",0.3,4) 
+mCreatureController.BaseStress += 4 * mPlotController.ISModifier
+mCreatureController.BaseResistance += 4 * mPlotController.ISModifier
 }
-mCreatureController.BaseSubIntent -= 0.01
+mCreatureController.BaseSubIntent -= 0.04 * mPlotController.ISModifier
 }
 }
 
@@ -1144,36 +989,36 @@ if mDriveCollectionMaster.InRitual = true {
 ChangeEmotion("happy","up",0.02,4)
 } else {
 if Triad &lt; 0 {
-ChangeEmotion("anger","up",0.3,3) 
-mCreatureController.BaseStress += 2
-mCreatureController.BaseResistance += 2
+ChangeEmotion("anger","up",0.3,4) 
+mCreatureController.BaseStress += 4 * mPlotController.ISModifier
+mCreatureController.BaseResistance += 4 * mPlotController.ISModifier
 }
-mCreatureController.BaseSubIntent -= 0.01
+mCreatureController.BaseSubIntent -= 0.04 * mPlotController.ISModifier
 }
 }
 
 //Ears
 
-if position_meeting(mouse_x,mouse_y,oEarLeft) {
-mCreatureController.BaseTiredness += 0.1
-BaseAlive -= 0.01
-BaseStress += 0.5
-BasePain += 1
+if instance_exists(oEarLeft) and position_meeting(mouse_x,mouse_y,oEarLeft) {
+mCreatureController.BaseTiredness += 0.1 * mPlotController.ISModifier
+BaseAlive -= 0.01 * mPlotController.ISModifier
+BaseStress += 0.5 * mPlotController.ISModifier
+BasePain += 1 * mPlotController.ISModifier
 HoldBreathFor(irandom_range(30,50))
-mDriveCollectionMaster.BaseBreathRate += 0.2
+mDriveCollectionMaster.BaseBreathRate += 0.0005
 StartEyebrowTwitchLeftBehaviour()
 StartCheekTwitchLeftBehaviour()
-BaseLust += 2
+BaseLust += 2 * mPlotController.ISModifier
 
 if mDriveCollectionMaster.InRitual = true {
 if Chance(Alive + 30) {StartNumberSniffsBehaviour(1)}
 VocaliseChance(ChanceToRitualReact())
-ChangeEmotion("happy","up",0.3,3)
-ChangeEmotion("fear","up",0.3,2)
-BaseResistance -= 5
-CloseToAnne += 3
-BaseTrust += 2
-if Chance(35){StartSwallowBehaviour(30,10)}
+ChangeEmotion("happy","up",0.3,5)
+ChangeEmotion("fear","up",0.3,5)
+BaseResistance -= 5 * mPlotController.ISModifier
+CloseToAnne += 3 * mPlotController.ISModifier
+BaseTrust += 2 * mPlotController.ISModifier
+if Chance(35  * ReactChance()){StartSwallowBehaviour(30,10)}
 ShiverChance(40)
 if Chance(ChanceToRitualReact()) {MoveBackForward("comeforward",irandom_range(30,60),100 - mBehavioursDeliberative.PercentForward)}
 
@@ -1183,39 +1028,39 @@ if mBehavioursReactive.Sleeping = false {
 if Chance(Alive + 30) {StartNumberSniffsBehaviour(1)}
 if Chance(Alive + 10) {RandomVoc(0.3)}
 BaseResistance += (10 - ((8 / 100) * mEmotionSubController.FearActivation))
-BaseTrust -= 4
+BaseTrust -= 4 * mPlotController.ISModifier
 ChangeEmotion("shame","up",0.3,6)
 ChangeEmotion("fear","up",0.3,-6 * Triad)
 ChangeEmotion("anger","up",0.3,6 * Triad)
 ChangeEmotion("happy","down",0.3,-6 * Triad)
-CloseToAnne -= 3
+CloseToAnne -= 3  * mPlotController.ISModifier
 if Chance(mEmotionSubController.FearActivation) {MoveBackForward("retreat",irandom_range(10,25),irandom_range(10,20))}
-if Chance(35){StartSwallowBehaviour(30,10)}
-if Chance(50){StartScreenShake(irandom_range(15,30),3,3)}
+if Chance(35  * ReactChance()){StartSwallowBehaviour(30,10)}
+if Chance(50  * ReactChance()){StartScreenShake(irandom_range(15,30),3,3)}
 }
 }
 }
 
-if position_meeting(mouse_x,mouse_y,oEarRight) {
-mCreatureController.BaseTiredness += 0.4
-BaseAlive -= 0.01
-BaseStress += 0.5
-BasePain += 1
+if instance_exists(oEarRight) and position_meeting(mouse_x,mouse_y,oEarRight) {
+mCreatureController.BaseTiredness += 0.4  * mPlotController.ISModifier
+BaseAlive -= 0.01 * mPlotController.ISModifier
+BaseStress += 0.5 * mPlotController.ISModifier
+BasePain += 1 * mPlotController.ISModifier
 HoldBreathFor(irandom_range(30,50))
-mDriveCollectionMaster.BaseBreathRate += 0.2
+mDriveCollectionMaster.BaseBreathRate += 0.0005
 StartEyebrowTwitchRightBehaviour()
 StartCheekTwitchRightBehaviour()
-BaseLust += 2
+BaseLust += 2 * mPlotController.ISModifier
 
 if mDriveCollectionMaster.InRitual = true {
 if Chance(Alive + 30) {StartNumberSniffsBehaviour(1)}
 VocaliseChance(ChanceToRitualReact())
 ChangeEmotion("happy","up",0.3,3)
 ChangeEmotion("fear","up",0.3,2)
-BaseResistance -= 5
-CloseToAnne += 1
-BaseTrust += 2
-if Chance(35){StartSwallowBehaviour(30,10)}
+BaseResistance -= 5 * mPlotController.ISModifier
+CloseToAnne += 1 * mPlotController.ISModifier
+BaseTrust += 2 * mPlotController.ISModifier
+if Chance(35  * ReactChance()){StartSwallowBehaviour(30,10)}
 ShiverChance(40)
 if Chance(ChanceToRitualReact()) {MoveBackForward("comeforward",irandom_range(30,60),100 - mBehavioursDeliberative.PercentForward)}
 } else {
@@ -1224,15 +1069,15 @@ if mBehavioursReactive.Sleeping = false {
 if Chance(Alive + 30) {StartNumberSniffsBehaviour(1)}
 if Chance(Alive + 10) {RandomVoc(0.3)}
 BaseResistance += (10 - ((8 / 100) * mEmotionSubController.FearActivation))
-BaseTrust -= 4
+BaseTrust -= 4 * mPlotController.ISModifier
 ChangeEmotion("shame","up",0.3,6)
 ChangeEmotion("fear","up",0.3,-6 * Triad)
 ChangeEmotion("anger","up",0.3,6 * Triad)
 ChangeEmotion("happy","down",0.3,-6 * Triad)
-CloseToAnne -= 1
+CloseToAnne -= 1  * mPlotController.ISModifier
 if Chance(mEmotionSubController.FearActivation) {MoveBackForward("retreat",irandom_range(10,25),irandom_range(10,20))}
-if Chance(35){StartSwallowBehaviour(30,10)}
-if Chance(50){StartScreenShake(irandom_range(15,30),3,3)}
+if Chance(35  * ReactChance()){StartSwallowBehaviour(30,10)}
+if Chance(50  * ReactChance()){StartScreenShake(irandom_range(15,30),3,3)}
 }
 }
 }
@@ -1244,14 +1089,14 @@ HoldBreathFor(10 + ((10 / 100) * mCreatureController.Alive) + ((-10 * Triad)))
 if mDriveCollectionMaster.InRitual = true {
 if Chance(Alive + 30) {StartNumberSniffsBehaviour(1)}
 if Chance(ChanceToRitualReact()) {LittleJump()}
-BaseResistance -= 3
-BasePain += 3
-BaseStress += 3
-CloseToAnne += 2
-BaseSubIntent += 0.03
-BaseTrust += 2
+BaseResistance -= 3 * mPlotController.ISModifier
+BasePain += 3 * mPlotController.ISModifier
+BaseStress += 3 * mPlotController.ISModifier
+CloseToAnne += 2 * mPlotController.ISModifier
+BaseSubIntent += 0.03 * mPlotController.ISModifier
+BaseTrust += 2 * mPlotController.ISModifier
 ChangeEmotion("happy","up",0.3,10)
-BaseLust += 3
+BaseLust += 3 * mPlotController.ISModifier
 ChangeEmotion("anger","down",0.3,10)
 if Chance(ChanceToRitualReact()){ShiverChance(100)}
 } else {
@@ -1262,13 +1107,13 @@ if Chance(Alive + 10) {NumberOfBlinks(irandom_range(1,3)) StartEyebrowTwitchRigh
 if Chance(Alive + 10) {MoveBackForward("retreat",irandom_range(10,20),irandom_range(5,20))}
 if Chance(Alive + 10) {StartScreenShake(irandom_range(10,20),random_range(1,3),3)}
 VocaliseChance(30 + (-30 * Triad))
-BaseTrust -= 3
-BaseSubIntent -= 0.03
-CloseToAnne -= 2
-BaseResistance -= 3
-BaseLust += 3
-BaseStress += 5
-BasePain += 3
+BaseTrust -= 3 * mPlotController.ISModifier
+BaseSubIntent -= 0.03 * mPlotController.ISModifier
+CloseToAnne -= 2 * mPlotController.ISModifier
+BaseResistance -= 3 * mPlotController.ISModifier
+BaseLust += 3 * mPlotController.ISModifier
+BaseStress += 5 * mPlotController.ISModifier
+BasePain += 3 * mPlotController.ISModifier
 ChangeEmotion("anger","down",0.3,20)
 ChangeEmotion("shame","up",0.3,20)
 ChangeEmotion("happy","down",0.3,20)
@@ -1301,7 +1146,7 @@ StartCaulVibrateBehaviour(irandom_range(30,70))
 if Chance(20 + ((30 / 100) * ConsentIntensity()) + ((30 / 100) * PartSensitivity())) {
 TwitchRun(ConsentAndPartMod(30))
 }
-mDriveCollectionMaster.BaseBreathRate += ConsentAndPartMod(0.2)
+mDriveCollectionMaster.BaseBreathRate += ConsentAndPartMod(0.0002)
 
 if IsAsleep() = false {
 if Chance(20 + ((30 / 100) * ConsentIntensity()) + ((30 / 100) * PartSensitivity())) {
@@ -1332,7 +1177,7 @@ ChangeEmotion("happy","up",0.7,ConsentAndPartMod(15))
 MoveBackForward("comeforward",irandom_range(5,10),100 - mBehavioursDeliberative.PercentForward)
 
 
-MoveToXY(mFinger.x,mFinger.y,irandom_range(30,100),mInterfaceController.CurrentView,10)
+MoveToXY(mouse_x,mouse_y,irandom_range(30,100),mInterfaceController.CurrentView,10)
 
 
 } else {
@@ -1354,7 +1199,7 @@ NodUpDown(irandom_range(2,3))
 }
 ShiverChance(20 + ((30 / 100) * ConsentIntensity()) + ((30 / 100) * PartSensitivity()))
 if Chance(10 + ((30 / 100) * ConsentIntensity()) + ((30 / 100) * PartSensitivity())) {
-MoveToXY(mFinger.x,mFinger.y,irandom_range(20,30),mInterfaceController.CurrentView,10)
+MoveToXY(mouse_x,mouse_y,irandom_range(20,30),mInterfaceController.CurrentView,10)
 }
 if Chance(20 + ((30 / 100) * ConsentIntensity()) + ((30 / 100) * PartSensitivity())) {
 MoveBackForward("comeforward",irandom_range(5,10),100 - mBehavioursDeliberative.PercentForward)
@@ -1394,10 +1239,8 @@ ChangeEmotion("fear","up",0.6,ConsentAndPartMod(15))
 }
 
 }
-
-
+mDriveCollectionMaster.alarm[1] = 60
 NewTouchReacted = true
-NewTouch = false
 }
 
 if NewTouchTimer &gt; 0 {
@@ -1435,29 +1278,27 @@ if Alive &gt; 0 {
 
 //Trust Modifiers
 Trust = BaseTrust + (abs((100 - Alive) / 10)) + (Lust / 5)
-+ (Tiredness / 10) + (Triad * 20)
++ (Tiredness / 10) + (Triad * 20) - mDriveCollectionMaster.SatMod
 
 //Resistance Modifiers
-Resistance = BaseResistance  - ((100 - Alive) / 2) + (mEmotionSubController.AngerActivation / 10)
-- (mEmotionSubController.FearActivation / 20) - (mCreatureController.Stress / 20)
--  (mEmotionSubController.ShameActivation / 19) - (mEmotionSubController.SadActivation / 20)
+Resistance = BaseResistance  - ((100 - Alive) / 2)
 - (Trust / 10) + (mCreatureController.Pain / 5) - (Tiredness / 10)
 - (Triad * 10)
 + ((100 - CloseToAnne) / 3)
-
++ mDriveCollectionMaster.SatMod
 
 AnneIntent = BaseAnneIntent
 
 //Triad Construction
 //The Triad is an average of the subscryber and Anne's Intents, weighted depending on the
 //current closeness to Anne.
-TriMax = max(SubIntent,AnneIntent)
-TriMin = min(SubIntent,AnneIntent)
-TriDiff = abs(SubIntent - AnneIntent)
-if TriMax = SubIntent {
-Triad = TriMax - ((TriDiff / 100) * CloseToAnne) - ((0.5 / 100) * mEmotionSubController.FearActivation)
+TriMax = max(BaseSubIntent,AnneIntent)
+TriMin = min(BaseSubIntent,AnneIntent)
+TriDiff = abs(BaseSubIntent - AnneIntent)
+if TriMax = BaseSubIntent {
+Triad = (TriMax - ((TriDiff / 100) * CloseToAnne)) + ((0.5 / 100) * Trust)
 } else {
-Triad = TriMin + ((TriDiff / 100) * CloseToAnne)
+Triad = (TriMin + ((TriDiff / 100) * CloseToAnne))  + ((0.5 / 100) * Trust)
 }
 }
 
@@ -1466,7 +1307,7 @@ BaseTrust = clamp(BaseTrust,0,100)
 BaseResistance = clamp(BaseResistance,0,100)
 Trust = clamp(Trust,0,100)
 Resistance = clamp(Resistance,0,100)
-SubIntent = clamp(SubIntent,-1,1)
+BaseSubIntent = clamp(BaseSubIntent,-1,1)
 CloseToAnne = clamp(CloseToAnne,0,100)
 BaseAnneIntent = clamp(BaseAnneIntent,-1,1)
 AnneIntent = clamp(AnneIntent,-1,1)
@@ -1501,6 +1342,31 @@ LustIrriTimer = 0
 
 LustIrriTimer = clamp(LustIrriTimer,0,10000)
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Timers
+
+if CankerPullTimer &gt; 0 {
+CankerPullTimer -= 1
+}
 </string>
           </argument>
         </arguments>

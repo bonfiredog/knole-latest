@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>mTabooParent</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -33,7 +33,7 @@ depth = EarLayer
 OriginalXScale = image_xscale
 OriginalYScale = image_yscale
 DripTimer = 0
-image_alpha = 0
+image_alpha = 1
 
 PartCaulSys = part_system_create()
 part_system_depth(PartCaulSys,depth)

@@ -178,7 +178,7 @@ or (x + (sprite_width / 2) &lt; view_xview[mInterfaceController.CurrentViewNumbe
 or (y - (sprite_height / 2)) &gt; (view_yview[mInterfaceController.CurrentViewNumber] + view_hview[mInterfaceController.CurrentViewNumber])
 or (y + (sprite_height / 2) &lt; view_yview[mInterfaceController.CurrentViewNumber])
 {
-GrowCanker()
+GrowCanker(false)
 } else {
 ReadyToGrow = true
 }
@@ -195,7 +195,7 @@ or (y - (sprite_height / 2)) &gt; (view_yview[mInterfaceController.CurrentViewNu
 or (y + (sprite_height / 2) &lt; view_yview[mInterfaceController.CurrentViewNumber])
 )
 {
-GrowCanker()
+GrowCanker(false)
 ReadyToGrow = false
 }
 
@@ -430,7 +430,7 @@ draw_sprite_ext(sprite_index,0,x,y,image_xscale,image_yscale,270,c_white,1)
 
 
 if (!surface_exists(CaulJugSurface)) { CaulJugSurface = surface_create(sprite_width,sprite_height) }
-CleanableSurface(oCaulJug.CaulJugSurface,oCaulJug,1)
+CleanableSurface(oCaulJug.CaulJugSurface,oCaulJug,0.2)
 draw_surface_ext(CaulJugSurface,x - (sprite_width / 2),y - (sprite_height / 2),1 + XScaleDifference,1 + YScaleDifference,0,c_white,1)
 
 

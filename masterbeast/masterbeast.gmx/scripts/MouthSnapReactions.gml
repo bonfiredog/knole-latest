@@ -1,6 +1,6 @@
 ///MouthSnapReactions()
 
-if DrivesAreOn() {
+if mDriveCollectionMaster.RealReactionsOn = true {
 if instance_exists(mFinger) and point_distance(mouse_x,mouse_y,oMouthCentre.x,oMouthCentre.y) < (oMouthCentre.sprite_width * 1.6) {
 if AmountForward(60) and Snapping = false and IsAlive() and (mInterfaceController.CurrentView = MacroView or (ZoomedInAndMouthPresent())) {
 
@@ -8,10 +8,10 @@ if AmountForward(60) and Snapping = false and IsAlive() and (mInterfaceControlle
 
 if MouthSnapReactionTimer <= 0 {
 if IsInRitual() = false and mEmotionSubController.FearActivation < 70 and (mCreatureController.Resistance > 25 or mCreatureController.Triad > 0.3) and mEmotionSubController.ShameActivation < 30 {
-if Chance(30){LittleJump()}
+if Chance(30 * ReactChance()){LittleJump()}
 HoldBreathFor(20)
 StopYawnBehaviour()
-if Chance(30) {
+if Chance(30 * ReactChance()) {
 StopVocalisation()
 StopVocalPhrase()
 }
@@ -24,7 +24,7 @@ StartCheekTwitchRightBehaviour()
 StartMouthSideRightTwitchBehaviour(choose("up","down"))
 }
 
-if Chance(20){StartTwitchNoseSideBehaviour(irandom_range(10,50))}
+if Chance(20 * ReactChance()){StartTwitchNoseSideBehaviour(irandom_range(10,50))}
 MouthSnapReactionTimer = irandom_range(30,60)
 Snapping = true
 SnapNumber = 1

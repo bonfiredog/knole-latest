@@ -27,14 +27,19 @@
             <kind>1</kind>
             <string>///Setup
 
-/* ***** MASTER SWITCH ***** */
+/* ***** MASTER SWITCHES ***** */
 DrivesOn = false
+RealReactionsOn = true
+ActualDrivesOn = true
+RitualsOn = true
 /*******************************/
 
 depth = MetaLayer
 x = ControllerObjectX
 y = ControllerObjectY
 
+TouchFurTimer = 0
+HasFled = false
 
 //Drives
 CurrentRetries = 0
@@ -47,185 +52,182 @@ ZoomWait = 0
 RetreatWait = 0
 RitualTimer = 0
 
+//Remember: Change the other one in Plotcontroller as well!
+ISModifier = 0.65
+
 //---------------------------------------
 
 Drive1Name = "fallasleep"
-Drive1BasePriority = 0.5
-Drive1FinalPriority = 0.5
+Drive1BasePriority = 5
+Drive1FinalPriority = 5
 Drive1Cooldown = 0
-Drive1MaxAttempts = 3
+Drive1MaxAttempts = 2
 ResettingDrives("fallasleep")
 //---------------
 
 Drive2Name = "playerleave"
-Drive2BasePriority = 2
-Drive2FinalPriority = 2
+Drive2BasePriority = 4.5
+Drive2FinalPriority = 4.5
 Drive2Cooldown = 0
-Drive2MaxAttempts = 5
+Drive2MaxAttempts = 2
 ResettingDrives("playerleave")
 //---------------
 
 Drive3Name = "playercome"
-Drive3BasePriority = 2
-Drive3FinalPriority = 2
+Drive3BasePriority = 4.5
+Drive3FinalPriority = 4.5
 Drive3Cooldown = 0
-Drive3MaxAttempts = 5
+Drive3MaxAttempts = 2
 ResettingDrives("playercome")
 //---------------
 
 Drive4Name = "flee"
-Drive4BasePriority = 3
-Drive4FinalPriority = 3
+Drive4BasePriority = 5
+Drive4FinalPriority = 5
 Drive4Cooldown = 0
-Drive4MaxAttempts = 3
+Drive4MaxAttempts = 2
 ResettingDrives("flee")
 //---------------
 
 Drive5Name = "retreat"
-Drive5BasePriority = 4
-Drive5FinalPriority = 4
+Drive5BasePriority = 5.5
+Drive5FinalPriority = 5.5
 Drive5Cooldown = 0
-Drive5MaxAttempts = 3
+Drive5MaxAttempts = 2
 ResettingDrives("retreat")
 //---------------
 
 Drive6Name = "todefaultpos"
-Drive6BasePriority = 2
-Drive6FinalPriority = 2
+Drive6BasePriority = 4
+Drive6FinalPriority = 4
 Drive6Cooldown = 0
-Drive6MaxAttempts = 3
+Drive6MaxAttempts = 2
 ResettingDrives("todefaultpos")
 
 //---------------
 
 Drive7Name = "comeforward"
-Drive7BasePriority = 2
-Drive7FinalPriority = 2
+Drive7BasePriority = 4
+Drive7FinalPriority = 4
 Drive7Cooldown = 0
-Drive7MaxAttempts = 3
+Drive7MaxAttempts = 2
 ResettingDrives("comeforward")
 //---------------
 
 Drive8Name = "gotoeat"
-Drive8BasePriority = 1
-Drive8FinalPriority = 1
+Drive8BasePriority = 5.5
+Drive8FinalPriority = 5.5
 Drive8Cooldown = 0
-Drive8MaxAttempts = 3
+Drive8MaxAttempts = 2
 EatenToday = false
 EatenTodayAmount = 0
 ResettingDrives("gotoeat")
 //---------------
 
-Drive9Name = "acceptritual"
-Drive9BasePriority = 5
-Drive9FinalPriority = 5
-Drive9Cooldown = 0
-Drive9MaxAttempts = 3
-ResettingDrives("acceptritual")
-//---------------
-
 Drive10Name = "doze"
-Drive10BasePriority = 1
-Drive10FinalPriority = 1
+Drive10BasePriority = 5.5
+Drive10FinalPriority = 5.5
 Drive10Cooldown = 0
-Drive10MaxAttempts = 3
+Drive10MaxAttempts = 2
 ResettingDrives("doze")
 //---------------
 
-Drive11Name = "cleangound"
-Drive11BasePriority = 2
-Drive11FinalPriority = 2
-Drive11Cooldown = 0
-Drive11MaxAttempts = 3
-ResettingDrives("cleangound")
-//---------------
-
-
 Drive12Name = "strokenose"
-Drive12BasePriority = 2
-Drive12FinalPriority = 2
+Drive12BasePriority = 4.5
+Drive12FinalPriority = 4.5
 Drive12Cooldown = 0
 Drive12MaxAttempts = 3
 ResettingDrives("strokenose")
 //---------------
 
 Drive13Name = "inspectmansion"
-Drive13BasePriority = 4
-Drive13FinalPriority = 4
+Drive13BasePriority = 5
+Drive13FinalPriority = 5
 Drive13Cooldown = 0
-Drive13MaxAttempts = 3
+Drive13MaxAttempts = 2
 ResettingDrives("inspectmansion")
 //---------------
 
-Drive14Name = "followcommand"
-Drive14BasePriority = 5
-Drive14FinalPriority = 5
-Drive14Cooldown = 0
-Drive14MaxAttempts = 3
-ResettingDrives("followcommand")
-//---------------
-
 Drive15Name = "cleanskin"
-Drive15BasePriority = 1
-Drive15FinalPriority = 1
+Drive15BasePriority = 4.5
+Drive15FinalPriority = 4.5
 Drive15Cooldown = 0
-Drive15MaxAttempts = 3
+Drive15MaxAttempts = 2
 ResettingDrives("cleanskin")
 //---------------
 
 Drive16Name = "playergetoff"
-Drive16BasePriority = 3
-Drive16FinalPriority = 3
+Drive16BasePriority = 4.5
+Drive16FinalPriority = 4.5
 Drive16Cooldown = 0
 Drive16MaxAttempts = 3
 ResettingDrives("playergetoff")
 //---------------
 
 Drive17Name = "generalvocalise"
-Drive17BasePriority = 2
-Drive17FinalPriority = 2
+Drive17BasePriority = 4
+Drive17FinalPriority = 4
 Drive17Cooldown = 0
-Drive17MaxAttempts = 3
+Drive17MaxAttempts = 2
 ResettingDrives("generalvocalise")
 //---------------
 
 Drive18Name = "touchcaul"
-Drive18BasePriority = 3
-Drive18FinalPriority = 3
+Drive18BasePriority = 4.5
+Drive18FinalPriority = 4.5
 Drive18Cooldown = 0
 Drive18MaxAttempts = 3
-ServicedToday = false
-WithinServiceTimer = false
-TimeSinceServiceStart = 0
 ResettingDrives("touchcaul")
 //---------------
 
-Drive19Name = "hairbrush"
-Drive19BasePriority = 1
-Drive19FinalPriority = 1
-Drive19Cooldown = 0
-Drive19MaxAttempts = 3
-StrokeTimer = 0
-ResettingDrives("hairbrush")
-//---------------
-
-Drive20Name = "playerspeak"
-Drive20BasePriority = 1
-Drive20FinalPriority = 1
-Drive20Cooldown = 0
-Drive20MaxAttempts = 3
-TimeSinceLastSpeech = 0
-ResettingDrives("playerspeak")
-//---------------
-
 Drive21Name = "playertouch"
-Drive21BasePriority = 1
-Drive21FinalPriority = 1
+Drive21BasePriority = 4.5
+Drive21FinalPriority = 4.5
 Drive21Cooldown = 0
-Drive21MaxAttempts = 3
+Drive21MaxAttempts = 2
 TimeSinceLastTouch = 0
 ResettingDrives("playertouch")
 //---------------
+
+Drive22Name = "zoomout"
+Drive22BasePriority = 4.5
+Drive22FinalPriority = 4.5
+Drive22Cooldown = 0
+Drive22MaxAttempts = 2
+ResettingDrives("zoomout")
+//---------------
+
+Drive23Name = "none"
+Drive23BasePriority = 3.9
+Drive23FinalPriority = 3.9
+Drive23Cooldown = 0
+Drive23MaxAttempts = 20
+ResettingDrives("none")
+//---------------
+
+
+Drive1ChanceCooldown = 0
+Drive2ChanceCooldown = 0
+Drive3ChanceCooldown = 0
+Drive4ChanceCooldown = 0
+Drive5ChanceCooldown = 0
+Drive6ChanceCooldown = 0
+Drive7ChanceCooldown = 0
+Drive8ChanceCooldown = 0
+Drive9ChanceCooldown = 0
+Drive10ChanceCooldown = 0
+Drive11ChanceCooldown = 0
+Drive12ChanceCooldown = 0
+Drive13ChanceCooldown = 0
+Drive14ChanceCooldown = 0
+Drive15ChanceCooldown = 0
+Drive16ChanceCooldown = 0
+Drive17ChanceCooldown = 0
+Drive18ChanceCooldown = 0
+Drive19ChanceCooldown = 0
+Drive20ChanceCooldown = 0
+Drive21ChanceCooldown = 0
+Drive22ChanceCooldown = 0
 
 //---------------------------------------
 
@@ -236,7 +238,7 @@ ResettingDrives("playertouch")
 CreatureDied = false
 CreatureSuperDied = false
 StartTouchingCaul = false
-RestBreathRate = 1.2
+RestBreathRate = 1
 RestBreathHold = 40
 RestBreathTime = 60
 BaseBreathTime = RestBreathTime
@@ -258,7 +260,7 @@ CurrentlySquinting = true
 CurrentlyWinking = true
 BlinkTimer = 40
 BlinkTimerBase = 60
-
+TimeSinceLastSpeech = 0
 ChanceToWakeUp = 0
 SurpriseVoc = false
 CutReact = false
@@ -271,6 +273,7 @@ EyeCuts = 0
 NumberOfDeathBlinks = 30
 NumberOfDeathTwitches = 100
 HaveEatenToday = 0
+RubCaulIntensity = 0
 
 
 //Timers
@@ -283,6 +286,7 @@ RandomTwitchTimer = 1500
 YawnTimer = 6000
 CoughTimer = 6000
 SlippingTimer = 0
+WinkTimer = 0
 PainEyesTimer = 0
 TabooShotTimer = 0
 HornShotTimer = 100
@@ -311,7 +315,7 @@ EyeTouchTimer = 0
 TouchMoleTimer = 0
 CutMoleTimer = 0
 TouchSigilTimer = 0
-
+ShoutInEarTimer = 0
 CaulCutTimer = 0
 PullHornTimer = 0
 NoReactionTimer = 0
@@ -332,6 +336,7 @@ WibbleTimer = 500
 ShakeCaulTimer = 500
 VibrateNubTimer = 500
 NoReturnTimer = 0
+TSATimer = 0
 
 //Ritual Parameters
 InRitual = false
@@ -348,8 +353,62 @@ PreviousFear = mEmotionSubController.FearActivation
 PreviousSad = mEmotionSubController.SadActivation
 RitualModX = 0
 RitualModDir = "left"
-RitualModTimerTotal = 7
+RitualModTimerTotal = 2
 RitualModTimer = RitualModTimerTotal
+NotStartedWork = true
+SatMod = 0
+CurrentPerceivedHour = current_hour
+HeardCircleWordsToday = false
+RitualRequestTimer = 0
+EjacTrack = 0
+
+
+
+TuesdayPsalm = "BUT THEY WHO RUN AFTER ANOTHER GOD SHALL HAVE GREAT TROUBLE"
+WednesdayPsalm = "THOU ARE OF MORE HONOUR AND MIGHT THAN THE HILLS OF THE ROBBERS"
+ThursdayPsalm = "SUCH AS BE FOOLISH SHALL NOT STAND IN THY SIGHT: FOR THOU HATEST ALL THEM THAT WORK VANITY"
+FridayPsalm = "I SAID, I WILL CONFESS MY SINS UNTO THE LORD: AND SO THOU FORGAVEST THE WICKEDNESS OF MY SIN"
+SaturdayPsalm = "I WILL NOT BE AFRAID FOR TEN THOUSANDS OF THE PEOPLE: THAT HAVE SET THEMSELVES AGAINST ME ROUND ABOUT"
+SundayPsalm = "AS FOR ALL THE GODS OF THE HEATHEN, THEY ARE BUT IDOLS: BUT IT IS THE LORD THAT MADE THE HEAVENS"
+MondayPsalm = "THE LORD IS MY SHEPHERD: THEREFORE CAN I LACK NOTHING"
+MSTimer = 0
+EatWaitTimer = 0
+HeardPsalmToday = false
+HeardPsalmTodayTimer = 20000
+NoPsalmReacted = false
+AllowedIntoMansion = 0
+DecideToComeBack = false
+EnterRitualDecideTimer = 0
+EnterRitualOrNot = 0
+DecidingOnRitual = false
+GoingAway = false
+GoneAway = false
+MotesMoving = false
+MotesVibrating = false
+EODReacted = false
+HeardEODBells = false
+Inspirare = false
+MouseSigil = false
+ReadyToGo43 = false
+MolesShaking = false
+MSTimer = 0
+Speaking = false
+ReturnAndAnswer = false
+RAndATimer = 0
+ReadyToGo97 = false
+MakingConkers = false
+SpinEarCount = 0
+SpinEarTotal = 0
+MotesPhrase = ""
+SquintTimer = 0
+
+Glowing = false
+GlintTimer = 100
+RandX = 0
+RandY = 0
+GlowSize = 0
+GlowIn = false
+TimeSinceLastSound = 0
 
 //Initialise
 StartBreatheBehaviour(RestBreathRate,RestBreathTime,RestBreathHold,BreathType)
@@ -378,6 +437,206 @@ TimeAway = 0
 
 
 
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="11">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Make Mouth Red After Ritual #43
+
+MakeMouthSplatter(DebugRedTextColour)
+MakeMouthSplatter(DebugRedTextColour)
+MakeMouthSplatter(DebugRedTextColour)
+MakeMouthSplatter(DebugRedTextColour)
+MakeMouthSplatter(DebugRedTextColour)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="10">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Cough
+
+StartCoughBehaviour()
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="9">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Do An Emotion Check If In Ritual
+
+if IsInRitual() {
+EmotionRequest()
+}
+
+alarm[9] = 500
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Returning After Pause
+
+if IsInRitual() {
+MoveBackForwardUnCapped("comeforward",MoveSpeedCalc(),100)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Vocalising After Pause
+if ReadyToGo97 = true {
+StartVocalPhrase(2)
+ReadyToGo97 = false
+RitualBadReaction(0)
+} else {
+VocaliseChance(100)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="6">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Ritual 42
+
+VocaliseChance(100)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+ReadyFor42Sigil = true
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Reset Daily Variables At Midnight
+
+
+if current_hour = 0 and current_minute = 0 {
+NotStartedWork = true
+}
+
+alarm[5] = 10000
 </string>
           </argument>
         </arguments>
@@ -479,9 +738,10 @@ CurrentDrive = RetryDrive
             <kind>1</kind>
             <string>///Deciding On Drive
 
-//if DrivesOn = true 
+if ActualDrivesOn = true {
 if mCreatureController.Alive &gt; 0  {
 
+//Reset Drives
 PreviousDrive = CurrentDrive
 CurrentDrive = "none"
 
@@ -493,19 +753,16 @@ Drive5FinalPriority = Drive5BasePriority
 Drive6FinalPriority = Drive6BasePriority
 Drive7FinalPriority = Drive7BasePriority
 Drive8FinalPriority = Drive8BasePriority
-Drive9FinalPriority = Drive9BasePriority
 Drive10FinalPriority = Drive10BasePriority
-Drive11FinalPriority = Drive11BasePriority
 Drive12FinalPriority = Drive12BasePriority
 Drive13FinalPriority = Drive13BasePriority
-Drive14FinalPriority = Drive14BasePriority
 Drive15FinalPriority = Drive15BasePriority
 Drive16FinalPriority = Drive16BasePriority
 Drive17FinalPriority = Drive17BasePriority
 Drive18FinalPriority = Drive18BasePriority
-Drive19FinalPriority = Drive19BasePriority
-Drive20FinalPriority = Drive20BasePriority
 Drive21FinalPriority = Drive21BasePriority
+Drive22FinalPriority = Drive22BasePriority
+Drive23FinalPriority = Drive23BasePriority
 
 if mWorldController.CurrentTOD = "morning"
 or mWorldController.CurrentTOD = "afternoon" 
@@ -526,9 +783,9 @@ Drive2FinalPriority = -2000
 if IfDrivePreconditionsSatisfied("playercome") = false {
 Drive3FinalPriority = -2000
 }
-if IfDrivePreconditionsSatisfied("flee") = false {
+//if IfDrivePreconditionsSatisfied("flee") = false {
 Drive4FinalPriority = -2000
-}
+//}
 if IfDrivePreconditionsSatisfied("retreat") = false {
 Drive5FinalPriority = -2000
 }
@@ -538,26 +795,17 @@ Drive6FinalPriority = -2000
 if IfDrivePreconditionsSatisfied("comeforward") = false {
 Drive7FinalPriority = -2000
 }
-if IfDrivePreconditionsSatisfied("gotoeat") = false {
+//if IfDrivePreconditionsSatisfied("gotoeat") = false {
 Drive8FinalPriority = -2000
-}
-if IfDrivePreconditionsSatisfied("acceptritual") = false {
-Drive9FinalPriority = -2000
-}
+//}
 if IfDrivePreconditionsSatisfied("doze") = false {
 Drive10FinalPriority = -2000
-}
-if IfDrivePreconditionsSatisfied("cleangound") = false {
-Drive11FinalPriority = -2000
 }
 if IfDrivePreconditionsSatisfied("strokenose") = false {
 Drive12FinalPriority = -2000
 }
 if IfDrivePreconditionsSatisfied("inspectmansion") = false {
 Drive13FinalPriority = -2000
-}
-if IfDrivePreconditionsSatisfied("followcommand") = false {
-Drive14FinalPriority = -2000
 }
 if IfDrivePreconditionsSatisfied("cleanskin") = false {
 Drive15FinalPriority = -2000
@@ -571,83 +819,68 @@ Drive17FinalPriority = -2000
 if IfDrivePreconditionsSatisfied("touchcaul") = false {
 Drive18FinalPriority = -2000
 }
-if IfDrivePreconditionsSatisfied("hairbrush") = false {
-Drive19FinalPriority = -2000
-}
-if IfDrivePreconditionsSatisfied("playerspeak") = false {
-Drive20FinalPriority = -2000
-}
 if IfDrivePreconditionsSatisfied("playertouch") = false {
 Drive21FinalPriority = -2000
 }
+if IfDrivePreconditionsSatisfied("zoomout") = false {
+Drive22FinalPriority = -2000
+}
+
 //----------------------------------------------------------
 
 //Give a boost to the previous drive (if it is still eligible, it is more likely that the creature still wants to do it).
 
 if PreviousDrive = "fallasleep" {
-Drive1FinalPriority += 5
+Drive1FinalPriority += 1
 }
 if PreviousDrive = "playerleave" {
-Drive2FinalPriority += 5
+Drive2FinalPriority += 1
 }
 if PreviousDrive = "playercome" {
-Drive3FinalPriority += 5
+Drive3FinalPriority += 1
 }
 if PreviousDrive = "flee" {
-Drive4FinalPriority += 5
+Drive4FinalPriority += 1
 }
 if PreviousDrive = "retreat" {
-Drive5FinalPriority += 5
+Drive5FinalPriority += 1
 }
 if PreviousDrive = "todefaultpos" {
-Drive6FinalPriority += 5
+Drive6FinalPriority += 1
 }
 if PreviousDrive = "comeforward" {
-Drive7FinalPriority += 5
+Drive7FinalPriority += 1
 }
 if PreviousDrive = "gotoeat" {
-Drive8FinalPriority += 5
-}
-if PreviousDrive = "acceptritual" {
-Drive9FinalPriority += 5
+Drive8FinalPriority += 1
 }
 if PreviousDrive = "doze" {
-Drive10FinalPriority += 5
-}
-if PreviousDrive = "cleangound" {
-Drive11FinalPriority += 5
+Drive10FinalPriority += 1
 }
 if PreviousDrive = "strokenose" {
-Drive12FinalPriority += 5
+Drive12FinalPriority += 1
 }
 if PreviousDrive = "inspectmansion" {
-Drive13FinalPriority += 5
-}
-if PreviousDrive = "followcommand" {
-Drive14FinalPriority += 5
+Drive13FinalPriority += 1
 }
 if PreviousDrive = "cleanskin" {
-Drive15FinalPriority += 5
+Drive15FinalPriority += 1
 }
 if PreviousDrive = "playergetoff" {
-Drive16FinalPriority += 5
+Drive16FinalPriority += 1
 }
 if PreviousDrive = "generalvocalise" {
-Drive17FinalPriority += 5
+Drive17FinalPriority += 1
 }
 if PreviousDrive = "touchcaul" {
-Drive18FinalPriority += 5
-}
-if PreviousDrive = "hairbrush" {
-Drive19FinalPriority += 5
-}
-if PreviousDrive = "playerspeak" {
-Drive20FinalPriority += 5
+Drive18FinalPriority += 1
 }
 if PreviousDrive = "playertouch" {
-Drive21FinalPriority += 5
+Drive21FinalPriority += 1
 }
-
+if PreviousDrive = "zoomout" {
+Drive22FinalPriority += 1
+}
 
 //Check Drive Priority Modifiers
 //Scores are added or subtracted to drive priorities depending on individual factors.
@@ -663,12 +896,9 @@ Drive5FinalPriority,
 Drive6FinalPriority,
 Drive7FinalPriority,
 Drive8FinalPriority,
-Drive9FinalPriority,
 Drive10FinalPriority,
-Drive11FinalPriority,
 Drive12FinalPriority,
 Drive13FinalPriority,
-Drive14FinalPriority,
 Drive15FinalPriority,
 Drive16FinalPriority,
 )
@@ -676,16 +906,15 @@ Drive16FinalPriority,
 Choice2 = max(
 Drive17FinalPriority,
 Drive18FinalPriority,
-Drive19FinalPriority,
-Drive20FinalPriority,
 Drive21FinalPriority,
--100)
+Drive22FinalPriority,
+Drive23FinalPriority)
 
 CandidateDrive = max(Choice1,Choice2)
 
-
 if CandidateDrive = Drive1FinalPriority {
 CurrentDrive = Drive1Name
+ResettingDrives("fallasleep")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive1MaxAttempts
 }
@@ -693,6 +922,7 @@ CurrentRetries = Drive1MaxAttempts
 
 if CandidateDrive = Drive2FinalPriority {
 CurrentDrive = Drive2Name
+ResettingDrives("playerleave")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive2MaxAttempts
 }
@@ -701,6 +931,7 @@ CurrentRetries = Drive2MaxAttempts
 
 if CandidateDrive = Drive3FinalPriority {
 CurrentDrive = Drive3Name
+ResettingDrives("playercome")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive3MaxAttempts
 }
@@ -708,6 +939,7 @@ CurrentRetries = Drive3MaxAttempts
 
 if CandidateDrive = Drive4FinalPriority {
 CurrentDrive = Drive4Name
+ResettingDrives("flee")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive4MaxAttempts
 }
@@ -715,6 +947,7 @@ CurrentRetries = Drive4MaxAttempts
 
 if CandidateDrive = Drive5FinalPriority {
 CurrentDrive = Drive5Name
+ResettingDrives("retreat")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive5MaxAttempts
 }
@@ -722,6 +955,7 @@ CurrentRetries = Drive5MaxAttempts
 
 if CandidateDrive = Drive6FinalPriority {
 CurrentDrive = Drive6Name
+ResettingDrives("todefaultpos")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive6MaxAttempts
 }
@@ -729,6 +963,7 @@ CurrentRetries = Drive6MaxAttempts
 
 if CandidateDrive = Drive7FinalPriority {
 CurrentDrive = Drive7Name
+ResettingDrives("comeforward")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive7MaxAttempts
 }
@@ -736,34 +971,25 @@ CurrentRetries = Drive7MaxAttempts
 
 if CandidateDrive = Drive8FinalPriority {
 CurrentDrive = Drive8Name
+ResettingDrives("gotoeat")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive8MaxAttempts
 }
 }
 
-if CandidateDrive = Drive9FinalPriority {
-CurrentDrive = Drive9Name
-if PreviousDrive != CurrentDrive {
-CurrentRetries = Drive9MaxAttempts
-}
-}
 
 if CandidateDrive = Drive10FinalPriority {
 CurrentDrive = Drive10Name
+ResettingDrives("doze")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive10MaxAttempts
 }
 }
 
-if CandidateDrive = Drive11FinalPriority {
-CurrentDrive = Drive11Name
-if PreviousDrive != CurrentDrive {
-CurrentRetries = Drive11MaxAttempts
-}
-}
 
 if CandidateDrive = Drive12FinalPriority {
 CurrentDrive = Drive12Name
+ResettingDrives("strokenose")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive12MaxAttempts
 }
@@ -771,20 +997,15 @@ CurrentRetries = Drive12MaxAttempts
 
 if CandidateDrive = Drive13FinalPriority {
 CurrentDrive = Drive13Name
+ResettingDrives("inspectmansion")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive13MaxAttempts
 }
 }
 
-if CandidateDrive = Drive14FinalPriority {
-CurrentDrive = Drive14Name
-if PreviousDrive != CurrentDrive {
-CurrentRetries = Drive14MaxAttempts
-}
-}
-
 if CandidateDrive = Drive15FinalPriority {
 CurrentDrive = Drive15Name
+ResettingDrives("cleanskin")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive15MaxAttempts
 }
@@ -792,6 +1013,7 @@ CurrentRetries = Drive15MaxAttempts
 
 if CandidateDrive = Drive16FinalPriority {
 CurrentDrive = Drive16Name
+ResettingDrives("playergetoff")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive16MaxAttempts
 }
@@ -799,6 +1021,7 @@ CurrentRetries = Drive16MaxAttempts
 
 if CandidateDrive = Drive17FinalPriority {
 CurrentDrive = Drive17Name
+ResettingDrives("generalvocalise")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive17MaxAttempts
 }
@@ -806,129 +1029,41 @@ CurrentRetries = Drive17MaxAttempts
 
 if CandidateDrive = Drive18FinalPriority {
 CurrentDrive = Drive18Name
+ResettingDrives("touchcaul")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive18MaxAttempts
 }
 }
 
-if CandidateDrive = Drive19FinalPriority {
-CurrentDrive = Drive19Name
-if PreviousDrive != CurrentDrive {
-CurrentRetries = Drive19MaxAttempts
-}
-}
-
-if CandidateDrive = Drive20FinalPriority {
-CurrentDrive = Drive20Name
-if PreviousDrive != CurrentDrive {
-CurrentRetries = Drive20MaxAttempts
-}
-}
-
 if CandidateDrive = Drive21FinalPriority {
 CurrentDrive = Drive21Name
+ResettingDrives("playertouch")
 if PreviousDrive != CurrentDrive {
 CurrentRetries = Drive21MaxAttempts
 }
 }
 
-if CandidateDrive = -100 {
-CurrentDrive = "none"
+if CandidateDrive = Drive22FinalPriority {
+CurrentDrive = Drive22Name
+ResettingDrives("zoomout")
+if PreviousDrive != CurrentDrive {
+CurrentRetries = Drive22MaxAttempts
+}
 }
 
-
-//Lowering Cooldowns
-if Drive1Cooldown &gt; 0 {
-Drive1Cooldown -= 1
+if CandidateDrive = Drive23FinalPriority {
+CurrentDrive = Drive23Name
+if PreviousDrive != CurrentDrive {
+CurrentRetries = Drive23MaxAttempts
+}
 }
 
-if Drive2Cooldown &gt; 0 {
-Drive2Cooldown -= 1
 }
-
-if Drive3Cooldown &gt; 0 {
-Drive3Cooldown -= 1
 }
-
-if Drive4Cooldown &gt; 0 {
-Drive4Cooldown -= 1
-}
-
-if Drive5Cooldown &gt; 0 {
-Drive5Cooldown -= 1
-}
-
-if Drive6Cooldown &gt; 0 {
-Drive6Cooldown -= 1
-}
-
-if Drive7Cooldown &gt; 0 {
-Drive7Cooldown -= 1
-}
-
-if Drive8Cooldown &gt; 0 {
-Drive8Cooldown -= 1
-}
-
-if Drive9Cooldown &gt; 0 {
-Drive9Cooldown -= 1
-}
-
-if Drive10Cooldown &gt; 0 {
-Drive10Cooldown -= 1
-}
-
-if Drive11Cooldown &gt; 0 {
-Drive11Cooldown -= 1
-}
-
-if Drive12Cooldown &gt; 0 {
-Drive12Cooldown -= 1
-}
-
-if Drive13Cooldown &gt; 0 {
-Drive13Cooldown -= 1
-}
-
-if Drive14Cooldown &gt; 0 {
-Drive14Cooldown -= 1
-}
-
-if Drive15Cooldown &gt; 0 {
-Drive15Cooldown -= 1
-}
-
-if Drive16Cooldown &gt; 0 {
-Drive16Cooldown -= 1
-}
-
-if Drive17Cooldown &gt; 0 {
-Drive17Cooldown -= 1
-}
-
-if Drive18Cooldown &gt; 0 {
-Drive18Cooldown -= 1
-}
-
-if Drive19Cooldown &gt; 0 {
-Drive19Cooldown -= 1
-}
-
-if Drive20Cooldown &gt; 0 {
-Drive20Cooldown -= 1
-}
-
-if Drive21Cooldown &gt; 0 {
-Drive21Cooldown -= 1
-}
-
-
-}
-//}
 
 //Change back
 
-alarm[1] = 200
+alarm[1] = 2500
 
 
 
@@ -958,7 +1093,7 @@ alarm[1] = 200
             <kind>1</kind>
             <string>///Check If Eyes Need To Close With Pain
 
-if DrivesOn = true {
+if ActualDrivesOn = true {
 if mBehavioursReactive.Sleeping = false {
 if mCreatureController.Pain &gt; 50 {
 if PainEyesShut = false {
@@ -1008,16 +1143,31 @@ alarm[0] = 600
 // --------------
 //High Priority
 
+
+if RealReactionsOn = true {
+
 //Actions When Alive
 //-----------------------------------
 if mCreatureController.Alive &gt; 0 {
 //Breathing
 
 //Modifiers For Rates
-BreathRate = BaseBreathRate - ((0.6 / 100) * (100 - mCreatureController.Alive)) + ((0.6 / 100) * mCreatureController.Lust) + ((0.7 / 100) * mCreatureController.Stress) 
-+ ((0.7 / 100) * mEmotionSubController.AngerActivation) - ((0.5 / 100) * mEmotionSubController.SadActivation) + ((0.8 / 100) * mEmotionSubController.SurpriseActivation) 
-+ ((0.9 / 100) * mEmotionSubController.FearActivation) - ((0.6 / 100) * mCreatureController.Pain) - ((0.5 / 100) * mCreatureController.Tiredness) 
-- ((0.4 / 100) * mEmotionSubController.ShameActivation) - (0.6 * InRitual)
+BreathRate = BaseBreathRate - ((0.1 / 100) * (100 - mCreatureController.Alive)) + ((0.1 / 100) * mCreatureController.Lust) + ((0.1 / 100) * mCreatureController.Stress) 
++ ((0.1 / 100) * mEmotionSubController.AngerActivation) - ((0.1 / 100) * mEmotionSubController.SadActivation) + ((0.2 / 100) * mEmotionSubController.SurpriseActivation) 
++ ((0.1 / 100) * mEmotionSubController.FearActivation) - ((0.1 / 100) * mCreatureController.Pain) - ((0.1 / 100) * mCreatureController.Tiredness) 
+- ((0.1 / 100) * mEmotionSubController.ShameActivation) - ((0.1 * InRitual) / 100) * (100 - RitualTolerance)
+
+
+//Return To Resting Rate Slowly
+if BaseBreathRate != RestBreathRate {
+if BaseBreathRate &gt; RestBreathRate {
+BaseBreathRate -= 0.00001
+} else if BaseBreathRate &lt; RestBreathRate {
+BaseBreathRate += 0.00001
+}
+}
+
+BaseBreathRate = clamp(BaseBreathRate,0.01,1.5)
 
 BreathTime = BaseBreathTime + ((14 / 100) * (100 - mCreatureController.Alive)) - ((14 / 100) * mCreatureController.Lust) - ((14 / 100) * mCreatureController.Stress) 
 - ((14 / 100) * mEmotionSubController.AngerActivation) + ((14 / 100) * mEmotionSubController.SadActivation) - ((14 / 100) * mEmotionSubController.SurpriseActivation) 
@@ -1029,14 +1179,6 @@ BreathHold = BaseBreathHold + ((14 / 100) * (100 - mCreatureController.Alive)) -
 - ((14 / 100) * mEmotionSubController.FearActivation) - ((14 / 100) * mCreatureController.Pain) + ((14 / 100) * mCreatureController.Tiredness)
 + ((14 / 100) * mEmotionSubController.ShameActivation) + (40 * InRitual)
 
-//Return To Resting Rate Slowly
-if BaseBreathRate != RestBreathRate {
-if BaseBreathRate &gt; RestBreathRate {
-BaseBreathRate -= 0.001
-} else if BaseBreathRate &lt; RestBreathRate {
-BaseBreathRate += 0.001
-}
-}
 
 if BaseBreathHold != RestBreathHold {
 if BaseBreathHold &gt; RestBreathHold {
@@ -1057,11 +1199,6 @@ BreathTime = clamp(BreathTime,10,10000)
 BreathHold = clamp(BreathHold,1,10000)
 BreathRate = clamp(BreathRate,0.3,3.0)
 
-//If Lust High Enough, Set BreathType To Mouth
-if mCreatureController.Lust &gt; 50 {
-BreathType = "mouth"
-}
-
 //Maintain Breathing If Currently Breathing, or Start It If Not Breathing.
 if CurrentlyBreathing = true {
 if mBehavioursReactive.BreathingActive = false {
@@ -1072,6 +1209,8 @@ MaintainBreatheBehaviour(BreathRate,BreathTime,BreathHold,BreathType)
 } else if CurrentlyBreathing = false {
 FinishBreatheBehaviour()
 }
+
+
 
 //Holding Breathing
 if HoldingBreath = true {
@@ -1119,20 +1258,112 @@ BlinkTimer = clamp(BlinkTimer,20,10000)
 }
 
 
+//Touch Taboo
+if (position_meeting(mouse_x,mouse_y,mTabooParent) or ((position_meeting(mouse_x,mouse_y,oEyeballLeft) or position_meeting(mouse_x,mouse_y,oEyeballLeft)) and EyeCuts &gt; 0) 
+or (position_meeting(mouse_x,mouse_y,oHornSocketLeftBack) or position_meeting(mouse_x,mouse_y,oHornLeft) and oHornLeft.Growing = true) or (position_meeting(mouse_x,mouse_y,oHornRight) or position_meeting(mouse_x,mouse_y,oHornSocketRightBack) and oHornRight.Growing = true)
+or (position_meeting(mouse_x,mouse_y,oCaulNub) and CaulCutTimer &gt; 0)
+or (position_meeting(mouse_x,mouse_y,mWoundParent)))
+and mouse_check_button(mb_any) 
+and mInterfaceController.Healing = false
+{
+ReduceTabooLayerHealth(0.0001)
+ChanceToWake(10 * ReactChance())
+BaseBreathRate += 0.000005 * ReactChance()
 
-if DrivesOn = true {
+if TabooTouchTimer &lt;= 0 {
+
+if IsInRitual() {
+if ChanceToRitualReact() * ReactChance() {
+StartNumberSniffsBehaviour(1)
+}
+}
+StopYawnBehaviour()
+TwitchRun(irandom_range(10,20))
+if Chance(40 * ReactChance()) {
+RandomShake()
+}
+if Chance(40 * ReactChance()) {
+LittleJump()
+}
+ChangeEmotion("surprise","up",2,40 * ReactChance())
+HoldBreathFor(irandom_range(30,60))
+TabooTouchTimer = irandom_range(700,1500) + ((600 / 100) * (100 - mCreatureController.Alive))
+}
+
+if Chance(1) {
+TwitchRun(irandom_range(5,20))
+}
+
+if IsAsleep() = false {
+
+with mCreatureController {
+BaseResistance -= 0.1  * mDriveCollectionMaster.ISModifier
+BasePain += 0.2 * mDriveCollectionMaster.ISModifier
+BaseStress += 0.2 * mDriveCollectionMaster.ISModifier
+BaseAlive -= 0.01 * mDriveCollectionMaster.ISModifier
+}
+
+if IsInRitual() {
+with mCreatureController {
+BaseLust += 0.3  * mPlotController.ISModifier
+CloseToAnne += 0.3  * mPlotController.ISModifier
+}
+ChangeEmotionStep("happy","up",0.2)
+if ChanceToRitualReact() {
+EyeSquint(irandom_range(0,3),true,irandom_range(40,65))
+}
+} else {
+ChangeEmotionStep("happy","down",0.2)
+if mCreatureController.Triad &gt; 0 {
+ChangeEmotionStep("sad","up",0.2)
+ChangeEmotionStep("shame","up",0.2)
+}
+ChangeEmotionStep("fear","up",0.2)
+with mCreatureController {
+BaseTrust -= 0.2 * mPlotController.ISModifier
+BaseSubIntent -= 0.03 * mPlotController.ISModifier
+CloseToAnne -= 0.2 * mPlotController.ISModifier
+BaseLust -= 0.2 * mPlotController.ISModifier
+}
+ChangeEmotionStep("anger","up",NumberISMod(mCreatureController.Resistance,0.2))
+if Chance(1 * ReactChance()) {
+EyeSquint(irandom_range(0,3),true,irandom_range(40,65))
+}
+if Chance(1 * ReactChance()) {
+choose(
+MoveBackForward("retreat",10,irandom_range(20,30)),
+RandomShake(),
+VocaliseChance(100)
+)
+}
+}
+}
+alarm[1] = 60
+}
+
+
+//Random Winking
+if mCreatureController.Alive &lt; 30 or IsInRitual() {
+if WinkTimer &gt; 0 {
+WinkTimer -= 1
+} else {
+Eye = choose("left","right")
+StartWinkBehaviour(Eye)
+WinkTimer = irandom_range(1500,3000) - (1000 * (100 - mCreatureController.Alive))
+}
+}
+
+//Squint if Light Nearby
+if instance_exists(mFinger) and mInterfaceController.FingerLightOn = true and (point_distance(mFinger.x,mFinger.y,oEyeballLeft.x,oEyeballLeft.y) &lt;= 300 or point_distance(mFinger.x,mFinger.y,oEyeballRight.x,oEyeballRight.y) &lt;= 300)
+{
+EyeSquint(2,true,50)
+}
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------
 //LOW PRIORITY
 
-//InteractionTimer
 
-
-if mCreatureController.Faces != "0" and mInterfaceController.PressBegun = false
-and mCreatureController.TimeSinceLastMotion &gt; 0 {
-mDriveCollectionMaster.NoInteractionTimer += 1
-}
 
 //Opening Eyes Again if Pain goes down
 
@@ -1156,19 +1387,19 @@ YawnTimer -= max(1,1 - ((1 / 100) * mEmotionSubController.FearActivation) - ((1 
 if Yawned = false {
 StartYawnBehaviour()
 WriteToLog("Yawned.")
-mCreatureController.BaseTiredness += 0.3
+mCreatureController.BaseTiredness += 0.3  * mPlotController.ISModifier
 ChangeEmotionStep("anger","down",2)
 ChangeEmotionStep("fear","down",2)
 Yawned = true 
 } else if Yawned = true and mBehavioursReactive.YawningActive = false {
 if InRitual = true {ChangeEmotion("fear","up",0.2,4)}
-if Chance(20){StartVocalisation(choose("shortlow","shorthigh"),0.2,choose("rise","fall","same"),50)}
+if Chance(20 * ReactChance()){StartVocalisation(choose("shortlow","shorthigh"),0.2,choose("rise","fall","same"),50)}
 if Chance(40) and mBehavioursReactive.Sleeping = false {NumberOfBlinks(irandom_range(2,4))}
 if Chance(30) {StartNumberSniffsBehaviour(irandom_range(1,3))}
-if Chance(20) {StartShiverBehaviour(irandom_range(0.05,0.1),irandom_range(20,30),7)}
+if Chance(20 * ReactChance()) {RandomShake()}
 RandomTwitch()
 RandomTwitch()
-BaseBreathRate -= 0.1
+BaseBreathRate -= 0.0001
 RandomTwitch()
 RandomTwitch()
 Yawned = false
@@ -1185,19 +1416,20 @@ SlippingTimer -= 1 + ((2 / 100) * mCreatureController.Pain) + ((2 / 100) * mCrea
 StartSlipBehaviour()
 SlippingReactions()
 }
-SlippingTimer = 6000
+SlippingTimer = 10000
+alarm[1] = 60
 }
 
 //Emotions &amp; Concepts Changing Over Time
 if mInterfaceController.Faces = 0 and mCreatureController.TimeSinceLastMotion &gt; 5000 {
 with mCreatureController {
-SubIntent -= 0.0003
-CloseToAnne -= 0.003
-BaseTrust -= 0.003
-AnneIntent -= 0.003
-BaseResistance -= 0.003
-ChangeEmotionStep("happy","down",0.003)
-ChangeEmotionStep("anger","up",0.003)
+BaseSubIntent -= 0.0003 * mPlotController.ISModifier
+CloseToAnne -= 0.003 * mPlotController.ISModifier
+BaseTrust -= 0.003 * mPlotController.ISModifier
+AnneIntent -= 0.003 * mPlotController.ISModifier
+BaseResistance -= 0.003 * mPlotController.ISModifier
+//ChangeEmotionStep("happy","down",0.003)
+//ChangeEmotionStep("anger","up",0.003)
 ChangeEmotionStep("fear","up",0.003)
 ChangeEmotionStep("sad","up",0.003)
 }
@@ -1212,14 +1444,14 @@ CoughTimer -= 1  + ((1 / 100) * mCreatureController.Thirst) + ((1 / 100) * mCrea
 if Coughed = false {
 StopYawnBehaviour()
 StartCoughBehaviour()
-if Chance(40){LittleJump()}
+if Chance(40 * ReactChance()){LittleJump()}
 ChanceToWake(20)
-if Chance(20){MoveBackForward("retreat",5,irandom_range(10,20))}
+if Chance(20 * ReactChance()){MoveBackForward("retreat",5,irandom_range(10,20))}
 Coughed = true 
 }
 
 if Coughed = true and mBehavioursReactive.CoughingActive = false {
-if Chance(45){StartMouthCentreTwitchBehaviour(0.3,0.13)}
+if Chance(45 * ReactChance()){StartMouthCentreTwitchBehaviour(0.3,0.13)}
 RandomTwitch()
 Choose = choose(-1,1)
 if Choose = -1 {
@@ -1229,14 +1461,15 @@ StartCheekTwitchRightBehaviour()
 StartEyebrowTwitchRightBehaviour()
 StartEyebrowTwitchLeftBehaviour()
 }
-BaseBreathRate += 0.1
-if Chance(40){NumberOfBlinks(irandom_range(2,4))}
-if Chance(40){StartNumberSniffsBehaviour(irandom_range(2,3))}
+BaseBreathRate += 0.0002
+if Chance(40 * ReactChance()){NumberOfBlinks(irandom_range(2,4))}
+if Chance(40 * ReactChance()){StartNumberSniffsBehaviour(irandom_range(2,3))}
 mCreatureController.Dirt += 1
-mCreatureController.BaseStress += 1
-ChangeEmotionStep("anger","up",1.5)
+//mCreatureController.BaseStress += 1
+//ChangeEmotionStep("anger","up",1.5)
 CoughTimer = irandom_range(20000,30000)
 Coughed = false
+alarm[1] = 60
 }
 }
 }
@@ -1253,7 +1486,7 @@ if SniffTimer &gt; 0 {
 SniffTimer -= 1 + ((4 / 100) * mEmotionSubController.SadActivation) + ((3 / 30) * mWorldController.CurrentTemp) + ((1 / 100) * mCreatureController.Dirt)
 } else if SniffTimer &lt;= 0 {
 StartSniffBehaviour(30,30,irandom_range(2,3),1)
-SniffTimer = irandom_range(15000,20000)
+SniffTimer = irandom_range(20000,30000)
 }
 }
 
@@ -1302,6 +1535,12 @@ TouchMoleTimer -= 1 - ((1 / 100) * (100 - mCreatureController.Alive)) + ((1 / 10
 
 if CutMoleTimer &gt; 0 {
 CutMoleTimer -= 1
+}
+
+//Shout in Ear Timer 
+
+if ShoutInEarTimer &gt; 0 {
+ShoutInEarTimer -= 1
 }
 
 //Touch Sigil Area Timer
@@ -1358,12 +1597,6 @@ if TLTimer &gt; 0 {
 TLTimer -= 1
 }
 
-//Finger Under Nose Timer
-if FingerUnderNoseTimer &gt; 0 {
-FingerUnderNoseTimer -= 1
-}
-
-
 //Touch Taboo Timer
 if TabooTouchTimer &gt; 0 {
 TabooTouchTimer -= 1
@@ -1379,6 +1612,10 @@ CellarProxTimer -= 1
 
 if CellarBackTimer &gt; 0 {
 CellarBackTimer -= 1
+}
+
+if EmotionCheckTimer &gt; 0 {
+EmotionCheckTimer -= 1
 }
 
 
@@ -1409,7 +1646,7 @@ NumberOfBlinks(irandom_range(5,8)),
 EyeSquint(irandom_range(2,5),true,irandom_range(25,40))
 )
 EmotionRequest()
-EmotionCheckTimer = irandom_range(4000,10000) - NumberISMod(Stress,100) + NumberISMod(Tiredness,100) - NumberISMod(Pain,100) - NumberEmoMod(SadActivation,100) - NumberEmoMod(ShameActivation,100) - NumberEmoMod(FearActivation,100) + NumberEmoMod(AngerActivation,100)
+EmotionCheckTimer = irandom_range(20000,30000) - NumberISMod(Stress,100) + NumberISMod(Tiredness,100) - NumberISMod(Pain,100) - NumberEmoMod(SadActivation,100) - NumberEmoMod(ShameActivation,100) - NumberEmoMod(FearActivation,100) + NumberEmoMod(AngerActivation,100)
 + LowAliveMod(300)
 }
 }
@@ -1430,12 +1667,18 @@ CaulVibrateAmount += 1
 }
 }
 
+//Caul Touch Reactions
+TouchCaulReactions()
 
+if StartTouchingCaul = true {
+if mouse_check_button_released(mb_any)
+or position_meeting(mouse_x,mouse_y,mCaulParent) = false {
+StartTouchingCaul = false
+}
+}
 
 //Sigil Controllers 
-
-
-if SigilProgressIntensity &gt; 0 and SigilInProgress = false {
+if SigilProgressIntensity &gt; 0 and mInterfaceController.SequenceBegun = false {
 SigilProgressIntensity -= 1
 }
 
@@ -1446,14 +1689,16 @@ SigilStartTimer -= 1
 }
 
 
+if TSATimer &gt; 0 {
+TSATimer -= 1
+}
+
 //Touch Sigil Area, No Sequence
-if instance_exists(mFinger) {
-if place_meeting(mFinger.x,mFinger.y,mCreatureParent) {
-if mFinger.x &lt; 428 and mFinger.x &gt; 170 
-and mFinger.y &gt; 898 and mFinger.y &lt; 1170 
+if position_meeting(mouse_x,mouse_y,mCreatureParent) and mouse_check_button(mb_any) {
+if mouse_x &lt; 832 and mouse_x &gt; 520 
+and mouse_y &gt; 895 and mouse_y &lt; 1189 
 and position_meeting(mouse_x,mouse_y,sSigilMoleParent) = false {
 TouchSigilAreaReactions()
-}
 }
 }
 
@@ -1467,9 +1712,6 @@ StartCaulVibrateBehaviour(irandom_range(40,100) + NumberISMod(mCreatureControlle
 if Chance(30) {
 TwitchRun(5 + NumberISMod(mCreatureController.Lust,20))
 }
-if Chance(30) {
-RandomShake()
-}
 VibrateNubTimer = irandom_range(5000,8000) - NumberISMod(mCreatureController.Lust,2000) - ((2000 / 100) * mWorldController.MoonLustMod)
 }
 
@@ -1479,9 +1721,6 @@ ShakeCaulTimerTimer -= 1
 ShakeCaul(20 + NumberISMod(mCreatureController.Lust,30),50 + NumberISMod(mCreatureController.Lust,50))
 if Chance(30) {
 TwitchRun(5 + NumberISMod(mCreatureController.Lust,20))
-}
-if Chance(30) {
-RandomShake()
 }
 ShakeCaulTimer = irandom_range(5000,8000) - NumberISMod(mCreatureController.Lust,2000) - ((2000 / 100) * mWorldController.MoonLustMod)
 }
@@ -1494,29 +1733,9 @@ WibbleTimer = BaseWibbleTimer - NumberISMod(mCreatureController.Lust,2000) - ((2
 
 
 
+
 //-----------------------------------------------------------------------------------------------------------------------------------------
 //MEDIUM PRIORITY
-
-
-
-//Randomised Shivering (Tied To Weather)
-if InRitual = false {
-if ShiverTimer &gt; 0 {
-ShiverTimer -= 1 + ((2 / 100) * (100 - mCreatureController.Alive)) + ((0.5 / 100) * mCreatureController.Stress) + ((0.5 / 100) * mCreatureController.Tiredness) + ((0.5 / 100) * mCreatureController.Pain) 
-+ ((0.5 / 100) * mEmotionSubController.SadActivation) + ((0.5 / 100) * mEmotionSubController.ShameActivation) + ((0.5 / 100) * mEmotionSubController.FearActivation) + ((0.5 / 100) * mCreatureController.Lust) 
-+ ((0.5 / 100) * mCreatureController.Dirt) + ((0.5 / 25) * mWorldController.CurrentWindS) + ((7 / 30) * (30 - mWorldController.CurrentTemp))
-} else if ShiverTimer &lt;= 0 {
-TimeToShiver = irandom_range(35,65)
-BaseBreathRate += 0.3
-HoldBreathFor(TimeToShiver)
-StartShiverBehaviour(
-12 + ((5 / 100) * (100 - mCreatureController.Alive)) + ((5 / 100) * mCreatureController.Stress) + ((2 / 100) * mCreatureController.Tiredness) + ((1 / 100) * mCreatureController.Pain) 
-+ ((2 / 100) * mEmotionSubController.SadActivation) + ((6 / 100) * mEmotionSubController.ShameActivation) + ((3 / 100) * mEmotionSubController.FearActivation) + ((3 / 100) * mCreatureController.Lust) 
-+ ((2 / 100) * mCreatureController.Dirt) + ((2 / 25) * mWorldController.CurrentWindS) + ((2 / 30) * (30 - mWorldController.CurrentTemp)),TimeToShiver,3)
-if Chance(85){FurShedding()}
-ShiverTimer = 12000
-}
-}
 
 
 //Random Twitching
@@ -1581,9 +1800,9 @@ if oNose1.Touching = false {
 if Sneezed = false {
 StopYawnBehaviour()
 StartSneezeBehaviour(irandom_range(6,8),irandom_range(10,20),irandom_range(20,30),choose(-1,-1,-1,1))
-mCreatureController.BaseStress += 1
-mCreatureController.BaseTiredness += 1
-mCreatureController.Dirt += 2
+mCreatureController.BaseStress += 1  * mPlotController.ISModifier
+mCreatureController.BaseTiredness += 1  * mPlotController.ISModifier
+mCreatureController.Dirt += 2 
 Sneezed = true 
 } else if Sneezed = true and mBehavioursReactive.SneezeActive = false {
 if InRitual = true and mCreatureController.Triad &lt;= 0 {
@@ -1596,7 +1815,8 @@ if Chance(60){NumberOfBlinks(irandom_range(1,4))}
 if Chance(70){StartTwitchNoseSideBehaviour(irandom_range(10,30))}
 if Chance(50){StartSwallowBehaviour(3,5)}
 Sneezed = false
-SneezeTimer = irandom_range(20000,30000)
+SneezeTimer = irandom_range(30000,50000)
+alarm[1] = 60
 ChanceToWake(30)
 }
 }
@@ -1621,96 +1841,6 @@ SwallowTimer = irandom_range(8000,9000)
 }
 
 
-//Touch Taboo
-if position_meeting(mouse_x,mouse_y,mTabooParent) or ((position_meeting(mouse_x,mouse_y,oEyeballLeft) or position_meeting(mouse_x,mouse_y,oEyeballLeft)) and EyeCuts &gt; 0) 
-or (position_meeting(mouse_x,mouse_y,oHornSocketLeftBack) or position_meeting(mouse_x,mouse_y,oHornLeft) and oHornLeft.Growing = true) or (position_meeting(mouse_x,mouse_y,oHornRight) or position_meeting(mouse_x,mouse_y,oHornSocketRightBack) and oHornRight.Growing = true)
-or (position_meeting(mouse_x,mouse_y,oCaulNub) and CaulCutTimer &gt; 0)
-or (position_meeting(mouse_x,mouse_y,mWoundParent))
-and mouse_check_button(mb_any) 
-{
-
-if DrivesAreOn() {
-
-ChanceToWake(10)
-BaseBreathRate += 0.0002
-
-if TabooTouchTimer &lt;= 0 or mCreatureController.Triad &gt; 0 {
-
-if IsInRitual() {
-if ChanceToRitualReact() {
-StartNumberSniffsBehaviour(1)
-}
-if Chance(45) {
-MoveToXY(mouse_x,mouse_y,30,mInterfaceController.CurrentView,10)
-}
-}
-StopYawnBehaviour()
-TwitchRun(irandom_range(10,30))
-if Chance(0.5) {
-RandomShake()
-}
-if Chance(0.3) {
-LittleJump()
-}
-ChangeEmotion("surprise","up",2,40)
-HoldBreathFor(irandom_range(30,60))
-TabooTouchTimer = irandom_range(700,1500) + ((600 / 100) * (100 - mCreatureController.Alive))
-}
-
-if Chance(0.01) {
-TwitchRun(irandom_range(5,20))
-}
-
-if IsAsleep() = false {
-
-with mCreatureController {
-BaseResistance -= 0.1
-BasePain += 0.2
-BaseStress += 0.2
-BaseAlive -= 0.005
-}
-
-if IsInRitual() {
-with mCreatureController {
-BaseLust += 0.3
-CloseToAnne += 0.3
-}
-
-ChangeEmotionStep("happy","up",0.2)
-if ChanceToRitualReact() {
-EyeSquint(irandom_range(0,3),true,irandom_range(40,65))
-}
-} else {
-ChangeEmotionStep("happy","down",0.2)
-if mCreatureController.Triad &gt; 0 {
-ChangeEmotionStep("sad","up",0.2)
-ChangeEmotionStep("shame","up",0.2)
-}
-ChangeEmotionStep("fear","up",0.2)
-with mCreatureController {
-BaseTrust -= 0.2
-BaseSubIntent -= 0.03
-CloseToAnne -= 0.2
-BaseLust -= 0.2
-}
-ChangeEmotionStep("fear","up",0.2)
-ChangeEmotionStep("anger","up",NumberISMod(mCreatureController.Resistance,0.2))
-if Chance(0.04) {
-EyeSquint(irandom_range(0,3),true,irandom_range(40,65))
-}
-if Chance(0.01) {
-choose(
-MoveBackForward("retreat",10,irandom_range(20,30)),
-RandomShake(),
-VocaliseChance(100)
-)
-}
-}
-}
-}
-}
-
-
 //-----------------------------------------------------------------------------------------------------------------------------------------
 //HIGH PRIORITY
 
@@ -1719,179 +1849,190 @@ VocaliseChance(100)
 if IsAlive() {
 if mBehavioursDeliberative.PercentForward &gt; 60 {
 
-
 // Left Eye 
 if position_meeting(mouse_x,mouse_y,oEyeballLeft) and mouse_check_button(mb_any) {
+
+
+//Initial 
+if EyeLReact = false {
+
 if InRitual = true {
-if EyeLReact = false {
-if Chance(100 - ChanceToRitualReact()) {MoveToXY(oEyeballLeft.x,oEyeballLeft.y,70,mInterfaceController.CurrentView,50)}
-if Chance(100 - ChanceToRitualReact()) {MoveBackForward("comeforward",irandom_range(30,60),irandom_range(10,20))}
-StartEyebrowTwitchLeftBehaviour()
-CurrentlyBlinking = false
-CurrentlyWinking = false
-CurrentlySquinting = false
-StartCloseEyeBehaviour("left",0)
-EyeLReact = true
-}
-mCreatureController.BaseResistance -= 0.3 + ((0.3 /100) * oEyeballLeft.Blackness * 100)
-BaseBreathRate += 0.003
-mCreatureController.SubIntent -= 0.001 + ((0.0001 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BasePain += 0.3 + ((0.03 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BaseTrust += 0.3 + ((0.03 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.CloseToAnne += 0.3 + ((0.03 /100) * oEyeballLeft.Blackness * 100)
-ChangeEmotionStep("happy","up",0.3)
-ChangeEmotionStep("fear","up",0.05)
-ChangeEmotionStep("anger","down",0.3)
+if Chance(100 - ChanceToRitualReact() * ReactChance()) {MoveToXY(oEyeballLeft.x,oEyeballLeft.y,70,mInterfaceController.CurrentView,50)}
+if Chance(100 - ChanceToRitualReact() * ReactChance()) {MoveBackForward("comeforward",irandom_range(30,60),100 - mBehavioursDeliberative.PercentForward)}
+ChangeEmotionStep("happy","up",10)
+ChangeEmotionStep("fear","up",10)
+ChangeEmotionStep("anger","down",10)
 } else {
-if EyeLReact = false {
-StartEyebrowTwitchLeftBehaviour()
-CurrentlyBlinking = false
-CurrentlyWinking = false
-CurrentlySquinting = false
-StartCloseEyeBehaviour("left",0)
-if EyeSurpriseTimer &lt;= 0 {
-LittleJump()
-if Chance(10 + ((30 /100) * oEyeballLeft.Blackness * 100)) {
+if Chance(10 + ((40 /100) * oEyeballLeft.Blackness * 100)* ReactChance()) {
 MoveBackForward("retreat",irandom_range(10,20),irandom_range(5,10))
 }
+ChangeEmotion("happy","down",1,10)
+ChangeEmotion("anger","up",1,10)
+if Chance(30* ReactChance()){RandomShake()}
+}
+ReduceTabooLayerHealth(0.2)
+if mCreatureController.Triad &lt; 0 {
+ChangeEmotionStep("fear","up",7)
+}
+
+if EyeSurpriseTimer &lt;= 0 {
+LittleJump()
+if IsInRitual() = false {
 if mCreatureController.Triad &gt; 0 {
 ChangeEmotion("surprise","up",1.2,60)
 } else {
-ChangeEmotion("surprise","up",1.2,30)
+ChangeEmotion("surprise","up",1.2,20)
 }
-VocaliseChance(40)
-ChangeEmotion("happy","down",1,20)
-ChangeEmotion("anger","up",1,30)
+VocaliseChance(40 * ReactChance())
 }
-ChanceToWake(10 + ((20 /100) * oEyeballLeft.Blackness * 100))
-mCreatureController.BasePain += 20 + ((10 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BaseStress += 20 +  ((10 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.SubIntent -= 0.01 + ((0.01 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.CloseToAnne -= 2 + ((2 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BaseTrust -= 4 + ((4 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BaseResistance += 2 + ((2 /100) * oEyeballLeft.Blackness * 100)
-EyeLReact = true
 }
 
+mCreatureController.BaseResistance -= 3 * mDriveCollectionMaster.ISModifier
+mCreatureController.BasePain += 4 * mDriveCollectionMaster.ISModifier
+BaseBreathRate += 0.001
+StartEyebrowTwitchLeftBehaviour()
+CurrentlyWinking = false
+CurrentlySquinting = false
+NumberOfBlinks(irandom_range(4,8))
+ChanceToWake(20)
+oEyeballLeft.Redness += 0.1
+oEyeballLeft.Blackness += 0.1
+EyeLReact = true
+}
+//Ongoing
+mCreatureController.BaseResistance -= 0.1 + ((0.1 /100) * oEyeballLeft.Blackness * 100)
+mCreatureController.BasePain += 0.1 + ((0.1 /100) * oEyeballLeft.Blackness * 100)
+mCreatureController.BaseStress += 0.1 +  ((0.1 /100) * oEyeballLeft.Blackness * 100)
+mCreatureController.BaseAlive -= 0.003
+oEyeballLeft.Redness += 0.01
+oEyeballLeft.Blackness += 0.01
+BaseBreathRate += 0.000003
+ChanceToWake(0.1 + ((0.2 /100) * oEyeballLeft.Blackness * 100))
 if mCreatureController.Triad &lt; 0 {
 ChangeEmotionStep("fear","up",0.2)
 }
-VocaliseChance(0.05)
-mCreatureController.SubIntent -= 0.001 + ((0.0001 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.CloseToAnne -= 0.3 + ((0.03 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BaseTrust -= 0.3 + ((0.03 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BaseResistance += 0.3 + ((0.03 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BaseStress += 0.3 +  ((0.02 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BasePain += 0.3 + ((0.03 /100) * oEyeballLeft.Blackness * 100)
-mCreatureController.BaseAlive -= 0.003
+if InRitual = true {
+mCreatureController.CloseToAnne += 0.1 + ((0.1 /100) * oEyeballLeft.Blackness * 100)
+ChangeEmotionStep("happy","up",0.2)
+ChangeEmotionStep("fear","up",0.2)
+ChangeEmotionStep("anger","down",0.3)
+mCreatureController.CloseToAnne += 0.1 + ((0.1 /100) * oEyeballLeft.Blackness * 100)
+} else {
 ChangeEmotionStep("happy","down",0.3)
 ChangeEmotionStep("anger","up",0.3)
-ChangeEmotionStep("fear","up",0.3)
-BaseBreathRate += 0.003
-oEyeballLeft.Redness += 0.01
-oEyeballLeft.Blackness += 0.01
-ChanceToWake(0.2)
-if Chance(0.2) {StartScreenShake(irandom_range(20,30),random_range(0.2,0.5),2)}
+mCreatureController.BaseSubIntent -= 0.001 + ((0.0001 /100) * oEyeballLeft.Blackness * 100)
+mCreatureController.BaseTrust += 0.1 + ((0.1 /100) * oEyeballLeft.Blackness * 100)
+mCreatureController.CloseToAnne -= 0.1 + ((0.1 /100) * oEyeballLeft.Blackness * 100)
+VocaliseChance(0.5 * ReactChance())
 }
 }
+
+
+// Right Eye 
+if position_meeting(mouse_x,mouse_y,oEyeballRight) and mouse_check_button(mb_any) {
+
+
+//Initial 
+if EyeRReact = false {
+
+if InRitual = true {
+if Chance(100 - ChanceToRitualReact() * ReactChance()) {MoveToXY(oEyeballRight.x,oEyeballRight.y,70,mInterfaceController.CurrentView,50)}
+if Chance(100 - ChanceToRitualReact() * ReactChance()) {MoveBackForward("comeforward",irandom_range(30,60),100 - mBehavioursDeliberative.PercentForward)}
+ChangeEmotionStep("happy","up",10)
+ChangeEmotionStep("fear","up",4)
+ChangeEmotionStep("anger","down",4)
+} else {
+if Chance(10 + ((40 /100) * oEyeballRight.Blackness * 100) * ReactChance()) {
+MoveBackForward("retreat",irandom_range(10,20),irandom_range(5,10))
+}
+ChangeEmotion("happy","down",1,10)
+ChangeEmotion("anger","up",1,10)
+if Chance(30 * ReactChance()){RandomShake()}
+}
+ReduceTabooLayerHealth(0.2)
+if mCreatureController.Triad &lt; 0 {
+ChangeEmotionStep("fear","up",7)
+}
+
+if EyeSurpriseTimer &lt;= 0 {
+LittleJump()
+if IsInRitual() = false {
+if mCreatureController.Triad &gt; 0 {
+ChangeEmotion("surprise","up",1.2,60)
+} else {
+ChangeEmotion("surprise","up",1.2,20)
+}
+VocaliseChance(40 * ReactChance())
+}
+}
+
+mCreatureController.BaseResistance -= 3 * mDriveCollectionMaster.ISModifier
+mCreatureController.BasePain += 4 * mDriveCollectionMaster.ISModifier
+BaseBreathRate += 0.001
+StartEyebrowTwitchLeftBehaviour()
+CurrentlyWinking = false
+CurrentlySquinting = false
+NumberOfBlinks(irandom_range(4,8))
+CurrentlyWinking = false
+CurrentlySquinting = false
+ChanceToWake(20)
+oEyeballRight.Redness += 0.1
+oEyeballRight.Blackness += 0.1
+EyeRReact = true
+}
+//Ongoing
+mCreatureController.BaseResistance -= 0.1 + ((0.1 /100) * oEyeballRight.Blackness * 100)
+mCreatureController.BasePain += 0.1 + ((0.1 /100) * oEyeballRight.Blackness * 100)
+mCreatureController.BaseStress += 0.1 +  ((0.1 /100) * oEyeballRight.Blackness * 100)
+mCreatureController.BaseAlive -= 0.003
+oEyeballRight.Redness += 0.01
+oEyeballRight.Blackness += 0.01
+BaseBreathRate += 0.000003
+ChanceToWake(0.1 + ((0.2 /100) * oEyeballRight.Blackness * 100))
+if mCreatureController.Triad &lt; 0 {
+ChangeEmotionStep("fear","up",0.2)
+}
+if InRitual = true {
+mCreatureController.CloseToAnne += 0.1 + ((0.1 /100) * oEyeballRight.Blackness * 100)
+ChangeEmotionStep("happy","up",0.2)
+ChangeEmotionStep("fear","up",0.2)
+ChangeEmotionStep("anger","down",0.3)
+mCreatureController.CloseToAnne += 0.1 + ((0.1 /100) * oEyeballRight.Blackness * 100)
+} else {
+ChangeEmotionStep("happy","down",0.3)
+ChangeEmotionStep("anger","up",0.3)
+mCreatureController.BaseSubIntent -= 0.001 + ((0.0001 /100) * oEyeballRight.Blackness * 100)
+mCreatureController.BaseTrust += 0.1 + ((0.1 /100) * oEyeballRight.Blackness * 100)
+mCreatureController.CloseToAnne -= 0.1 + ((0.1 /100) * oEyeballRight.Blackness * 100)
+VocaliseChance(0.5 * ReactChance())
+}
+}
+
+}
+}
+
 
 if EyeLReact = true {
 if instance_exists(mFinger) = false or (instance_exists(mFinger) = true and place_meeting(mFinger.x,mFinger.y,oEyeballLeft) = false) or mBehavioursDeliberative.PercentForward &lt; 60 {
 EyeLReact = false
+alarm[1] = 60
 EyeSurpriseTimer = irandom_range(500,800) + ((300 / 100) * (100 - mCreatureController.Alive))
 CurrentlyBlinking = true
 CurrentlyWinking = true
 CurrentlySquinting = true
 StartBlinkBehaviour()
-}
-}
-
-
-if position_meeting(mouse_x,mouse_y,oEyeballRight) and mouse_check_button(mb_any) {
-if InRitual = true {
-if EyeRReact = false {
-if Chance(100 - ChanceToRitualReact()) {MoveToXY(oEyeballRight.x,oEyeballRight.y,70,mInterfaceController.CurrentView,50)}
-if Chance(100 - ChanceToRitualReact()) {MoveBackForward("comeforward",irandom_range(30,60),irandom_range(10,20))}
-StartEyebrowTwitchLeftBehaviour()
-CurrentlyBlinking = false
-CurrentlyWinking = false
-CurrentlySquinting = false
-StartCloseEyeBehaviour("right",0)
-EyeRReact = true
-}
-mCreatureController.BaseResistance -= 0.3 + ((0.3 /100) * oEyeballRight.Blackness * 100)
-BaseBreathRate += 0.003
-mCreatureController.SubIntent -= 0.001 + ((0.0001 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BasePain += 0.3 + ((0.03 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BaseTrust += 0.3 + ((0.03 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.CloseToAnne += 0.3 + ((0.03 /100) * oEyeballRight.Blackness * 100)
-ChangeEmotionStep("happy","up",0.3)
-ChangeEmotionStep("fear","up",0.05)
-ChangeEmotionStep("anger","down",0.3)
-} else {
-if EyeRReact = false {
-StartEyebrowTwitchRightBehaviour()
-CurrentlyBlinking = false
-CurrentlyWinking = false
-CurrentlySquinting = false
-StartCloseEyeBehaviour("right",0)
-if EyeSurpriseTimer &lt;= 0 {
-LittleJump()
-if Chance(10 + ((30 /100) * oEyeballRight.Blackness * 100)) {
-MoveBackForward("retreat",irandom_range(10,20),irandom_range(5,10))
-}
-if mCreatureController.Triad &gt; 0 {
-ChangeEmotion("surprise","up",1.2,60)
-} else {
-ChangeEmotion("surprise","up",1.2,40)
-}
-VocaliseChance(40)
-ChangeEmotion("happy","down",1,20)
-ChangeEmotion("anger","up",1,30)
-}
-ChanceToWake(10 + ((20 /100) * oEyeballRight.Blackness * 100))
-mCreatureController.BasePain += 20 + ((10 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BaseStress += 20 +  ((10 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.SubIntent -= 0.01 + ((0.01 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.CloseToAnne -= 2 + ((2 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BaseTrust -= 4 + ((4 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BaseResistance += 2 + ((2 /100) * oEyeballRight.Blackness * 100)
-EyeRReact = true
-}
-
-if mCreatureController.Triad &lt; 0 {
-ChangeEmotionStep("fear","up",0.2)
-}
-VocaliseChance(0.05)
-mCreatureController.SubIntent -= 0.001 + ((0.0001 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.CloseToAnne -= 0.3 + ((0.03 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BaseTrust -= 0.3 + ((0.03 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BaseResistance += 0.3 + ((0.03 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BaseStress += 0.3 +  ((0.02 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BasePain += 0.3 + ((0.03 /100) * oEyeballRight.Blackness * 100)
-mCreatureController.BaseAlive -= 0.003
-ChangeEmotionStep("happy","down",0.3)
-ChangeEmotionStep("anger","up",0.3)
-ChangeEmotionStep("fear","up",0.3)
-BaseBreathRate += 0.003
-oEyeballRight.Redness += 0.01
-oEyeballRight.Blackness += 0.01
-ChanceToWake(0.2)
-if Chance(0.2) {StartScreenShake(irandom_range(20,30),random_range(0.2,0.5),2)}
 }
 }
 
 if EyeRReact = true {
 if instance_exists(mFinger) = false or (instance_exists(mFinger) = true and place_meeting(mFinger.x,mFinger.y,oEyeballRight) = false) or mBehavioursDeliberative.PercentForward &lt; 60 {
 EyeRReact = false
+alarm[1] = 60
 EyeSurpriseTimer = irandom_range(500,800) + ((300 / 100) * (100 - mCreatureController.Alive))
 CurrentlyBlinking = true
 CurrentlyWinking = true
 CurrentlySquinting = true
 StartBlinkBehaviour()
-}
-}
-
 }
 }
 
@@ -1901,14 +2042,130 @@ EyeSurpriseTimer -= 1
 
 
 
-//Chance To Sniff if Finger is placed below nose
-if FingerUnderNoseTimer &gt; 0 {
-FingerUnderNoseTimer -= 1
+
+//Cutting Eyes
+
+if IsAlive() and AmountForward(60) {
+if position_meeting(mouse_x,mouse_y,mEyeLeftParent) and mouse_check_button(mb_any)
+and mInterfaceController.CurrentHandUse = "knife" and oEyeballLeft.CutUp = false {
+oEyeballLeft.CutUp = true
+ReduceTabooLayerHealth(5)
+alarm[1] = 60
+CreateParticleSplash(oEyeballLeft.x,oEyeballLeft.y,oEyeballLeft.sprite_width,ps_shape_ellipse,ps_distr_gaussian,BloodLiquidColour,50,120,0.2,0.5,0,360,30,90,0.2,400)
+CreateStain(40,0,360,40,100,0.02,3,10,1,3,BloodLiquidColour,oEyeballLeft.x,oEyeballLeft.y)
+StopYawnBehaviour()
+StopMoveInOut()
+StopXYMove()
+
+if EyeCutTimer &lt;= 0 {
+ChangeEmotion("surprise","up",2,100)
+LittleJump()
+EyeCutTimer = 25000
+BaseBreathRate += 0.1
 }
 
+if Chance(4 * ReactChance()){RandomShake()}
+StartCloseEyeBehaviour("left",0)
+BaseBreathRate += 0.2
+ChanceToWake(100)
+mCreatureController.BasePain += 30 * mPlotController.ISModifier
+mCreatureController.BaseStress += 50 * mPlotController.ISModifier
+mCreatureController.BaseAlive -= 5 * mPlotController.ISModifier
+VocaliseChance(100 * ReactChance())
+
+if IsInRitual() {
+oEyeballLeft.TargetBlackness += 0.03
+oEyeballLeft.Redness += 0.03
+mCreatureController.BaseResistance -= 40  * mPlotController.ISModifier
+mCreatureController.BaseLust -= 30  * mPlotController.ISModifier
+ChangeEmotionStep("happy","up",20)
+} else {
+TwitchRun(irandom_range(25,40))
+oEyeballLeft.TargetBlackness += 0.8
+oEyeballLeft.Redness += 0.8
+mCreatureController.BaseSubIntent -= 5 * mPlotController.ISModifier
+mCreatureController.BaseResistance -= 25 * mPlotController.ISModifier
+mCreatureController.BaseLust -= 50 * mPlotController.ISModifier
+mCreatureController.CloseToAnne -= 30 * mPlotController.ISModifier
+if Chance(60 * ReactChance()){StartNumberSniffsBehaviour(1)}
+MoveBackForward("retreat",irandom_range(20,30),60)
+ChangeEmotion("happy","down",0.7,70)
+ChangeEmotion("anger","up",0.7,40)
+ChangeEmotion("fear","up",0.7,50)
+ChangeEmotion("shame","up",0.7,50)
+ChangeEmotion("sad","up",0.7,50)
+}
+}
+}
+
+
+if IsAlive() and AmountForward(60) {
+if position_meeting(mouse_x,mouse_y,mEyeRightParent) and mouse_check_button(mb_any)
+and mInterfaceController.CurrentHandUse = "knife" and oEyeballRight.CutUp = false {
+oEyeballRight.CutUp = true
+ReduceTabooLayerHealth(5)
+alarm[1] = 60
+CreateParticleSplash(oEyeballRight.x,oEyeballRight.y,oEyeballRight.sprite_width,ps_shape_ellipse,ps_distr_gaussian,BloodLiquidColour,50,120,0.2,0.5,0,360,30,90,0.2,400)
+CreateStain(40,0,360,40,100,0.02,3,10,1,3,BloodLiquidColour,oEyeballRight.x,oEyeballRight.y)
+StopYawnBehaviour()
+StopMoveInOut()
+StopXYMove()
+
+if EyeCutTimer &lt;= 0 {
+ChangeEmotion("surprise","up",2,100)
+LittleJump()
+EyeCutTimer = 25000
+BaseBreathRate += 0.1
+}
+
+if Chance(4 * ReactChance()){RandomShake()}
+StartCloseEyeBehaviour("left",0)
+BaseBreathRate += 0.2
+ChanceToWake(100)
+mCreatureController.BasePain += 30 * mPlotController.ISModifier
+mCreatureController.BaseStress += 50 * mPlotController.ISModifier
+mCreatureController.BaseAlive -= 5 * mPlotController.ISModifier
+VocaliseChance(100 * ReactChance())
+
+if IsInRitual() {
+oEyeballRight.TargetBlackness += 0.03
+oEyeballRight.Redness += 0.03
+mCreatureController.BaseResistance -= 40 * mPlotController.ISModifier
+mCreatureController.BaseLust -= 30 * mPlotController.ISModifier
+ChangeEmotionStep("happy","up",20)
+} else {
+TwitchRun(irandom_range(25,40))
+oEyeballRight.TargetBlackness += 0.8
+oEyeballRight.Redness += 0.8
+mCreatureController.BaseSubIntent -= 5 * mPlotController.ISModifier
+mCreatureController.BaseResistance -= 25 * mPlotController.ISModifier
+mCreatureController.BaseLust -= 50 * mPlotController.ISModifier
+mCreatureController.CloseToAnne -= 30 * mPlotController.ISModifier
+if Chance(60 * ReactChance()){StartNumberSniffsBehaviour(1)}
+MoveBackForward("retreat",irandom_range(20,30),60)
+ChangeEmotion("happy","down",0.7,70)
+ChangeEmotion("anger","up",0.7,40)
+ChangeEmotion("fear","up",0.7,50)
+ChangeEmotion("shame","up",0.7,50)
+ChangeEmotion("sad","up",0.7,50)
+}
+}
+}
+
+if EyeCutTimer &gt; 0 {
+EyeCutTimer -= 1 
+}
+
+
+
+
+
+//Chance To Sniff if Finger is placed below nose
+
 if FingerUnderNoseTimer &lt;= 0 and IsAlive() and AmountForward(70)
-and mouse_check_button_pressed(mb_any) and mouse_y &gt;= oBLNostrilSocket.y and mouse_y &lt;= oBLNostrilSocket.y + 200
-and mouse_x &gt; oBLNostrilSocket.x and mouse_x &lt; oBRNostrilSocket.x and mInterfaceController.GrabbingBodyPart = false {
+and mouse_check_button_pressed(mb_any) and 
+((mouse_y &gt;= oBLNostril.y and mouse_y &lt;= oBLNostril.y + 300)
+and (mouse_x &gt; oBLNostril.x and mouse_x &lt; oBRNostril.x)) and mInterfaceController.GrabbingBodyPart = false {
 ChanceToWake(5)
 StartEyebrowTwitchRightBehaviour()
 StartEyebrowTwitchLeftBehaviour()
@@ -1918,7 +2175,6 @@ if IsInRitual() {
 if mBehavioursDeliberative.PercentForward &lt; 100 {
 MoveBackForward("comeforward",25,100 - mBehavioursDeliberative.PercentForward)
 }
-MoveToXY(oNose1.x,oNose1.y + (oNose1.sprite_height / 2),25,mInterfaceController.CurrentView,10)
 HoldBreathFor(irandom_range(20,45))
 StartNumberSniffsBehaviour(irandom_range(1,3))
 StartTwitchNoseSideBehaviour(irandom_range(10,25))
@@ -1927,9 +2183,8 @@ NumberOfBlinks(irandom_range(2,6)),
 EyeSquint(irandom_range(0,2),true,irandom_range(20,45))
 )
 } else {
-if mCreatureController.Triad &gt; 0 and mEmotionSubController.Fear &lt; 60 {
+if mCreatureController.Triad &gt; 0 and mEmotionSubController.FearActivation &lt; 60 {
 HoldBreathFor(irandom_range(20,45))
-MoveToXY(oNose1.x,oNose1.y + (oNose1.sprite_height / 2),25,mInterfaceController.CurrentView,10)
 StartNumberSniffsBehaviour(irandom_range(1,3))
 if mBehavioursDeliberative.PercentForward &lt; 100 {
 MoveBackForward("comeforward",25,100 - mBehavioursDeliberative.PercentForward)
@@ -1950,137 +2205,184 @@ EyeSquint(irandom_range(0,2),true,irandom_range(20,45))
 )
 }
 }
+alarm[1] = 60
 FingerUnderNoseTimer = 2000
 }
 
-//Cutting Eyes
-
-if IsAlive() and AmountForward(60) {
-if(instance_exists(mFinger) and place_meeting(mFinger.x,mFinger.y,oEyeballLeft))
-and mInterfaceController.CurrentHandUse = "knife" and oEyeballLeft.CutUp = false {
-oEyeballLeft.CutUp = true
-CreateParticleSplash(mFinger.x,mFinger.y,oEyeballLeft.sprite_width/2,ps_shape_ellipse,ps_distr_gaussian,BloodLiquidColour,30,50,0.2,0.5,0,360,20,30,0.2,200)
-CreateStain(50,0,360,20,30,0.02,2,6,1,3,BloodLiquidColour,mFinger.x,mFinger.y)
-StopYawnBehaviour()
-StopMoveInOut()
-StopXYMove()
-
-if EyeCutTimer &lt;= 0 {
-ChangeEmotion("surprise","up",2,100)
-LittleJump()
-EyeCutTimer = 25000
-BaseBreathRate += 1
+//Finger Under Nose Timer
+if FingerUnderNoseTimer &gt; 0 {
+FingerUnderNoseTimer -= 1
 }
 
-if Chance(0.1){RandomShake()}
-StartCloseEyeBehaviour("left",0)
-BaseBreathRate += 0.5
+//Cut Reactions
+if CutTimer &gt; 0 {
+CutTimer -= 1
+}
+
+
+//Cut Start
+if CutReact = true {
+if IsAlive() {
 ChanceToWake(100)
-mCreatureController.BasePain += 30
-mCreatureController.BaseStress += 50
-mCreatureController.BaseAlive -= 5
-VocaliseChance(80)
-
-if IsInRitual() {
-oEyeballLeft.TargetBlackness += 0.03
-oEyeballLeft.BaseRedness += 0.03
-mCreatureController.BaseResistance -= 40
-mCreatureController.BaseLust -= 30
-ChangeEmotionStep("happy","up",20)
-} else {
-TwitchRun(irandom_range(25,40))
-oEyeballLeft.TargetBlackness += 0.8
-oEyeballLeft.BaseRedness += 0.8
-mCreatureController.BaseSubIntent -= 5
-mCreatureController.BaseResistance -= 25
-mCreatureController.BaseLust -= 50
-mCreatureController.CloseToAnne -= 30
-if Chance(60){StartNumberSniffsBehaviour(1)}
-MoveBackForward("retreat",irandom_range(20,30),60)
-ChangeEmotion("happy","down",0.7,70)
-ChangeEmotion("anger","up",0.7,40)
-ChangeEmotion("fear","up",0.7,50)
-ChangeEmotion("shame","up",0.7,50)
-ChangeEmotion("sad","up",0.7,50)
-}
-}
-}
-
-
-if IsAlive() and AmountForward(60) {
-if(instance_exists(mFinger) and place_meeting(mFinger.x,mFinger.y,oEyeballRight))
-and mInterfaceController.CurrentHandUse = "knife" and oEyeballRight.CutUp = false {
-oEyeballRight.CutUp = true
-CreateParticleSplash(mFinger.x,mFinger.y,oEyeballRight.sprite_width/2,ps_shape_ellipse,ps_distr_gaussian,BloodLiquidColour,30,50,0.2,0.5,0,360,20,30,0.2,200)
-CreateStain(50,0,360,20,30,0.02,2,6,1,3,BloodLiquidColour,mFinger.x,mFinger.y)
+TwitchIfNearBP(mouse_x,mouse_y,500)
 StopYawnBehaviour()
-StopMoveInOut()
+StopVocalisation()
+StopVocalPhrase()
 StopXYMove()
-
-if EyeCutTimer &lt;= 0 {
-ChangeEmotion("surprise","up",2,100)
-LittleJump()
-EyeCutTimer = 25000
-BaseBreathRate += 1
-}
-
-if Chance(0.1){RandomShake()}
-StartCloseEyeBehaviour("left",0)
-BaseBreathRate += 0.5
-ChanceToWake(100)
-mCreatureController.BasePain += 30
-mCreatureController.BaseStress += 50
-mCreatureController.BaseAlive -= 5
-VocaliseChance(80)
-
+ReduceTabooLayerHealth(1)
+if IsAsleep() = false {
 if IsInRitual() {
-oEyeballRight.TargetBlackness += 0.03
-oEyeballRight.BaseRedness += 0.03
-mCreatureController.BaseResistance -= 40
-mCreatureController.BaseLust -= 30
-ChangeEmotionStep("happy","up",20)
+if CutTimer = 0 {
+ChangeEmotion("surprise","up",0.8,40 + (max(0,((30 / 100) * (mCreatureController.Triad * 100)))))
+if ChanceToRitualReact() * ReactChance(){StartNumberSniffsBehaviour(1)}
+if ChanceToRitualReact()* ReactChance(){LittleJump()}
+mCreatureController.BaseResistance -= 10 * mPlotController.ISModifier
+mCreatureController.BasePain += 10 * mPlotController.ISModifier
+mCreatureController.BaseAlive -= 0.5 * mPlotController.ISModifier
+mCreatureController.CloseToAnne += 4 * mPlotController.ISModifier
+HoldBreathFor(irandom_range(30,80))
+mDriveCollectionMaster.BaseBreathRate += 0.003
+if ChanceToRitualReact() * ReactChance(){ShiverChance(60)}
+if ChanceToRitualReact() * ReactChance(){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
+CutTimer = 3600 - NumberISMod(mCreatureController.Resistance,400) + NumberISMod(mCreatureController.Stress,400) + NumberISMod(mCreatureController.Tiredness,400) + LowAliveMod(400) - NumberISMod(mCreatureController.Trust,400)
 } else {
-TwitchRun(irandom_range(25,40))
-oEyeballRight.TargetBlackness += 0.8
-oEyeballRight.BaseRedness += 0.8
-mCreatureController.BaseSubIntent -= 5
-mCreatureController.BaseResistance -= 25
-mCreatureController.BaseLust -= 50
-mCreatureController.CloseToAnne -= 30
-if Chance(60){StartNumberSniffsBehaviour(1)}
-MoveBackForward("retreat",irandom_range(20,30),60)
-ChangeEmotion("happy","down",0.7,70)
-ChangeEmotion("anger","up",0.7,40)
-ChangeEmotion("fear","up",0.7,50)
-ChangeEmotion("shame","up",0.7,50)
-ChangeEmotion("sad","up",0.7,50)
+if ChanceToRitualReact()* ReactChance(){StartNumberSniffsBehaviour(1)}
+mCreatureController.BaseResistance -= 10 * mPlotController.ISModifier
+mCreatureController.BasePain += 10 * mPlotController.ISModifier
+mCreatureController.BaseAlive -= 0.5 * mPlotController.ISModifier
+mCreatureController.CloseToAnne += 4 * mPlotController.ISModifier
+mDriveCollectionMaster.BaseBreathRate += 0.03
+if ChanceToRitualReact()* ReactChance(){ShiverChance(60)}
+if ChanceToRitualReact()* ReactChance(){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
 }
+
+
+} else {
+if CutTimer = 0 {
+ChangeEmotion("surprise","up",0.8,30 + (max(0,((30 / 100) * (mCreatureController.Triad * 100)))))
+VocaliseChance(100)
+if Chance(80 * ReactChance()) {StartNumberSniffsBehaviour(1)}
+if Chance(70* ReactChance()){RandomShake()}
+if Chance(70* ReactChance()){LittleJump()}
+ShiftAway(mouse_x,mouse_y,irandom_range(100,200),random(360))
+TwitchRun(irandom_range(6,15))
+if Chance(70* ReactChance()){MoveBackForward("retreat",10,irandom_range(5,20))}
+mCreatureController.BaseResistance -= 10 * mPlotController.ISModifier
+mCreatureController.BasePain += 10 * mPlotController.ISModifier
+mCreatureController.BaseStress += 10 * mPlotController.ISModifier
+mCreatureController.BaseAlive -= 0.5 * mPlotController.ISModifier
+mCreatureController.CloseToAnne -= 5 * mPlotController.ISModifier
+mCreatureController.BaseSubIntent -= 0.2 * mPlotController.ISModifier
+mCreatureController.BaseTrust -= 10 * mPlotController.ISModifier
+ChangeEmotion("happy","down",2,70)
+if mCreatureController.Triad &gt; 0 {
+ChangeEmotion("shame","up",2,30)
+ChangeEmotion("anger","up",2,25)
+}
+mCreatureController.BaseLust -= 50  * mPlotController.ISModifier
+ChangeEmotion("fear","up",2,50)
+HoldBreathFor(irandom_range(30,80))
+mDriveCollectionMaster.BaseBreathRate += 0.03
+if Chance(20* ReactChance()){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
+CutTimer = 3600 - NumberISMod(mCreatureController.Resistance,400) + NumberISMod(mCreatureController.Stress,400) + NumberISMod(mCreatureController.Tiredness,400) + LowAliveMod(400) - NumberISMod(mCreatureController.Trust,400)
+} else {
+VocaliseChance(50 * ReactChance())
+if Chance(20* ReactChance()){StartNumberSniffsBehaviour(1)}
+if Chance(10* ReactChance()){RandomShake()}
+if Chance(10* ReactChance()){LittleJump()}
+TwitchRun(irandom_range(2,5))
+ShiftAway(mouse_x,mouse_y,irandom_range(40,60),random(360))
+if Chance(70* ReactChance()){MoveBackForward("retreat",10,irandom_range(10,30))}
+mCreatureController.BaseResistance -= 10 * mPlotController.ISModifier
+mCreatureController.BasePain += 10 * mPlotController.ISModifier
+mCreatureController.BaseStress += 10 * mPlotController.ISModifier
+mCreatureController.BaseAlive -= 0.5 * mPlotController.ISModifier
+mCreatureController.CloseToAnne -= 5 * mPlotController.ISModifier
+mCreatureController.BaseSubIntent -= 0.2 * mPlotController.ISModifier
+mCreatureController.BaseTrust -= 10 * mPlotController.ISModifier
+ChangeEmotion("happy","down",2,60)
+if mCreatureController.Triad &gt; 0 {
+ChangeEmotion("shame","up",2,30)
+ChangeEmotion("anger","up",2,25)
+}
+mCreatureController.BaseLust -= 50  * mPlotController.ISModifier
+ChangeEmotion("fear","up",2,50)
+HoldBreathFor(irandom_range(30,80))
+mDriveCollectionMaster.BaseBreathRate += 0.03
+if Chance(20* ReactChance()){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
+}
+}
+}
+}
+CutReact = false
+}
+
+//During Cut
+if mInterfaceController.Wounding = true {
+CutCaulReactions()
+if IsInRitual() {
+mCreatureController.BaseResistance -= 0.1 * mDriveCollectionMaster.ISModifier
+mCreatureController.BasePain += 0.1 * mDriveCollectionMaster.ISModifier
+mCreatureController.BaseAlive -= 0.05 * mDriveCollectionMaster.ISModifier
+mCreatureController.CloseToAnne += 0.1 * mDriveCollectionMaster.ISModifier
+mDriveCollectionMaster.BaseBreathRate += 0.003
+if ChanceToRitualReact()/1000* ReactChance(){ShiverChance(60)}
+if ChanceToRitualReact()/1000* ReactChance(){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
+} else {
+VocaliseChance(1 * ReactChance())
+if Chance(2* ReactChance()){RandomShake()}
+if Chance(4* ReactChance()){ShiftAway(mouse_x,mouse_y,irandom_range(100,200),random(360))}
+if Chance(5* ReactChance()){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
+if Chance(2* ReactChance()){TwitchRun(irandom_range(6,15))}
+
+ReCh = (irandom_range(0,100) - ((30 / 100) * mCreatureController.Resistance) + ((20 / 100) * mCreatureController.Trust) + ((10 / 100) * (mCreatureController.Triad * 100))
++ ((10 / 100) * (100 - mCreatureController.Alive)) - ((10 / 100) * mEmotionSubController.FearActivation))* ReactChance()
+if ReCh &lt;= 40  {
+MoveBackForwardUnCapped("retreat",10,irandom_range(10,20))
+}
+
+mCreatureController.BaseResistance -= 0.1 * mPlotController.ISModifier
+mCreatureController.BasePain += 0.1 * mPlotController.ISModifier
+mCreatureController.BaseStress += 0.1 * mPlotController.ISModifier
+mCreatureController.BaseAlive -= 0.05 * mPlotController.ISModifier
+mCreatureController.CloseToAnne -= 0.2 * mPlotController.ISModifier
+mCreatureController.BaseSubIntent -= 0.002 * mPlotController.ISModifier
+mCreatureController.BaseTrust -= 0.1 * mPlotController.ISModifier
+ChangeEmotionStep("happy","down",1)
+if mCreatureController.Triad &gt; 0 {
+ChangeEmotionStep("shame","up",1)
+ChangeEmotionStep("anger","up",1)
+}
+mCreatureController.BaseLust -= 0.1
+ChangeEmotionStep("fear","up",1)
+mDriveCollectionMaster.BaseBreathRate += 0.003
 }
 }
 
 
-
-
-
-if EyeCutTimer &gt; 0 {
-EyeCutTimer -= 1 
-}
-
-//Caul Touch Reactions
-
-if StartTouchingCaul = false {
-if IsAlive() and AmountForward(80)
-and instance_exists(mFinger)
-and place_meeting(mFinger.x,mFinger.y,mCaulParent) {
-TouchCaulReactions()
-}
-} else if StartTouchingCaul = true {
-if (instance_exists(mFinger)
-and place_meeting(mFinger.x,mFinger.y,mCaulParent))
-or instance_exists(mFinger) = false {
-StartTouchingCaul = false
+//End Of Cut
+if CutReactOut = true {
+if IsInRitual() {
+if ChanceToRitualReact()* ReactChance(){LittleJump()}
+if ChanceToRitualReact()* ReactChance(){HoldBreathFor(irandom_range(30,80))}
+if ChanceToRitualReact()* ReactChance(){VocaliseChance(100)
+if ChanceToRitualReact()* ReactChance(){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
+if ChanceToRitualReact()* ReactChance(){TwitchRun(irandom_range(6,15))}
+} else {
+if Chance(40 * ReactChance()){HoldBreathFor(irandom_range(30,80))}
+if Chance(50 * ReactChance()){LittleJump()}
+VocaliseChance(30 * ReactChance())
+if Chance(50 * ReactChance()){RandomShake()}
+if Chance(30 * ReactChance()){ShiftAway(mouse_x,mouse_y,irandom_range(100,200),random(360))}
+if Chance(50 * ReactChance()){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
+if Chance(35 * ReactChance()){TwitchRun(irandom_range(6,15))}
+if Chance(65 * ReactChance()){MoveBackForward("retreat",10,irandom_range(5,20))}
 }
 }
+alarm[1] = 60
+CutReactOut = false
+}
+
 
 
 //--------------------------------------------------------
@@ -2098,179 +2400,8 @@ mInterfaceController.DeadMod += 1
 
 
 }
-}
 
-
-
-
-//Cut Reactions
-if CutTimer &gt; 0 {
-CutTimer -= 1
 }
-
-
-//Cut Start
-if CutReact = true {
-if IsAlive() {
-ChanceToWake(100)
-TwitchIfNearBP(mouse_x,mouse_y,500)
-StopYawnBehaviour()
-StopVocalisation()
-StopVocalPhrase()
-StopXYMove()
-
-if IsAsleep() = false {
-if IsInRitual() {
-if CutTimer = 0 {
-ChangeEmotion("surprise","up",0.8,40 + (max(0,((30 / 100) * (mCreatureController.Triad * 100)))))
-if ChanceToRitualReact(){StartNumberSniffsBehaviour(1)}
-if ChanceToRitualReact(){LittleJump()}
-mCreatureController.BaseResistance -= 10
-mCreatureController.BasePain += 10
-mCreatureController.BaseAlive -= 0.5
-mCreatureController.CloseToAnne += 4
-HoldBreathFor(irandom_range(30,80))
-mDriveCollectionMaster.BaseBreathRate += 0.5
-if ChanceToRitualReact(){ShiverChance(60)}
-if ChanceToRitualReact(){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
-CutTimer = 3600 - NumberISMod(mCreatureController.Resistance,400) + NumberISMod(mCreatureController.Stress,400) + NumberISMod(mCreatureController.Tiredness,400) + LowAliveMod(400) - NumberISMod(mCreatureController.Trust,400)
-} else {
-if ChanceToRitualReact(){StartNumberSniffsBehaviour(1)}
-mCreatureController.BaseResistance -= 10
-mCreatureController.BasePain += 10
-mCreatureController.BaseAlive -= 0.5
-mCreatureController.CloseToAnne += 4
-mDriveCollectionMaster.BaseBreathRate += 0.5
-if ChanceToRitualReact(){ShiverChance(60)}
-if ChanceToRitualReact(){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
-}
-
-
-} else {
-if CutTimer = 0 {
-ChangeEmotion("surprise","up",0.8,30 + (max(0,((30 / 100) * (mCreatureController.Triad * 100)))))
-VocaliseChance(80)
-if Chance(80) {StartNumberSniffsBehaviour(1)}
-if Chance(70){RandomShake()}
-if Chance(70){LittleJump()}
-ShiftAway(mouse_x,mouse_y,irandom_range(100,200),random(360))
-TwitchRun(irandom_range(6,15))
-if Chance(30){MoveBackForward("retreat",10,irandom_range(5,20))}
-mCreatureController.BaseResistance -= 10
-mCreatureController.BasePain += 10
-mCreatureController.BaseStress += 10
-mCreatureController.BaseAlive -= 0.5
-mCreatureController.CloseToAnne -= 5
-mCreatureController.BaseSubIntent -= 0.2
-mCreatureController.BaseTrust -= 10
-ChangeEmotion("happy","down",2,70)
-if mCreatureController.Triad &gt; 0 {
-ChangeEmotion("shame","up",2,30)
-ChangeEmotion("anger","up",2,25)
-}
-mCreatureController.BaseLust -= 50
-ChangeEmotion("fear","up",2,50)
-HoldBreathFor(irandom_range(30,80))
-mDriveCollectionMaster.BaseBreathRate += 0.5
-if Chance(20){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
-CutTimer = 3600 - NumberISMod(mCreatureController.Resistance,400) + NumberISMod(mCreatureController.Stress,400) + NumberISMod(mCreatureController.Tiredness,400) + LowAliveMod(400) - NumberISMod(mCreatureController.Trust,400)
-} else {
-VocaliseChance(20)
-if Chance(20){StartNumberSniffsBehaviour(1)}
-if Chance(10){RandomShake()}
-if Chance(10){LittleJump()}
-TwitchRun(irandom_range(2,5))
-ShiftAway(mouse_x,mouse_y,irandom_range(40,60),random(360))
-if Chance(70){MoveBackForward("retreat",10,irandom_range(10,30))}
-mCreatureController.BaseResistance -= 10
-mCreatureController.BasePain += 10
-mCreatureController.BaseStress += 10
-mCreatureController.BaseAlive -= 0.5
-mCreatureController.CloseToAnne -= 5
-mCreatureController.BaseSubIntent -= 0.2
-mCreatureController.BaseTrust -= 10
-ChangeEmotion("happy","down",2,60)
-if mCreatureController.Triad &gt; 0 {
-ChangeEmotion("shame","up",2,30)
-ChangeEmotion("anger","up",2,25)
-}
-mCreatureController.BaseLust -= 50
-ChangeEmotion("fear","up",2,50)
-HoldBreathFor(irandom_range(30,80))
-mDriveCollectionMaster.BaseBreathRate += 0.5
-if Chance(20){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
-}
-}
-}
-}
-CutReact = false
-}
-
-//During Cut
-if mInterfaceController.Wounding = true {
-CutCaulReactions()
-if IsInRitual() {
-mCreatureController.BaseResistance -= 0.1
-mCreatureController.BasePain += 0.1
-mCreatureController.BaseAlive -= 0.05
-mCreatureController.CloseToAnne += 0.1
-mDriveCollectionMaster.BaseBreathRate += 0.03
-if ChanceToRitualReact()/1000{ShiverChance(60)}
-if ChanceToRitualReact()/1000{EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
-} else {
-VocaliseChance(1)
-if Chance(2){RandomShake()}
-if Chance(4){ShiftAway(mouse_x,mouse_y,irandom_range(100,200),random(360))}
-if Chance(5){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
-if Chance(2){TwitchRun(irandom_range(6,15))}
-
-ReCh = irandom_range(0,100) - ((30 / 100) * mCreatureController.Resistance) + ((20 / 100) * mCreatureController.Trust) + ((10 / 100) * (mCreatureController.Triad * 100))
-+ ((10 / 100) * (100 - mCreatureController.Alive)) - ((10 / 100) * mEmotionSubController.FearActivation)
-if ReCh &lt;= 40 {
-MoveBackForwardUnCapped("retreat",10,irandom_range(10,20))
-}
-
-mCreatureController.BaseResistance -= 0.1
-mCreatureController.BasePain += 0.1
-mCreatureController.BaseStress += 0.1
-mCreatureController.BaseAlive -= 0.05
-mCreatureController.CloseToAnne -= 0.2
-mCreatureController.BaseSubIntent -= 0.002
-mCreatureController.BaseTrust -= 0.1
-ChangeEmotionStep("happy","down",1)
-if mCreatureController.Triad &gt; 0 {
-ChangeEmotionStep("shame","up",1)
-ChangeEmotionStep("anger","up",1)
-}
-mCreatureController.BaseLust -= 0.1
-ChangeEmotionStep("fear","up",1)
-mDriveCollectionMaster.BaseBreathRate += 0.05
-}
-}
-
-
-//End Of Cut
-if CutReactOut = true {
-if IsInRitual() {
-if ChanceToRitualReact(){LittleJump()}
-if ChanceToRitualReact(){HoldBreathFor(irandom_range(30,80))}
-if ChanceToRitualReact(){VocaliseChance(100)
-if ChanceToRitualReact(){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
-if ChanceToRitualReact(){TwitchRun(irandom_range(6,15))}
-} else {
-if Chance(40){HoldBreathFor(irandom_range(30,80))}
-if Chance(50){LittleJump()}
-VocaliseChance(30)
-if Chance(50){RandomShake()}
-if Chance(30){ShiftAway(mouse_x,mouse_y,irandom_range(100,200),random(360))}
-if Chance(50){EyeSquint(irandom_range(0,2),true,irandom_range(50,90))}
-if Chance(35){TwitchRun(irandom_range(6,15))}
-if Chance(45){MoveBackForward("retreat",10,irandom_range(5,20))}
-}
-}
-CutReactOut = false
-}
-
 
 </string>
           </argument>
@@ -2294,9 +2425,15 @@ CutReactOut = false
             <kind>1</kind>
             <string>///Ritual Competences
 
-//In Ritual
+//==========================================================================#######
+if AreRitualsOn() {
+
+
+/*General In Ritual */
+//--------------------------------------------------------
 if InRitual = true {
 
+//Put up the concepts/emotions mod, &amp; the voice pitch.
 if RitualInternalMod &lt; 50 {
 RitualInternalMod += 2
 }
@@ -2306,6 +2443,9 @@ RitualPitchMod += 0.01
 }
 
 //Tolerance Climbing Over Time, Based On Internal States &amp; Concepts
+
+
+if mBehavioursDeliberative.PercentForward &gt; 0 {
 RitualTolerance += (0.001 +
 ((0.01 / 100) * mCreatureController.Pain)
 + ((0.005 / 100) * mCreatureController.Stress)
@@ -2315,15 +2455,17 @@ RitualTolerance += (0.001 +
 - ((0.005 / 100) * mCreatureController.Trust)
 - ((0.005 / 100) * mCreatureController.Triad * 100)
 )
+}
 
 
-//Slight Vibrate
+//Slight Vibrate Throughout
+if mInterfaceController.CurrentView = MacroView and mInterfaceController.ChangingView = false and mInterfaceController.TryingToGoDown1 = false and mInterfaceController.TryingToGoDown2 = false{
 if RitualModTimer &gt; 0 {
 RitualModTimer -= 1
 if RitualModDir = "left" {
-RitualModX -= 1
+RitualModX -= 1 + ((2 / 100) * RitualTolerance)
 } else {
-RitualModX += 1
+RitualModX += 1 + ((2 / 100) * RitualTolerance)
 }
 } else if RitualModTimer &lt;= 0 {
 if RitualModDir = "left" {
@@ -2331,24 +2473,32 @@ RitualModDir = "right"
 } else {
 RitualModDir = "left"
 }
-RitualModTimer = RitualModTimerTotal
+RitualModTimer = RitualModTimerTotal + (((RitualModTimerTotal * 2) / 100) * RitualTolerance)
+}
+}
+
+//More chance of twitching as the tolerance goes up.
+if RitualTolerance &gt; 70 {
+if Chance(0.1 + ((6 / 30) * (RitualTolerance - 70))) {
+RandomTwitch()
+}
+}
+
+//Chance To Squint
+if RitualTolerance &gt; 80 {
+if Chance(0.1 + ((6 / 20) * (RitualTolerance - 80))) {
+EyeSquint(2,false,60)
+}
 }
 
 
 
 //Tiredness Up Over Time
-mCreatureController.BaseTiredness += 0.0005
+mCreatureController.BaseTiredness += (0.0005 * 0.5)
 
 //Ending Ritual
 if RitualTolerance &gt;= 100 or mCreatureController.Alive &lt;= 0 or mDriveCollectionMaster.NoInteractionTimer &gt;= 20000 {
 ExitRitual()
-}
-
-//More chance of twitching as the tolerance goes up.
-if RitualTolerance &gt; 70 {
-if Chance(1 + ((40 / 100) * RitualTolerance)) {
-RandomTwitch()
-}
 }
 
 } else {
@@ -2373,10 +2523,1822 @@ RitualPitchMod -= 0.01
 }
 }
 
+/*Specific Ritual Controls*/
+//-------------------------------------------------------------
+
+//Resetting Everything At Midnight
+if current_hour = 0 and current_minute = 0 and current_second = 1 and HeardCircleWordsToday = true {
+HeardCircleWordsToday = false
+EatenToday = false 
+HeardPsalmToday = false
+NotStartedWork = true 
+HeardPsalmTodayTimer = irandom_range(20000,30000)
+DecideToComeBack = false
+EODReacted = false
+HeardEODBells = false
+NoPsalmReacted = false
+AllowedIntoMansion = 0
+DecideToComeBack = false
+EnterRitualDecideTimer = 0
+EnterRitualOrNot = 0
+DecidingOnRitual = false
+GoingAway = false
+GoneAway = false
+Inspirare = false
+MouseSigil = false
+ReadyToGo43 = false
+MolesShaking = false
+MSTimer = 0
+EODReacted = false
+HeardEODBells = false
+Speaking = false
+ReturnAndAnswer = false
+RAndATimer = 0
+ReadyToGo97 = false
+MotesMoving = false
+MotesVibrating = false
+MakingConkers = false
+SpinEarCount = 0
+SpinEarTotal = 0
+}
+
+
+
+
+//Bad mood on Saturday
+if mWorldController.CurrentWeekday = "Saturday" {
+SatMod = 25
+} else {
+SatMod = 0
+}
+
+if CurrentPerceivedHour &gt; 23 {
+CurrentPerceivedHour = 0
+}
+
+//Happy if not started work yet.
+if NotStartedWork = true and current_hour &gt;= 6 {
+ChangeEmotionStep("happy","up",0.0001)
+}
+
+if NotStartedWork = true and IsInRitual() {
+NotStartedWork = false
+}
+
+if RitualRequestTimer &gt; 0 {
+RitualRequestTimer -= 1
+}
+
+
+if IsInEatingHours(current_weekday,false) = false and mouse_check_button(mb_any) = false {
+if HeardPhrase("OUT THERE IS THE METHOD OF THE LORD") 
+{
+RitualGoodReaction(0)
+global.LatestRecognisedPhrase = ""
+}
+}
+
+if Dozing = true {
+if DozeThreshTimer &lt; DozeThreshold {
+DozeThreshTimer += 1
+} else {
+StartOpenEyeBehaviour("both",4)
+if Chance(50) {StartYawnBehaviour()}
+if Chance(50) {RandomShake()}
+TwitchRun(irandom_range(4,8))
+if Chance(50) {StartNumberSniffsBehaviour(1)}
+Dozing = false
+BaseBreathRate += 0.1
+}
+}
+
+//==================================================================================================================================================================================
+
+//Ritual #1 - Approaching The Circle 
+
+//Approaching Circle In The Morning
+
+//Hearing The Phrase
+if HeardPhrase("ENTIBI NORMA POLI") {
+if HeardCircleWordsToday = false {
+with mCreatureController {
+if Trust &lt; 20 {
+if Chance(60){MoveBackForward("retreat",80,irandom_range(10,30))}
+} else {
+if Chance(60){MoveBackForward("forward",80,irandom_range(10,30))}
+}
+if Resistance &gt; 30 or Triad &lt; 0 {
+if Chance(40){Buck()}
+if Chance(40){RandomShake()}
+if Chance(50){VocaliseChance(100)}
+}
+}
+HeardCircleWordsToday = true
+}
+
+if Chance(40) {
+StartNumberSniffsBehaviour(irandom_range(1,3))
+}
+if Chance(50){
+EyeSquint(2,true,irandom_range(50,120))
+}
+with mCreatureController {
+CloseToAnne += 2  * mPlotController.ISModifier
+if Triad &gt;= 0 or IsInRitual(){
+RitualGoodReaction(0.5)
+BaseLust += 5 * mPlotController.ISModifier
+ChangeEmotion("happy","down",0.3,15)
+ChangeEmotion("sad","up",0.3,15)
+BaseResistance -= 5 * mPlotController.ISModifier
+} else {
+RitualBadReaction(0.5)
+BaseLust -= 5 * mPlotController.ISModifier
+BaseResistance += 5 * mPlotController.ISModifier
+ChangeEmotion("anger","up",0.3,15)
+BaseSubIntent -= 0.05 * mPlotController.ISModifier
+ChangeEmotion("fear","up",0.3,15)
+}
+}
+
+global.LatestRecognisedPhrase = ""
+} 
+
+
+//Changing internals if not heard the phrase after the appointed time.
+if HeardCircleWordsToday = false and current_hour &gt; 7 {
+
+with mCreatureController {
+CloseToAnne -= 0.00001
+BaseResistance -= 0.00001
+if Triad &lt;= 0 {
+ChangeEmotionStep("happy","up",0.00001)
+ChangeEmotionStep("fear","down",0.00001)
+ChangeEmotionStep("anger","down",0.00001)
+BaseStress -= 0.00001 * mDriveCollectionMaster.ISModifier 
+} else { 
+BaseStress += 0.00001 * mDriveCollectionMaster.ISModifier
+ChangeEmotionStep("happy","down",0.00001)
+ChangeEmotionStep("sad","up",0.00001)
+BaseSubIntent -= 0.00001 * mPlotController.ISModifier
+BaseTrust -= 0.00001 * mPlotController.ISModifier
+}
+}
+}
+
+//Listening To Psalms 
+if HeardCircleWordsToday = true {
+if HeardPsalmToday = false {
+if HeardPsalmTodayTimer &gt; 0 {
+HeardPsalmTodayTimer -= 1
+
+if HeardPsalmTodayTimer &lt;= 0 {
+if NoPsalmReacted = false {
+NoPsalmReactions()
+NoPsalmReacted = true 
+}
+}
+}
+
+if current_weekday = 1 {
+if HeardPhrase(MondayPsalm) {
+RitualGoodReaction(0)
+VocaliseChance(100)
+HeardPsalmToday = true
+global.LatestRecognisedPhrase = ""
+}
+if HeardPhrase(TuesdayPsalm) or HeardPhrase(WednesdayPsalm) or HeardPhrase(ThursdayPsalm) or HeardPhrase(FridayPsalm) or HeardPhrase(SaturdayPsalm) or HeardPhrase(SundayPsalm) {
+RitualBadReaction(0.3)
+global.LatestRecognisedPhrase = ""
+}
+}
+
+if current_weekday = 2 {
+if HeardPhrase(TuesdayPsalm) {
+RitualGoodReaction(0)
+VocaliseChance(100)
+HeardPsalmToday = true
+global.LatestRecognisedPhrase = ""
+}
+if HeardPhrase(MondayPsalm) or HeardPhrase(WednesdayPsalm) or HeardPhrase(ThursdayPsalm) or HeardPhrase(FridayPsalm) or HeardPhrase(SaturdayPsalm) or HeardPhrase(SundayPsalm) {
+RitualBadReaction(0.3)
+global.LatestRecognisedPhrase = ""
+}
+}
+
+if current_weekday = 3 {
+if HeardPhrase(WednesdayPsalm){
+RitualGoodReaction(0)
+VocaliseChance(100)
+HeardPsalmToday = true
+global.LatestRecognisedPhrase = ""
+}
+if HeardPhrase(TuesdayPsalm) or HeardPhrase(MondayPsalm) or HeardPhrase(ThursdayPsalm) or HeardPhrase(FridayPsalm) or HeardPhrase(SaturdayPsalm) or HeardPhrase(SundayPsalm) {
+RitualBadReaction(0.3)
+global.LatestRecognisedPhrase = ""
+}
+}
+
+if current_weekday = 4 {
+if HeardPhrase(ThursdayPsalm) {
+RitualGoodReaction(0)
+VocaliseChance(100)
+HeardPsalmToday = true
+global.LatestRecognisedPhrase = ""
+}
+if HeardPhrase(TuesdayPsalm) or HeardPhrase(WednesdayPsalm) or HeardPhrase(MondayPsalm) or HeardPhrase(FridayPsalm) or HeardPhrase(SaturdayPsalm) or HeardPhrase(SundayPsalm) {
+RitualBadReaction(0.3)
+global.LatestRecognisedPhrase = ""
+}
+}
+
+if current_weekday = 5 {
+if HeardPhrase(FridayPsalm){
+RitualGoodReaction(0)
+VocaliseChance(100)
+HeardPsalmToday = true
+global.LatestRecognisedPhrase = ""
+}
+if HeardPhrase(TuesdayPsalm) or HeardPhrase(WednesdayPsalm) or HeardPhrase(ThursdayPsalm) or HeardPhrase(MondayPsalm) or HeardPhrase(SaturdayPsalm) or HeardPhrase(SundayPsalm) {
+RitualBadReaction(0.3)
+global.LatestRecognisedPhrase = ""
+}
+}
+
+if current_weekday = 6 {
+if HeardPhrase(SaturdayPsalm) {
+RitualGoodReaction(0)
+VocaliseChance(100)
+HeardPsalmToday = true
+global.LatestRecognisedPhrase = ""
+}
+if HeardPhrase(TuesdayPsalm) or HeardPhrase(WednesdayPsalm) or HeardPhrase(ThursdayPsalm) or HeardPhrase(FridayPsalm) or HeardPhrase(MondayPsalm) or HeardPhrase(SundayPsalm) {
+RitualBadReaction(0.3)
+global.LatestRecognisedPhrase = ""
+}
+}
+
+if current_weekday = 0 {
+if HeardPhrase(SundayPsalm) {
+RitualGoodReaction(0)
+VocaliseChance(100)
+HeardPsalmToday = true
+global.LatestRecognisedPhrase = ""
+}
+if HeardPhrase(TuesdayPsalm) or HeardPhrase(WednesdayPsalm) or HeardPhrase(ThursdayPsalm) or HeardPhrase(FridayPsalm) or HeardPhrase(SaturdayPsalm) or HeardPhrase(MondayPsalm) {
+RitualBadReaction(0.3)
+global.LatestRecognisedPhrase = ""
+}
+}
+}
+}
+
+
+//Squint If Light Level High or low
+
+if mWorldController.LightLevelInMB &gt; 0.6 or mWorldController.LightLevelInRL &lt; 0.3 {
+if SquintTimer &gt; 0 {
+SquintTimer -= 1
+} else {
+if Chance(5) {EyeSquint(irandom_range(2,4),true,irandom_range(60,400))}
+SquintTimer = irandom_range(50,300)
+}
+}
+
+
+//==================================================================================================================================================================================
+
+//Ritual #2 - Starting &amp; Stopping Ritual
+
+if HeardPhrase("PARABOLA MOVEATUR") {
+if Decide("good",0.5) {
+RitualCommandAccept()
+AllowedIntoMansion = irandom_range(3000,9000)
+} else {
+MoveBackForwardUnCapped("retreat",45,irandom_range(20,35))
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("RUTAEVOM ALOBARAP") {
+if AllowedIntoMansion &gt; 0 {
+RitualGoodReaction(0)
+AllowedIntoMansion = 500
+} else {
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+
+if AllowedIntoMansion &gt; 0 {
+AllowedIntoMansion -= 1
+}
+
+if HeardPhrase("DO YOU ACCEPT THESE TERMS THUS OFFERED?") {
+if mCreatureController.Triad &gt; 0 {
+RitualGoodReaction(0)
+} else {
+RitualBadReaction(0)
+}
+RitualCommandAccept()
+VocaliseChance(100)
+global.LatestRecognisedPhrase = ""
+}
+
+
+
+//==================================================================================================================================================================================
+
+//Ritual #3 - Starting &amp; Stopping Ritual
+if IsAlive() and mBehavioursDeliberative.PercentForward &gt; 0 {
+if Heard() and (HeardPhrase("HYPO TESIS") or HeardPhrase("HYPOTHESIS")) {
+
+StopYawnBehaviour()
+StopVocalisation()
+StopVocalPhrase()
+
+if IsInRitual() {
+RitualGoodReaction(0)
+} else {
+DecidingOnRitual = true
+EyeSquint(2,true,EnterRitualDecideTimer)
+StartScreenShake(EnterRitualDecideTimer,5,2)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if DecidingOnRitual = true {
+EnterRitualOrNot = 0
+- ((1 / 100) * mCreatureController.Tiredness)
++ ((1 / 100) * (100 - mCreatureController.Alive))
++ ((1 / 100) * mCreatureController.Lust)
+- ((1 / 100) * mCreatureController.Stress)
+- ((1 / 100) * mCreatureController.Pain)
++ ((2 / 100) * (mCreatureController.CloseToAnne * 1.8))
++ mCreatureController.BaseSubIntent
++ mCreatureController.Triad 
++ ((1 / 100) * mCreatureController.Trust)
+- ((1 / 100) * mCreatureController.Resistance)
++ (1 * HeardCircleWordsToday)
++ ((1 / 100) * mEmotionSubController.HappyActivation) 
++ ((1 / 100) * mEmotionSubController.SadActivation) 
+- ((1 / 100) * mEmotionSubController.AngerActivation) 
++ ((2 / 100) * (mEmotionSubController.FearActivation * 1.8))
++ (1 * HeardPsalmToday)
+
+if EnterRitualOrNot &gt; 0 {
+EnterRitual()
+RitualCommandAccept()
+} else {
+RitualBadReaction(0)
+RitualCommandRefuse()
+}
+DecidingOnRitual = false
+}
+}
+
+
+
+
+if Heard() and HeardPhrase("CONCLEW SIO") {
+if IsInRitual() {
+ExitRitual()
+} else {
+RitualCommandRefuse()
+}
+global.LatestRecognisedPhrase = ""
+}
+
+
+}
+
+//Using Anne Sigil
+
+if SigilCompleted("1,7,12,18,17,22,23,24,19,13,14,9,") {
+if mCreatureController.Triad &gt; 0 {
+RitualGoodReaction(0.6)
+} else {
+RitualBadReaction(0.6)
+}
+RitualCommandAccept()
+mCreatureController.CloseToAnne = 100
+}
+
+
+//==================================================================================================================================================================================
+
+//Ritual #4 Taking Dinner
+
+if EatenToday = false {
+if mBehavioursDeliberative.CrunchingActive = false {
+
+if EatWaitTimer &lt;= 0 {
+if IsInEatingHours(current_weekday,false) {
+if mouse_check_button(mb_any) and 
+point_distance(mouse_x,mouse_y,oNose1.x,oNose1.y - (oNose1.sprite_height/2) + 200) &lt; 400  {
+if HeardPhrase("OUT THERE IS THE METHOD OF THE LORD") {
+RitualGoodReaction(0.3)
+GoingAway = true
+StartScreenShake(500,5,2)
+}
+}
+}
+
+if GoingAway = true {
+if mouse_check_button_released(mb_any) {
+if mBehavioursDeliberative.PercentForward &gt; 0 {
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),100)
+} else {
+EatWaitTimer = irandom_range(100,300)
+DecideToComeBack = false
+GoingAway = false
+GoneAway = true
+}
+}
+}
+}
+
+
+if GoneAway = true {
+if EatWaitTimer &gt; 0 {
+EatWaitTimer -= 1
+} else {
+StartCrunchingBehaviour()
+EatenToday = true
+}
+}
+
+if mBehavioursDeliberative.CrunchingActive = true {
+ChangeEmotionStep("sad","up",0.003)
+ChangeEmotionStep("shame","up",0.003)
+ChangeEmotionStep("happy","down",0.003)
+}                                      
+
+}
+}
+
+if EatenToday = true {
+if mBehavioursDeliberative.CrunchingActive = true {
+if IsInEatingHours(current_weekday,false) = false {
+if DecideToComeBack = false {
+StopCrunchingBehaviour()
+if Decide("good",0) {
+MoveBackForward("comeforward",MoveSpeedCalc(),100)
+}
+DecideToComeBack = true
+}
+}
+}
+}
+
+//==================================================================================================================================================================================
+
+//Ritual #5 
+
+//Coming Closer &amp; Going Away
+if global.LatestRecognisedPhrase = "ATTRAHO" {
+
+if IsInRitual() = true {
+if mInterfaceController.CurrentView = MacroView {
+RitualCommandAccept()
+if mBehavioursDeliberative.PercentForward &lt; 100 {
+MoveBackForwardUnCapped("comeforward",MoveSpeedCalc(),100 - mBehavioursDeliberative.PercentForward)
+} else {
+if mouse_check_button(mb_any) or position_meeting(mouse_x,mouse_y,mCreatureParent) {
+StartZoom(ZoomSpeedCalc(),mouse_x,mouse_y)
+} else {
+StartZoom(ZoomSpeedCalc(),691,1073)
+}
+}
+} else {
+MoveToXY(mouse_x,mouse_y,35,MicroView,35)
+}
+} else {
+if Decide("bad",0) {
+if mInterfaceController.CurrentView = MacroView {
+RitualCommandAccept()
+if mBehavioursDeliberative.PercentForward &lt; 100 {
+MoveBackForwardUnCapped("comeforward",MoveSpeedCalc(),100 - mBehavioursDeliberative.PercentForward)
+} else {
+if mouse_check_button(mb_any) or position_meeting(mouse_x,mouse_y,mCreatureParent) {
+StartZoom(ZoomSpeedCalc(),mouse_x,mouse_y)
+} else {
+StartZoom(ZoomSpeedCalc(),681,1073)
+}
+}
+} else {
+MoveToXY(mouse_x,mouse_y,35,MicroView,35)
+}
+} else {
+RitualCommandRefuse()
+}
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if global.LatestRecognisedPhrase = "REPULSO" {
+if IsInRitual() = true {
+RitualCommandAccept()
+if mInterfaceController.CurrentView = MicroView {
+StartZoom(35,mouse_x,mouse_y)
+} else {
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),20)
+}
+} else {
+if Decide("bad",0) {
+RitualCommandAccept()
+if mInterfaceController.CurrentView = MicroView {
+StartZoom(35,mouse_x,mouse_y)
+} else {
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),20)
+}
+} else {
+RitualCommandRefuse()
+}
+}
+global.LatestRecognisedPhrase = ""
+}
+
+// Light 
+if global.LatestRecognisedPhrase = "TESTIM ONIUM" {
+if mInterfaceController.FingerLightOn = false {
+mInterfaceController.FingerLightOn = true
+mInterfaceController.CurrentLightTime = 10000
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if global.LatestRecognisedPhrase = "PAR DELICTUM" {
+if mInterfaceController.FingerLightOn = true {
+mInterfaceController.FingerLightOn = false
+mInterfaceController.CurrentLightTime = 0
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//Dragging
+if HeardPhrase("TRACTATO") or HeardPhrase("TRACTARTO") {
+if IsInRitual() = true {
+if Decide("good",0) {
+StartDraggingMode()
+}
+} else {
+if mCreatureController.Triad &gt; 0.2 {
+if Decide("good",0) {
+StartDraggingMode()
+}
+} else {
+if Decide("bad",0.2) {
+StartDraggingMode()
+}
+}
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//Moving To A Place 
+if HeardPhrase("SHEW TO ME THE NORTHMOST HORN") {
+if Decide("bad",0) {
+MoveToXY(oHornRight.x,oHornRight.y,MoveSpeedCalc(),MicroView,ZoomSpeedCalc())
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE SOUTHMOST HORN") {
+if Decide("bad",0) {
+MoveToXY(oHornLeft.x,oHornLeft.y,MoveSpeedCalc(),MicroView,ZoomSpeedCalc())
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE SOUTHMOST CHAMPHER") {
+if Decide("bad",0) {
+if instance_exists(oEarLeft) {
+MoveToXY(oEarLeft.x,oEarLeft.y,MoveSpeedCalc(),MicroView,ZoomSpeedCalc())
+} else {
+RitualBadReaction(0.6)
+}
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE NORTHMOST CHAMPHER") {
+if Decide("bad",0) {
+if instance_exists(oEarRight) {
+MoveToXY(oEarRight.x,oEarRight.y,MoveSpeedCalc(),MicroView,ZoomSpeedCalc())
+} else {
+RitualBadReaction(0.6)
+}
+}
+global.LatestRecognisedPhrase = ""
+}
+
+
+if HeardPhrase("SHEW TO ME THE NORTHMOST ORBIT") {
+if Decide("bad",0) {
+MoveToXY(oEyeballRight.x,oEyeballRight.y,MoveSpeedCalc(),MicroView,ZoomSpeedCalc())
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE SOUTHMOST ORBIT") {
+if Decide("bad",0) {
+MoveToXY(oEyeballLeft.x,oEyeballLeft.y,MoveSpeedCalc(),MicroView,ZoomSpeedCalc())
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE ORBIT") {
+if Decide("bad",0) {
+MoveToXY(oEyeballLeft.x,oEyeballLeft.y,MoveSpeedCalc(),MicroView,ZoomSpeedCalc())
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE TEMPLE") {
+if Decide("bad",0) {
+MoveToXY(696,1047,MoveSpeedCalc(),MicroView,ZoomSpeedCalc())
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE GRAIL") {
+if Decide("bad",0) {
+MoveToXY(oCaulNub.x,oCaulNub.y - (view_hview[0] / 2),MoveSpeedCalc(),MacroView,ZoomSpeedCalc())
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE FLUES") {
+if Decide("bad",0) {
+MoveToXY(oNose1.x,oNose1.y,MoveSpeedCalc(),MacroView,ZoomSpeedCalc())
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE INTAKE") {
+if Decide("bad",0) {
+MoveToXY(oMouthCentre.x,oMouthCentre.y,MoveSpeedCalc(),MicroView,ZoomSpeedCalc())
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE FLANGES") {
+RitualCommandRefuse()
+RitualBadReaction(0)
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE STYLOBATE") {
+RitualCommandRefuse()
+RitualBadReaction(0)
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE CHINE") {
+RitualCommandRefuse()
+RitualBadReaction(0)
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE NORTHMOST CHINE") {
+RitualCommandRefuse()
+RitualBadReaction(0)
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE BOOTHINGS") {
+RitualCommandRefuse()
+RitualBadReaction(0)
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("SHEW TO ME THE EASTMOST BOOTHING") {
+RitualCommandRefuse()
+RitualBadReaction(0)
+global.LatestRecognisedPhrase = ""
+}
+
+
+
+
+
+
+//==================================================================================================================================================================================
+
+// Ritual #6 
+
+//Slapping
+if global.LatestRecognisedPhrase = "VELOCITANS" {
+RitualBadReaction(0)
+mInterfaceController.HeardVeloc = true
+mInterfaceController.VelocTimer = 800
+global.LatestRecognisedPhrase = ""
+}
+
+//Counting Down
+if HeardPhrase("FIVE") {
+RitualBadReaction(0)
+with mCreatureController {
+ChangeEmotion("surprise","up",0.8,20)
+BaseStress += 2 * mDriveCollectionMaster.ISModifier
+CloseToAnne += 2 * mDriveCollectionMaster.ISModifier
+BaseResistance -= 4 * mDriveCollectionMaster.ISModifier
+ChangeEmotion("sad","up",0.3,2)
+ChangeEmotion("happy","down",0.3,2)
+ChangeEmotion("anger","down",0.3,2)
+ChangeEmotion("fear","up",0.5,3)
+ChangeEmotion("shame","up",0.5,2)
+}
+if Decide("bad",0){MoveBackForward("comeforward",50,irandom_range(5,15))}
+ReduceTabooLayerHealth(1)
+global.LatestRecognisedPhrase = ""
+global.LastRecognisedPhrase = "FIVE"
+}
+
+if HeardPhrase("FOUR") {
+if global.LastRecognisedPhrase = "FIVE" {
+RitualBadReaction(0.2)
+with mCreatureController {
+BaseStress += 4 * mPlotController.ISModifier
+CloseToAnne += 4 * mPlotController.ISModifier
+BaseResistance -= 6 * mPlotController.ISModifier
+ChangeEmotion("sad","up",0.3,4)
+ChangeEmotion("happy","down",0.3,4)
+ChangeEmotion("anger","down",0.3,4)
+ChangeEmotion("fear","up",0.5,6)
+ChangeEmotion("shame","up",0.5,4)
+}
+if Decide("good",0){MoveBackForward("comeforward",50,irandom_range(5,15))}
+}
+ReduceTabooLayerHealth(1)
+global.LatestRecognisedPhrase = ""
+global.LastRecognisedPhrase = "FOUR"
+}
+
+if HeardPhrase("THREE") {
+if global.LastRecognisedPhrase = "FOUR" {
+RitualBadReaction(0.4)
+with mCreatureController {
+BaseStress += 6 * mPlotController.ISModifier
+CloseToAnne += 6 * mPlotController.ISModifier
+BaseResistance -= 8 * mPlotController.ISModifier
+ChangeEmotion("sad","up",0.3,6)
+ChangeEmotion("happy","down",0.3,6)
+ChangeEmotion("anger","down",0.3,6)
+ChangeEmotion("fear","up",0.5,6)
+ChangeEmotion("shame","up",0.5,6)
+}
+if Decide("good",0){MoveBackForward("comeforward",50,irandom_range(5,15))}
+}
+
+ReduceTabooLayerHealth(1)
+global.LatestRecognisedPhrase = ""
+global.LastRecognisedPhrase = "THREE"
+}
+
+if HeardPhrase("TWO") {
+if global.LastRecognisedPhrase = "THREE" {
+RitualBadReaction(0.6)
+with mCreatureController {
+BaseStress += 8 * mPlotController.ISModifier
+CloseToAnne += 8 * mPlotController.ISModifier
+BaseResistance -= 8 * mPlotController.ISModifier
+ChangeEmotion("sad","up",0.3,8)
+ChangeEmotion("happy","down",0.3,8)
+ChangeEmotion("anger","down",0.3,8)
+ChangeEmotion("fear","up",0.5,8)
+ChangeEmotion("shame","up",0.5,8)
+}
+if Decide("good",0){MoveBackForward("comeforward",50,irandom_range(5,15))}
+}
+ReduceTabooLayerHealth(1)
+global.LatestRecognisedPhrase = ""
+global.LastRecognisedPhrase = "TWO"
+}
+
+if HeardPhrase("ONE") {
+if global.LastRecognisedPhrase = "TWO" {
+RitualBadReaction(0.8)
+with mCreatureController {
+ChangeEmotion("surprise","up",0.8,10)
+BaseStress += 10 * mPlotController.ISModifier
+CloseToAnne += 10 * mPlotController.ISModifier
+BaseResistance -= 20 * mPlotController.ISModifier 
+ChangeEmotion("sad","up",0.3,10)
+ChangeEmotion("happy","down",0.3,10)
+ChangeEmotion("anger","down",0.3,10)
+ChangeEmotion("fear","up",0.5,10)
+ChangeEmotion("shame","up",0.5,10)
+}
+if Decide("good",0){MoveBackForward("comeforward",50,irandom_range(5,15))}
+}
+ReduceTabooLayerHealth(1)
+global.LatestRecognisedPhrase = ""
+}
+
+//Saying MARIA
+
+if HeardPhrase("MARIA") {
+with mCreatureController {
+BaseLust -= 10 * mPlotController.ISModifier
+BasePain += 10 * mPlotController.ISModifier
+BaseStress += 10 * mPlotController.ISModifier
+BaseAlive -= 2 * mPlotController.ISModifier
+CloseToAnne += 5 * mPlotController.ISModifier
+BaseResistance -= 20 * mPlotController.ISModifier
+}
+RitualBadReaction(1)
+ChangeEmotion("happy","down",0.4,20)
+ChangeEmotion("anger","down",0.4,20)
+ChangeEmotion("shame","up",0.4,20)
+ChangeEmotion("sad","up",0.4,20)
+ChangeEmotion("fear","up",0.4,20)
+TwitchRun(irandom_range(10,15))
+if Chance(60){RandomShake()}
+if Chance(70){LittleJump()}
+MoveBackForward("retreat",25,irandom_range(10,25))
+StopVocalisation()
+StopVocalPhrase()
+StopYawnBehaviour()
+if Chance(70){StartNumberSniffsBehaviour(1)}
+if Chance(60){HoldBreathFor(irandom_range(30,100))}
+BaseBreathRate += 0.04
+ReduceTabooLayerHealth(1)
+global.LatestRecognisedPhrase = ""
+}
+
+
+
+//==================================================================================================================================================================================
+
+//Ritual #7 - End Of Day
+
+
+if current_hour = 19 and current_minute = 0 and current_second = 0 and EODReacted = false {
+EODReaction()
+EODReacted = true
+}
+
+
+if current_hour &gt;= 19 and  HeardEODBells = false {
+EODOngoingReaction()
+}
+
+if current_hour &gt;= 19 and HeardEODBells = false and mCreatureController.HeardLoudSound = true {
+HeardEODBells = true
+RitualGoodReaction(0)
+}
+
+if HeardPhrase("AMRON IBITNE") {
+if current_hour &lt; 19 {
+LeavingCircleReactionsEarly()
+} else {
+LeavingCircleReactionsOnTime()
+}
+}
+
+
+//==================================================================================================================================================================================
+//Ritual #8
+
+//Soaping
+if global.LatestRecognisedPhrase = "FLUIDIS SPHAERICO" {
+RitualGoodReaction(0)
+with mInterfaceController {
+Cleaning = true
+Healing = false
+HealingTimer = 0
+CleaningTimer = irandom_range(500,800)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//Detergeant
+if global.LatestRecognisedPhrase = "SURFACTOS ECLIPTICAE" {
+RitualGoodReaction(0)
+with mInterfaceController {
+Healing = true
+Cleaning = false
+CleaningTimer = 0
+HealingTimer = irandom_range(500,800)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+
+//8 - Shaving
+
+if global.LatestRecognisedPhrase = "ACUTUS" {
+RitualBadReaction(0)
+with mInterfaceController {
+if CurrentHandUse != "shave" {
+CurrentHandUse = "shave" 
+ShaveTimer = 7000
+} else {
+CurrentHandUse = "none"
+}
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//Ejaculation 
+
+if EjacTrack &lt; 0 {
+EjacTrack += 0.01
+} 
+
+if instance_exists(mFinger) and EjacTrack &gt;= 0 {
+with mFinger {
+if mBehavioursDeliberative.PercentForward &gt; 90 and IsAlive() and place_meeting(x,y,oCaulNub)
+{
+if mCreatureController.Lust &gt; 60 {
+mDriveCollectionMaster.EjacTrack += 1
+EjacTrackReactions()
+}
+}
+}
+}
+
+if EjacTrack &gt;= 300 {
+EjacReactions()
+} else {
+if mDriveCollectionMaster.EjacTrack &gt; 0 {
+if instance_exists(mFinger) {
+with mFinger {
+if distance_to_object(oCaulNub) &gt; 100 {
+mDriveCollectionMaster.EjacTrack -= 0.5
+}
+}
+} else {
+mDriveCollectionMaster.EjacTrack -= 0.5
+}
+}
+}
+
+if EjacTrack &lt; 300 and EjacTrack &gt; 0 {
+if Chance(0.1 + ((0.5 / 300) * EjacTrack)) {
+RandomShake()
+ShakeCaul(2,0.5)
+StartCaulVibrateBehaviour(80)
+}
+}
+
+
+if HeardPhrase("FUNDAMENTUM FLUIDIS PENDULUM") {
+if Chance(70) {EyeSquint(1,true,irandom_range(60,200))}
+if Chance(70) {RandomShake()}
+BaseBreathRate += 0.003
+
+if IsInRitual() {
+mCreatureController.BaseLust += 2  * mPlotController.ISModifier
+if EjacTrack &lt; 300 and EjacTrack &gt; 0 {
+EjacTrack += 3
+}
+RitualGoodReaction(0)
+} else {
+if mCreatureController.Triad &gt;= 0 {
+mCreatureController.BaseLust += 2  * mPlotController.ISModifier
+if EjacTrack &lt; 300 and EjacTrack &gt; 0 {
+EjacTrack += 3
+}
+RitualGoodReaction(0)
+} else {
+RitualBadReaction(0)
+}
+}
+global.LatestRecognisedPhrase = ""
+}
+
+
+EjacTrack = clamp(EjacTrack,-300,300)
+
+
+
+
+//==================================================================================================================================================================================
+//Ritual #9 - Acching
+
+if HeardPhrase("PROFENIBU PENDULUM") {
+if IsInRitual() {
+RitualGoodReaction(0)
+VocaliseChance(50)
+RitualCommandAccept()
+mCreatureController.BasePain += 40 * mDriveCollectionMaster.ISModifier
+} else {
+RitualBadReaction(0)
+RitualCommandRefuse()
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//==================================================================================================================================================================================
+//Ritual #10 - Geolocation
+
+if HeardPhrase("ANGULUM KAY SECTORI") or HeardPhrase("ANGULUM KWAY SECTORI") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),100)
+CauseBruise(irandom_range(300,1000),irandom_range(800,4800),1)
+ThisBruise.BlackOrRed = c_red
+alarm[8] = irandom_range(2000,90000)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//==================================================================================================================================================================================
+//Ritual #42 - Mouse
+
+
+if Inspirare = false {
+
+if MouseSigil = false {
+if HeardPhrase("MUSCULUS LONGITUDINIBUS THALIA SCHOLIUM") {
+if IsInRitual() {
+VocaliseChance(100)
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+MouseSigil = true
+Inspirare = false
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("MUSCULUS LONGITUDINIBUS URANIA SCHOLIUM") {
+if IsInRitual() {
+VocaliseChance(100)
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+MouseSigil = true
+Inspirare = false
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("MUSCULUS LONGITUDINIBUS MELPOMENE SCHOLIUM") {
+if IsInRitual() {
+VocaliseChance(100)
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+MouseSigil = true
+Inspirare = false
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("MUSCULUS LONGITUDINIBUS POLYHYMNIA SCHOLIUM") {
+if IsInRitual() {
+VocaliseChance(100)
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+MouseSigil = true
+Inspirare = false
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("MUSCULUS LONGITUDINIBUS ERATO SCHOLIUM") {
+if IsInRitual() {
+VocaliseChance(100)
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+MouseSigil = true
+Inspirare = false
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("MUSCULUS LONGITUDINIBUS CALLIOPE SCHOLIUM") {
+if IsInRitual() {
+VocaliseChance(100)
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+MouseSigil = true
+Inspirare = false
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("MUSCULUS LONGITUDINIBUS CLIO SCHOLIUM") {
+if IsInRitual() {
+VocaliseChance(100)
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+MouseSigil = true
+Inspirare = false
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("MUSCULUS LONGITUDINIBUS EUTERPE SCHOLIUM") {
+if IsInRitual() {
+VocaliseChance(100)
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+MouseSigil = true
+Inspirare = false
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("MUSCULUS LONGITUDINIBUS TERPSICHORE SCHOLIUM") {
+if IsInRitual() {
+VocaliseChance(100)
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(sSigilMoleParent.x,sSigilMoleParent.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+MouseSigil = true
+Inspirare = false
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+}
+
+if MouseSigil = true and Inspirare = false {
+if SigilCompleted("21,17,23,18,13,12,7,3,9,14,19,25,") {
+if IsInRitual() {
+RitualCommandAccept()
+Inspirare = true
+MoveBackForward("retreat",MoveSpeedCalc(),10)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+}
+}
+}
+
+if Inspirare = true {
+if HeardPhrase("INSPIRARE") {
+if IsInRitual() {
+RitualCommandAccept()
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),100)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+MouseSigil = false
+Inspirare = false
+}
+}
+
+
+
+
+//==================================================================================================================================================================================
+//Ritual #43 - Moggrifying
+
+if IsInRitual() = true {
+if SigilCompleted("21,16,11,6,1,2,3,4,8,12,") {
+RitualCommandAccept()
+RitualBadReaction(0)
+MolesShaking = true 
+ReadyToGo43 = false
+ChooseMole = instance_find(oMoleHerd,irandom(instance_number(oMoleHerd) - 1))
+with ChooseMole{Chosen = true}
+with oMoleHerdRed{Chosen = true}
+MSTimer = irandom_range(5000,10000)
+}
+}
+
+if HeardPhrase("ANGUSTUS ARTUS") {
+if IsInRitual() {
+with mInterfaceController {
+CurrentHandUse = "knife"
+KnifeTimer = 2000
+ResetKnifeOnLift = false
+}
+ReadyToGo43 = true
+RitualCommandAccept()
+RitualBadReaction(0)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+}
+
+
+if IsInRitual() and ReadyToGo43 = true and MSTimer &gt; 0 {
+if instance_exists(ChooseMole) = false or instance_exists(oMoleHerdRed) = false {
+if instance_exists(oMoleHerdRed){with oMoleHerdRed{Chosen = false}}
+with oMoleHerd{Chosen=false}
+mInterfaceController.CurrentHandUse = "none"
+mInterfaceController.KnifeTimer = 0
+ReadyToGo43 = false
+MSTimer = 0
+MolesShaking = false
+RitualCommandAccept()
+RitualBadReaction(0)
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),100)
+ReturnAndAnswer = true
+RAndATimer = irandom_range(900,20000)
+alarm[11] = 200
+}
+}
+
+if MSTimer &gt; 1 {
+MSTimer -= 1
+} else if MSTimer = 1 {
+if instance_exists(oMoleHerdRed){with oMoleHerdRed{Chosen = false}}
+with oMoleHerd{Chosen = false}
+ChooseMole = noone
+MSTimer -= 1
+}
+
+
+//==================================================================================================================================================================================
+//Ritual #65 - Queery
+
+if IsInRitual()
+and (instance_exists(oEarRight) and oEarRight.PullGraceTimer &gt; 0) {
+if mInterfaceController.Taps &gt; 0 {
+RitualCommandAccept()
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),100)
+ReturnAndAnswer = true
+RAndATimer = irandom_range(9000,20000)
+mInterfaceController.Taps = 0
+oEarRight.PullGraceTimer = 0 
+}
+}
+
+
+
+//==================================================================================================================================================================================
+//Ritual #72 - Lifing Forever
+
+if SigilCompleted("21,17,11,12,18,13,19,14,20,") {
+if IsInRitual() {
+RitualGoodReaction(0)
+RitualCommandAccept()
+} else {
+RitualBadReaction(0)
+RitualCommandRefuse()
+}
+}
+
+if HeardPhrase("SATANAS PERPENDICULUM ISOSELUM") {
+if IsInRitual() {
+RitualGoodReaction(0)
+RitualCommandAccept()
+MoveToXY(oMouthCentre.x,oMouthCentre.y,MoveSpeedCalc(),MicroView,MoveSpeedCalc())
+} else {
+RitualBadReaction(0)
+RitualCommandRefuse()
+}
+global.LatestRecognisedPhrase = ""
+}
+
+
+
+
+
+//==================================================================================================================================================================================
+//Ritual #73 - Speak To Living Or Dead
+
+if SigilCompleted("23,18,13,8,3,2,7,19,25,") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualGoodReaction(0)
+Speaking = true
+} else {
+RitualCommandRefuse()
+RitualGoodReaction(0)
+}
+}
+
+if SigilCompleted("22,17,12,7,2,8,14,20,19,18,16,") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+Speaking = true
+} else {
+RitualCommandRefuse()
+RitualGoodReaction(0)
+}
+}
+
+if IsInRitual() {
+if Speaking = true {
+if HeardPhrase("CIRCUMJOVIALIUM SYZGIIS") {
+RitualCommandAccept()
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),100)
+alarm[7] = irandom_range(4000,20000)
+}
+}
+}
+
+if Speaking = true and IsInRitual() and mBehavioursDeliberative.PercentForward &lt;= 0 {
+if mWorldController.HeardSound = true {
+alarm[7] = irandom_range(60,120)
+mWorldController.HeardSound = false
+}
+if mWorldController.HeardLoudSound = true {
+MoveBackForwardUnCapped("comeforward",MoveSpeedCalc(),100)
+mWorldController.HeardLoudSound = false
+Speaking = false
+}
+}
+
+
+
+//==================================================================================================================================================================================
+//Ritual #97 - Poorly Thorts
+
+if IsInRitual() = true {
+if SigilCompleted("4,9,14,19,24,18,12,6,7,8,9,10,") {
+ReadyToGo97 = true
+}
+}
+
+if IsInRitual() and ReadyToGo97 = true {
+if mInterfaceController.PressBegun = true and mInterfaceController.PressTimer &gt; 60 {
+if mouse_check_button_released(mb_any) {
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),100)
+ReturnAndAnswer = true
+RAndATimer = irandom_range(900,5000)
+}
+}
+}
+
+//==================================================================================================================================================================================
+//Ritual #98 - Bursting Wens
+
+if global.LatestRecognisedPhrase = "FLUVIA TANGENTAS" {
+RitualBadReaction(0)
+if IsInRitual() = true {
+with mInterfaceController {
+CurrentHandUse = "burstwen"
+BurstWenTimer = 1000
+}
+} else {
+RitualCommandRefuse()
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//==================================================================================================================================================================================
+//Ritual #99 - Hickets
+
+if HeardPhrase("SINGULTUS GLOBUS") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("UNUM KWEM KWAY") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("ETINARC ADI AEGO")
+or HeardPhrase("ETINAR ADI YAGO")
+or HeardPhrase("ETINAR ADI AYGO")
+or HeardPhrase("ETINAR ADI EEAYGO")
+{
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+ThisTimer = irandom_range(30,60)
+EyeSquint(1,true,ThisTimer)
+StartScreenShake(ThisTimer,8,2)
+alarm[10] = ThisTimer
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//==================================================================================================================================================================================
+//Ritual #102 - Gout
+
+if HeardPhrase("INAEQUALIA FLUIDIS") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualGoodReaction(0)
+MoveToXY(oMouthCentre.x,oBLNostril.y,MoveSpeedCalc(),MacroView,MoveSpeedCalc())
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+StartCaulVibrateBehaviour(80)
+ShakeCaul(3,0.5)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//==================================================================================================================================================================================
+//Ritual #131 - Shirking
+
+if IsInRitual() {
+if SigilCompleted("21,16,11,6,1,7,13,9,5,10,15,20,25,") {
+RitualGoodReaction(0)
+RitualCommandAccept()
+}
+}
+
+if HeardPhrase("MOTU CORPORUM") or HeardPhrase("MOETOO COR PORUM") {
+if IsInRitual() {
+RitualGoodReaction(0)
+RitualCommandAccept()
+MoveToXY(oMouthCentre.x,oBLNostril.y,MoveSpeedCalc(),MacroView,MoveSpeedCalc())
+} else {
+RitualBadReaction(0)
+RitualCommandRefuse()
+}
+global.LatestRecognisedPhrase = ""
+}
+
+
+//==================================================================================================================================================================================
+//Ritual #142 - Conkers
+
+
+if HeardPhrase("CURVATURA PARALLAXIN CULCULUS") {
+if IsInRitual() {
+RitualBadReaction(0)
+RitualCommandAccept()
+MakingConkers = true
+ConkerTimer = 0
+mInterfaceController.HandWet = true
+mInterfaceController.ResetTimer = 10000
+mInterfaceController.HandWetType = "snot"
+} else {
+RitualBadReaction(0)
+RitualCommandRefuse()
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if IsInRitual() = true and MakingConkers = true {
+if instance_exists(mFinger) 
+with mFinger {
+if place_meeting(x,y,mCreatureParent) {
+if mDriveCollectionMaster.ConkerTimer &gt; 0 {
+mDriveCollectionMaster.ConkerTimer -= 1
+} else {
+GrowCanker(true)
+mDriveCollectionMaster.ConkerTimer = irandom_range(60,90)
+}
+}
+}
+}
+
+
+
+
+//==================================================================================================================================================================================
+// Ritual #153 (Luck)
+
+if HeardPhrase("AXIOMATA LEGES MOTUS") {
+if IsInRitual() {
+RitualGoodReaction(0)
+} else {
+RitualBadReaction(0)
+global.LatestRecognisedPhrase = ""
+}
+}
+
+if IsInRitual() {
+//Good Luck
+if SigilCompleted("3,7,8,9,13,12,18,14,15,20,19,23,") or SigilCompleted("11,7,3,8,13,18,17,16,") {
+RitualGoodReaction(0)
+}
+//Bad Luck
+if SigilCompleted("1,2,3,4,5,10,15,14,13,8,9,19,18,17,16,11,6,") 
+or SigilCompleted("1,2,7,6,12,8,13,17,18,19,14,9,10,5,4,") {
+RitualBadReaction(0)
+}
+}
+
+//==================================================================================================================================================================================
+// Ritual #154 
+
+//Spinners Ear
+
+if IsInRitual() {
+if SigilCompleted("1,7,13,19,20,25,24,15,") {
+RitualCommandAccept()
+RitualBadReaction(0)
+SpinEarCount = 0
+SpinEarTotal = irandom_range(2,10)
+}
+}
+
+if HeardPhrase("CORPORA MOVEANTUR QUOMDOCUNQ") {
+SpinEarCount += 1
+RitualBadReaction(0)
+if SpinEarCount &gt;= SpinEarTotal {
+VocaliseChance(100)
+RitualCommandAccept()
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//Scutchers Eye
+with mDuctParent {
+if instance_exists(mFinger) and place_meeting(x,y,mFinger) and IsInRitual() and mDriveCollectionMaster.MotesMoving = false 
+{
+with mDriveCollectionMaster {
+MotesMoving = true
+MotesPhrase = choose("MERCURIA","DIONA","MARTIA","JOVIS")
+}
+}
+}
+
+if IsInRitual() and MotesMoving = true {
+if HeardPhrase(MotesPhrase) {
+MotesVibrating = true 
+}
+}
+
+with oEyeballLeft {
+if instance_exists(mFinger) and place_meeting(x,y,mFinger) and IsInRitual() and mDriveCollectionMaster.MotesVibrating = true {
+with mDriveCollectionMaster {
+MotesMoving = false
+MotesVibrating = false
+}
+}
+}
+
+with oEyeballRight {
+if instance_exists(mFinger) and place_meeting(x,y,mFinger) and IsInRitual() and mDriveCollectionMaster.MotesVibrating = true {
+with mDriveCollectionMaster {
+MotesMoving = false
+MotesVibrating = false
+}
+}
+}
+
+//==================================================================================================================================================================================
+//Ritual #176 - Drugg
+
+if IsInRitual() {
+if SigilCompleted("1,2,3,4,5,10,9,8,7,6,11,12,18,13,") {
+RitualCommandAccept()
+RitualBadReaction(0)
+}
+}
+
+if HeardPhrase("CIRCA AXEM POSITIONE") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//==================================================================================================================================================================================
+//Ritual #176 - Broaks
+
+
+if IsInRitual() {
+if SigilCompleted("1,7,8,9,14,13,19,24,25,") {
+RitualCommandAccept()
+RitualBadReaction(0)
+}
+}
+
+if HeardPhrase("AXIOMATA VELOCITAS EFFLUENTIS VELOCITAS") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("VELOCITAS AXIOMATA VELOCITAS EFFLUENTIS") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+with mInterfaceController {
+CurrentHandUse = "knife"
+KnifeTimer = 2000
+ResetKnifeOnLift = false
+}
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//==================================================================================================================================================================================
+//Ritual #202 - Broaks
+
+if HeardPhrase("AXIOMATA EJECTUM PROTAGONOS DIAMORPHINOS") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+mCreatureController.BaseTiredness += 5  * mPlotController.ISModifier
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+//==================================================================================================================================================================================
+//Ritual #204 - Quickening
+//KNIFE ON
+if global.LatestRecognisedPhrase = "OGGY AID ACRANIET COMPUTATIO" {
+RitualBadReaction(0)
+if IsInRitual() = true {
+with mInterfaceController {
+CurrentHandUse = "knife"
+KnifeTimer = 2000
+ResetKnifeOnLift = false
+}
+} else {
+RitualCommandRefuse()
+}
+}
+//KNIFE OFF
+if global.LatestRecognisedPhrase = "DATIS QUIBUSVIS MINORES" {
+if IsInRitual() = true {
+RitualGoodReaction(0)
+} else {
+RitualCommandRefuse()
+}
+with mInterfaceController {
+CurrentHandUse = "none"
+ResetKnifeOnLift = true
+}
+}
+
+//==================================================================================================================================================================================
+//Ritual #294 - Lust
+
+
+
+if HeardPhrase("ATTRACTO ACCELERATRIX") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualGoodReaction(0)
+mCreatureController.BaseLust += 3  * mPlotController.ISModifier
+StartCaulVibrateBehaviour(200)
+ShakeCaul(0.5,0.5)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("ERECTIS PERPENDICULUS") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualGoodReaction(0)
+mCreatureController.BaseLust += 15  * mPlotController.ISModifier
+StartCaulVibrateBehaviour(200)
+ShakeCaul(0.5,0.5)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+if HeardPhrase("MATERIA NON FLUIDIA") {
+if IsInRitual() {
+RitualCommandAccept()
+RitualBadReaction(0)
+mCreatureController.BaseLust -= 15  * mPlotController.ISModifier
+StartCaulVibrateBehaviour(200)
+ShakeCaul(0.5,0.5)
+} else {
+RitualCommandRefuse()
+RitualBadReaction(0)
+}
+global.LatestRecognisedPhrase = ""
+}
+
+
+//==================================================================================================================================================================================
+
+//Ritual #312 - Time Stop
+if HeardPhrase("PARABOLA ECLIPTICAE") {
+if IsInRitual() = true {
+oNose1.RitualMod = 0.2
+}
+global.LatestRecognisedPhrase = ""
+}
+
+
+
+
+//Nighttime Glintings 
+
+if Glowing = false {
+if GlintTimer &gt; 0 {
+GlintTimer -= 1
+} else {
+RandX = 0
+RandY = 0
+while (position_meeting(RandX,RandY,mFurSuperParent) = false) {
+RandX = irandom_range(166,1189)
+RandY = irandom_range(700,4000)
+}
+Glowing = true
+GlowSize = 0
+GlowIn = false
+GlintTimer = irandom_range(1000,8000)
+}
+}
+
+
+if Glowing = true {
+if GlowIn = false {
+if GlowSize &lt; 3 {
+GlowSize += 0.3
+} else {
+GlowIn = true
+}
+} else {
+if GlowSize &gt; 0 {
+GlowSize -= 0.3
+} else {
+GlowSize = 0
+GlowIn = false
+Glowing = false
+}
+}
+}
+
+//Cappings
+
 RitualInternalMod = clamp(RitualInternalMod,0,50)
 RitualTolerance = clamp(RitualTolerance,0,100)
 RitualPitchMod = clamp(RitualPitchMod,0,0.3)
 
+if IsInRitual() and ReturnAndAnswer = true {
+if RAndATimer &gt; 0 {
+RAndATimer -= 1
+} else {
+MoveBackForwardUnCapped("comeforward",MoveSpeedCalc(),100)
+alarm[7] = irandom_range(20,40)
+RAndATimer = 0
+ReturnAndAnswer = false
+}
+}
 
 </string>
           </argument>
@@ -2401,7 +4363,10 @@ RitualPitchMod = clamp(RitualPitchMod,0,0.3)
           <argument>
             <kind>1</kind>
             <string>///Pursuing Current Drive
-/*
+
+alarm[1] = clamp(alarm[1],0,7200)
+
+if ActualDrivesOn = true {
 //Perform actions based on CurrentDrive variable.
 //- If completion criteria reached, remove active drive.
 //- If frustration condition reached, lower current retries by 1.
@@ -2409,175 +4374,95 @@ RitualPitchMod = clamp(RitualPitchMod,0,0.3)
 
 
 switch CurrentDrive {
+
+
 //---------------------------------------------------------- FALLING ASLEEP
 case "fallasleep":
 if SleepChanceTimer &gt; 0 {
 SleepChanceTimer -= 1
-if SleepingTwitches = false {
-if Chance(70 - ((40 / 3) * CurrentRetries)) and mBehavioursDeliberative.PercentForward &gt; 50 {
-MoveBackForward("retreat",irandom_range(50,70),irandom_range(10,30))
 }
 
-if Chance(60) {
-Twitches = round(((3 / 3) * (3 - CurrentRetries)) + ((6 / 100) * mCreatureController.Tiredness))
 
-for (i = 0; i &lt; Twitches; i++) {
-RandomTwitch()
-}
-}
-
-ShiverChance(30 + ((30 / 100) * mCreatureController.Tiredness)  - ((20 / 3) * CurrentRetries))
-
-if Chance(40 - ((20 / 3) * CurrentRetries) + ((30 / 100) * mCreatureController.Tiredness)) {
-StartYawnBehaviour()
-}
-
-if Chance(40 - ((20 / 3) * CurrentRetries) + ((30 / 100) * mCreatureController.Tiredness)) {
-MoveToXY(0,800,irandom_range(80,120),MacroView,irandom_range(80,120))
-}
-
-if Chance(10 - ((5 / 3) * CurrentRetries)) {
-RandomVoc(random_range(0.1,0.4))
-}
-
-if Chance(30 - ((10 / 3) * CurrentRetries)) {
-StartNumberSniffsBehaviour(irandom_range(1,3))
-}
-
-SleepingTwitches = true
-} else {
 if mBehavioursReactive.Sleeping = false {
-StartSleepBehaviour(irandom_range(0,4))
+if Chance(70 - ((40 / 3) * CurrentRetries)) and mBehavioursDeliberative.PercentForward &gt; 50 {
+MoveBackForward("retreat",MoveSpeedCalc(),irandom_range(10,30))
 }
-}
+RandomShake()
+StartSleepBehaviour(0)
 }
 
 CompleteRetry("fallasleep")
 break;
+
+
+
 //---------------------------------------------------------- PLAYER LEAVE
 case "playerleave":
+
 if LeaveTimer &lt; LeaveThreshold {
 LeaveTimer += 1
 
 if GoneToCenter = false {
-MoveToXY(0,1000 + LeaveYRand,irandom_range(30,50),MacroView,70)
+MoveToXY(500,1000 + LeaveYRand,irandom_range(30,50),MacroView,70)
 GoneToCenter = true
 }
 
 if GoneToCenter = true {
-
-if NoInteractionTimer &lt; 250 {
-
-
-ChangeEmotionStep("anger","up",0.02)
-ChangeEmotionStep("fear","up",0.02)
-mCreatureController.BaseStress += 0.02
-mCreatureController.BaseTrust -= 0.02
-mCreatureController.BaseSubIntent -= 0.0001
-ChangeEmotionStep("happy","down",0.02)
-
+if NoInteractionTimer &lt; 500 {
+//ChangeEmotionStep("anger","up",0.007)
+//ChangeEmotionStep("fear","up",0.007)
+//mCreatureController.BaseStress += 0.007 * mPlotController.ISModifier
+//mCreatureController.BaseTrust -= 0.007 * mPlotController.ISModifier
+//mCreatureController.BaseSubIntent -= 0.00001 * mPlotController.ISModifier
+//ChangeEmotionStep("happy","down",0.005)
 SeenPlayerTimer = 500
 
-if LeaveRandomActTimer &gt; 0 {
-LeaveRandomActTimer -= 1
-} else {
-ActNumber = choose(1,2,3,4,5,6,7,8)
-switch ActNumber {
-case 1:
-RandomVoc(0.5 + ((0.5 / 100) * mEmotionSubController.AngerActivation))
-break;
-case 2:
-MoveToXY(oMouthCentre.x,oMouthCentre.y,80,MicroView,80)
-RandomVoc(0.5 + ((0.5 / 100) * mEmotionSubController.AngerActivation))
-ZoomWait = 3
-break;
-case 3:
-MoveToXY(oEyeballLeft.x,oEyeballLeft.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 4: 
-MoveToXY(oEyeballRight.x,oEyeballRight.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 5: 
-MoveToXY(oNose1.x,oNose1.y,80,MicroView,80)
-StartShiverBehaviour(0.3,7,5)
-ZoomWait = 3
-break;
-case 6: 
-MoveBackForward("retreat",irandom_range(6,12),irandom_range(10,30))
-break;
-case 7: 
-MoveBackForward("comeforward",irandom_range(6,12),irandom_range(10,30))
-break;
-case 8:
-StartShiverBehaviour(irandom_range(5,10),irandom_range(10,30),irandom_range(5,9))
-break;
-}
-LeaveRandomActTimer = irandom_range(100,400)
-}
+if Chance(3 - ((1.5 / 1000) * LeaveTimer)){RandomVoc(0.5 + ((0.5 / 100) * mEmotionSubController.AngerActivation))}
+if Chance(3 - ((1.5 / 1000) * LeaveTimer)){StartBuck()}
+if Chance(3 - ((1.5 / 1000) * LeaveTimer)){RandomShake()}
+if Chance(3 - ((1.5 / 1000) * LeaveTimer)){MoveBackForward("retreat",irandom_range(20,30),irandom_range(10,30))}
+if Chance(3 - ((1.5 / 1000) * LeaveTimer)){MoveBackForward("comeforward",irandom_range(20,30),irandom_range(10,30))}
 
-
-} else if NoInteractionTimer &gt; 250 {
+} else if NoInteractionTimer &gt; 500 {
 
 SeenPlayerTimer -= 1
 
-if LeaveRandomActTimer &gt; 0 {
-LeaveRandomActTimer -= 1
-} else {
-ActNumber = choose(1,2,3,4,5)
-switch ActNumber {
-case 1:
-RandomVoc(0.5 + ((0.5 / 100) * mEmotionSubController.AngerActivation))
-break;
-case 2: 
-EyeSquint(irandom_range(1,3),true,irandom_range(60,120))
-break;
-case 3:
-MoveToXY(oEyeballLeft.x,oEyeballLeft.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 4: 
-MoveToXY(oEyeballRight.x,oEyeballRight.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 5: 
-StartNumberSniffsBehaviour(irandom_range(1,4))
-break;
-}
-LeaveRandomActTimer = irandom_range(100,400)
-}
+if  Chance((3  -((1.5 / 1000) * LeaveTimer))){RandomVoc(0.5 + ((0.5 / 100) * mEmotionSubController.AngerActivation))}
+if  Chance((3  -((1.5 / 1000) * LeaveTimer))){StartBuck()}
+if  Chance((3  -((1.5 / 1000) * LeaveTimer))){RandomShake()}
+if  Chance((3  -((1.5 / 1000) * LeaveTimer))){MoveBackForward("retreat",irandom_range(20,30),irandom_range(10,30))}
+if  Chance((3  -((1.5 / 1000) * LeaveTimer))){MoveBackForward("comeforward",irandom_range(20,30),irandom_range(10,30))}
 
 }
 }
 }
-
+SeenPlayerTimer = clamp(SeenPlayerTimer,0,5000)
 CompleteRetry("playerleave")
 break;
+
+
 
 //---------------------------------------------------------- PLAYER COME
 case "playercome":
 if PCTimerStarted = false {
 PCTimer = 0 
-PCTimerThreshold = irandom_range(600,1200 + ((500 * mCreatureController.Triad)))
+PCTimerThreshold = irandom_range(1000,2000 + ((500 * mCreatureController.Triad)))
 PCInteractTimer = 100
 PCTimerStarted = true
 } else {
 if PCTimer &lt; PCTimerThreshold {
-ChangeEmotionStep("sad","up",0.01 + (0.01 * mCreatureController.Triad))
-ChangeEmotionStep("anger","up",0.01 - (0.01 * mCreatureController.Triad) + ((0.01 / 100) * mCreatureController.Resistance))
-mCreatureController.BaseTrust -= 0.01 - (0.01 * mCreatureController.Triad)
-ChangeEmotionStep("happy","down",0.01 - (0.01 * mCreatureController.Triad))
-ChangeEmotionStep("shame","up",0.01 + (0.01 * mCreatureController.Triad))
-ChangeEmotionStep("fear","up",0.01 + (0.01 * mCreatureController.Triad))
-mCreatureController.BaseStress += 0.01
-mCreatureController.BaseSubIntent -= 0.0001
-mCreatureController.CloseToAnne -= 0.01
-
+//ChangeEmotionStep("sad","up",0.001 + (0.001 * mCreatureController.Triad))
+//ChangeEmotionStep("anger","up",0.001 - (0.001 * mCreatureController.Triad) + ((0.01 / 100) * mCreatureController.Resistance))
+//mCreatureController.BaseTrust -= 0.001 - (0.001 * mCreatureController.Triad)
+//ChangeEmotionStep("happy","down",0.001 - (0.001 * mCreatureController.Triad))
+//ChangeEmotionStep("shame","up",0.001 + (0.001 * mCreatureController.Triad))
+//ChangeEmotionStep("fear","up",0.001 + (0.001 * mCreatureController.Triad))
+//mCreatureController.BaseStress += 0.001 * mPlotController.ISModifier
+//mCreatureController.BaseSubIntent -= 0.00001 * mPlotController.ISModifier
+//mCreatureController.CloseToAnne -= 0.001 * mPlotController.ISModifier
 PCTimer += 1
-if PCInteractTimer &gt; 0 {
-PCInteractTimer -= 1
-} else {
+
+if  Chance((3  -((1.5 / 1000) * PCTimer))) {
 RandomNum = irandom_range(1,11)
 switch RandomNum {
 case 1:
@@ -2586,12 +4471,12 @@ break;
 case 2:
 if Chance(50){EyeSquint(1,true,25)}
 MoveToXY(oEyeballLeft.x,oEyeballLeft.y,80,MicroView,80)
-ZoomWait = 3
+ZoomWait = irandom_range(30,50)
 break;
 case 3:
 if Chance(50){EyeSquint(1,true,25)}
 MoveToXY(oEyeballRight.x,oEyeballRight.y,80,MicroView,80)
-ZoomWait = 3
+ZoomWait = irandom_range(30,50)
 if Chance(50){EyeSquint(1,true,25)}
 break;
 case 4:
@@ -2604,16 +4489,16 @@ case 6:
 if mCreatureController.Lust &gt; 60 {
 StartCaulVibrateBehaviour(irandom_range(30,50))
 MoveToXY(oCaulLip.x,oCaulLip.y,80,MicroView,80)
-ZoomWait = 3
+ZoomWait = irandom_range(30,90)
 }
 break;
 case 7:
 MoveToXY(oHornLeft.x,oHornLeft.y,80,MicroView,80)
-ZoomWait = 3
+ZoomWait = irandom_range(30,50)
 break;
 case 8:
 MoveToXY(oHornRight.x,oHornRight.y,80,MicroView,80)
-ZoomWait = 3
+ZoomWait = irandom_range(30,50)
 break;
 case 9:
 if mBehavioursDeliberative.PercentForward &lt; 100 {
@@ -2626,105 +4511,125 @@ MoveBackForward("retreat",30,irandom_range(20,30))
 break;
 case 11:
 MoveToXY(oMouthCentre.x,oMouthCentre.y,25,MicroView,25)
-ZoomWait = 3
+ZoomWait = irandom_range(30,90)
 VocaliseChance(100)
 break;
 }
-PCInteractTimer = 500 + ((30 / 100) * (100 - mCreatureController.Alive)) + ((50 / 100) * (mCreatureController.Tiredness)) - ((30 / 100) * (100 - mCreatureController.Lust)) - ((60 * mCreatureController.Triad))
-+ ((100 / 100) * (100 - mCreatureController.Trust)) - ((70 / 100) * (100 - mEmotionSubController.FearActivation)) - ((40 / 100) * (100 - mCreatureController.Pain)) - ((40 / 100) * (100 - mEmotionSubController.SadActivation))
-}
 }
 CompleteRetry("playercome")
+
+if NoInteractionTimer &lt;= 0 {
+PCTimer = PCTimerThreshold
+}
+}
 }
 break;
+
+
 
 //---------------------------------------------------------- FLEE
 case "flee":
 if FleeSet = false {
-NotReturnTimer = irandom_range(400,800 - (600 * mCreatureController.Triad))
-if Chance(40) {
-StartCloseEyeBehaviour("both",1)
-}
+NotReturnTimer = irandom_range(1500,2500) - (600 * mCreatureController.Triad)
 VocaliseChance(40)
-if Chance(20) {StartShiverBehaviour(0.2,10,3)}
-MoveBackForwardUnCapped("retreat",irandom_range(20,50),100)
+if Chance(40) {RandomShake()}
+MoveBackForwardUnCapped("retreat",round(MoveSpeedCalc() / 2),100)
 FleeSet = true
+FleeCheckTimer = 500
 } else if FleeSet = true {
+if FleeCheckTimer &gt; 0 {
+FleeCheckTimer -= 1
+} else {
 CompleteRetry("flee")
 }
+}
 break;
+
+
 
 //---------------------------------------------------------- RETREAT
 case "retreat":
+
 if RetreatSet = false {
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
+TwitchRun(irandom_range(2,10))
 VocaliseChance(10 + ((5 / 100) * mEmotionSubController.FearActivation) - ((5 / 100) * (100 - mCreatureController.Alive))) 
+
 BackAmount = 10 + ((3 / 100) * mCreatureController.Stress) - ((3 / 100) * mCreatureController.Pain) - ((5 / 100) * (100 - mCreatureController.Alive)) - ((2 / 100) * (mCreatureController.Tiredness)) + ((10 / 100) * mCreatureController.Resistance)
-+ ((10 / 100) * (100 - mCreatureController.Trust)) - (10 * mCreatureController.Triad) + ((10 / 100) * mEmotionSubController.AngryActivation)
++ ((10 / 100) * (100 - mCreatureController.Trust)) - (10 * mCreatureController.Triad) + ((10 / 100) * mEmotionSubController.AngerActivation)
 + ((10 / 100) * mEmotionSubController.FearActivation) + ((10 / 100) * mEmotionSubController.ShameActivation) - ((10 / 100) * mEmotionSubController.HappyActivation)
-BackRate = 20 - ((3 / 100) * mCreatureController.Stress) - ((3 / 100) * mCreatureController.Pain) + ((5 / 100) * (100 - mCreatureController.Alive)) + ((5 / 100) * (mCreatureController.Tiredness)) - ((10 / 100) * mCreatureController.Resistance)
-- ((10 / 100) * (100 - mCreatureController.Trust)) + (10 * mCreatureController.Triad) - ((10 / 100) * mEmotionSubController.AngryActivation)
-+ ((10 / 100) * mEmotionSubController.FearActivation) + ((10 / 100) * mEmotionSubController.ShameActivation) + ((10 / 100) * mEmotionSubController.HappyActivation)
+
+BackRate = (20 - ((3 / 100) * mCreatureController.Stress) - ((3 / 100) * mCreatureController.Pain) + ((5 / 100) * (100 - mCreatureController.Alive)) + ((5 / 100) * (mCreatureController.Tiredness)) - ((10 / 100) * mCreatureController.Resistance)
+- ((10 / 100) * (100 - mCreatureController.Trust)) + (10 * mCreatureController.Triad) - ((10 / 100) * mEmotionSubController.AngerActivation)
++ ((10 / 100) * mEmotionSubController.FearActivation) + ((10 / 100) * mEmotionSubController.ShameActivation) + ((10 / 100) * mEmotionSubController.HappyActivation)) * 1.5
+
 BackAmount = clamp(BackAmount,3,100)
 BackRate = clamp(BackRate,5,60)
-BackThreshold = mBehavioursDeliberative.PercentForward - BackAmount
-BackThreshold = clamp(BackThreshold,0,100)
-MoveBackForwardUnCapped("retreat",BackRate,BackAmount)
-
-NotReturnTimer = irandom_range(400,800 - (600 * mCreatureController.Triad))
-RetreatSet = true
+MoveBackForward("retreat",BackRate,BackAmount)
+RetreatSet = true 
 } else if RetreatSet = true {
-CompleteRetry("retreat")
+Drive5Cooldown = 4000
+Drive5ChanceCooldown = 4000
+if AlarmTrig = false {
+alarm[1] = 400
+AlarmTrig = true
 }
+}
+
 break;
+
 
 //---------------------------------------------------------- TO DEFAULT POS
 
 case "todefaultpos":
 if XYMoveSet = false {
 XYSpeed = 40 + ((20 / 100) * (100 - mCreatureController.Alive)) + ((10 / 100) * mCreatureController.Tiredness) + ((10 / 100) * mCreatureController.Pain) - ((10 / 100) * mCreatureController.Trust) 
-- ((10 / 100) * mEmotionSubController.HappyActivation) - ((10 / 100) * mEmotionSubController.AngryActivation) + ((10 / 100) * mEmotionSubController.SadActivation) + ((10 / 100) * mEmotionSubController.ShameActivation)
+- ((10 / 100) * mEmotionSubController.HappyActivation) - ((10 / 100) * mEmotionSubController.AngerActivation) + ((10 / 100) * mEmotionSubController.SadActivation) + ((10 / 100) * mEmotionSubController.ShameActivation)
 - ((10 / 100) * mEmotionSubController.FearActivation)
-MoveToXY(0,1000,XYSpeed,MacroView,XYSpeed)
+MoveToXY(500,1000,XYSpeed,MacroView,XYSpeed)
 XYMoveSet = true
+XYMoveTimer = 120
 } else if XYMoveSet = true {
+if XYMoveTimer &gt; 0 {
+XYMoveTimer -= 1
+} else {
 CompleteRetry("todefaultpos")
 }
+}
 break;
+
+
 
 //---------------------------------------------------------- COME FORWARD 
 
 case "comeforward":
 if ForwardSet = false {
-ForwardRate = 25 + ((10 / 100) * (100 - mCreatureController.Alive)) + ((10 / 100) * mCreatureController.Tiredness) + ((10 / 100) * mCreatureController.Pain) - ((20 / 100) * mCreatureController.Lust) 
-+ ((10 / 100) * mEmotionSubController.SadActivation) - ((10 / 100) * mEmotionSubController.HappyActivation)+ ((15 / 100) * mCreatureController.Resistance)
+ForwardRate = (25 + ((10 / 100) * (100 - mCreatureController.Alive)) + ((10 / 100) * mCreatureController.Tiredness) + ((10 / 100) * mCreatureController.Pain) - ((20 / 100) * mCreatureController.Lust) 
++ ((10 / 100) * mEmotionSubController.SadActivation) - ((10 / 100) * mEmotionSubController.HappyActivation)+ ((15 / 100) * mCreatureController.Resistance)) * 1.5
 ForwardAmount = 25 + ((10 / 100) * (100 - mCreatureController.Alive)) - ((10 / 100) * mCreatureController.Stress) - ((10 / 100) * mCreatureController.Resistance) +  ((10 / 100) * mCreatureController.CloseToAnne)
-- ((10 / 100) * (100 - mCreatureController.Trust)) + ((10 * mCreatureController.Triad)) - ((10 / 100) * mEmotionSubController.AngryActivation) - ((10 / 100) * mEmotionSubController.FearActivation) -  
+- ((10 / 100) * (100 - mCreatureController.Trust)) + ((10 * mCreatureController.Triad)) - ((10 / 100) * mEmotionSubController.AngerActivation) - ((10 / 100) * mEmotionSubController.FearActivation) -  
 ((10 / 100) * mEmotionSubController.ShameActivation)
-ForwardThreshold = mBehavioursDeliberative.PercentForward + ForwardAmount
 ForwardRate = clamp(ForwardRate,3,100)
 ForwardThreshold = clamp(ForwardThreshold,0,100)
 MoveBackForwardUnCapped("comeforward",ForwardRate,ForwardAmount)
-if Chance(25) {StartShiverBehaviour(random_range(0.2,0.4),irandom_range(20,40),irandom_range(4,7))}
+if Chance(25) {RandomShake()}
 if Chance(30) {StartNumberSniffsBehaviour(irandom_range(1,3))}
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
+TwitchRun(irandom_range(2,7))
 ForwardSet = true
 } else if ForwardSet = true {
-CompleteRetry("comeforward")
+Drive7Cooldown = 3000
+Drive7ChanceCooldown = 4000
+if AlarmTrigFor = false {
+alarm[1] = 400
+AlarmTrigFor = true
+}
 }
 break;
+
 
 //---------------------------------------------------------- GO TO EAT
 
 case "gotoeat":
-if GTEPauseTimer &gt; 0 {
-GTEPauseTimer -= 1
-} else {
+
 if GTESet = false {
 if mCreatureController.Triad &gt; 0 {
 if Chance(70) {
@@ -2732,135 +4637,23 @@ choose(
 VocaliseChance(100),
 StartVocalPhrase(irandom_range(2,3))
 )
+RandomShake()
 }
 }
-RandomTwitch()
-RandomTwitch()
-if Chance(50){LittleJump()}
-if Chance(60){StartTwitchNoseSideBehaviour(irandom_range(20,40))}
-ChangeEmotion("happy","up",0.5,10)
-ChangeEmotion("anger","down",0.4,10)
-mCreatureController.BaseStress -= 7
-GTEBreaks = irandom_range(0,4) - round((2 * mCreatureController.Triad))
-GTEBreaks = clamp(GTEBreaks,0,6)
-GTEAmount = mBehavioursDeliberative.PercentForward
-AmountPerStop = round(GTEAmount/GTEBreaks)
-GTEWaitTimerBase = irandom_range(60,100) + ((50 / 100) * mEmotionSubController.FearActivation) - ((50 / 100) * mCreatureController.Trust)
-GTEWaitTimer = GTEWaitTimerBase 
-GTERate = irandom_range(20,30) - (15 * mCreatureController.Triad) - ((10 / 100) * mEmotionSubController.AngerActivation) + ((10 / 100) * mCreatureController.Tiredness)
-+ ((10 / 100) * mCreatureController.Pain) - ((10 / 100) * mCreatureController.Stress) - ((10 / 100) * mCreatureController.Resistance) - ((10 / 100) * mCreatureController.CloseToAnne)
-- ((10 / 100) * mEmotionSubController.HappyActivation) - ((10/60) * TimeThroughEatingHour()) + ((10 / 100) * EaternAmountToday)
-GTERate = clamp(GTERate,10,100)
+MoveBackForwardUnCapped("retreat",MoveSpeedCalc(),100)
+EatWaitTimer = irandom_range(100,300)
+DecideToComeBack = false
+GoingAway = false
+GoneAway = true
 GTESet = true
-} else if GTESet = true {
-//Disappear Slowly
-if MovingActive = false {
-if mBehavioursDeliberative.PercentForward &gt; 0 {
-if GTEWaitTimer &gt; 0 {
-GTEWaitTimer -= 1 
+GTETimer = 500
 } else {
-if GTEBreaks &gt; 0 {
-MoveBackForwardUnCapped("retreat",GTERate,AmountPerStop)
-VocaliseChance(10)
-GTEBreaks -= 1
-GTEWaitTimer = GTEWaitTimerBase
-} else if GTEBreaks = 0 {
-if mBehavioursDeliberative.PercentForward &gt; 0 {
-MoveBackForwardUnCapped("retreat",GTERate,mBehavioursDeliberative.PercentForward)
-}
-}
-}
+if GTETimer &gt; 0 {
+GTETimer -= 1
 } else {
-StartCrunchingBehaviour()
-}
-}
 CompleteRetry("gotoeat")
 }
 }
-break;
-
-//---------------------------------------------------------- ACCEPT RITUAL
-
-case "acceptritual":
-if ARSet = false {
-StartShiverBehaviour(0.3,ARWaitTimer,3)
-StartCloseMouthBehaviour(0.2,0)
-if Chance(50) {
-EyeSquint(0,true,ARWaitTimer)
-}
-AcceptOrNot = 0 - (NotInWorkingHours()) + ((1 / 100) * (100 - mCreatureController.Alive)) - ((1 / 100) * mCreatureController.Tiredness) - ((1 / 100) * mCreatureController.Pain)
-+ ((1 / 100) * mCreatureController.Lust) - ((1 / 100) * mCreatureController.Stress) + ((1 / 100) * mCreatureController.CloseToAnne) + mCreatureController.Triad - 
-((1 / 100) * mCreatureController.Resistance) + ((1 / 100) * mCreatureController.Trust) + ((1 / 100) * mEmotionSubController.HappyActivation) 
-+ ((1 / 100) * mEmotionSubController.SadActivation) + ((1 / 100) * mEmotionSubController.AngerActivation) + ((1 / 100) * mEmotionSubController.FearActivation)
-+ ((1 / 100) * mEmotionSubController.ShameActivation)
-
-if AcceptOrNot &lt; 0 {
-AcceptOrNotFinal = false
-} else if AcceptOrNot &gt;= 0 {
-AcceptOrNotFinal = true
-}
-ARSet = true
-} else if ARSet = true {
-if ARWaitTimer &gt; 0 {
-ARWaitTimer -= 1
-if ARTwitchTimer &gt; 0 {
-ARTwitchTimer -= 1
-} else {
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-ARTwitchTimer = ARTwitchTimerBase
-}
-mBehavioursReactive.ShiveringIntensity += 0.2
-mBehavioursReactive.SideTime -= 0.2
-} else {
-if AcceptOrNotFinal = true {
-ChangeEmotion("sad","down",0.4,10)
-ChangeEmotion("anger","down",0.4,10)
-ChangeEmotion("fear","down",0.4,10)
-ChangeEmotion("shame","down",0.4,10)
-ChangeEmotion("surprise","down",0.4,10)
-ChangeEmotion("happy","up",0.4,50)
-mCreatureController.BaseAlive -= 0.2
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-StartCaulVibrateBehaviour(irandom_range(60,150))
-mCreatureController.BaseTrust += 10
-mCreatureController.BaseResistance -= 30
-mCreatureController.CloseToAnne += 10
-mCreatureController.BaseSubIntent += 0.1
-mCreatureController.BaseLust += 10
-if Chance(30){StartNumberSniffsBehaviour(irandom_range(2,4))}
-BaseBreathRate -= 0.5
-InRitual = true
-} else if AcceptOrNotFinal = false {
-VocaliseChance(65)
-BaseBreathRate += 0.5
-if mEmotionSubController.FearActivation &gt; mEmotionSubController.AngryActivation {
-if Chance(60){MoveBackForwardUnCapped("retreat",irandom_range(25,35),irandom_range(20,40))}
-} else {
-MoveToXY(room_width / 2, oHornLeft.y,15,MicroView,15)
-ZoomWait = 3
-}
-StartCaulVibrateBehaviour(irandom_range(60,150))
-for (i = 0; i &lt; 20; i++) {
-RandomTwitch()
-}
-ChangeEmotion("anger","down",0.3,4)
-mCreatureController.BaseTiredness += 3
-mCreatureController.BaseStress += 3
-mCreatureController.BaseResistance -= 4
-ChangeEmotion("fear","up",0.3,4)
-ChangeEmotion("sad","up",0.3,8)
-ChangeEmotion("happy","down",0.3,4)
-}
-Drive9Cooldown = 2000
-ResettingDrives("acceptritual")
-}
-} 
 break;
 
 
@@ -2868,121 +4661,41 @@ break;
 
 case "doze":
 if DozeSet = false {
-if Chance(50) {NumberOfBlinks(irandom_range(2,5))}
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-BaseBreathRate -= 0.7
-if Chance(25){StartNumberSniffsBehaviour(irandom_range(1,3))}
-if Chance(30){StartShiverBehaviour(0.3,irandom_range(10,20),3)}
-BreathType = "nose"
-DozeRand = irandom_range(600,800)
+TwitchRun(irandom_range(3,6))
+BaseBreathRate -= 0.1
+if Chance(50){StartNumberSniffsBehaviour(irandom_range(1,3))}
+if Chance(50){RandomShake()}
+DozeRand = irandom_range(600,900)
+DozeThreshold = irandom_range(2000,7200)
+DozeThreshTimer = 0
 DozeSet = true 
 } else if DozeSet = true {
 if Dozing = false {
-DozeThreshold = irandom_range(500,2000)
 Dozing = true
+DozeTimer = 200
+CurrentlyBlinking = false
+CurrentlyWinking = false
+CurrentlySquinting = false
 StartCloseEyeBehaviour("both",4)
 if mBehavioursDeliberative.PercentForward &gt;= 100 {
-MoveToXY(0,1000 - DozeRand,80,MacroView,80)
+MoveToXY(500,1000 - DozeRand,80,MacroView,80)
 }
-}
+} else {
+if DozeTimer &gt; 0 {
+DozeTimer -= 1
+} else {
 CompleteRetry("doze")
 }
-break;
-
-//---------------------------------------------------------- CLEAN GOUND
-
-case "cleangound":
-if GoundSet = false {
-GoundTimer = 0
-GoundTimerThreshold = irandom_range(500,800) + ((100 / 100) * (mCreatureController.Dirt)) - ((100 / 100) * (100 - mCreatureController.Alive)) + ((50 / 100) * mCreatureController.Tiredness)
-+ (100 * mCreatureController.Triad) - ((100 / 100) * mCreatureController.CloseToAnne) + ((100 / 100) * mCreatureController.Resistance)
-- ((100 / 100) * mEmotionSubController.HappyActivation) + ((100 / 100) * mEmotionSubController.AngryActivation) - ((200 / 100) * mEmotionSubController.FearActivation) 
-- ((200 / 100) * mEmotionSubController.ShameActivation)
-GoundRandomTimer = irandom_range(100,200) - ((50 / GoundTimerThreshold) * GoundTimer)  
-GoundSet = true
-} else if GoundSet = true {
-CompleteRetry("cleangound")
-GoundTimer += 1
-ChangeEmotionStep("anger","up",0.01)
-if GoundRandomTimer &gt; 0 {
-GoundRandomTimer -= 1
-} else {
-GoundRandom = irandom_range(1,12)
-switch GoundRandom {
-case 1:
-if oEyelidDuctLeft.NumberOfGounds &gt; 0 and TimeSinceLastTouch &gt; 10 {
-MoveToXY(oEyeballLeft.x,oEyeballLeft.y,30,MicroView,30)
-ZoomWait = 3
-}
-break;
-
-case 2:
-if oEyelidDuctRight.NumberOfGounds &gt; 0 and TimeSinceLastTouch &gt; 10 {
-MoveToXY(oEyeballRight.x,oEyeballRight.y,30,MicroView,30)
-ZoomWait = 3
-}
-break;
-
-case 3:
-NumberOfBlinks(3)
-break;
-
-case 4:
-RandomVoc(0.3 + ((0.7 / 1000) * NoInteractionTimer))
-break;
-
-case 5: 
-StartWinkBehaviour("left")
-break;
-
-case 6:
-StartWinkBehaviour("right")
-break;
-
-case 7:
-EyeSquint(1,true,irandom_range(30,70))
-break;
-
-case 8:
-StartTwitchNoseSideBehaviour(irandom_range(30,70))
-break;
-
-case 9:
-StartEyebrowTwitchRightBehaviour()
-StartEyebrowTwitchLeftBehaviour()
-break;
-
-case 10:
-if TimeSinceLastTouch &gt; 10 {
-MoveBackForward("retreat",irandom_range(15,25),irandom_range(5,15))
-}
-ZoomWait = 3
-break;
-
-case 11:
-StartShiverBehaviour(0.3,irandom_range(30,60),3)
-break;
-
-case 12:
-StartCheekTwitchLeftBehaviour()
-break;
-
-case 13:
-StartCheekTwitchRightBehaviour()
-break;
-}
-GoundRandomTimer = irandom_range(100,200) - ((50 / GoundTimerThreshold) * GoundTimer)
 }
 }
 break;
+
 
 //---------------------------------------------------------- STROKE NOSE
 
 case "strokenose":
 if StrokeNoseSet = false {
-StrokeNoseTimer = 400 + ((30 / 100) * (100 - mCreatureController.Alive)) + ((30 / 100) * mCreatureController.Tiredness)
+StrokeNoseTimer = 2000 + ((30 / 100) * (100 - mCreatureController.Alive)) + ((30 / 100) * mCreatureController.Tiredness)
 + ((30 / 100) * (100 - mCreatureController.Pain)) + ((30 / 100) * mCreatureController.Lust)
 + (25 * mCreatureController.Triad) - ((25 / 100) * mCreatureController.CloseToAnne) - ((25 / 100) * mCreatureController.Resistance)
 + ((25 / 100) * mCreatureController.Trust) + ((25 / 100) * mEmotionSubController.HappyActivation)
@@ -2990,40 +4703,31 @@ StrokeNoseTimer = 400 + ((30 / 100) * (100 - mCreatureController.Alive)) + ((30 
 - ((25 / 100) * mEmotionSubController.AngerActivation)
 - ((25 / 100) * mEmotionSubController.FearActivation)
 - ((25 / 100) * mEmotionSubController.ShameActivation)
-StrokeNoseTimerInitial = StrokeNoseTimer
-BreathType = "nose"
 RubTimer = 0
-RubTimerThreshold = round(StrokeNoseTimer / 4)
-StrokeNoseSet = true 
-StrokeNoseRandomTimer = 30 + ((5 / 100) * mEmotionSubController.HappyActivation) - ((5 / 100) * mEmotionSubController.AngerActivation)
-- ((10 / StrokeNoseTimerInitial) * StrokeNoseTimer) - ((5 / 100) * mCreatureController.CloseToAnne)
-+ ((10 / 100) * mEmotionSubController.FearActivation) - ((5 * mCreatureController.Triad))
+StrokeNoseSet = true
+
 } else if StrokeNoseSet = true {
+
 StrokeNoseTimer -= 1
 
-if place_meeting(mFinger.x,mFinger.y,oNose1) = true and mInterfaceController.DragBegun = true {
+if mouse_check_button(mb_any) and position_meeting(mouse_x,mouse_y,oNose1)
+and mInterfaceController.DragBegun = true and mInterfaceController.DragSpeed &gt; 4 {
+RubTimer += 1
+ChangeEmotionStep("happy","up",0.03)
+ChangeEmotionStep("anger","down",0.03)
+mCreatureController.BaseTrust += 0.03 * mPlotController.ISModifier
+}
+
+if mouse_check_button(mb_any) = false or position_meeting(mouse_x,mouse_y,oNose1) = false {
 if mBehavioursDeliberative.PercentForward &lt; 100 {
 MoveBackForward("comeforward",20,100 - PercentForward)
 }
-RubTimer += 0.05
-ChangeEmotionStep("happy","up",0.03)
-ChangeEmotionStep("anger","down",0.03)
-mCreatureController.BaseTrust += 0.03
-} else {
-if RubTimer &gt; 0 {
-RubTimer -= 0.005
-}
-if StrokeNoseRandomTimer &gt; 0 {
-StrokeNoseRandomTimer -= 1
-} else {
-SNRand = irandom_range(1,8)
-switch SNRand {
+
+if  Chance((4 - ((2.5 / 1000) * (1500 - StrokeNoseTimer)))){
+RandomAct = irandom_range(1,10)
+switch RandomAct {
 case 1:
-MoveToXY(oNose1.x,oNose1.y,irandom_range(15,35),MacroView,irandom_range(15,35))
-break;
-case 2:
-MoveToXY(oNose1.x,oNose1.y,irandom_range(15,35),MicroView,irandom_range(15,35))
-ZoomWait = 3
+MoveToXY(500,1000,irandom_range(15,35),MacroView,irandom_range(15,35))
 break;
 case 3:
 StartNumberSniffsBehaviour(irandom_range(1,4))
@@ -3038,222 +4742,111 @@ case 6:
 VocaliseChance(100)
 break;
 case 7:
-MoveBackForward("retreat",irandom_range(15,35),irandom_range(5,20))
-RetreatWait = 3
-break;
-case 8:
 StartCheekTwitchLeftBehaviour()
 StartCheekTwitchRightBehaviour()
 break;
+case 8:
+StartBuck()
+break;
+case 9:
+NodUpDown(1)
+break;
+case 10:
+LittleJump()
+break;
 }
-StrokeNoseRandomTimer = 30 + ((5 / 100) * mEmotionSubController.HappyActivation) - ((5 / 100) * mEmotionSubController.AngerActivation)
-- ((10 / StrokeNoseTimerInitial) * StrokeNoseTimer) - ((5 / 100) * mCreatureController.CloseToAnne)
-+ ((10 / 100) * mEmotionSubController.FearActivation) - ((5 * mCreatureController.Triad))
 }
 }
+
 CompleteRetry("strokenose")
 }
 break;
+
+
 
 //---------------------------------------------------------- INSPECT MANSION
 
 case "inspectmansion":
 if IMSet = false {
-IMAttemptTimer =  irandom_range(150,300)
-if Chance(70){NumberOfBlinks(irandom_range(1,5))}
-ChangeEmotion("surprise","up",1,15)
 StopVocalisation()
 StopShiverBehaviour()
 StopYawnBehaviour()
-IMMarker1 = false
-IMMarker2 = false
-IMYRand = irandom_range(-50,50)
-IMChoose = irandom_range(1,4)
-BaseBreathRate += random_range(0.1,0.3)
 StopMoveInOut()
 StopXYMove()
-IMSet = true 
-FearResistMod = (mCreatureController.Resistance + mEmotionSubController.FearActivation) / 2
-} else if IMSet = true {
-if IMAttemptTimer &gt; 0 {
-IMAttemptTimer -= 1
-}
-if mBehavioursDeliberative.PercentForward &lt; 100 {
-MoveBackForwardUnCapped("comeforward",
-10 + ((20 / 100) * mCreatureController.Resistance) + ((20 / 100) * mEmotionSubController.FearActivation),
-100 - mBehavioursDeliberative.PercentForward)
+ChangeEmotion("surprise","up",1,15)
+IMChoose = choose(1,2)
+BaseBreathRate += random_range(0.1,0.3)
+ZoomedIn = false
+IMSet = true
 } else {
-if IMMarker1 = false {
-
+if ZoomedIn = false {
 switch IMChoose {
 case 1:
-MoveToXY(room_width / 2,oNose1.y,10 + ((25 / 100) * FearResistMod),MicroView,15)
-StartNumberSniffsBehaviour(irandom_range(1,4))
-ImageRequest2() 
-IMMarker1 = true
+MoveToXY(500,oEyeballLeft.y - 1080,MoveSpeedCalc() * 1.25,MacroView,ZoomSpeedCalc())
+EyeSquint(2,true,irandom_range(30,50))
 break;
 case 2:
-MoveToXY(0,oEyeballLeft.y,10 + ((25 / 100) * FearResistMod),MacroView,15)
-EyeSquint(3,true,irandom_range(30,50))
-ImageRequest2() 
-IMMarker1 = true
-break;
-case 3:
 Eye = choose(oEyeballLeft,oEyeballRight)
-MoveToXY(Eye.x,Eye.y,10 + ((25 / 100) * FearResistMod),MicroView,15)
-if mInterfaceController.CurrentView = MicroView {
-NumberOfBlinks(irandom_range(2,5))
-ImageRequest2() 
-IMMarker1 = true
-}
-break;
-case 4:
-Eye = choose(oEyeballLeft,oEyeballRight)
-MoveToXY(Eye.x,Eye.y,10 + ((25 / 100) * FearResistMod),MicroView,15)
-if mInterfaceController.CurrentView = MicroView {
-EyeSquint(3,true,irandom_range(30,50))
-ImageRequest2() 
-IMMarker1 = true
-}
+MoveToXY(Eye.x,Eye.y,MoveSpeedCalc() * 1.25,MicroView,ZoomSpeedCalc())
 break;
 }
-} else if IMMarker1 = true {
-if IMMarker2 = false {
-switch IMChoose {
-case 1:
-if mBehavioursReactive.NumberSniffsActive = false {
-MoveToXY(0,1000 + IMYRand,40 - ((25 / 100) * FearResistMod),MacroView,40 - ((25 / 100) * FearResistMod))
-IMMarker2 = true
-}
-break;
-case 2:
-if mBehavioursReactive.SquintingActive = false {
-MoveToXY(0,1000 + IMYRand,40 - ((25 / 100) * FearResistMod),MacroView,40 - ((25 / 100) * FearResistMod))
-IMMarker2 = true
-}
-break;
-case 3:
-if mBehavioursReactive.BlinkNumberActive = false {
-MoveToXY(0,1000 + IMYRand,40 - ((25 / 100) * FearResistMod),MacroView,40 - ((25 / 100) * FearResistMod))
-IMMarker2 = true
-}
-break;
-if mBehavioursReactive.SquintingActive = false {
-MoveToXY(0,1000 + IMYRand,40 - ((25 / 100) * FearResistMod),MacroView,40 - ((25 / 100) * FearResistMod))
-IMMarker2 = true
-}
-break;
-}
-}
-}
-CompleteRetry("inspectmansion")
-}
-}
-break;
-
-
-//----------------------------------------------------------FOLLOW COMMAND
-
-case "followcommand":
-FollowCommandOrNot = 1 + ((0.2 / 100) * (100 - mCreatureController.Alive))
-+ ((0.1 / 100) * mCreatureController.Tiredness) + ((0.1 / 100) * mCreatureController.Pain)
-+ ((0.1 / 100) * mCreatureController.Lust) - ((0.1 / 100) * mCreatureController.Stress)
-+ (0.2 * mCreatureController.Triad) + ((0.1 / 100) * mCreatureController.CloseToAnne) 
-- ((0.2 / 100) * mCreatureController.Resistance) + ((0.1 / 100) * mCreatureController.Trust)
-+ ((0.1 / 100) * mEmotionSubController.HappyActivation) - ((0.1 / 100) * mEmotionSubController.AngryActivation)
-- ((0.1 / 100) * mEmotionSubController.FearActivation) 
-
-if FollowCommandOrNot &gt; 0 {
-mPlotController.FollowCommand = true
+ZoomedIn = true
+ZoomBackTimer = irandom_range(60,90)
 } else {
-mPlotController.FollowCommand = false 
-BaseBreathRate += random_range(0.2,0.4) + ((0.2 / 100) * mEmotionSubController.FearActivation)
-for (i = 0; i &lt; irandom_range(5,10);i++) {
-RandomTwitch()
+if ZoomBackTimer &gt; 0 {
+ZoomBackTimer -= 1
+} else {
+if DoneInspect = false {
+if IsInRitual() {NodUpDown(1)}
+VocaliseChance(100)
+MoveToXY(500,1000,MoveSpeedCalc() * 1.25,MacroView,ZoomSpeedCalc())
+Drive13Cooldown = 3000
+Drive13ChanceCooldown = 3000
+alarm[1] = 400
+//ChangeEmotion("happy","up",0.3,10)
+//ChangeEmotion("anger","down",0.3,10)
+//ChangeEmotion("shame","down",0.3,10)
+//mCreatureController.BaseStress -= 7 * mDriveCollectionMaster.ISModifier
+DoneInspect = true
 }
-VocaliseChance(70 - ((30 / 100) * mEmotionSubController.FearActivation))
-StartShiverBehaviour(0.2,irandom_range(10,20),irandom_range(6,10))
-with mCreatureController {
-BaseResistance += 10
-CloseToAnne += 7
-BaseStress += 7
-BaseTiredness += 1
 }
-ChangeEmotion("anger","up",0.3,10)
-ChangeEmotion("happy","down",0.3,6)
-ChangeEmotion("shame","up",0.3,8)
-ChangeEmotion("fear","up",0.3,8)
 }
-
-Drive14Cooldown = 250
-ResettingDrives("followcommand")
-alarm[1] = 0
+}
 break;
+
+
 
 //----------------------------------------------------------CLEAN SKIN
 
 case "cleanskin":
 
-if CSSet = false {
-CSAttemptTimer = irandom_range(300,400) + ((50 / 100) * mCreatureController.Dirt)
-+ ((50 / 100) * mEmotionSubController.ShameActivation) - ((80 / 100) * mEmotionSubController.SadActivation)
-+ ((50 / 100) * mCreatureController.Trust) - ((100 / 100) * mCreatureController.Resistance)
-+ ((50 / 100) * mCreatureController.Stress)
-CSDirt = mCreatureController.Dirt
-CSDirtThreshold = max(0,CSDirt - 35)
-CSTouchTimer = 1
-CSRandomTimer = 0
-CSSet = true 
-} else if CSSet = true {
-
 if CSAttemptTimer &gt; 0 {
 CSAttemptTimer -= 1
 }
 
-if mInterfaceController.Cleaning = true {
-if CSTouchTimer &gt; 0 {
-CSTouchTimer -= 1
-} else {
-MoveToXY(mouse_x,mouse_y,irandom_range(20,30),mInterfaceController.CurrentView,35)
-CSTouchTimer = irandom_range(100,300)
-}
-ChangeEmotionStep("happy","up",0.04)
-ChangeEmotionStep("sad","down",0.04)
-mCreatureController.BaseTiredness += 0.04
-mCreatureController.BaseResistance -= 0.04
-mCreatureController.BaseTrust += 0.04
-mCreatureController.BaseSubIntent += 0.0004
-mCreatureController.CloseToAnne += 0.04
-mCreatureController.BaseStress -= 0.04
-if Chance(0.05){StartShiverBehaviour(irandom_range(2,5),irandom_range(5,15),irandom_range(1,2))}
-if Chance(0.05){RandomVoc(random_range(0.1,0.2))}
-if Chance(0.05){StartCloseEyeBehaviour("both",10)
-BaseBreathRate -= 0.004
-} else {
-mCreatureController.BaseStress += 0.04
-mCreatureController.BaseSubIntent -= 0.0004
-mCreatureController.BaseTrust -= 0.04
-ChangeEmotionStep("happy","down",0.04)
-ChangeEmotionStep("anger","up",0.04)
-ChangeEmotionStep("shame","up",0.02)
-if CSRandomTimer &gt; 0 {
-CSRandomTimer -= 1
-} else {
-CSRand = irandom_range(1,10) 
-switch CSRand {
+CompleteRetry("cleanskin")
+
+mCreatureController.BaseStress += 0.003 * mPlotController.ISModifier
+mCreatureController.BaseSubIntent -= 0.00003 * mPlotController.ISModifier
+mCreatureController.BaseTrust -= 0.003 * mPlotController.ISModifier
+//ChangeEmotionStep("happy","down",0.003)
+//ChangeEmotionStep("anger","up",0.003)
+//ChangeEmotionStep("shame","up",0.003)
+
+if  Chance((4 -((2.5 / 1000) * (1000 - CSAttemptTimer)))) {
+CSChoose = irandom_range(1,11)
+switch CSChoose {
 case 1:
-VocaliseChance(100)
+RandomShake()
 break;
 case 2:
-StartShiverBehaviour(random_range(0.2,0.4),irandom_range(5,15),irandom_range(4,10))
+VocaliseChance(100)
 break;
 case 3:
 StartNumberSniffsBehaviour(irandom_range(1,3))
 break;
 case 4:
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
+TwitchRun(irandom_range(5,15))
 break;
 case 5:
 StartTwitchNoseSideBehaviour(irandom_range(20,50))
@@ -3263,7 +4856,6 @@ if mBehavioursDeliberative.PercentForward &lt; 100 {
 MoveBackForward("comeforward",15,100 - mBehavioursDeliberative.PercentForward)
 }
 break;
-
 case 7: 
 EyeSquint(irandom_range(1,3),true,irandom_range(20,50))
 break;
@@ -3273,85 +4865,66 @@ break;
 case 9:
 ChooseEye = choose(oEyeballLeft,oEyeballRight)
 MoveToXY(ChooseEye.x,ChooseEye.y,irandom_range(20,30),MicroView,irandom_range(20,30))
-ZoomWait = 10
+ZoomWait = irandom_range(30,50)
 break;
-
 case 10:
 MoveToXY(oMouthCentre.x,oMouthCentre.y,irandom_range(20,30),MicroView,irandom_range(20,30))
 VocaliseChance(100)
-ZoomWait = 10
+ZoomWait = irandom_range(30,50)
+break;
+case 11:
+RandX = irandom_range(300,1100)
+RandY = irandom_range(900,2000)
+MoveToXY(RandX,RandY,irandom_range(20,30),MicroView,irandom_range(20,30))
+ZoomWait = irandom_range(30,50)
+break;
+}
+}
 break;
 
-case 11:
-LiquidPlaceRand = irandom_range(0,ds_list_size(mInterfaceController.LiquidPlace))
-LiquidPlaceString = ds_list_find_value(mInterfaceController.LiquidPlace,LiquidPlaceRand)
-LiquidPlaceComma = string_pos(",",LiquidPlaceString)
-LiquidPlaceX = real(string_delete(LiquidPlaceString,LiquidPlaceComma,string_length(LiquidPlaceString) - LiquidPlaceComma))
-LiquidPlaceY = real(string_delete(LiquidPlaceString,0,LiquidPlaceComma + 1))
-MoveToXY(LiquidPlaceX,LiquidPlaceY,irandom_range(20,30),MicroView,irandom_range(20,30))
-ZoomWait = 10
-break;
-}
-CSRandomTimer = irandom_range(60,80) - ((10 / 100) * mCreatureController.Dirt)
-- ((10 / 100) * mCreatureController.Stress) - ((10 / 100) * mEmotionSubController.ShameActivation)
-}
-}
-}
-CompleteRetry("cleanskin")
-}
-break;
+
+
 
 //----------------------------------------------------------PLAYER GET OFF
 
 case "playergetoff":
-if PGFSet = false {
-TimeSinceLastTouch = 0
-PGFTimer = irandom_range(250,500) - (150 * mCreatureController.Triad) + ((50 / 100) * mCreatureController.Tiredness)
-- ((50 / 100) * mCreatureController.Trust) + ((100 / 100) * mCreatureController.Resistance)
-+ ((50 / 100) * mEmotionSubController.AngryActivation) - ((50 / 100) * mEmotionSubController.HappyActivation)
-- ((50 / 100) * mEmotionSubController.FearActivation) + ((50 / 100) * mCreatureController.Stress)
-- ((50 / 100) * mCreatureController.CloseToAnne)
-PGFTOrig = PGFTimer
-PGFRandTimer = irandom_range(20,50)
-PGFSet = true 
-} else if PGFSet = true {
 if PGFTimer &gt; 0 {
 PGFTimer -= 1
 }
-BaseBreathRate += 0.001
-if PGFRandTimer &gt; 0 {
-PGFRandTimer -= 1
-} else {
+
+CompleteRetry("playergetoff")
+
+BaseBreathRate += 0.000001
+
+if Chance((4  -((2.5 / 1000) * (500 - PGFTimer)))) {
 PGFRand = irandom_range(1,5)
 switch PGFRand {
 case 1:
 MoveBackForward("retreat",irandom_range(15,30) - ((10 / 100) * mCreatureController.Resistance),min(20,100 - mBehavioursDeliberative.PercentForward))
-ZoomWait = 15
+ZoomWait = irandom_range(50,200)
 break;
 case 2: 
-StartShiverBehaviour(irandom_range(0.2,1),irandom_range(15,25),irandom_range(4,10))
+RandomShake()
 break;
 case 3:
 VocaliseChance(100)
 break;
 case 4:
-RandomVoc(irandom_range(0.05,0.1))
-break;
-case 5:
 for (i = 0; i &lt; irandom_range(5,10);i++) {
 TwitchIfNearBP(mouse_x,mouse_y,500)
 }
 break;
-case 6:
+case 5:
 for (i = 0; i &lt; irandom_range(5,10);i++) {
 LittleJump()
 }
 break;
+case 6:
+StartBuck()
+break;
 }
-PGFRandTimer = irandom_range(20,50) - ((20 / PGFTOrig) * (PGFTOrig - PFGTimer))
 }
-CompleteRetry("playergetoff")
-}
+
 break;
 
 //----------------------------------------------------------GENERAL VOCALISE
@@ -3368,41 +4941,28 @@ RandomVoc(0.5 - (0.2 * mCreatureController.Triad) - ((0.1 / 100) * mCreatureCont
 - ((0.1 / 100) * mEmotionSubController.SadActivation)
 - ((0.1 / 100) * mEmotionSubController.ShameActivation)
 )
-} else if GenVocSet = true {
-if Vocalising = false {
 for (i=0;i &lt; irandom_range(4,15);i++) {
 RandomTwitch()
 }
-if Chance(50){StartOpenMouthBehaviour(0.2,100)}
-Drive17Cooldown = 2000
-alarm[1] = 0
-ResettingDrives("generalvocalise")
-}
+Drive17Cooldown = 3000
+Drive17ChanceCooldown = 4000
+alarm[1] = 60
+GenVocSet = true
 }
 break;
+
+
 
 //----------------------------------------------------------TOUCH CAUL
 
 case "touchcaul":
-if TCSet = false {
-TCAttemptTimer = irandom_range(200,400) + ((100 / 100) * mCreatureController.Lust) - ((50 / 100) * mCreatureController.Pain)
-- ((50 / 100) * mCreatureController.Stress) + ((25 / 100) * mCreatureController.Tiredness)
-+ ((50 / 100) * mCreatureController.Trust) - ((50 / 100) * mEmotionSubController.AngerActivation)
-- ((50 / 100) * mEmotionSubController.ShameActivation) - ((50 / 100) * mEmotionSubController.FearActivation)
-TCTimerOrig = TCAttemptTimer
-TCYRand = irandom_range(-40,40)
-MoveToXY(0,oCaulJug.y + TCYRand,irandom_range(15,25),MacroView,35)
-TCRandTimer = 2
-TCTouchTimer = 0
-TCTouchTimerThreshold = 200
-TCSet = true
-} else if TCSet = true {
-
 if TCAttemptTimer &gt; 0 {
 TCAttemptTimer -= 1
 }
 
-if place_meeting(mFinger.x,mFinger.y,mCaulParent) {
+CompleteRetry("touchcaul")
+
+if position_meeting(mouse_x,mouse_y,mCaulParent) and mouse_check_button(mb_any) {
 TCTouchTimer += 1
 } else {
 if TCTouchTimer &gt; 0 {
@@ -3413,19 +4973,14 @@ TCTouchTimer -= 0.1
 if mBehavioursReactive.CaulVibrateActive = false {
 StartCaulVibrateBehaviour(20)
 }
-mCreatureController.BaseLust += 0.04
-oCaulJug.CankerGrowRateCurrent -= 2
-mCreatureController.BaseStress += 0.01
-ChangeEmotionStep("shame","up",0.01)
-BaseBreathRate += 0.001
 
-if TCRandTimer &gt; 0 {
-TCRandTimer -= 1
-} else {
-//If not there
-if NoInteractionTimer &gt; 300 {
+mCreatureController.BaseLust += 0.005
+mCreatureController.BaseStress += 0.005
+ChangeEmotionStep("shame","up",0.005)
+BaseBreathRate += 0.000001
 
-RandomNum = irandom_range(1,11)
+if  Chance((4 - ((2.5 / 1000) * (1000 - TCAttemptTimer)))) {
+RandomNum = irandom_range(1,17)
 switch RandomNum {
 case 1:
 VocaliseChance(100)
@@ -3433,13 +4988,12 @@ break;
 case 2:
 if Chance(50){EyeSquint(1,true,25)}
 MoveToXY(oEyeballLeft.x,oEyeballLeft.y,80,MicroView,80)
-ZoomWait = 3
+ZoomWait = irandom_range(30,90)
 break;
 case 3:
 if Chance(50){EyeSquint(1,true,25)}
 MoveToXY(oEyeballRight.x,oEyeballRight.y,80,MicroView,80)
-ZoomWait = 3
-if Chance(50){EyeSquint(1,true,25)}
+ZoomWait = irandom_range(30,90)
 break;
 case 4:
 EyeSquint(1,true,25)
@@ -3448,363 +5002,90 @@ case 5:
 StartNumberSniffsBehaviour(irandom_range(1,4))
 break;
 case 6:
-if mCreatureController.Lust &gt; 60 {
 StartCaulVibrateBehaviour(irandom_range(30,50))
 MoveToXY(oCaulLip.x,oCaulLip.y,80,MicroView,80)
-ZoomWait = 3
-}
+ZoomWait = irandom_range(30,90)
 break;
 case 7:
-MoveToXY(oHornLeft.x,oHornLeft.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 8:
-MoveToXY(oHornRight.x,oHornRight.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 9:
 if mBehavioursDeliberative.PercentForward &lt; 100 {
 MoveBackForwardUnCapped("comeforward",20,100 -  mBehavioursDeliberative.PercentForward)
 }
 break;
-case 10:
+case 8:
 EyeSquint(1,true,40)
 MoveBackForward("retreat",30,irandom_range(20,30))
 break;
-case 11:
+case 9:
 MoveToXY(oMouthCentre.x,oMouthCentre.y,25,MicroView,25)
-ZoomWait = 3
+ZoomWait = irandom_range(30,90)
 VocaliseChance(100)
 break;
-}
-} else {
-RandomNum = irandom_range(1,5) 
-switch RandomNum {
-case 1:
-EyeSquint(irandom_range(1,3),true,irandom_range(25,40))
+case 10:
+TwitchRun(irandom_range(10,25))
 break;
-case 2:
-for (i=0;i &lt; irandom_range(10,20);i++) {
-RandomTwitch()
-}
-break;
-case 3:
+case 11:
 StartOpenMouthBehaviour(0.2,0)
 break;
-case 4:
-RandomVoc(0.3 + ((0.6 / TCTimerOrig) * (TCTimerOrig - TCAttemptTimer)))
-break;
-case 5:
+case 12:
+case 13:
+case 14:
 MoveToXY(oCaulJug.x,oCaulJug.y,irandom_range(15,20),MicroView,15)
 oCaulJug.ShotMod = 30
-ZoomWait = 5
+ZoomWait = irandom_range(30,90)
 break;
-case 6:
+case 15:
 ShakeCaul(0.8,irandom_range(20,30))
 break;
-case 7:
-MoveBackForward("retreat",15,irandom_range(5,15))
-ZoomWait = 5
+case 16:
+RandomShake()
 break;
-break;
-case 8:
-StartShiverBehaviour(irandom_range(4,10),irandom_range(10,20),irandom_range(1,2))
-break;
-}
-}
-TCRandTimer = irandom_range(25,80) - ((20 / TCTimerOrig) * (TCTimerOrig - TCAttemptTimer)) - ((10 / 100) * mCreatureController.Lust)
-}
-CompleteRetry("touchcaul")
-}
-break;
-
-//----------------------------------------------------------HAIR BRUSH
-
-case "hairbrush":
-if HBSet = false {
-HBAttemptTimer = irandom_range(100,250) + ((60 / 100) * (100 - mCreatureController.Alive))
-+ ((50 / 100) * mCreatureController.Tiredness) - ((60 / 100) * mCreatureController.Lust)
-+ ((50 / 100) * mCreatureController.Stress) + (50 * mCreatureController.Triad)
-- ((100 / 100) * mCreatureController.CloseToAnne) - ((100 / 100) * mCreatureController.Resistance)
-+ ((100 / 100) * mCreatureController.Trust) - ((50 / 100) * mEmotionSubController.HappyActivation)
-+ ((50 / 100) * mEmotionSubController.SadActivation) - ((50 / 100) * mEmotionSubController.FearActivation)
-HBAttemptTimerOrig = HBAttemptTimer
-HBRandTimer = irandom_range(25,60)
-BrushTimer = 0
-BrushTimerThreshold = irandom_range(100,200)
-HBSet = true
-} else if HBSet = true {
-if HBAttemptTimer &gt; 0 {
-HBAttemptTimer -= 1
-}
-
-if place_meeting(mFinger.x,mFinger.y,mFurSuperParent) and DragBegun = true {
-BrushTimer += 1
-} else {
-if BrushTimer &gt; 0 {
-BrushTimer -= 0.01
-}
-if HBRandTimer &gt; 0 {
-HBRandTimer -= 1
-} else {
-
-//If not there
-if NoInteractionTimer &gt; 300 {
-
-RandomNum = irandom_range(1,11)
-switch RandomNum {
-case 1:
-VocaliseChance(100)
-break;
-case 2:
-if Chance(50){EyeSquint(1,true,25)}
-MoveToXY(oEyeballLeft.x,oEyeballLeft.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 3:
-if Chance(50){EyeSquint(1,true,25)}
-MoveToXY(oEyeballRight.x,oEyeballRight.y,80,MicroView,80)
-ZoomWait = 3
-if Chance(50){EyeSquint(1,true,25)}
-break;
-case 4:
-EyeSquint(1,true,25)
-break;
-case 5:
-StartNumberSniffsBehaviour(irandom_range(1,4))
-break;
-case 6:
-if mCreatureController.Lust &gt; 60 {
-StartCaulVibrateBehaviour(irandom_range(30,50))
-MoveToXY(oCaulLip.x,oCaulLip.y,80,MicroView,80)
-ZoomWait = 3
-}
-break;
-case 7:
-MoveToXY(oHornLeft.x,oHornLeft.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 8:
-MoveToXY(oHornRight.x,oHornRight.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 9:
-if mBehavioursDeliberative.PercentForward &lt; 100 {
-MoveBackForwardUnCapped("comeforward",20,100 -  mBehavioursDeliberative.PercentForward)
-}
-break;
-case 10:
-EyeSquint(1,true,40)
-MoveBackForward("retreat",30,irandom_range(20,30))
-break;
-case 11:
-MoveToXY(oMouthCentre.x,oMouthCentre.y,25,MicroView,25)
-ZoomWait = 3
-VocaliseChance(100)
-break;
-}
-} else {
-HBRand = irandom_range(1,5)
-switch HBRand {
-case 1:
-RandomVoc(0.3 +  ((0.6 / HBAttemptTimerOrig) * (HBAttemptTimerOrig - HBAttemptTimer)))
-break;
-case 2:
-StartShiverBehaviour(random_range(0.2,0.5),irandom_range(10,20),irandom_range(5,10))
-break;
-case 3:
-MoveBackForwardUnCapped("comeforward",irandom_range(15,20),100 - mBehavioursDeliberative.PercentForward)
-break;
-case 4:
-RandFur = instance_find(mFurSuperParent, irandom(instance_number(mFurSuperParent) - 1));
-MoveToXY(RandFur.x,RandFur.y,irandom_range(20,40),MicroView,40)
-ZoomWait = 10
-break;
-case 5:
-StartTwitchNoseSideBehaviour(irandom_range(20,40))
-break;
-case 6:
-RandFur = instance_find(mFurSuperParent, irandom(instance_number(mFurSuperParent) - 1));
-MoveToXY(RandFur.x,RandFur.y,irandom_range(20,40),MicroView,40)
-HBRubTimer = 30
-break;
-}
-}
-HBRandTimer = irandom_range(25,60) - ((20 / HBAttemptTimerOrig) * (HBAttemptTimerOrig - HBAttemptTimer))
-}
-if HBRunTimer &gt; 0 {
-HBRubTimer -= 1
-} else if HBRubTimer = 0 {
-for (i = 0; i &lt; irandom_range(2,4); i++ ) {
+case 17:
 LittleJump()
-}
-HBRubTimer = -1
-}
-}
-CompleteRetry("hairbrush")
-}
 break;
-
-
-//----------------------------------------------------------PLAYER SPEAK
-
-case "playerspeak":
-if PSSet = false {
-PSAttemptTimer = irandom_range(400,600) - ((50 / 100) * (100 - mCreatureController.Alive)) - ((50 / 100) *mCreatureController.Tiredness)
- - ((50 / 100) *mCreatureController.Pain)  - ((50 / 100) *mCreatureController.Stress) -  - ((50 / 100) *mCreatureController.CloseToAnne)
- - ((50 / 100) *mCreatureController.Resistance) + ((100 / 100) * mEmotionSubController.HappyActivation)
- - ((50 / 100) * mEmotionSubController.FearActivation) -  ((50 / 100) * mEmotionSubController.ShameActivation)
- - ((500 / 100) * mEmotionSubController.SadActivation) + (50 * mCreatureController.Triad)
-PSRand = irandom_range(20,30)
-PSSet = true
-} else if PSSet = true {
-
-if PSAttemptTimer &gt; 0 {
-PSAttemptTimer -= 1
+}
 }
 
-if PSRand &gt; 0 {
-PSRand -= 1 
-} else {
-if NoInteractionTimer &gt; 200 {
-RandomNum = irandom_range(1,11)
-switch RandomNum {
-case 1:
-VocaliseChance(100)
-break;
-case 2:
-if Chance(50){EyeSquint(1,true,25)}
-MoveToXY(oEyeballLeft.x,oEyeballLeft.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 3:
-if Chance(50){EyeSquint(1,true,25)}
-MoveToXY(oEyeballRight.x,oEyeballRight.y,80,MicroView,80)
-ZoomWait = 3
-if Chance(50){EyeSquint(1,true,25)}
-break;
-case 4:
-EyeSquint(1,true,25)
-break;
-case 5:
-StartNumberSniffsBehaviour(irandom_range(1,4))
-break;
-case 6:
-if mCreatureController.Lust &gt; 60 {
-StartCaulVibrateBehaviour(irandom_range(30,50))
-MoveToXY(oCaulLip.x,oCaulLip.y,80,MicroView,80)
-ZoomWait = 3
-}
-break;
-case 7:
-MoveToXY(oHornLeft.x,oHornLeft.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 8:
-MoveToXY(oHornRight.x,oHornRight.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 9:
-if mBehavioursDeliberative.PercentForward &lt; 100 {
-MoveBackForwardUnCapped("comeforward",20,100 -  mBehavioursDeliberative.PercentForward)
-}
-break;
-case 10:
-EyeSquint(1,true,40)
-MoveBackForward("retreat",30,irandom_range(20,30))
-break;
-case 11:
-MoveToXY(oMouthCentre.x,oMouthCentre.y,25,MicroView,25)
-ZoomWait = 3
-VocaliseChance(100)
-break;
-}
-} else {
-PSRand2 = irandom_range(1,7)
-switch PSRand2 {
-case 1:
-VocaliseChance(100)
-break;
-case 2: 
-StartVocalPhrase(irandom_range(2,5))
-break;
-case 3:
-StartTwitchNoseSideBehaviour(irandom_range(10,50))
-break;
-case 4:
-StartEyebrowTwitchRightBehaviour()
-StartEyebrowTwitchLeftBehaviour()
-break;
-case 5:
-StartOpenMouthBehaviour(0.2,100)
-break;
-case 6:
-if Chance(50){StartCoughBehaviour()}
-break;
-case 7:
-NodUpDown(irandom_range(2,5))
-break;
-}
-}
-PSRand = irandom_range(20,30)
-}
-
-if mBehavioursReactive.CaulVibrateActive = false {
-StartCaulVibrateBehaviour(20)
-}
-BaseBreathRate += 0.004
-CompleteRetry("playerspeak")
-}
 break;
 
 //----------------------------------------------------------PLAYER TOUCH
 
 case "playertouch":
-if PTSet = false {
-PTAttemptTimer = irandom_range(200,400) + ((50 /100) * mEmotionSubController.HappyActivation)
-- ((50 /100) * mEmotionSubController.AngryActivation) - ((50 /100) * mEmotionSubController.ShameActivation)
-- ((50 /100) * mEmotionSubController.SadActivation) - ((50 /100) * mEmotionSubController.FearActivation)
-- ((50 / 100) * mCreatureController.BaseResistance) + ((50 / 100) * mCreatureController.BaseTrust)
-- ((50 / 100) * mCreatureController.BaseLust) + ((50 / 100) * mCreatureController.CloseToAnne)
-- ((50 / 100) * mCreatureController.BaseStress) - ((50 / 100) * mCreatureController.BasePain)
-+ (50 * mCreatureController.Triad)
-PTATO = PTAttemptTimer
-PTRand = irandom_range(20,30)
-PTSet = true 
-} else if PTSet = true {
-BaseBreathRate += 0.004
+
+if PTAttemptTimer &gt; 0 {
+PTAttemptTimer -= 1 
+}
+
+if position_meeting(mouse_x,mouse_y,mFurParent) and mouse_check_button(mb_any) {
+PTTouchTimer += 1
+} else {
+if PTTouchTimer &gt; 0 {
+PTTouchTimer -= 1
+}
+}
+
+BaseBreathRate += 0.000004
 if mBehavioursReactive.CaulVibrateActive = false {
 StartCaulVibrateBehaviour(20)
 }
 
-
-
-if PTAttemptTimer &gt; 0 {
-PTAttemptTimer -= 1
-}
-if PTRand &gt; 0 {
-PTRand -= 1
-} else {
-
-if NoInteractionTimer &gt; 200 {
+if Chance((4 - ((2.5 / 1000) * (1000 - PTAttemptTimer)))) {
 RandomNum = irandom_range(1,11)
 switch RandomNum {
 case 1:
 VocaliseChance(100)
 break;
 case 2:
-if Chance(50){EyeSquint(1,true,25)}
-MoveToXY(oEyeballLeft.x,oEyeballLeft.y,80,MicroView,80)
-ZoomWait = 3
+if Chance(50){EyeSquint(1,true,45)}
+MoveToXY(oEyeballLeft.x,oEyeballLeft.y,25,MicroView,25)
+ZoomWait = irandom_range(30,90)
 break;
 case 3:
-if Chance(50){EyeSquint(1,true,25)}
-MoveToXY(oEyeballRight.x,oEyeballRight.y,80,MicroView,80)
-ZoomWait = 3
-if Chance(50){EyeSquint(1,true,25)}
+if Chance(50){EyeSquint(1,true,45)}
+MoveToXY(oEyeballRight.x,oEyeballRight.y,25,MicroView,25)
+ZoomWait = irandom_range(30,90)
 break;
 case 4:
-EyeSquint(1,true,25)
+EyeSquint(1,true,45)
 break;
 case 5:
 StartNumberSniffsBehaviour(irandom_range(1,4))
@@ -3812,17 +5093,9 @@ break;
 case 6:
 if mCreatureController.Lust &gt; 60 {
 StartCaulVibrateBehaviour(irandom_range(30,50))
-MoveToXY(oCaulLip.x,oCaulLip.y,80,MicroView,80)
-ZoomWait = 3
+MoveToXY(oCaulLip.x,oCaulLip.y,25,MicroView,25)
+ZoomWait = irandom_range(30,90)
 }
-break;
-case 7:
-MoveToXY(oHornLeft.x,oHornLeft.y,80,MicroView,80)
-ZoomWait = 3
-break;
-case 8:
-MoveToXY(oHornRight.x,oHornRight.y,80,MicroView,80)
-ZoomWait = 3
 break;
 case 9:
 if mBehavioursDeliberative.PercentForward &lt; 100 {
@@ -3835,60 +5108,56 @@ MoveBackForward("retreat",30,irandom_range(20,30))
 break;
 case 11:
 MoveToXY(oMouthCentre.x,oMouthCentre.y,25,MicroView,25)
-ZoomWait = 3
+ZoomWait = irandom_range(30,90)
 VocaliseChance(100)
 break;
-}
-} else {
-PTRand2 = irandom_range(1,5)
-switch PTRand2 {
-case 1:
-if PTAttemptTimer &lt; 100 {
-MoveToXY(oPlotWound1.x,oPlotWound1.y,irandom_range(25,40),MicroView,30)
-ZoomWait = 10
-}
+case 12:
+RandX = irandom_range(250,1300)
+RandY = irandom_range(700,3200)
+MoveToXY(RandX,RandY,irandom_range(20,35),MicroView,30)
+TwitchRun(irandom_range(15,25))
+ZoomWait = irandom_range(30,90)
 break;
-case 2:
-MoveToXY(random(room_width),random(room_height),irandom_range(20,35),MicroView,30)
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-ZoomWait = 10
-case 3:
+case 13:
 StartShiverBehaviour(irandom_range(0.2,0.5),random_range(5,10),irandom_range(5,15))
 break;
-case 4:
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
-RandomTwitch()
+case 14:
+TwitchRun(irandom_range(15,25))
 break;
-case 5:
-RandomVoc(0.4 + ((0.4 / PTATO) * (PTATO - PTAttemptTimer)))
-break;
-case 6:
+case 15:
 NodUpDown(irandom_range(5,10))
 break;
-case 7:
-MoveToXY(290,1022,irandom_range(20,35),MicroView,irandom_range(25,35))
-ZoomWait = 10
+case 16:
+RandX = irandom_range(250,1300)
+RandY = irandom_range(700,3200)
+MoveToXY(RandX,RandY,irandom_range(20,35),MicroView,30)
+ZoomWait = irandom_range(30,90)
 break;
 }
 }
-PTRand = irandom_range(20,30) + ((40 / PTATO) * (PTATO - PTAttemptTimer))
-}
+
 CompleteRetry("playertouch")
-}
+
 break;
 
+//-------------------------------------- ZOOM OUT
+
+case "zoomout":
+if ZoomedOut = false {
+if Chance(50 + ((30 /100) * mCreatureController.Resistance)){RandomShake()}
+if Chance(30 + ((30 /100) * mCreatureController.Resistance)){VocaliseChance(100)}
+TwitchRun(irandom_range(10,20))
+StartZoom(ZoomSpeedCalc(),oNose1.x,oNose1.y - (oNose1.sprite_height / 2))
+Drive22Cooldown = 4000
+Drive22ChanceCooldown = 4000
+alarm[1] = 60
+ZoomedOut = true
+}
+break;
 
 default:
 break;
+
 }
 
 //----------------------------------------------------------
@@ -3915,8 +5184,8 @@ DozeTimer += 1
 
 if ZoomWait &gt; 0 {
 ZoomWait -= 1
-} else if RetreatWait = 0 {
-MoveToXY(0,1000,15,MacroView,20)
+} else if ZoomWait = 0 {
+MoveToXY(500,1000,15,MacroView,20)
 ZoomWait = -1
 }
 
@@ -3926,6 +5195,249 @@ RetreatWait -= 1
 MoveBackForward("comeforward",irandom_range(15,35),100 - mBehavioursDeliberative.PercentForward)
 RetreatWait = -1
 }
+
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Lowering Cooldowns And Chance Cooldowns
+
+//Lowering Cooldowns
+if Drive1Cooldown &gt; 0 {
+Drive1Cooldown -= 1
+}
+
+if Drive2Cooldown &gt; 0 {
+Drive2Cooldown -= 1
+}
+
+if Drive3Cooldown &gt; 0 {
+Drive3Cooldown -= 1
+}
+
+if Drive4Cooldown &gt; 0 {
+Drive4Cooldown -= 1
+}
+
+if Drive5Cooldown &gt; 0 {
+Drive5Cooldown -= 1
+}
+
+if Drive6Cooldown &gt; 0 {
+Drive6Cooldown -= 1
+}
+
+if Drive7Cooldown &gt; 0 {
+Drive7Cooldown -= 1
+}
+
+if Drive8Cooldown &gt; 0 {
+Drive8Cooldown -= 1
+}
+
+
+if Drive10Cooldown &gt; 0 {
+Drive10Cooldown -= 1
+}
+
+if Drive12Cooldown &gt; 0 {
+Drive12Cooldown -= 1
+}
+
+if Drive13Cooldown &gt; 0 {
+Drive13Cooldown -= 1
+}
+
+if Drive15Cooldown &gt; 0 {
+Drive15Cooldown -= 1
+}
+
+if Drive16Cooldown &gt; 0 {
+Drive16Cooldown -= 1
+}
+
+if Drive17Cooldown &gt; 0 {
+Drive17Cooldown -= 1
+}
+
+if Drive18Cooldown &gt; 0 {
+Drive18Cooldown -= 1
+}
+
+
+if Drive21Cooldown &gt; 0 {
+Drive21Cooldown -= 1
+}
+
+if Drive22Cooldown &gt; 0 {
+Drive22Cooldown -= 1
+}
+
+
+
+if Drive1ChanceCooldown &gt; 0 and Drive1Cooldown &lt;= 0{
+Drive1ChanceCooldown -= 1
+}
+
+if Drive2ChanceCooldown &gt; 0 and Drive2Cooldown &lt;= 0{
+Drive2ChanceCooldown -= 1
+}
+
+if Drive3ChanceCooldown &gt; 0 and Drive3Cooldown &lt;= 0{
+Drive3ChanceCooldown -= 1
+}
+
+if Drive4ChanceCooldown &gt; 0 and Drive4Cooldown &lt;= 0{
+Drive4ChanceCooldown -= 1
+}
+
+if Drive5ChanceCooldown &gt; 0 and Drive5Cooldown &lt;= 0{
+Drive5ChanceCooldown -= 1
+}
+
+if Drive6ChanceCooldown &gt; 0 and Drive6Cooldown &lt;= 0{
+Drive6ChanceCooldown -= 1
+}
+
+if Drive7ChanceCooldown &gt; 0 and Drive7Cooldown &lt;= 0{
+Drive7ChanceCooldown -= 1
+}
+
+if Drive8ChanceCooldown &gt; 0 and Drive8Cooldown &lt;= 0{
+Drive8ChanceCooldown -= 1
+}
+
+if Drive10ChanceCooldown &gt; 0 and Drive10Cooldown &lt;= 0{
+Drive10ChanceCooldown -= 1
+}
+
+if Drive12ChanceCooldown &gt; 0 and Drive12Cooldown &lt;= 0{
+Drive12ChanceCooldown -= 1
+}
+
+if Drive13ChanceCooldown &gt; 0 and Drive13Cooldown &lt;= 0{
+Drive13ChanceCooldown -= 1
+}
+
+if Drive15ChanceCooldown &gt; 0 and Drive15Cooldown &lt;= 0{
+Drive15ChanceCooldown -= 1
+}
+
+if Drive16ChanceCooldown &gt; 0 and Drive16Cooldown &lt;= 0{
+Drive16ChanceCooldown -= 1
+}
+
+if Drive17ChanceCooldown &gt; 0 and Drive17Cooldown &lt;= 0{
+Drive17ChanceCooldown -= 1
+}
+
+if Drive18ChanceCooldown &gt; 0 and Drive18Cooldown &lt;= 0{
+Drive1ChanceCooldown -= 1
+}
+
+if Drive21ChanceCooldown &gt; 0 and Drive21Cooldown &lt;= 0{
+Drive1ChanceCooldown -= 1
+}
+
+if Drive22ChanceCooldown &gt; 0 and Drive22Cooldown &lt;= 0 {
+Drive1ChanceCooldown -= 1
+}
+
+Drive1Cooldown = clamp(Drive1Cooldown,0,10000)
+Drive2Cooldown = clamp(Drive2Cooldown,0,10000)
+Drive3Cooldown = clamp(Drive3Cooldown,0,10000)
+Drive4Cooldown = clamp(Drive4Cooldown,0,10000)
+Drive5Cooldown = clamp(Drive5Cooldown,0,10000)
+Drive6Cooldown = clamp(Drive6Cooldown,0,10000)
+Drive7Cooldown = clamp(Drive7Cooldown,0,10000)
+Drive8Cooldown = clamp(Drive8Cooldown,0,10000)
+Drive10Cooldown = clamp(Drive10Cooldown,0,10000)
+Drive12Cooldown = clamp(Drive12Cooldown,0,10000)
+Drive13Cooldown = clamp(Drive13Cooldown,0,10000)
+Drive15Cooldown = clamp(Drive15Cooldown,0,10000)
+Drive16Cooldown = clamp(Drive16Cooldown,0,10000)
+Drive17Cooldown = clamp(Drive17Cooldown,0,10000)
+Drive18Cooldown = clamp(Drive18Cooldown,0,10000)
+Drive21Cooldown = clamp(Drive21Cooldown,0,10000)
+Drive22Cooldown = clamp(Drive22Cooldown,0,10000)
+
+Drive1ChanceCooldown = clamp(Drive1ChanceCooldown,0,10000)
+Drive2ChanceCooldown = clamp(Drive2ChanceCooldown,0,10000)
+Drive3ChanceCooldown = clamp(Drive3ChanceCooldown,0,10000)
+Drive4ChanceCooldown = clamp(Drive4ChanceCooldown,0,10000)
+Drive5ChanceCooldown = clamp(Drive5ChanceCooldown,0,10000)
+Drive6ChanceCooldown = clamp(Drive6ChanceCooldown,0,10000)
+Drive7ChanceCooldown = clamp(Drive7ChanceCooldown,0,10000)
+Drive8ChanceCooldown = clamp(Drive8ChanceCooldown,0,10000)
+Drive10ChanceCooldown = clamp(Drive10ChanceCooldown,0,10000)
+Drive12ChanceCooldown = clamp(Drive12ChanceCooldown,0,10000)
+Drive13ChanceCooldown = clamp(Drive13ChanceCooldown,0,10000)
+Drive15ChanceCooldown = clamp(Drive15ChanceCooldown,0,10000)
+Drive16ChanceCooldown = clamp(Drive16ChanceCooldown,0,10000)
+Drive17ChanceCooldown = clamp(Drive17ChanceCooldown,0,10000)
+Drive18ChanceCooldown = clamp(Drive18ChanceCooldown,0,10000)
+Drive21ChanceCooldown = clamp(Drive21ChanceCooldown,0,10000)
+Drive22ChanceCooldown = clamp(Drive22ChanceCooldown,0,10000)
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Interaction Timers
+
+//TimeSinceLastTouch
+
+if mInterfaceController.PressBegun = false {
+TimeSinceLastTouch += 1
+} else {
+TimeSinceLastTouch = 0
+}
+
+TimeSinceLastSound += 1
+mCreatureController.TimeSinceLastMotion += 1
+
+//InteractionTimer
+if mInterfaceController.PressBegun = false
+and mCreatureController.TimeSinceLastMotion &gt; 0 and TimeSinceLastSpeech &gt; 0 and TimeSinceLastSound &gt; 0 {
+mDriveCollectionMaster.NoInteractionTimer += 1
+} else {
+mDriveCollectionMaster.NoInteractionTimer = 0
+}
+
 
 </string>
           </argument>

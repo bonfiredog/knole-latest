@@ -42,6 +42,8 @@ FocusSpeed = 5
 DScreen = noone
 BlownNose = false
 MovingActive = false
+BuckingAfter = false
+MoveXYAfter = false
 
 ReappearingActive = false
 ReappearDir = "none"
@@ -113,6 +115,15 @@ BuckMovedOut = false
 BMOPause = irandom_range(20,40)
 Bucked = false
 
+//Nodding Variables
+NoddingActive = false
+Nods = 0
+
+//Move
+MovingBackAfter = false
+MovingBackSteps = 0
+MovingBackAmount = 0
+MovingBackAfterCapped = false
 </string>
           </argument>
         </arguments>
@@ -175,18 +186,6 @@ FiredAlarm = false
             <kind>1</kind>
             <string>///Bone Crunching
 
-if CrunchingPauseTimer &gt; 0 {
-CrunchingPauseTimer -= 1 
-} else {
-if CrunchReset = true {
-CrunchingPauseTimer = 0
-CrunchingActive = true
-CrunchReset = false
-}
-}
-
-
-
 if CrunchingActive = true
 and mBehavioursDeliberative.PercentForward &lt;= 0 {
 if Repeats &lt; TotalCrunches {
@@ -195,9 +194,9 @@ CrunchingTimer -= 1
 } else if CrunchingTimer &lt;= 0 {
 CrunchSound = choose("crunch1","crunch2","crunch3","crunch4","crunch5","crunch6","crunch7","crunch8","swallow")
 
-ex_audio_set_volume(CrunchSound,0.12,0)
+ex_audio_set_volume(CrunchSound,1,0)
 ex_audio_play(CrunchSound,0)
-CrunchingTimer = irandom_range(1800,4000)
+CrunchingTimer = irandom_range(200,400)
 Repeats += 1
 }
 } else {
@@ -258,77 +257,6 @@ VocalPhrasing = false
 StoppingVocalPhrasing = false
 }
 }
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Move To XY
-
-if XYMove = true {
-if XYMoveType = "movein" {
-if mInterfaceController.ChangingView = false {
-if MoveTime &lt; DestSpeed {
-MoveTime += 1
-mInterfaceController.BaseXView = ease_inout_sine(MoveTime,StartX,XChange,DestSpeed)
-mInterfaceController.BaseYView = ease_inout_sine(MoveTime,StartY,YChange,DestSpeed)
-
-} else {
-XYMove = false
-DestX = 0
-DestY = 0
-StartX = 0
-StartY = 0
-XDiff = 0
-YDiff = 0
-DestSpeed = 0
-MoveTime = 0
-DestZoom = 0
-DestZoomSpeed = 0
-ex_audio_stop("skintouch")
-}
-}
-
-} else if XYMoveType = "moveout" {
-if mInterfaceController.ChangingView = false {
-if MoveTime &lt; DestSpeed {
-MoveTime += 1
-mInterfaceController.BaseYView = ease_inout_sine(MoveTime,StartY,YChange,DestSpeed)
-} else {
-XYMove = false
-DestX = 0
-DestY = 0
-StartX = 0
-StartY = 0
-XDiff = 0
-YDiff = 0
-DestSpeed = 0
-MoveTime = 0
-DestZoom = 0
-DestZoomSpeed = 0
-ex_audio_stop("skintouch")
-}
-}
-}
-}
-
-
 
 </string>
           </argument>
@@ -441,6 +369,7 @@ TopVolume = 0
 FiredAlarm = false
 Vocalising = false
 WriteToLog("Vocalised.")
+MakeMouthSplatter(c_black)
 }
 }
 }
@@ -469,13 +398,27 @@ WriteToLog("Vocalised.")
             <kind>1</kind>
             <string>///Disappearing &amp; Reappearing
 
+//If you come forward at all, stop crunching. 
+if PercentForward &gt; 0 {
+if mBehavioursDeliberative.CrunchingActive = true {
+StopCrunchingBehaviour()
+if mDriveCollectionMaster.EatWaitTimer &gt; 0 {
+mDriveCollectionMaster.EatWaitTimer = 0
+}
+}
+}
+
 if PercentForward &lt; 100 {
 if LessThanPresent = false {
 LessThanPresent = true
+}
+
+if PercentForward &lt;= 70 {
 if instance_exists(DScreen) = false {
 DScreen = instance_create(room_width / 2,room_height / 2,mDisappearScreen)
 }
 }
+
 } else {
 if LessThanPresent = true {
 LessThanPresent = false
@@ -485,11 +428,15 @@ view_xview[0] = 0
 view_yview[0] = 1000
 mWorldController.ViewportMinScale = 0.9
 mWorldController.ViewportMaxScale = 1.14
+
+if PercentForward &gt; 70 {
 if instance_exists(DScreen) {
 with DScreen {
 instance_destroy()
 }
 }
+}
+
 }
 }
 
@@ -498,113 +445,25 @@ view_wview[0] = 1400 + ((1199 / 100) * (100 - PercentForward))
 view_hview[0] = 1920 + ((1199 / 100) * (100 - PercentForward))
 mInterfaceController.BaseXView = 0 - ((1250 / 100) * (100 - PercentForward))
 mInterfaceController.BaseYView = 1000 - ((1000 / 100) * (100 - PercentForward))
-mWorldController.ViewportMinScale = 0.9 + ((1 / 100) * (100 - PercentForward))
-mWorldController.ViewportMaxScale = 1.14 + ((1 / 100) * (100 - PercentForward))
+mWorldController.ViewportMinScale = 0.9 + ((2 / 100) * (100 - PercentForward))
+mWorldController.ViewportMaxScale = 1.14 + ((2 / 100) * (100 - PercentForward))
 
 with mWorldController {
 CurrentViewportScale = clamp(CurrentViewportScale,ViewportMinScale,ViewportMaxScale)
 }
 }
 
-//Disappearing In One Go
-if DisappearingActive = true {
-
-if StartDisappearing = false {
-mDriveCollectionMaster.CurrentlyBreathing = false
-
-//Come Forward First
-if mInterfaceController.CurrentView = MacroView {
-if PercentForward &lt; 100 {
-PercentForward += 0.4
-}
-//Resetting The View
-} else if mInterfaceController.CurrentView = MicroView {
-StartZoom(50,mouse_x,mouse_y)
-}
-
-if mInterfaceController.CurrentView = MacroView and PercentForward &gt;= 100 {
-ThisViewX = mInterfaceController.BaseXView
-ThisViewY = mInterfaceController.BaseYView
-if ThisViewX != 0 {
-if ThisViewX &lt; -FocusSpeed {
-mInterfaceController.BaseXView += FocusSpeed
-} else if ThisViewX &gt; FocusSpeed {
-mInterfaceController.BaseXView -= FocusSpeed
-} else {
-mInterfaceController.BaseXView = 0
-}
-}
-if ThisViewY != 1000 {
-if ThisViewY &lt; 1000 - FocusSpeed {
-mInterfaceController.BaseYView += FocusSpeed
-} else if ThisViewY &gt; (1000 + FocusSpeed)  {
-mInterfaceController.BaseYView -= FocusSpeed
-} else {
-mInterfaceController.BaseYView = 1000
-}
-}
-
-
-if StartDSneeze = false {
-StartSneezeBehaviour(1,100,1,false)
-StartDSneeze = true
-} else if StartDSneeze = true {
-if StartDisappearing = false {
-oNose1.Redness += 0.001
-if mBehavioursReactive.SneezeActive = true and mBehavioursReactive.SneezePos = "out" {
-StartDisappearing = true
-}
-}
-}
-}
-} else if StartDisappearing = true {
-if BlownNose = false and PercentForward &lt; 100 {
-with DScreen {
-part_emitter_region(DisPartSys,DisEmitLeft,oBLNostril.x - 5,oBLNostril.x +5,
-oBLNostril.y - 5,oBLNostril.y + 5,ps_shape_ellipse,ps_distr_invgaussian)
-part_emitter_burst(DisPartSys,DisEmitLeft,DisPart,1000)
-part_emitter_region(DisPartSys,DisEmitRight,oBRNostril.x - 5,oBRNostril.x +5,
-oBRNostril.y - 5,oBRNostril.y + 5,ps_shape_ellipse,ps_distr_invgaussian)
-part_emitter_burst(DisPartSys,DisEmitRight,DisPart,1000)
-}
-ex_audio_set_volume("lowrumblerf",0.05,0)
-ex_audio_set_pitch("lowrumblerf",random_range(0.8,0.9))
-ex_audio_play("lowrumblerf",1)
-BlownNose = true 
-}
-StartScreenShake(3,10,1)
-if PercentForward &gt; 0 {
-PercentForward -= 3
-} else if PercentForward = 0 {
-ex_audio_set_volume("lowrumblerf",0,30)
-BlownNose = false
-DisappearingActive = false
-StartDisappearing = false
-mDriveCollectionMaster.CurrentlyBreathing = true
-WriteToLog("Disappeared with sneeze.")
-}
-} 
-}
-
-
-
-if mInterfaceController.SequenceBegun = true {
-if IsInRitual() = false {
-StartShiverBehaviour(0.3,40,10)
-CantEscapeReactions()
-}
-MovingActive = false
-} else {
-if mInterfaceController.CurrentView = MacroView {
-if MovingActive = true and mInterfaceController.ChangingView = false {
+if MovingActive = true {
 switch MovingDir {
+
 case "retreat":
+if mInterfaceController.CurrentView = MacroView and mInterfaceController.ChangingView = false {
 if PercentForward &gt; 0 {
 if MoveCalc = false {
 MovingTimer = 0
 MovingStart = PercentForward
 if MovingChange &gt; 5 {
-ex_audio_set_volume("lowrumblerf",0.05,0)
+ex_audio_set_volume("lowrumblerf",1.2,0)
 ex_audio_set_pitch("lowrumblerf",random_range(0.8,0.9))
 ex_audio_play("lowrumblerf",1)
 }
@@ -627,14 +486,19 @@ MovingActive = false
 ex_audio_set_volume("lowrumblerf",0,5)
 MovingActive = false
 }
+}
 break;
+
+
+
+
 case "comeforward":
 if PercentForward &lt; 100 {
 if MoveCalc = false {
 MovingTimer = 0
 MovingStart = PercentForward
 if MovingChange &gt; 5 {
-ex_audio_set_volume("lowrumblerf",0.05,0)
+ex_audio_set_volume("lowrumblerf",1.2,0)
 ex_audio_set_pitch("lowrumblerf",random_range(0.8,0.9))
 ex_audio_play("lowrumblerf",1)
 }
@@ -662,19 +526,12 @@ MovingActive = false
 }
 break;
 }
+
 } else {
 //ex_audio_set_volume("lowrumblerf",0,5)
 ex_audio_stop("lowrumblerf")
 MovingActive = false
 } 
-} else {
-//ex_audio_set_volume("lowrumblerf",0,5)
-ex_audio_stop("lowrumblerf")
-MovingActive = false
-}
-}
-
-
 
 
 if ex_audio_is_playing("lowrumblerf") {
@@ -682,6 +539,15 @@ if ex_audio_get_volume("lowrumblerf") &lt;= 0 {
 ex_audio_stop("lowrumblerf")
 }
 }
+
+
+if MovingActive = false {
+if BuckingAfter = true {
+StartBuck()
+BuckingAfter = false
+}
+}
+
 
 PercentForward = clamp(PercentForward,0,100)
 
@@ -708,6 +574,166 @@ PercentForward = clamp(PercentForward,0,100)
             <string>///Bucking
 
 Buck()
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Move To XY
+
+if XYMove = true {
+if XYMoveType = "movein" {
+if mInterfaceController.ChangingView = false {
+if MoveTime &lt; DestSpeed {
+MoveTime += 1
+mInterfaceController.BaseXView = ease_inout_sine(MoveTime,StartX,XChange,DestSpeed)
+mInterfaceController.BaseYView = ease_inout_sine(MoveTime,StartY,YChange,DestSpeed)
+
+} else {
+XYMove = false
+DestX = 0
+DestY = 0
+StartX = 0
+StartY = 0
+XDiff = 0
+YDiff = 0
+DestSpeed = 0
+MoveTime = 0
+DestZoom = 0
+DestZoomSpeed = 0
+ex_audio_stop("skintouch")
+
+if MovingBackAfter = true {
+
+if MovingActive = false  {
+MovingActive = true
+}
+WriteToLog("Moved back or forward.")
+MovingDir = "retreat"
+MovingTimer = 0
+MovingSpeed = MovingBackSteps
+MoveCalc = false
+MovingChange = MovingBackAmount
+MovingBackAfter = false
+MovingBackSteps = 0
+MovingBackAmount = 0
+MovingBackAfterCapped = false
+}
+
+
+}
+}
+
+} else if XYMoveType = "moveout" {
+if mInterfaceController.ChangingView = false {
+if MoveTime &lt; DestSpeed {
+MoveTime += 1
+mInterfaceController.BaseYView = ease_inout_sine(MoveTime,StartY,YChange,DestSpeed)
+} else {
+XYMove = false
+DestX = 0
+DestY = 0
+StartX = 0
+StartY = 0
+XDiff = 0
+YDiff = 0
+DestSpeed = 0
+MoveTime = 0
+DestZoom = 0
+DestZoomSpeed = 0
+ex_audio_stop("skintouch")
+
+
+if MovingBackAfter = true {
+
+if MovingActive = false  {
+MovingActive = true
+}
+
+WriteToLog("Moved back or forward.")
+MovingDir = "retreat"
+MovingTimer = 0
+MovingSpeed = MovingBackSteps
+MoveCalc = false
+
+if MovingBackAfterCapped = true {
+if PercentForward &lt;= 50 {
+MovingChange = 0
+} else if PercentForward &gt; 50 {
+if MovingBackAmount &gt; (PercentForward - 50) {
+MovingChange = (PercentForward - 50)
+} else {
+MovingChange = MovingBackAmount
+}
+}
+} else {
+MovingChange = MovingBackAmount
+}
+MovingBackAfter = false
+MovingBackSteps = 0
+MovingBackAmount = 0
+MovingBackAfterCapped = false
+}
+}
+}
+}
+}
+
+if MoveXYAfter = true {
+if PercentForward &gt;= 100 and MovingActive = false {
+MoveToXY(AfterDestX,AfterDestY,AfterSpeed,AfterZoom,AfterZoomSpeed)
+}
+MoveXYAfter = false
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Nodding
+
+if NoddingActive = true {
+if Nods &gt; 0 {
+if mInterfaceController.Jumping = false {
+LittleJump()
+Nods -= 1
+}
+} else {
+NoddingActive = false 
+Nods = 0
+}
+}
 </string>
           </argument>
         </arguments>

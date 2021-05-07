@@ -18,6 +18,37 @@ SplashX = random_range(Region.LeftBound,Region.RightBound)
 SplashY = random_range(Region.TopBound,Region.BottomBound)
 CreateParticleSplash(SplashX,SplashY,2,ps_shape_ellipse,ps_distr_gaussian,c_black,15,30,0.05,0.1,20,160,20,50,5,10)
 TwitchIfNearBP(SplashX,SplashY,300)
+
+
+
+
+//Clean Surface And Dirt 
+mCreatureController.Dirt -= 1
+if position_meeting(SplashX,SplashY,oTabooLayer1) {
+oTabooLayer1.Health -= 0.01
+} 
+if position_meeting(SplashX,SplashY,oTabooLayer2) {
+oTabooLayer2.Health -= 0.01
+} 
+if position_meeting(SplashX,SplashY,oTabooLayer3) {
+oTabooLayer3.Health -= 0.01
+} 
+
+surface_set_target(mHeadDrawer.BodyWipeSurface)
+draw_set_blend_mode(bm_subtract)
+draw_set_color(c_white)
+draw_sprite_ext(sWipe,0,SplashX,SplashY,0.45,0.45,random(360),c_white,1)
+draw_set_blend_mode(bm_normal)
+surface_reset_target()
+
+surface_set_target(mHeadDrawer.TabooSurface)
+draw_set_blend_mode(bm_subtract)
+draw_set_color(c_white)
+draw_sprite_ext(sWipe,0,SplashX,SplashY,0.45,0.45,random(360),c_white,1)
+draw_set_blend_mode(bm_normal)
+surface_reset_target()
+
+
 if mDriveCollectionMaster.InRitual = false {
 ChangeEmotion("anger","up",0.01,0.03)
 mCreatureController.BaseStress += 0.03

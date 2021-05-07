@@ -29,8 +29,8 @@
 
 x = room_width / 2
 y = room_height / 2
-image_xscale = 100
-image_yscale = 100
+image_xscale = 200
+image_yscale = 200
 image_blend = c_black
 image_alpha = 0
 depth = DisappearLayer
@@ -88,12 +88,12 @@ DisappearSurface = surface_create(room_width,room_height)
             <kind>1</kind>
             <string>///Set Alpha &amp; Eye Alpha
 
-if mBehavioursDeliberative.PercentForward &lt; 5 {
+if mBehavioursDeliberative.PercentForward &lt;= 5 {
 DisAlpha = 1
-} else if mBehavioursDeliberative.PercentForward &gt; 10 and mBehavioursDeliberative.PercentForward &lt; 90 {
-DisAlpha = 0.1 + ((0.9 / 85) * (90 - mBehavioursDeliberative.PercentForward))
+} else if mBehavioursDeliberative.PercentForward &gt; 5 and mBehavioursDeliberative.PercentForward &lt; 70 {
+DisAlpha = 0 + ((1 / 65) * (70 - mBehavioursDeliberative.PercentForward))
 } else {
-DisAlpha = 0 + ((0.1 / 10) * (100 - mBehavioursDeliberative.PercentForward))
+DisAlpha = 0
 }
 
 if mBehavioursDeliberative.PercentForward &lt; 5 {
@@ -128,7 +128,7 @@ EyeAlpha = 1
             <string>///Draw Darkness With Eyes Breaking It
 
 if surface_exists(DisappearSurface) = false {
-DisappearSurface = surface_create(room_width,room_height)
+DisappearSurface = surface_create(room_width * 2,room_height * 2)
 }
 
 surface_set_target(DisappearSurface)
@@ -152,7 +152,7 @@ draw_sprite_ext(sLightFlickerCircle,1,x,y,GlowSize,GlowSize,0,c_white,mDisappear
 
 draw_set_blend_mode(bm_normal)
 surface_reset_target()
-draw_surface_ext(DisappearSurface,0,0,1,1,0,c_white,1)
+draw_surface_ext(DisappearSurface,view_xport,view_yport,1,1,0,c_white,1)
 
 
 

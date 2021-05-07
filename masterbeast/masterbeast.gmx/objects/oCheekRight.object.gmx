@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>mCollisionParent</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -92,6 +92,7 @@ if position_meeting(mouse_x,mouse_y,self)
 and mouse_check_button_pressed(mb_any)
 and mInterfaceController.HandWet = false
 and instance_exists(mDebug) = false
+and mInterfaceController.Cleaning = false and mInterfaceController.Healing = false
 and AmountForward(70)
 and mInterfaceController.CurrentHandUse = "none"
 and Touching = false {
@@ -283,7 +284,7 @@ if !surface_exists(CheekRightSurface) {
 CheekRightSurface = surface_create(sprite_width,sprite_height)
 }
 
-CleanableSurface(oCheekRight.CheekRightSurface,oCheekRight,1)
+CleanableSurface(oCheekRight.CheekRightSurface,oCheekRight,0.2)
 draw_surface_ext(CheekRightSurface,x - (sprite_width / 2),y - (sprite_height / 2),1,1,direction,c_white,1)
 
 </string>

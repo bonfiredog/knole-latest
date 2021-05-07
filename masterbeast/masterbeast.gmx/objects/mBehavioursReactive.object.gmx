@@ -373,47 +373,14 @@ BlinkNumberActive = false
             <string>///Winking
 
 if WinkingActive = true {
-if WinkIn = false and WinkOut = false {
-if StartWinkIn = false {
+if WinkIn = false {
+
 // Start going in...
 StartCloseEyeBehaviour(WhichEyeWink,0)
-StartWinkIn = true
-} else if StartWinkIn = true {
-if WhichEyeWink = "left" {
-if oEyelidUpperLeft.image_index = 0 and oEyelidLowerLeft.image_index = 0 {
 WinkIn = true 
-}
-} else if WhichEyeWink = "right" {
-if oEyelidUpperRight.image_index = 0 and oEyelidLowerRight.image_index = 0 {
-WinkIn = true 
-}
-}
-}
-} else if WinkIn = true and WinkOut = false {
-if StartWinkOut = false {
-StartOpenEyeBehaviour(WhichEyeWink,0)
-StartWinkOut = true
-} else if StartWinkOut = true {
-if WhichEyeWink = "left" {
-if oEyelidUpperLeft.image_index = 9 and oEyelidLowerLeft.image_index = 9 {
-with oEyelidDuctLeft {
-}
-WinkOut = true 
-}
-} else if WhichEyeWink = "right" {
-if oEyelidUpperRight.image_index = 9 and oEyelidLowerRight.image_index = 9 {
-with oEyelidDuctRight {
-}
-WinkOut = true 
-}
-}
-}
-} else if WinkIn = true and WinkOut = true {
-StartWinkIn = false
-StartWinkOut = false
-WinkIn = false
-WinkOut = false
+} else if WinkIn = true {
 WinkingActive = false
+mDriveCollectionMaster.CurrentlyBlinking = true
 WhichEyeWink = "neither"
 }
 }
@@ -450,7 +417,7 @@ PauseBreathingBehaviour()
 if SniffSoundStarted = false {
 SniffSound = choose("sniff1","sniff2","sniff3","sniff4","sniff5","sniff6")
 ex_audio_set_position(SniffSound,oNose1.x,oNose1.y,1)
-ex_audio_set_volume(SniffSound,BothVolMod(0.0000075),10)
+ex_audio_set_volume(SniffSound,BothVolMod(0.02),10)
 ex_audio_set_pitch(SniffSound,random_range(0.9,1.1),0)
 ex_audio_play(SniffSound,1)
 WriteToLog("Started sniff.")
@@ -471,17 +438,14 @@ SniffDuration -= 1
 } else if SniffDuration &lt;= 0 {
 SniffComplete = true
 EndTimer = 20
+if ex_audio_is_playing(SniffSound) {
+ex_audio_stop(SniffSound)
+}
 }
 
 } else if SniffComplete = true and SniffInComplete = true {
 
 if SniffOutComplete = false {
-
-if SniffingMod &lt; 50 {
-if ex_audio_is_playing(SniffSound) {
-ex_audio_stop(SniffSound)
-}
-}
 
 if SniffingMod &gt; 0 {
 SniffingMod -= SniffRateDown
@@ -489,6 +453,8 @@ SniffingMod -= SniffRateDown
 SniffOutComplete = true
 SniffingMod = 0
 }
+
+
 } else if SniffOutComplete = true {
 ResumeBreathingBehaviour()
 SniffInTimer = 0
@@ -535,7 +501,7 @@ SniffOutComplete = false
 if NumberSniffsActive = true {
 if SniffNumber &gt; 0 {
 if SniffingActive = false {
-StartSniffBehaviour(irandom_range(30,40),irandom_range(45,55),15,irandom_range(0.7,0.9))
+StartSniffBehaviour(irandom_range(30,40),irandom_range(45,55),irandom_range(10,30),irandom_range(0.7,0.9))
 SniffNumber -= 1
 }
 } else {
@@ -670,7 +636,7 @@ ex_audio_class_stop("breathingnoseinsick")
 ex_audio_class_stop("breathingmouthinhealthy")
 ex_audio_class_stop("breathingmouthinsick")
 if mCreatureController.Alive &lt; 30 {
-NoseInBreathSound = choose("binnose1s","binnose2s","binnose3s","binnose4s","binnose5s","binnose6s")
+NoseInBreathSound = choose("binnose1h","binnose2h","binnose3h")
 MouthInBreathSound = choose("binmouth1s","binmouth2s")
 } else {
 NoseInBreathSound = choose("binnose1h","binnose2h","binnose3h")
@@ -679,7 +645,7 @@ MouthInBreathSound = choose("binmouth1h","binmouth2h","binmouth3h","binmouth4h")
 ex_audio_set_position(NoseInBreathSound,oNose1.x,oNose1.y,1)
 ex_audio_set_position(MouthInBreathSound,oMouthCentre.x,oMouthCentre.y,1)
 
-BreathVol = BreathVolMax + (((BreathVolMax / 2) / 100) * (100 - mCreatureController.Alive))
+BreathVol = BothVolMod(0.1)
 
 ex_audio_set_volume(NoseInBreathSound,BothVolMod(BreathVol),30)
 ex_audio_set_volume(MouthInBreathSound,BothVolMod(BreathVol),30)
@@ -724,7 +690,7 @@ ex_audio_class_stop("breathingnoseoutsick")
 ex_audio_class_stop("breathingmouthouthealthy")
 ex_audio_class_stop("breathingmouthoutsick")
 if mCreatureController.Alive &lt; 30 {
-NoseOutBreathSound = choose("bonose1s","bonose2s","bonose3s","bonose4s","bonose5s","bonose6s")
+NoseOutBreathSound = choose("bonose1h","bonose2h","bonose3h")
 MouthOutBreathSound = choose("bomouth1s","bomouth2s","bomouth3s")
 } else {
 NoseOutBreathSound = choose("bonose1h","bonose2h","bonose3h")
@@ -1015,16 +981,16 @@ if mBehavioursReactive.Sleeping = false {
 StartCloseEyeBehaviour("both",3)
 }
 }
-mCreatureController.BaseTiredness += 3
+mCreatureController.BaseTiredness += 3  * mPlotController.ISModifier
 StartBreatheBehaviour(YawningRate,YawningTime,YawningHold,"mouth")
-ex_audio_class_set_volume("breathingnoseinhealthy",BothVolMod(1))
-ex_audio_class_set_volume("breathingnoseinsick",BothVolMod(1))
-ex_audio_class_set_volume("breathingmouthinhealthy",BothVolMod(1))
-ex_audio_class_set_volume("breathingmouthinsick",BothVolMod(1))
-ex_audio_class_set_volume("breathingnoseouthealthy",BothVolMod(1))
-ex_audio_class_set_volume("breathingnoseoutsick",BothVolMod(1))
-ex_audio_class_set_volume("breathingmouthouthealthy",BothVolMod(1))
-ex_audio_class_set_volume("breathingmouthoutsick",BothVolMod(1))
+ex_audio_class_set_volume("breathingnoseinhealthy",BothVolMod(0.3))
+ex_audio_class_set_volume("breathingnoseinsick",BothVolMod(0.3))
+ex_audio_class_set_volume("breathingmouthinhealthy",BothVolMod(0.3))
+ex_audio_class_set_volume("breathingmouthinsick",BothVolMod(0.3))
+ex_audio_class_set_volume("breathingnoseouthealthy",BothVolMod(0.3))
+ex_audio_class_set_volume("breathingnoseoutsick",BothVolMod(0.3))
+ex_audio_class_set_volume("breathingmouthouthealthy",BothVolMod(0.3))
+ex_audio_class_set_volume("breathingmouthoutsick",BothVolMod(0.3))
 
 
 
@@ -1174,33 +1140,29 @@ SleepDroopYCurrent += 1
 }
 
 if mEmotionSubController.AngerBaseActivation &gt; 0 {
-mEmotionSubController.AngerBaseActivation -= 0.006
+mEmotionSubController.AngerBaseActivation -= 0.001
 }
 
 if mEmotionSubController.FearBaseActivation &gt; 0 {
-mEmotionSubController.FearBaseActivation -= 0.006
+mEmotionSubController.FearBaseActivation -= 0.001
 }
 
 if mCreatureController.BaseStress &gt; 0 {
-mCreatureController.BaseStress -= 0.06
+mCreatureController.BaseStress -= 0.06 
 }
 
 if DreamingActive = false {
 if mCreatureController.BaseTiredness &gt; 0 {
-mCreatureController.BaseTiredness -= 0.012
+mCreatureController.BaseTiredness -= 0.001  * mPlotController.ISModifier
 }
 } else {
 if mCreatureController.BaseTiredness &gt; 0 {
-mCreatureController.BaseTiredness -= 0.06
+mCreatureController.BaseTiredness -= 0.002
 }
-}
-
-if mCreatureController.BaseStress &gt; 0 {
-mCreatureController.BaseStress -= 0.06
 }
 
 if mCreatureController.BasePain &gt; 0 {
-mCreatureController.BasePain -= 0.006
+mCreatureController.BasePain -= 0.001 * mDriveCollectionMaster.ISModifier
 }
 
 
@@ -1220,7 +1182,12 @@ StartOpenEyeBehaviour("both",10)
 } else if SuddenWaking = true {
 StartOpenEyeBehaviour("both",20)
 }
-
+if Chance(50) {
+RandomShake()
+}
+if Chance(40) {
+StartTwitchNoseSideBehaviour(irandom_range(20,80))
+}
 mDriveCollectionMaster.CurrentlyBlinking = true
 mDriveCollectionMaster.CurrentlyWinking = true
 mDriveCollectionMaster.CurrentlySquinting = true
@@ -1881,22 +1848,34 @@ DreamingActive = false
 if CoughingActive = true {
 if SetupCough = false {
 HoldBreathFor(30)
-CoughCloseEyes = choose(-1,1)
+CoughCloseEyes = choose(-1,1,1)
 if CoughCloseEyes = 1 {
 if mBehavioursReactive.Sleeping = false {
 StartCloseEyeBehaviour("both",0)
 }
 }
 StartOpenMouthBehaviour(0.15,irandom_range(60,80))
-ex_audio_set_volume(CoughSound,BothVolMod(0.3),1)
+ex_audio_set_volume(CoughSound,BothVolMod(0.4),1)
 ex_audio_set_position(CoughSound,oMouthCentre.x,oMouthCentre.y,1)
 SetupCough = true
 } else if SetupCough = true {
 if TriggerCough = false {
 ex_audio_play(CoughSound,0)
+
+if mCreatureController.Alive &lt; 50 {
+if Chance(20 + ((80 / 100) * (100 - mCreatureController.Alive))) {
+part_type_colour1(mCreatureController.CoughPart,DebugRedTextColour)
+} else {
+part_type_colour1(mCreatureController.CoughPart,c_black)
+} 
+} else {
+part_type_colour1(mCreatureController.CoughPart,c_black)
+}
+
+
 part_emitter_region(mCreatureController.PartBreathSys,mCreatureController.BreathEmit,oMouthCentre.x - (oMouthCentre.sprite_width / 2) - 10, oMouthCentre.x,oMouthCentre.y,oMouthCentre.y + (oMouthCentre.sprite_width / 2) - 5,ps_shape_ellipse,ps_distr_gaussian)
 part_emitter_burst(mCreatureController.PartBreathSys,mCreatureController.BreathEmit,mCreatureController.CoughPart,400)
-StartScreenShake(2,10,1)
+StartScreenShake(60,10,2)
 CoughTimer = 30
 mCreatureController.Dirt += 0.5
 TriggerCough = true

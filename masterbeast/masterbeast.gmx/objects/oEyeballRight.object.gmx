@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>mCollisionParent</parentName>
+  <parentName>mEyeRightParent</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -333,7 +333,7 @@ UpPercentage = (YDifference / Parent.YLimit) * 100
 
 if CutUp = false {
 if mCreatureController.Alive &gt; 0 {
-if mBehavioursReactive.Sleeping = false {
+if mBehavioursReactive.Sleeping = false and mDriveCollectionMaster.Dozing = false  {
 if mBehavioursReactive.SquintingActive = false {
 MaxOpenIndex = 8 - (round((4 / 100) * oCheekRight.UpPercentageDifference)) - oEyeballLeft.HappySquintMod + oEyeballLeft.SadSquintModDown + oEyeballLeft.AngrySquintModDown + oEyeballLeft.SurpriseSquintModDown - oEyeballLeft.ShameSquintMod - oEyeballLeft.TirednessSquintMod - oEyeballLeft.PainSquintMod + oEyeballLeft.FearSquintModDown - BlackenedIndexMod - mDriveCollectionMaster.PainShutMod
 MaxOpenIndex = clamp(MaxOpenIndex,2,9)
@@ -444,7 +444,15 @@ PosY = y + lengthdir_y(FloaterDistance,FloaterDirection)
 
 ThisFloater = instance_create(PosX,PosY,oFloaterRight)
 ThisFloater.Parent = self.id
-FloaterTimer = irandom_range(200,400)
+if IsInRitual() {
+if mDriveCollectionMaster.MotesMoving = false {
+FloaterTimer = irandom_range(5,30)
+} else {
+FloaterTimer = 1
+}
+} else {
+FloaterTimer = irandom_range(100,300)
+}
 }
 }
 
@@ -521,6 +529,7 @@ Resetting = false
 
 if place_meeting(x,y,mFinger)
 and Touched = false 
+and mInterfaceController.CurrentHandUse != "knife"
 and AmountForward(55)
 and EyesNotClosed()
 {
@@ -533,83 +542,6 @@ WriteToLog("Touched right eye.")
 TouchLiquid("tear")
 Touched = true 
 }
-
-if Touched = true and AmountForward(55) {
-if mBehavioursReactive.Sleeping = false {
-if mDriveCollectionMaster.InRitual = true {
-with mCreatureController {
-BaseResistance -= 0.01
-BaseStress += 0.003
-BasePain += 0.01
-BaseAlive -= 0.0001
-CloseToAnne += 0.01
-BaseTrust += 0.01
-BaseLust += 0.01
-AnneIntent += 0.01
-}
-mDriveCollectionMaster.BaseBreathRate += 0.0001
-if Chance(0.01){MoveToXY(x,y,20,mInterfaceController.CurrentView,20)}
-if Chance(ChanceToRitualReact() / 100){
-choose(
-NumberOfBlinks(irandom_range(2,5)),
-StartWinkBehaviour("right"),
-EyeSquint(1,true,irandom_range(40,60))
-)
-}
-if Chance(ChanceToRitualReact() / 100){
-choose(
-StartEyebrowTwitchRightBehaviour(),
-StartCheekTwitchRightBehaviour()
-)
-}
-} else {
-with mCreatureController {
-BaseResistance += 0.01
-BaseStress += 0.003
-BasePain += 0.01
-BaseAlive -= 0.0001
-CloseToAnne -= 0.01
-BaseTrust -= 0.01
-BaseLust -= 0.01
-BaseSubIntent -= 0.01
-}
-mDriveCollectionMaster.BaseBreathRate += 0.001
-ChangeEmotionStep("shame","up",0.01)
-ChangeEmotionStep("happy","down",0.01)
-ChangeEmotionStep("anger","up",((0.01 / 100) * mCreatureController.Resistance))
-ChangeEmotionStep("fear","down",(0.01 * mCreatureController.Triad))
-if Chance(0.1){StartShiverBehaviour(irandom_range(0.2,0.5),irandom_range(5,10),irandom_range(5,10))}
-VocaliseChance(0.1)
-if Chance(0.001){EmotionRequest()}
-if Chance(0.001){
-Len = irandom_range(50,200)
-Dir = random(360)
-MoveToXY(x + lengthdir_x(Len,Dir),y + lengthdir_y(Len,Dir),20,mInterfaceController.CurrentView,20)}
-if Chance(0.1){
-choose(
-NumberOfBlinks(irandom_range(2,5)),
-StartWinkBehaviour("right"),
-EyeSquint(1,true,irandom_range(40,60))
-)
-}
-if Chance(0.1){
-choose(
-StartEyebrowTwitchRightBehaviour(),
-StartCheekTwitchRightBehaviour()
-)
-}
-if Chance(0.01) {
-LittleJump()
-}
-if Chance(0.01) {
-StartCloseEyeBehaviour("right",1)
-}
-}
-} else {
-ChanceToWake(0.1)
-}
-}
-
 
 if place_meeting(x,y,mFinger) = false
 and Touched = true {

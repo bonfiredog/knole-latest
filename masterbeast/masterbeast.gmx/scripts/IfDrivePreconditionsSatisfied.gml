@@ -14,6 +14,8 @@ mBehavioursReactive.Sleeping = false and
 mCreatureController.Tiredness > 70 and 
 mCreatureController.Alive > 0 and
 mBehavioursDeliberative.PercentForward > 0 and
+(mEmotionSubController.FearActivation < 40 and mCreatureController.CloseToAnne < 60) and
+((mCreatureController.Triad > 0) or (mCreatureController.Triad < 0 and NoInteractionTimer > 3000)) and
 InRitual = false 
 {
 return true
@@ -28,24 +30,18 @@ case "playerleave":
 if Drive2Cooldown > 0 {
 return false 
 } else {
-if 
-(mCreatureController.Faces = "1" or
-mCreatureController.Faces = "!" or
-mCreatureController.HeardLoudSound = true or
-mInterfaceController.PressBegun = true or 
-mCreatureController.TimeSinceLastMotion < 1000
-)
-and mCreatureController.Alive > 20
+if NoInteractionTimer < 1000
+and mCreatureController.Alive > 25
 and mBehavioursReactive.Sleeping = false
+and Dozing = false
 and mCreatureController.Triad < 0
 and mBehavioursDeliberative.PercentForward > 0 
-and mEmotionSubController.SurpriseActivation < 30
 and mEmotionSubController.FearActivation < 60
+and mCreatureController.Resistance > 50
 and (mEmotionSubController.AngerActivation > 30 or
-mCreatureController.Tiredness > 70) and 
-InRitual = false and
-mBehavioursDeliberative.DisappearingActive = false
-and mBehavioursDeliberative.XYMove = false
+mCreatureController.Tiredness > 50) and 
+mCreatureController.CloseToAnne < 50 and
+InRitual = false
 {
 return true
 } else {
@@ -59,17 +55,16 @@ case "playercome":
 if Drive3Cooldown > 0 {
 return false 
 } else {
-if mCreatureController.Faces = "0"
-and mInterfaceController.PressBegun = false
-and mCreatureController.HeardLoudSound = false
-and mCreatureController.TimeSinceLastMotion > 6000
+if NoInteractionTimer > 2500
 and mBehavioursDeliberative.PercentForward > 0
 and mBehavioursReactive.Sleeping = false
+and Dozing = false
 and mCreatureController.Alive > 0 
-and mCreatureController.Triad > -0.3
-and InRitual = false
-and NoReturnTimer <= 0
-and mBehavioursDeliberative.DisappearingActive = false
+and mCreatureController.Triad > 0
+and mCreatureController.Resistance < 50
+and mCreatureController.Trust > 40 and
+(mEmotionSubController.FearActivation < 60) and
+InRitual = false
 {
 return true
 } else {
@@ -84,20 +79,21 @@ if Drive4Cooldown > 0 {
 return false 
 } else {
 if mBehavioursDeliberative.PercentForward > 0 and
-mCreatureController.Alive > 10 and
+mCreatureController.Alive > 20 and
 mBehavioursReactive.Sleeping = false and
-Bound = false and
-(mCreatureController.Stress > 85 or
-mCreatureController.Pain > 60 or
-mEmotionSubController.FearActivation > 70 or
-mEmotionSubController.ShameActivation > 90 or
-mEmotionSubController.AngerActivation > 80 or
-mEmotionSubController.SadActivation > 95) and
-mEmotionSubController.HappyActivation < 35 and
+Dozing = false and
+(mCreatureController.Stress > 75 or
+mCreatureController.Pain > 75 or
+mEmotionSubController.FearActivation > 75 or
+mEmotionSubController.ShameActivation > 75 or
+mEmotionSubController.AngerActivation > 75 or
+mEmotionSubController.SadActivation > 75) 
+and
+mEmotionSubController.HappyActivation < 45 and
 mCreatureController.Triad < 0.2 and
 InRitual = false and
-mCreatureController.Resistance > 25 and
-mBehavioursDeliberative.DisappearingActive = false
+mCreatureController.Resistance > 30 and
+mCreatureController.CloseToAnne < 40 
 {
 return true
 } else {
@@ -111,18 +107,20 @@ case "retreat":
 if Drive5Cooldown > 0 {
 return false 
 } else {
-if mBehavioursDeliberative.PercentForward > 70 and
-mCreatureController.Alive > 10 and
+if mBehavioursDeliberative.PercentForward > 50 and
+mCreatureController.Alive > 20 and
 mBehavioursReactive.Sleeping = false and
-Bound = false and
+mDriveCollectionMaster.Dozing = false and
 (
-mEmotionSubController.FearActivation > 50 or
-mEmotionSubController.ShameActivation > 80 or
-mEmotionSubController.AngerActivation > 70 or
-mEmotionSubController.SadActivation > 70 or
-mCreatureController.Stress > 80 or
-mCreatureController.Pain > 50) and
-mBehavioursDeliberative.DisappearingActive = false and
+mEmotionSubController.FearActivation > 40 or
+mEmotionSubController.ShameActivation > 40 or
+mEmotionSubController.AngerActivation > 40 or
+mEmotionSubController.SadActivation > 40 or
+mCreatureController.Stress > 40 or
+mCreatureController.Pain > 40) 
+and
+mCreatureController.Resistance > 10 and
+mCreatureController.CloseToAnne < 60 and
 InRitual = false
 {
 return true
@@ -140,13 +138,14 @@ return false
 if mCreatureController.Alive > 0 
 and InRitual = false
 and mBehavioursReactive.Sleeping = false
+and Dozing = false
 and mInterfaceController.PressBegun = false
 and (mInterfaceController.CurrentView = MicroView or
-(mInterfaceController.CurrentView = MacroView and view_yview[0] != 1000))
-and mBehavioursDeliberative.DisappearingActive = false and 
-NoReturnTimer <= 0 and
-NoInteractionTimer > 2000 and
-mBehavioursDeliberative.XYMove = false
+(mInterfaceController.CurrentView = MacroView and mBehavioursDeliberative.PercentForward >= 90 and view_yview[0] != 1000))
+and
+NoInteractionTimer > 9000 and
+mBehavioursDeliberative.XYMove = false and
+(mEmotionSubController.FearActivation < 60 and mCreatureController.CloseToAnne < 60)
 {
 return true
 } else {
@@ -166,7 +165,9 @@ and mBehavioursReactive.Sleeping = false
 and mBehavioursDeliberative.PercentForward < 100
 and mCreatureController.Tiredness < 90
 and NoReturnTimer <= 0
-and Dozing = false
+and Dozing = false and
+mCreatureController.Resistance < 70 and
+mCreatureController.Triad > -0.5
 and mBehavioursDeliberative.XYMove = false
 {
 return true
@@ -183,31 +184,15 @@ return false
 } else {
 if mCreatureController.Alive > 30 
 and mBehavioursReactive.Sleeping = false
-and CorrectDayAndTimeForEating()
+and Dozing = false
+and IsInEatingHours(current_weekday,true)
+and mCreatureController.Stress < 90
 and EatenToday = false
-and EatenTodayAmount < 70
 and mBehavioursDeliberative.CrunchingActive = false
-and Bound = false
-and InRitual = false
-{
-return true
-} else {
-return false
-}
-}
-break;
-//--------------------------
-//Accept Ritual
-case "acceptritual":
-if Drive9Cooldown > 0 {
-return false 
-} else {
-if mCreatureController.Alive > 0 and
-InRitual = false and
-mBehavioursReactive.Sleeping = false and
-mBehavioursDeliberative.PercentForward > 20
-and mBehavioursDeliberative.DisappearingActive = false
-and RitualRequest = true
+and InRitual = false and
+(mEmotionSubController.FearActivation < 60 and mCreatureController.CloseToAnne < 60)
+and mCreatureController.Resistance > 30
+and mEmotionSubController.ShameActivation < 60
 {
 return true
 } else {
@@ -223,41 +208,17 @@ return false
 } else {
 if Dozing = false and
 mCreatureController.Alive > 0 and
-mInterfaceController.CurrentView = MacroView and
 mBehavioursReactive.Sleeping = false and
-mBehavioursDeliberative.PercentForward > 20
-and mBehavioursDeliberative.DisappearingActive = false
+mBehavioursDeliberative.PercentForward > 70
 and InRitual = false and
-mCreatureController.Tiredness > 30 and
-mCreatureController.Stress < 50 and
-mEmotionSubController.SurpriseActivation < 50 and
-((mCreatureController.Triad > 0) or (mCreatureController.Triad < 0 and NoInteractionTimer > 4000))
-and mInterfaceController.PressBegun = false
-and mEmotionSubController.FearActivation < 50
-{
-return true
-} else {
-return false
-}
-}
-break;
-//--------------------------
-//Clean Gound
-case "cleangound":
-if Drive11Cooldown > 0 {
-return false 
-} else {
-if instance_number(oGound) >= 6 and 
-mBehavioursReactive.Sleeping = false and
-Dozing = false and
-mCreatureController.Triad > 0.1 and
-InRitual = false and
-mCreatureController.Resistance < 50 and
-mCreatureController.Dirt > 25 and
-mBehavioursDeliberative.CrunchingActive = false and
-mCreatureController.Trust > 40 and 
-mEmotionSubController.AngerActivation < 50 and
-NoInteractionTimer < 2000
+mCreatureController.Tiredness > 20 and
+mCreatureController.Stress < 60 and
+mCreatureController.Pain < 70 and
+mEmotionSubController.SurpriseActivation < 20 and
+((mCreatureController.Triad > 0) or (mCreatureController.Triad < 0 and NoInteractionTimer > 3000))
+and mInterfaceController.PressBegun = false and
+mEmotionSubController.FearActivation < 50 and
+mCreatureController.CloseToAnne < 50
 {
 return true
 } else {
@@ -277,13 +238,15 @@ mBehavioursReactive.Sleeping = false and
 Dozing = false and
 mCreatureController.TimeSinceLastMotion < 4000 and 
 InRitual = false and
-mCreatureController.Triad > 0 and
-mCreatureController.Trust > 30 and 
-mCreatureController.Resistance < 30 and
+mCreatureController.Triad > 0.4 and
+mCreatureController.Trust > 50 and 
+mCreatureController.Resistance < 40 and
 mCreatureController.Pain < 50 and
 mEmotionSubController.ShameActivation < 60 and
-mEmotionSubController.FearActivation < 60 and
+mEmotionSubController.FearActivation < 70 and
+mCreatureController.CloseToAnne < 60 and
 mEmotionSubController.AngerActivation < 60 and
+mCreatureController.Tiredness > 30 and
 position_meeting(mouse_x,mouse_y,oNose1) = false
 {
 return true
@@ -300,27 +263,14 @@ return false
 } else {
 if mCreatureController.Alive > 0 and
 mBehavioursReactive.Sleeping = false and
-mBehavioursDeliberative.PercentForward > 40 and
-mCreatureController.MotionDetected2 = true and
-NoReturnTimer <= 0 and
-mCreatureController.TimeSinceLastMotion < 1000 
-{
-return true
-} else {
-return false
-}
-}
-break;
-//--------------------------
-//Follow Command
-case "followcommand":
-if Drive14Cooldown > 0 {
-return false 
-} else {
-if mCreatureController.Alive > 0 and
-mBehavioursReactive.Sleeping = false and
 Dozing = false and
-CommandIssued = true
+mBehavioursDeliberative.PercentForward > 40 and
+
+mCreatureController.MotionDetected2 = true and
+mCreatureController.Pain < 75 and
+mCreatureController.Triad > -0.75 and 
+NoReturnTimer <= 0 and
+mCreatureController.TimeSinceLastMotion < 2000 
 {
 return true
 } else {
@@ -334,15 +284,17 @@ case "cleanskin":
 if Drive15Cooldown > 0 {
 return false 
 } else {
-if mCreatureController.Alive > 25 and
+if mCreatureController.Alive > 10 and
 mBehavioursReactive.Sleeping = false and
 Dozing = false and
-mBehavioursDeliberative.PercentForward > 60 and
+mBehavioursDeliberative.PercentForward > 50 and
 InRitual = false and
-(mCreatureController.Faces != "0" or mCreatureController.TimeSinceLastMotion < 1500) and
+NoInteractionTimer < 4000 and
 mCreatureController.Dirt >= 40 and 
-mCreatureController.Triad > -0.7 and
-mCreatureController.Trust > 20
+mCreatureController.Triad > -0.5 and
+mCreatureController.Trust > 40 and
+mEmotionSubController.FearActivation < 70 and
+mCreatureController.CloseToAnne < 60 
 {
 return true
 } else {
@@ -358,12 +310,14 @@ return false
 } else {
 if mCreatureController.Alive > 40 and
 mBehavioursReactive.Sleeping = false and
-mBehavioursDeliberative.PercentForward > 60 and
-mInterfaceController.PressBegun = true and
+Dozing = false and
+mBehavioursDeliberative.PercentForward > 50 and
+mDriveCollectionMaster.TimeSinceLastTouch < 500 and
 mCreatureController.Triad < 0 and
-(mCreatureController.Stress > 20 or
-mEmotionSubController.ShameActivation < 20) and
+(mCreatureController.Stress > 20 ) and
 mCreatureController.Resistance > 30 and 
+mEmotionSubController.FearActivation < 50 and
+mCreatureController.CloseToAnne < 40 and
 InRitual = false
 {
 return true
@@ -382,6 +336,10 @@ if mCreatureController.Alive > 40 and
 mBehavioursReactive.Sleeping = false and
 mBehavioursDeliberative.Vocalising = false and 
 mBehavioursDeliberative.CrunchingActive = false and 
+mEmotionSubController.FearActivation < 60 and
+mCreatureController.CloseToAnne < 60 and
+mCreatureController.Triad > -0.5 and 
+InRitual = false and
 Dozing = false
 {
 return true
@@ -397,71 +355,22 @@ if Drive18Cooldown > 0 {
 return false 
 } else {
 if mBehavioursReactive.Sleeping = false and
-mCreatureController.Lust > 60 and 
+mCreatureController.Lust > 70 and 
+EjacTrack >= 0 and
 InRitual = false and 
 mCreatureController.Stress < 40 and 
-mCreatureController.Pain < 50 and 
+mCreatureController.Pain < 65 and 
 mCreatureController.Alive > 0 and
 Dozing = false and 
 mEmotionSubController.SadActivation < 50 and
-mEmotionSubController.ShameActivation < 25 and
-(instance_exists(mFinger)and place_meeting(mFinger.x,mFinger.y,mCaulParent) = false) and 
-mCreatureController.Triad >= 0 and
+mEmotionSubController.ShameActivation < 40 and
+(position_meeting(mouse_x,mouse_y,mCaulParent) = false) and
+mCreatureController.Triad >= -0.2 and
 mCreatureController.Trust > 20 and 
 mCreatureController.Resistance < 50 and 
+mEmotionSubController.FearActivation < 40 and
+mCreatureController.CloseToAnne < 50 and
 mBehavioursDeliberative.PercentForward > 0 
-{
-return true
-} else {
-return false
-}
-}
-break;
-//--------------------------
-//Hair Brush
-case "hairbrush":
-if Drive19Cooldown > 0 {
-return false 
-} else {
-if mBehavioursReactive.Sleeping = false and
-mCreatureController.Alive > 0 and
-mBehavioursDeliberative.PercentForward > 0 and
-Dozing = false and 
-InRitual = false and 
-mEmotionSubController.ShameActivation < 25 and
-mCreatureController.Trust > 20 and 
-mCreatureController.Triad >= 0 and
-mCreatureController.Resistance < 40 and 
-((instance_exists(mFinger) = false) or (instance_exists(mFinger) and place_meeting(mFinger.x,mFinger.y,mFurSuperParent) = false)) 
-and StrokeTimer < 60
-{
-return true
-} else {
-return false
-}
-}
-break;
-//--------------------------
-//Player Speak
-case "playerspeak":
-if Drive20Cooldown > 0 {
-return false 
-} else {
-if (mCreatureController.Faces != "0" or mCreatureController.TimeSinceLastMotion < 2000) and
-mBehavioursReactive.Sleeping = false and
-TimeSinceLastSpeech > 2000 and
-mEmotionSubController.ShameActivation < 45 and
-mEmotionSubController.SurpriseActivation < 45 and
-mEmotionSubController.HappyActivation > 35 and
-mEmotionSubController.FearActivation < 35 and
-mCreatureController.Pain < 45 and
-mCreatureController.Alive > 0 and
-Dozing = false and
-InRitual = false and 
-mCreatureController.Trust > 20 and 
-mCreatureController.Triad >= 0 and
-mBehavioursDeliberative.Vocalising = false and
-mBehavioursDeliberative.PercentForward > 0
 {
 return true
 } else {
@@ -476,20 +385,20 @@ if Drive21Cooldown > 0 {
 return false 
 } else {
 if mInterfaceController.PressBegun = false and 
-TimeSinceLastTouch > 2000 and 
-(mCreatureController.TimeSinceLastMotion < 1000 or Faces != "0") and 
+TimeSinceLastTouch > 1000 and 
 mBehavioursDeliberative.PercentForward > 0 and 
 mBehavioursReactive.Sleeping = false and
 Dozing = false and
 InRitual = false and 
-mEmotionSubController.FearActivation < 35 and
+mEmotionSubController.FearActivation < 40 and
 mCreatureController.Resistance < 40 and
 mCreatureController.Trust > 20 and 
 mCreatureController.Triad >= 0 and
-mEmotionSubController.ShameActivation < 45 and
+mEmotionSubController.ShameActivation < 50 and
 mCreatureController.Alive > 0 and
 mCreatureController.Stress < 45 and
-mCreatureController.Pain < 45
+mCreatureController.Pain < 45 and
+mCreatureController.CloseToAnne < 50 
 {
 return true
 } else {
@@ -497,6 +406,28 @@ return false
 }
 }
 break;
+//--------------------------
+//Zoom Out
+case "zoomout":
+if Drive22Cooldown > 0 {
+return false 
+} else {
+if mInterfaceController.PressBegun = false and
+mInterfaceController.CurrentView = MicroView and 
+mBehavioursReactive.Sleeping = false and
+Dozing = false 
+and mInterfaceController.ZoomedInTimer > 1200
+and InRitual = false
+and mCreatureController.Resistance > 25 and
+NoInteractionTimer > 1200
+{
+return true
+} else {
+return false
+}
+}
+break;
+
 //--------------------------
 default:
 return false;

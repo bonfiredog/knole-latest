@@ -162,7 +162,7 @@ if GrownToSize = true {
 if ScabGrown = false {
 if ScabAlpha &lt; 1 {
 ScabAlpha += 0.000001
-} else if ScabAlpha = 1 {
+} else if ScabAlpha &gt;= 1 {
 ScabGrown = true
 }
 } else if ScabGrown = true {

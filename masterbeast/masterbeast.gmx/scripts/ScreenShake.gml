@@ -3,6 +3,24 @@
 with mInterfaceController {
 if ScreenShaking = true {
 
+if Chance(1) {
+//Pick A Location
+if instance_exists(mFurSuperParent) {
+Fur = instance_find(mFurSuperParent, irandom(instance_number(mFurSuperParent) - 1))
+ThisShed = instance_create(Fur.x,Fur.y,mFurPlucked)
+ThisShed.x = Fur.x
+ThisShed.y = Fur.y
+ThisShed.image_angle = Fur.direction
+ThisShed.sprite_index = Fur.sprite_index
+ThisShed.direction = 270
+ThisShed.image_xscale = Fur.image_xscale
+ThisShed.image_yscale = Fur.image_yscale
+ThisShed.PluckedSprite = choose(sHairPlucked1,sHairPlucked3)
+ThisShed.Shedding = true
+}
+}
+
+
 if SSTime > 0 {
 SSTime -= 1
 

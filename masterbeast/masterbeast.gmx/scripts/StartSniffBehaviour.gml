@@ -15,5 +15,6 @@ SniffingMod = 0
 SniffInComplete = false
 SniffComplete = false
 SniffOutComplete = false
+SniffSoundStarted = false
 }
 }
